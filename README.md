@@ -4,8 +4,9 @@
 The configuration files for Easy SMP's Infernal Mobs Reloaded. Feel free to contribute!
 
 ## Preview
-You can view the final production result on our Minecraft server (play.2v1.me). 
+You can view the final production result on our public Minecraft server `play.2v1.me`. 
 If you wish to test your configuration, you may do so on our private test server. IP is `bobux.store`.
+It's whitelist only, so you'll need to contact an Admin+ in our Discord to get whitelisted.
 
 
 ## Contributing
