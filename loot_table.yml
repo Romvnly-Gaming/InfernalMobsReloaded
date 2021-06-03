@@ -1,0 +1,1152 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                      Loot Table                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+# You may create any amount of items that you can later assign as drop to mobs or get directly with the command 'getloot'
+# First, familiarize yourself with the syntax used to create items by observing the default loots
+
+# Useful links (ctrl + F)
+# Item material list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+# Enchantment list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
+
+murder_axe:
+  type: "normal"                               # valid values: NORMAL, BOOK; you may omit this field for normal items
+  name: "<#AAAAAA>Murder Axe"                  # item display name, the name that will appear when the player hover over the item or holds it
+  material: "IRON_AXE"                         # vanilla material of an item, use the name exactly as listed in the website
+  amount: 1                                    # if you omit this field, the amount will default to 1
+  lore:                                        # this is how you set up lore that has multiple lines
+    - "This is a lore"
+    - "With multiple lines"
+
+demon_sword:
+  name: "<#AA0000>Demon Sword"
+  material: "GOLDEN_SWORD"
+  amount: 1
+  lore: []                                     # put this empty square brackets to make the item have no lore, or simply omit this field
+  enchants: []                                 # put this empty square brackets to make the item have no enchants, or simply omit this field
+
+silky:
+  name: "<#00AA00>Silky"
+  material: "DIAMOND_PICKAXE"
+  amount: 1
+  lore:
+    - "<#AAAAAA>Silkier than milk!"
+  enchants:
+    - "unbreaking:3-5"                             # will make every 'silky' pickaxe have efficiency level 1; default level of all enchantments is 1, unless otherwise specified; enchantment level range goes from 1 to 65535, but not all enchantments scale with level
+    - "silk_touch:5"                           # will make every 'silky' pickaxe have Silk Touch level 5   
+butcher_axe:
+  name: "<#00AA00>Butcher Axe"
+  material: "IRON_AXE"
+  amount: 1
+  lore:
+    - "<#55FF55>For liquidation of the demonic!"
+  enchants:
+    - "smite:3-6" # will make every 'silky' pickaxe have efficiency level 1; default level of all enchantments is 1, unless otherwise specified; enchantment level range goes from 1 to 65535, but not all enchantments scale with level
+inferno_bow:
+  name: "<#FF5555>Inferno <#FFAA00>Bow"
+  material: "BOW"
+  amount: 1
+  lore:
+    - "<#FF5555>Holds the power of the <#AA0000>NetherWorld<#FF5555>!"
+  enchants:
+    - "infinity:1:0.3"
+    - "flame:1-2"    
+
+lady_luck:
+  name: "<#FFAA00>Lady Luck"
+  material: "IRON_SWORD"
+  amount: 1
+  lore:
+    - "<#FFFF55>May the luck be ever in your favor"
+  enchants:
+    - "looting:1-4"
+wacker:
+  name: "<g:#d7fc03:#03fc77>**Wacker**"
+  material: "WOOD_SWORD"
+  amount: 1
+  lore:
+    - "Wack 'em back!"
+  enchants:
+    - "knockback:7-10"
+special_diamond:
+  name: "[&aSpecial Diamond](hover: <r>How Did We Get Here?)"
+  material: "DIAMOND"
+  amount: 1-5
+  lore:
+    - "&r*Special Diamond, just for <r:0.5:1.0>||sam||*"
+  enchants:
+    - "unbreaking:8-10"
+arthropod_blade:
+  name: "<g:#2d3835:#869c96>Arthropod Blade"
+  material: "DIAMOND_SWORD"
+  amount: 1
+  lore:
+    - "&7Slays spiders like a __hot__ **knife** through ||butter||"
+  enchants:
+    - "bane_of_arthropods:4-8"
+excalibur:
+  name: "[<g:#009FFF:#ec2F4B>**The Excalibur**](command: All Hail King Author!)"
+  material: "DIAMOND_SWORD"
+  amount: 1
+  lore:
+    - "&dKing Author's sword."
+  enchants:
+    - "sharpness:5"
+    - "unbreaking:5"
+    - "knockback:3:0.5"
+backhoe:
+  name: "&7Backhoe"
+  material: "DIAMOND_SHOVEL"
+  amount: 1
+  lore:
+    - "&8Digs too fast!"
+  enchants:
+    - "efficiency:5"
+    - "unbreaking:1"
+canucks_axe:
+  name: "&cCanucks Axe"
+  material: "DIAMOND_AXE"
+  amount: 1
+  lore:
+    - "&fChops way to fast!"
+  enchants:
+    - "smite:5"
+    - "unbreaking:6"
+    - "knockback:1:0.5"
+butter_spreader:
+  name: "&6Butter Spreader"
+  material: "GOLDEN_SWORD"
+  amount: 1
+  lore:
+    - "&eCan only cut butter..."
+  enchants:
+    - "sharpness:1-2"
+    - "knockback:4-6"
+golden_spoon:
+  name: "**&6Golden** Spoon"
+  material: "GOLDEN_SHOVEL"
+  amount: 1
+  lore:
+    - "&eGolden like your heart."
+  enchants:
+    - "fortune:5"
+    - "unbreaking:4-6"
+glass_drill:
+  name: "&7Glass Drill"
+  material: "GOLDEN_PICKAXE"
+  amount: 1
+  lore:
+    - "&4I'm not here to play!"
+  enchants:
+    - "efficiency:10"
+    - "unbreaking:2-3"
+american_axe:
+  name: "&cAmerican &fAxe"
+  material: "GOLDEN_AXE"
+  amount: 1
+  lore:
+    - "&1Worse than the Canucks axe..."
+  enchants:
+    - "efficiency:5"
+    - "unbreaking:1-5"
+quarts_hoe:
+  name: "&fQuarts Hoe"
+  material: "IRON_HOE"
+  amount: 1
+  lore:
+    - "<#DDD605>Better than iron!"
+  enchants:
+    - "unbreaking:10"
+magic_hoe:
+  name: "&dMagic Hoe"
+  material: "DIAMOND_HOE"
+  amount: 1
+  lore:
+    - "<#55FF55>Forged by God."
+    - "<#00AAAA>Well, by God's Gardener"
+  enchants:
+    - "unbreaking:10"
+old_shirt:
+  name: "&4Old Shirt"
+  material: "LEATHER_CHESTPLATE"
+  amount: 1
+  lore:
+    - "&4Still good!"
+  enchants:
+    - "fire_protection:9:0.5"
+    - "protection:8"
+    - "unbreaking:7"
+water_helmet:
+  name: "&9Water Helmet"
+  material: "CHAINMAIL_HELMET"
+  amount: 1
+  lore:
+    - "**Go in the sea**!"
+  enchants:
+    - "respiration:10:0.5"
+    - "aqua_affinity:6"
+creeper_gear:
+  name: "&2Creeper Gear"
+  material: "CHAINMAIL_CHESTPLATE"
+  amount: 1
+  lore:
+    - "&aPart 2"
+  enchants:
+    - "blast_protection:5:0.5"
+    - "unbreaking:3"
+thorny_pants:
+  name: "<#42f593>Thorny Pants"
+  material: "CHAINMAIL_CHESTPLATE"
+  amount: 1
+  lore:
+    - "<#f57542>Very Sharp..."
+  enchants:
+    - "fire_protection:4:0.5"
+    - "thorns:8"
+    - "unbreaking:3"
+travellers_boots:
+  name: "&7Travellers Boots"
+  material: "CHAINMAIL_BOOTS"
+  amount: 1
+  lore:
+    - "&8Go on a journey!"
+  enchants:
+    - "protection:5"
+    - "unbreaking:3"
+rusty_iron_helm:
+  name: "&7Rusty Iron Helm"
+  material: "IRON_HELMET"
+  amount: 1
+  lore:
+    - "&8Rusted but still good."
+  enchants:
+    - "protection:5"
+    - "unbreaking:5"
+archers_vest:
+  name: "&cArchers Vest"
+  material: "IRON_CHESTPLATE"
+  amount: 1
+  lore:
+    - "&4Take an arrow to the knee!"
+  enchants:
+    - "projectile_protection:10"
+firemen_pants:
+  name: "<#f54842>Firemen Pants"
+  material: "IRON_LEGGINGS"
+  amount: 1
+  lore:
+    - "<#ff0900>Take 'em to a fire!"
+  enchants:
+    - "fire_protection:7"
+    - "blast_protection:3"
+fall_far_boots:
+  name: Fall Far Boots
+  material: IRON_BOOTS
+  amount: 1
+  lore:
+    - Mark 1
+  enchants:
+    - feather_falling:8
+    - unbreaking:2
+fish_hat:
+  name: "&9Fish Hat"
+  material: GOLDEN_HELMET
+  amount: 1
+  lore:
+    - "&1Be the fish."
+  enchants:
+    - aqua_affinity:10
+    - protection:4
+    - unbreaking:3
+fish_body:
+  name: "&9Fish Body"
+  material: GOLDEN_CHESTPLATE
+  amount: 1
+  lore:
+    - "&1Be the fish."
+  enchants:
+    - protection:10
+    - unbreaking:8
+fish_legs:
+  name: "&9Fish Legs"
+  material: GOLDEN_LEGGINGS
+  amount: 1
+  lore:
+    - "&1Be the fish."
+  enchants:
+    - fire_protection:6
+    - thorns:6
+    - unbreaking:2
+fish_feet:
+  name: "&9Fish Feet"
+  material: GOLDEN_BOOTS
+  amount: 1
+  lore:
+    - "&1Be the fish."
+  enchants:
+    - thorns:6
+    - feather_falling:8
+    - unbreaking:3
+drowned_helm:
+  name: "&3Drowned Helm"
+  material: DIAMOND_HELMET
+  amount: 1
+  lore:
+    - "&3From the Drowned Gods watery halls."
+  enchants:
+    - blast_protection:4
+    - respiration:8
+    - unbreaking:2
+drowned_plate:
+  name: "&3Drowned Plate"
+  material: DIAMOND_CHESTPLATE
+  amount: 1
+  lore:
+    - "&3From the Drowned Gods watery halls."
+  enchants:
+    - blast_protection:5
+    - unbreaking:4
+drowned_leggings:
+  name: "&3Drowned Leggings"
+  material: DIAMOND_LEGGINGS
+  amount: 1
+  lore:
+    - "&3From the Drowned Gods watery halls."
+  enchants:
+    - protection:3
+    - thorns:5
+drowned_boots:
+  name: "&3Drowned Boots"
+  material: DIAMOND_BOOTS
+  amount: 1
+  lore:
+    - "&3From the Drowned Gods watery halls."
+  enchants:
+    - thorns:5
+    - protection:3
+    - unbreaking:2
+    - depth_strider:2
+thors_apple:
+  name: "&eThors Apple"
+  material: GOLDEN_APPLE
+  amount: 2
+  lore:
+    - "&eStolen from Thors own table."
+easter_bunnys_carrot:
+  name: Easter Bunny's Carrot
+  material: GOLDEN_CARROT
+  amount: 3
+  lore:
+    - He will kill to get it back!
+spider_whacker:
+  name: Spider Whacker
+  material: DIAMOND_SWORD
+  amount: 1
+  lore:
+    - Whack spiders.
+  enchants:
+    - knockback:7
+gardeners_shovel:
+  name: "&aGardener's SHOVEL"
+  material: DIAMOND_SHOVEL
+  amount: 1
+  lore:
+    - "&aDig in the garden."
+  enchants:
+    - silk_touch:1
+    - unbreaking:6
+dwarfs_pick:
+  name: Dwarf's Pick
+  material: DIAMOND_PICKAXE
+  amount: 1
+  lore:
+    - Diggy diggy hole.
+  enchants:
+    - fortune:4
+    - unbreaking:5
+battle_axe:
+  name: "&7Battle Axe"
+  material: DIAMOND_AXE
+  amount: 1
+  lore:
+    - "&8Saxon war axe."
+  enchants:
+    - smite:5
+    - sharpness:4
+demon_sword:
+  name: "&4Demon Sword"
+  material: GOLDEN_SWORD
+  amount: 1
+  lore:
+    - "&cFiery hot!"
+  enchants:
+    - sharpness:10
+    - fire_aspect:3
+disposable_quick_shovel:
+  name: "&6Disposable Quick SHOVEL"
+  material: GOLDEN_SHOVEL
+  amount: 1
+  lore:
+    - "&eQuick but disposable."
+  enchants:
+    - efficiency:10
+    - unbreaking:3
+butter_pick:
+  name: "&6Butter Pick"
+  material: GOLDEN_PICKAXE
+  amount: 1
+  lore:
+    - "&ePractically made from butter."
+  enchants:
+    - fortune:5
+    - efficiency:5
+slim_axe:
+  name: Slim Axe
+  material: GOLDEN_AXE
+  amount: 1
+  lore:
+    - Small but deadly
+  enchants:
+    - sharpness:10
+    - knockback:5
+old_hoe:
+  name: "&7Old Hoe"
+  material: IRON_HOE
+  amount: 1
+  lore:
+    - "&8Not much use."
+  enchants:
+    - unbreaking:6
+gardeners_hoe:
+  name: "&aGardener's Hoe"
+  material: DIAMOND_HOE
+  amount: 1
+  lore:
+    - "&aBe a Gardener"
+  enchants:
+    - unbreaking:5
+boiled_leather_shirt:
+  name: "&4Boiled Leather Shirt"
+  material: LEATHER_CHESTPLATE
+  amount: 1
+  lore:
+    - "&4Better than nothing."
+  enchants:
+    - protection:5
+    - thorns:10
+    - unbreaking:5
+sharp_hat:
+  name: "&7Sharp Hat"
+  material: CHAINMAIL_HELMET
+  amount: 1
+  lore:
+    - "&8So sharp..."
+  enchants:
+    - thorns:10
+    - unbreaking:6
+sharp_chest:
+  name: "&7Sharp Chest"
+  material: CHAINMAIL_CHESTPLATE
+  amount: 1
+  lore:
+    - "&8So sharp..."
+  enchants:
+    - fire_protection:10
+    - thorns:5
+travellers_pants:
+  name: "&4Traveller's Pants"
+  material: CHAINMAIL_LEGGINGS
+  amount: 1
+  lore:
+    - "&4Worn but still good."
+  enchants:
+    - protection:10
+strong_boots:
+  name: Strong Boots
+  material: CHAINMAIL_BOOTS
+  amount: 1
+  lore:
+    - So strong!
+  enchants:
+    - protection:5
+    - unbreaking:5
+cast_iron_helm:
+  name: Cast Iron Helm
+  material: IRON_HELMET
+  amount: 1
+  lore:
+    - Its Iron but cast.
+  enchants:
+    - protection:1
+    - unbreaking:10
+spiked_chestplate:
+  name: "&7Spiked Chestplate"
+  material: IRON_CHESTPLATE
+  amount: 1
+  lore:
+    - "&8Nothing can survive this."
+  enchants:
+    - thorns:10
+archers_pants:
+  name: "&cArchers Pants"
+  material: IRON_LEGGINGS
+  amount: 1
+  lore:
+    - "&4Stops 'em arrows."
+  enchants:
+    - projectile_protection:3
+    - thorns:5
+stiletto_heels:
+  name: Stiletto Heels
+  material: IRON_BOOTS
+  amount: 1
+  lore:
+    - Don't walk one me!
+  enchants:
+    - thorns:6
+    - unbreaking:4
+death_mask:
+  name: "&0Death Mask"
+  material: GOLDEN_HELMET
+  amount: 1
+  lore:
+    - "&8Breath death itself!"
+  enchants:
+    - thorns:5
+    - respiration:1
+    - unbreaking:4
+kings_breastplate:
+  name: "&6Kings Breastplate"
+  material: GOLDEN_CHESTPLATE
+  amount: 1
+  lore:
+    - "&eOnly for kings,"
+    - "&eThose of noble birth,"
+    - "&eNot you..."
+  enchants:
+    - protection:3
+    - thorns:2
+    - unbreaking:4
+    - fire_protection:5
+archers_pants_mk_2:
+  name: "&cArchers Pants MK 2"
+  material: DIAMOND_LEGGINGS
+  amount: 1
+  lore:
+    - "&4Even better than MK 1!"
+  enchants:
+    - projectile_protection:5
+    - unbreaking:4
+league_boots:
+  name: "&27 League Boots"
+  material: DIAMOND_BOOTS
+  amount: 1
+  lore:
+    - "&2Just say the magic word."
+  enchants:
+    - feather_falling:3
+    - unbreaking:10
+mermen_helm:
+  name: "&bMermen Helm"
+  material: DIAMOND_HELMET
+  amount: 1
+  lore:
+    - "&bDon't drown!"
+  enchants:
+    - protection:4
+    - respiration:5
+    - thorns:5
+archers_vest_mk2:
+  name: "&cArchers Vest MK2"
+  material: DIAMOND_CHESTPLATE
+  amount: 1
+  lore:
+    - "&4Also has spikes!"
+  enchants:
+    - projectile_protection:3
+    - thorns:7
+robinhoods_bow:
+  name: "&2Robinhood's Bow"
+  material: BOW
+  amount: 1
+  lore:
+    - "&4The Legend Lives!"
+  enchants:
+    - unbreaking:5
+    - power:3
+    - flame:1
+    - infinity:1
+    - punch:2
+brave_flame_bow:
+  name: "&eBrave Flame Bow"
+  material: BOW
+  amount: 1
+  lore:
+    - "&cBurnt may a village."
+  enchants:
+    - unbreaking:3
+    - power:5
+    - flame:3
+squaw_flame_bow:
+  name: "&6Squaw Flame Bow"
+  material: BOW
+  amount: 1
+  lore:
+    - "&4Cooked many a pig!"
+  enchants:
+    - flame:1
+    - infinity:1
+archers_bow:
+  name: "&cArchers Bow"
+  material: BOW
+  amount: 1
+  lore:
+    - "&4Time to shoot!"
+  enchants:
+    - unbreaking:6
+    - power:5
+    - infinity:1
+god_apple:
+  name: "&6God Apple"
+  material: GOLDEN_APPLE
+  amount: 1
+  lore:
+    - "&6Not eaten my mortals!"
+    - "&6And never can be!"
+zombie_gear:
+  name: "&2Zombie Gear"
+  material: ZOMBIE_HEAD
+  amount: 1
+  lore:
+    - "&2Part 1"
+  enchants:
+    - thorns:10
+nether_star:
+  name: "&4Nether Star"
+  material: NETHER_STAR
+  amount: 1
+  lore:
+    - "&0From the depths of the Nether!"
+poison_potion:
+  name: "&aPoison Potion"
+  material: POTION
+  amount: 8
+  lore:
+    - "&2Very deadly."
+invisibility_potion:
+  name: "&fInvisibility Potion"
+  material: POTION
+  amount: 6
+  lore:
+    - "&7From nowhere?"
+life_potion:
+  name: "&dLife Potion"
+  material: POTION
+  amount: 5
+  lore:
+    - "&5Not many left on earth."
+eliminators_helmet:
+  name: "&3Eliminator's Helmet"
+  material: IRON_HELMET
+  amount: 1
+  lore:
+    - "&eOnly for the best!"
+  enchants:
+    - protection:7
+    - respiration:5
+    - thorns:5
+    - unbreaking:5
+eliminators_chestplate:
+  name: "&3Eliminator's Chestplate"
+  material: DIAMOND_CHESTPLATE
+  amount: 1
+  lore:
+    - "&eYou have to be awesome!"
+  enchants:
+    - protection:7
+    - thorns:5
+    - unbreaking:5
+eliminators_pants:
+  name: "&3Eliminator's Pants"
+  material: IRON_LEGGINGS
+  amount: 1
+  lore:
+    - "&eThe most epic!"
+  enchants:
+    - protection:7
+    - thorns:5
+    - unbreaking:5
+eliminators_boots:
+  name: "&3Eliminator's Boots"
+  material: IRON_BOOTS
+  amount: 1
+  lore:
+    - "&eThat much more cool!"
+  enchants:
+    - protection:7
+    - thorns:5
+    - unbreaking:5
+    - feather_falling:10
+hunger_charm:
+  name: "&6Hunger Charm"
+  material: GLISTERING_MELON_SLICE
+  amount: 1
+  lore:
+    - "&7Hunger no more"
+poisoned_blade:
+  name: "&aPoisoned Blade"
+  material: IRON_SWORD
+  amount: 1
+  lore:
+    - "&2Poison all ye strike!"
+  enchants:
+    - unbreaking:2
+    - sharpness:2
+vampire_stake:
+  name: "&4Vampire Stake"
+  material: STICK
+  amount: 1
+  lore:
+    - "&cHeals you when used"
+  enchants:
+    - sharpness:5
+bunny_charm:
+  name: "&7Bunny Charm"
+  material: RABBIT_FOOT
+  amount: 1
+  lore:
+    - "&8Jump Higher"
+wither_charm:
+  name: "&7Wither Charm"
+  material: WITHER_SKELETON_SKULL
+  amount: 1
+  lore:
+    - "&8Wither all ye fight!"
+cloak_charm:
+  name: "&7Cloak Charm"
+  material: FIREWORK_ROCKET
+  amount: 1
+  lore:
+    - "&8They will see you not"
+weakness_charm:
+  name: "&cWeakness Charm"
+  material: BONE
+  amount: 1
+  lore:
+    - "&4Weaken your foes"
+aqua_charm:
+  name: "&bAqua Charm"
+  material: PRISMARINE_CRYSTALS
+  amount: 1
+  lore:
+    - "&3Become the fish..."
+guardian_tooth:
+  name: "&bGuardian Tooth"
+  material: PRISMARINE_SHARD
+  amount: 1
+  lore:
+    - "&3It can only make"
+    - "&3you stronger!"
+soggy_sponge:
+  name: "&eSoggy Sponge"
+  material: SPONGE
+  amount: 1
+beetle_wings:
+  name: "&4Beetle Wings"
+  material: ELYTRA
+  amount: 1
+  enchants:
+    - protection:1-3
+    - unbreaking:1-5
+nether_sword:
+  name: "&c**Nether Sword**"
+  material: DIAMOND_SWORD
+  amount: 1
+  enchants:
+    - sharpness:1-5:0.15
+    - unbreaking:1-5:0.25
+    - knockback:1-8:0.25
+    - bane_of_arthropods:1-8:0.15
+    - smite:1-8:0.15
+    - fire_aspect:1-5:0.15
+    - looting:1-5:0.15
+    - mending:1-5:0.15
+angel_soul:
+  name: "&e**Angel Soul**"
+  material: DRAGON_BREATH
+  amount: 1
+  lore:
+    - "&6Bottled for your convenience"
+golden_coins:
+  name: "&6GOLDEN Coins"
+  material: BEETROOT_SEEDS
+  amount: 1
+  lore:
+    - "&7They bring you luck"
+sky_sword:
+  name: "&f**Sky Sword**"
+  material: IRON_SWORD
+  amount: 1
+  enchants:
+    - unbreaking:1-5:0.33
+    - knockback:3-10
+    - mending:1-5:0.25
+shield_of_power:
+  name: "&7**Shield of Power**"
+  material: SHIELD
+  amount: 1
+  patterns:                                    # may contain infinite amount of patterns
+    - "gra:YELLOW"
+    - "rd:YELLOW"
+    - "dls:LIGHT_BLUE"
+    - "sku:BLUE"
+demon_blade:
+  name: "&c**Demon Blade**"
+  material: DIAMOND_SWORD
+  amount: 1
+  lore:
+    - "<#a83232>The power of Ragnarök flows through you."
+    - "&4Burn this world."
+  enchants:
+    - fire_aspect:10
+    - sharpness:1-3
+sugar_of_ianite:
+  name: "&fSugar of Ianite"
+  material: SUGAR
+  amount: 1
+  lore:
+    - "&8Gives you the speed of Ianite."
+  enchants:
+    - unbreaking:1
+totem_of_death:
+  name: "&4Totem of Death"
+  material: TOTEM_OF_UNDYING
+  amount: 1
+  enchants:
+    - thorns:1
+totem_of_life:
+  name: "&eTotem of Life"
+  material: TOTEM_OF_UNDYING
+  amount: 1
+  enchants:
+    - unbreaking:1
+fire_crystal:
+  name: "&cFire Crystal"
+  material: RED_GLAZED_TERRACOTTA
+  amount: 1
+  enchants:
+    - unbreaking:1
+trident_of_poseidon:
+  name: "&b**Trident of Poseidon**"
+  material: TRIDENT
+  amount: 1
+  lore:
+    - "&3Wielded by Poseidon during the great war."
+  enchants:
+    - loyalty:3
+    - sharpness:3-5
+    - impaling:4
+    - channeling:1
+angel_feather:
+  name: "&eAngel Feather"
+  material: FEATHER
+  amount: 1
+  enchants:
+    - unbreaking:1
+pickel_of_power:
+  name: "&2Pickel of Power"
+  material: SEA_PICKLE
+  amount: 1
+  enchants:
+    - unbreaking:1
+honey_of_the_eater:
+  name: "&fHoney of the Eater"
+  material: HONEYCOMB
+  amount: 1
+  lore:
+    - Out of the eater, something to eat;
+    - Out of the strong, something sweet.
+  enchants:
+    - unbreaking:1
+heroic_village_bell:
+  name: "&fHeroic Village Bell"
+  material: BELL
+  amount: 1
+  enchants:
+    - unbreaking:1
+dwarven_pickaxe:
+  name: "&eDwarven Pickaxe"
+  material: NETHERITE_PICKAXE
+  amount: 1
+  lore:
+    - "&8Use only for gold!"
+  enchants:
+    - efficiency:10
+winged_boots:
+  name: "&e**Winged Boots**"
+  material: DIAMOND_BOOTS
+  amount: 1
+  lore:
+    - "&8Crafted with Zepher wings"
+  enchants:
+    - feather_falling:10
+    - unbreaking:10
+    - protection:10
+halo:
+  name: "&e**Halo**"
+  material: GOLDEN_HELMET
+  amount: 1
+  lore:
+    - "&8Torn from a fallen angel"
+    - "&8By Archangel Michel himself"
+  enchants:
+    - protection:7-10
+    - unbreaking:7-10
+    - mending:1
+cat_spirit_helm:
+  name: "&fCat Spirit Helm"
+  material: DIAMOND_HELMET
+  amount: 1
+  lore:
+    - "&8Embued with the spirit"
+    - "&8of a great and ancient beast"
+  enchants:
+    - protection:5-15
+    - unbreaking:5-15
+    - mending:1
+shotbow:
+  name: "&7Shotbow"
+  material: CROSSBOW
+  amount: 1
+  enchants:
+    - mending:1
+    - unbreaking:5
+    - multishot:1
+    - piercing:1
+    - quick_charge:3
+king_uthers_greaves:
+  name: "&7**King Uthers Greaves**"
+  material: DIAMOND_LEGGINGS
+  amount: 1
+  lore:
+    - "&8Lost long ago by a legend"
+  enchants:
+    - protection:4-10
+    - thorns:1
+    - unbreaking:4-10
+    - mending:1
+the_holy_bible:
+  name: "&f**The Holy Bible**"
+  material: WRITTEN_BOOK
+  amount: 1
+  enchants:
+    - smite:77
+mothers_milk:
+  name: "&f**Mother's Milk**"
+  material: MILK_BUCKET
+  amount: 1
+  enchants:
+    - unbreaking:1
+netherite_ingot:
+  name: "&ePremium Netherite"
+  material: NETHERITE_INGOT
+  amount: 1
+netherite_scrap:
+  name: "&ePremium Netherite Scrap"
+  material: NETHERITE_SCRAP
+  amount: 2-6
+shell_of_7_seas:
+  name: "&b**Shell of 7 Seas**"
+  material: NAUTILUS_SHELL
+  amount: 1
+  lore:
+    - "&8He who holds the shell"
+  enchants:
+    - unbreaking:1
+cool_banner:
+  name: "<#964B00>Cool Banner"
+  material: "CYAN_BANNER"
+  amount: 1
+  lore:
+    - "Lore with single line"
+  patterns:                                    # may contain infinite amount of patterns
+    - "GRADIENT:magenta"
+    - "sku:LIME"
+wrathbringer:
+  name: "&c**Wrathbringer**"
+  material: NETHERITE_SWORD
+  amount: 1
+  lore:
+    - "&4A righteous wrath this is not"
+  enchants:
+    - sharpness:3-10
+    - unbreaking:1-5:0.25
+    - bane_of_arthropods:1-8:0.15
+    - smite:1-8:0.15
+    - fire_aspect:1-5:0.3
+    - looting:1-10:0.35
+    - mending:1:0.15
+trusty_shield:
+  name: "<#964B00>Trusty Shield"
+  material: "SHIELD"
+  dye-color: "RED"                             # base color of the shield patterns
+  amount: 1
+  lore:                                        # and this is how you make the item lore with only one line
+    - "<#964B00>Trust thou shield."
+  patterns:                                    # may contain infinite amount of patterns
+    - "GRADIENT:LIME"                          # format is "pattern:color", pattern list can be found here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/banner/PatternType.html , color list can be found here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/DyeColor.html
+    - "half_vertical:magenta"                  # patterns are, also, case insensitive
+    - "TRIANGLE_TOP:ORANGE"
+    - "sku:RED"                                # may also use pattern identifier names (this is SKULL)
+plate_of_greed:
+  name: "&6**Plate of Greed**"
+  material: NETHERITE_CHESTPLATE
+  amount: 1
+  lore:
+    - "&6Take and eat, fill thy belly"
+  enchants:
+    - protection:3-10:0.3
+    - thorns:1-10:0.25
+    - unbreaking:1-10:0.24
+    - fire_protection:1-10:0.15
+    - mending:1
+thors_apple:
+  name: "<#FFFF55>Thors Apple"
+  material: "GOLDEN_APPLE"
+  amount: 2-5                                  # random amount between 2 and 5
+  lore:
+    - "<#FFFF55>Stolen from Thors own table."
+example_book:
+  type: "book"                                 # you must specify that this item is a book
+  material: "WRITTEN_BOOK"                     # valid values: WRITTEN_BOOK, WRITABLE_BOOK; the former is not editable, the latter is; if you don't specify a type, WRITTEN_BOOK will be used
+  title: "<#c663f7>Title <#FFAA00>1"           # all books must have a title
+  author: "Author 1"                           # optional, doesn't support colors
+  generation: "TATTERED"                       # valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED; of all those, only ORIGINAL and COPY_OF_ORIGINAL can be copied by players, keep that in mind; will default to ORIGINAL if you don't specify
+  pages:                                       # the page system a little weird, each of these lines is a new page, and you start a new line by using \n
+    - "first page\nsecond line of the <#c663f7>first page"      # page #1
+    - "second page\nsecond line of the <#c663f7>second page"    # page #2
+    - ""                                                        # page #3 will be empty
+    - "<#ff5555>fourth page"                                    # page #4
+
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Armoured Armor                    | #
+# +------------------------------------------------------+ #
+############################################################
+
+# These are armoured armor pieces that will be given to every mob with Armoured ability, you may freely change all the attributes you want or comment out parts you don't want a armoured mob to wear, just don't rename these entries, or change their type to something completely different (e.g. you may change the netherite_sword to a golden_sword, but not to dirt)
+
+armoured_helmet:
+  name: "<#808080>Armoured Helmet"
+  material: "NETHERITE_HELMET"
+  amount: 1
+  enchants:
+    - "protection_projectile"
+
+armoured_chestplate:
+  name: "<#808080>Armoured Chestplate"
+  material: "NETHERITE_CHESTPLATE"
+  amount: 1
+  enchants:
+    - "protection_explosions"
+
+armoured_leggings:
+  name: "<#808080>Armoured Leggings"
+  material: "NETHERITE_LEGGINGS"
+  amount: 1
+  enchants:
+    - "protection_environmental"
+
+armoured_boots:
+  name: "<#808080>Armoured Boots"
+  material: "NETHERITE_BOOTS"
+  amount: 1
+  enchants:
+    - "soul_speed:2"
+
+armoured_sword:
+  name: "<#808080>Armoured Sword"
+  material: "NETHERITE_SWORD"
+  amount: 1
+  enchants:
+    - "damage_all:2-4"                   # sharpness 2-4
+
+armoured_bow:
+  name: "<#808080>Armoured Bow"
+  material: "BOW"
+  amount: 1
+  enchants:
+    - "arrow_knockback:3"
+    - "arrow_damage:2"
+
+armoured_crossbow:
+  name: "<#808080>Armoured Crossbow"
+  material: "CROSSBOW"
+  amount: 1
+  enchants:
+    - "multishot:1"
+    - "piercing:1-3"
+    - "quick_charge:2-3"
+
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Ghost Equipment                   | #
+# +------------------------------------------------------+ #
+############################################################
+
+# These are armor pieces of a Ghost, spawned when a mob with Ghost ability dies, you may freely change all the attributes you want or comment out parts you don't want a ghost to wear, just don't rename these entries, or change their type to something completely different (e.g. you may change the netherite_sword to a golden_sword, but not to dirt)
+
+ghost_helmet:
+  name: "<#808080>Ghost Head"
+  material: "SKELETON_SKULL"
+  amount: 1
+
+ghost_chestplate:
+  name: "<#808080>Ghost Chestplate"
+  material: "LEATHER_CHESTPLATE"
+  color: "240, 240, 240"                 # RGB
+  amount: 1
+  enchants:
+    - "protection_environmental:7-9"
+
+ghost_weapon:
+  name: "<#808080>Ghost Weapon"
+  material: "BOW"
+  amount: 1
+  enchants:
+    - "arrow_damage:3"
+
+# You may also want to implement these, just uncomment them and fill the necessary data
+
+# ghost_leggings:
+# ghost_boots:
+
+haunted_ghost_helmet:
+  name: "<#808080>Haunted Ghost Head"
+  material: "WITHER_SKELETON_SKULL"
+  amount: 1
+
+haunted_ghost_chestplate:
+  name: "<#808080>Haunted Ghost Chestplate"
+  material: "LEATHER_CHESTPLATE"
+  color: "0, 0, 0"                       # RGB
+  amount: 1
+  enchants:
+    - "protection_environmental:9-11"
+
+haunted_ghost_weapon:
+  name: "<#808080>Haunted Ghost Weapon"
+  material: "BOW"
+  amount: 1
+  enchants:
+    - "arrow_damage:4"
+    - "arrow_knockback"
+
+# You may also want to implement these, just uncomment them and fill the necessary data
+
+# haunted_ghost_leggings:
+# haunted_ghost_boots:

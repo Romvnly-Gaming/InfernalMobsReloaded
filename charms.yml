@@ -1,0 +1,473 @@
+#############################################################
+## +------------------------------------------------------+ #
+## |                      Slot List                       | #
+## +------------------------------------------------------+ #
+#############################################################
+#
+## List of all slots from the player's inventory and their number
+## So you can remove them
+#
+##  Inventory Slots:
+##
+##   39             *  *     *
+##   38             *  *
+##   37
+##   36          40
+##   9  10 11 12 13 14 15 16 17
+##   18 19 20 21 22 23 24 25 26
+##   27 28 29 30 31 32 33 34 35
+##   0  1  2  3  4  5  6  7  8
+##
+## Only items in these slots will have their effects applied, otherwise they'll do nothing
+## You can also override these slots on a per item basis using the property "override-charm-slots"
+#
+#############################################################
+## +------------------------------------------------------+ #
+## |                     Charm Effects                    | #
+## +------------------------------------------------------+ #
+#############################################################
+#
+#######################
+####  Effect Modes  ###
+#######################
+##
+## There are 5 modes that you can choose from of effects: SELF_PERMANENT, SELF_RECURRENT, SELF_ON_HIT, TARGET_ON_HIT, BOTH_ON_HIT; not all effects works with all modes, but you'll get warned if you choose and invalid mode for that potion type, so don't you worry
+##
+## 1. SELF_PERMANENT will just apply the potion when the charm is equipped, and remove it and the item is removed from one of the valid slots
+## 2. SELF_RECURRENT will reapply the potion after the chosen delay, and keep reapplying it until the item is removed from one of the allowed slots
+## 3. SELF_ON_HIT will apply the potion to the owner of the charm, and delay represents the minimum delay between two reaplication of the effect on any given target
+## 4. TARGET_ON_HIT will apply the potion to any entity damaged by the owner of the charm, and delay represents the minimum delay between two reaplication of the effect on any given target
+## 5. BOTH_ON_HIT will apply the potion to both owner and any entity damaged by the owner of the charm, and delay represents the minimum delay between two reaplication of the effect on any given target
+#########################
+####  Particle Modes  ###
+#########################
+##
+## There are 5 different particle modes you can choose from: NONE, SELF_ONCE, ON_SELF_WHEN_APPLIED, ON_TARGET_WHEN_APPLIED, ON_BOTH_WHEN_APPLIED; some of them only works with certain effect modes
+##
+## 1. NONE will disable any particle effect (if you don't specify any particle, it'll also default to "none")
+## 2. SELF_ONCE will spawn particles one time, when the effect is gained, on self, can only be used with SELF_PERMANENT effect mode
+## 3. SELF_WHEN_APPLIED can be used for SELF_RECURRENT, SELF_ON_HIT, TARGET_ON_HIT, and for BOTH_ON_HIT effect modes, it'll spawn particles every time the effect occurs, on self
+## 4. TARGET_WHEN_APPLIED is only a valid particle mode for SELF_ON_HIT, TARGET_ON_HIT, and BOTH_ON_HIT effect modes, it'll spawn particles on the target, every time the effect occurs
+## 5. BOTH_WHEN_APPLIED is also only a valid particle mode for SELF_ON_HIT, TARGET_ON_HIT, and BOTH_ON_HIT effect modes, it'll spawn particles on both self and the target, every time the effect happens
+## Below you can create as many effects as you want, and link them with the items from `loot_table.yml` file
+
+
+
+############################################################
+# +------------------------------------------------------+ #
+# |             Charm Effects World Whitelist            | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Worlds in which charms will grant their effects to players; <ALL> is a special tag, it will allow charms to work in ALL worlds; to prevent charms of having effect in any world, just delete all the items and insert empty square brackets instead
+charm-effects-world-whitelist:
+  - "world"
+  - "world_nether"
+  - "world_the_end"
+valid-charm-slots:
+  - 0-8
+  - 40
+charm-effects:
+  thors_apple:
+    override-charm-slots:                      # that's how you override slots, so it won't use the global slots; remember that 'main-hand' property ignore slots, both global ones and the override ones
+      - 0-3
+    player-message: "<#d75eff>You feel your wounds disappearing."   # omit this field to send nothing to the player when the effects kicks in
+    effect: INSTANT_HEALTH                     # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.16/org/bukkit/potion/PotionEffectType.html
+    potency: 1-2                               # potion level
+#    duration: 10.0                            # duration does nothing here, since instant healing is an instant effect
+    delay: 20.0-30.0                           # in seconds, the delay between each recurrent application
+    effect-mode: SELF_RECURRENT                # type of effect that will be applied on the player, choose from SELF_PERMANENT, SELF_RECURRENT, and TARGET_TEMPORARY
+    particle-mode: SELF_WHEN_APPLIED        # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
+    particle-type: totem                       # see full list here https://papermc.io/javadocs/paper/1.16/org/bukkit/Particle.html
+    required-items:                            # the effect will require ALL the items listed below to be active
+      - "thors_apple"
+  mothers_milk_1:
+    effect: INSTANT_HEALTH                     # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.16/org/bukkit/potion/PotionEffectType.html
+    potency: 2-3                              # potion level
+#    duration: 10.0                            # duration does nothing here, since instant healing is an instant effect
+    delay: 10.0                           # in seconds, the delay between each recurrent application
+    effect-mode: SELF_RECURRENT                # type of effect that will be applied on the player, choose from SELF_PERMANENT, SELF_RECURRENT, and TARGET_TEMPORARY
+    particle-mode: SELF_WHEN_APPLIED        # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
+    particle-type: SPELL_INSTANT                       # see full list here https://papermc.io/javadocs/paper/1.16/org/bukkit/Particle.html
+    required-items:                            # the effect will require ALL the items listed below to be active
+      - "mothers_milk"
+
+  mothers_milk_2:
+    effect: FAST_DIGGING                   # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.16/org/bukkit/potion/PotionEffectType.html
+    potency: 3                              # potion level
+    effect-mode: SELF_PERMANENT             # type of effect that will be applied on the player, choose from SELF_PERMANENT, SELF_RECURRENT, and TARGET_TEMPORARY
+    particle-mode: SELF_ONCE        # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
+    particle-type: flame                        # see full list here https://papermc.io/javadocs/paper/1.16/org/bukkit/Particle.html
+    required-items:                            # the effect will require ALL the items listed below to be active
+      - "mothers_milk"
+  fast_miner:
+    player-message: "<#36f5f2>Suddenly, you gain the agility of the gods."   # omit this field to send nothing to the player when the effects kicks in
+    effect: FAST_DIGGING                       # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.16/org/bukkit/potion/PotionEffectType.html
+    potency: 3    # potion level
+    delay: 1.0                               # delay does nothing since this is a permanent effect
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    particle-type: flame
+    main-hand: "silky"
+
+  fast_digger:
+    player-message: "&6Suddenly, the power of your golden heart flows through you.\nDon't give up on your dreams."
+    effect: FAST_DIGGING                       # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.16/org/bukkit/potion/PotionEffectType.html
+    potency: 10    # potion level
+    delay: 1.0                               # delay does nothing since this is a permanent effect
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    particle-type: VILLAGER_HAPPY
+    main-hand: "golden_spoon"
+ 
+  demon_touch:
+    player-message: "<#36f5f2>Your sword dismember a part of your opponent."   # message that will be sent to the player, when their target is effect by the charm's effect, omit this field to send nothing
+    target-message: "<#36f5f2>You got dismembered by your opponent's demonic sword."   # message that will be sent to the player's target, when affected by the effect, omit this field to send nothing
+    effect: HARM                               # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.16/org/bukkit/potion/PotionEffectType.html
+    potency: 1-2                               # potion level
+#   duration: 10.0                             # duration does nothing here, since instant damage is an instant effect
+    delay: 12.0                                # in seconds, delay between each application
+    effect-mode: TARGET_ON_HIT
+    particle-mode: BOTH_WHEN_APPLIED
+    particle-type: flame
+    main-hand: "demon_sword"                   # will require 'demon_sword' to be on the main hand for the effect to kicks in
+    #required-items:                           # you can add more items as requirement, just not in the main hand since players cannot hold two items at the same time using the main hand
+      #- "another_item"
+  backhoe:
+    effect: FAST_DIGGING
+    potency: 2
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    particle-type: cloud
+    main-hand: "backhoe"
+  angel_soul:
+    effect: LEVITATION
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    particle-type: cloud
+    required-items:
+      - angel_soul
+  mermen_helm:
+    effect: WATER_BREATHING
+    potency: 4
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - mermen_helm
+  eliminators_chestplate:
+    effect: ABSORPTION
+    potency: 10
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - eliminators_chestplate
+      - eliminators_pants
+      - eliminators_boots
+      - hunger_charm
+  quarts_hoe:
+    effect: SLOW_DIGGING
+    potency: 10
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - quarts_hoe
+  shell_of_7_seas:
+    effect: CONDUIT_POWER
+    potency: 0
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - shell_of_7_seas
+  sugar_of_ianite:
+    effect: SPEED
+    potency: 4
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - sugar_of_ianite
+  hunger_charm:
+    effect: SATURATION
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hunger_charm
+  american_axe:
+    effect: FAST_DIGGING
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - american_axe
+  fish_body:
+    effect: WATER_BREATHING
+    potency: 3
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - fish_body
+      - fish_legs
+      - fish_feet
+      - drowned_helm
+  drowned_plate:
+    effect: WATER_BREATHING
+    potency: 6
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - drowned_plate
+      - drowned_leggings
+      - drowned_boots
+      - thors_apple
+  brave_flame_bow:
+    effect: INCREASE_DAMAGE
+    potency: 2
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    particle-type: flame
+    required-items:
+      - brave_flame_bow
+  poisoned_blade:
+    effect: poison
+    potency: 1-2
+    delay: 1.0
+    duration: 5.0
+    effect-mode: TARGET_ON_HIT  
+    particle-mode: SELF_ONCE
+    required-items:
+      - poisoned_blade
+  vampire_stake:
+    effect: HEAL
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_ON_HIT
+    particle-mode: SELF_ONCE
+    required-items:
+      - vampire_stake
+  bunny_charm:
+    effect: JUMP
+    potency: 3
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - bunny_charm
+  the_holy_bible:
+    effect: GLOWING
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    item-flags:                                  # see complete list here https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html
+      - "HIDE_ENCHANTS"                          # hide all the enchantments from the item
+    required-items:
+      - the_holy_bible
+  wither_charm:
+    effect: WITHER
+    potency: 1-3
+    delay: 1.0
+    duration: 3.0
+    effect-mode: TARGET_ON_HIT
+    particle-mode: TARGET_WHEN_APPLIED
+    required-items:
+      - wither_charm
+  cloak_charm:
+    effect: INVISIBILITY
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - cloak_charm
+  weakness_charm:
+    effect: WEAKNESS
+    potency: 1
+    delay: 1.0
+    duration: 10.0
+    effect-mode: TARGET_ON_HIT
+    particle-mode: TARGET_WHEN_APPLIED
+    required-items:
+      - weakness_charm
+  aqua_charm:
+    effect: WATER_BREATHING
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - aqua_charm
+  guardian_tooth:
+    effect: HEALTH_BOOST
+    potency: 1-2
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-type: heart
+    particle-mode: SELF_ONCE
+    required-items:
+      - guardian_tooth
+  golden_coins:
+    effect: LUCK
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    particle-type: cloud
+    required-items:
+      - golden_coins
+  sky_sword:
+    effect: LEVITATION
+    potency: 2
+    delay: 1.0
+    duration: 5.0
+    effect-mode: TARGET_ON_HIT
+    particle-mode: TARGET_WHEN_APPLIED
+    main-hand: "sky_sword"
+  shield_of_power:
+      override-charm-slots:                      # that's how you override slots, so it won't use the global slots; remember that 'main-hand' property ignore slots, both global ones and the override ones
+       - 40
+      effect: INCREASE_DAMAGE
+      potency: 2
+      delay: 1.0
+      effect-mode: SELF_PERMANENT
+      particle-mode: SELF_ONCE
+      required-items:
+        - shield_of_power
+  demon_blade:
+    effect: INCREASE_DAMAGE
+    potency: 2
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    main-hand: "demon_blade"
+  totem_of_death:
+    effect: SLOW_DIGGING
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - totem_of_death
+  angel_feather:
+    effect: SLOW_FALLING
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - angel_feather
+  totem_of_life:
+    effect: FAST_DIGGING
+    potency: 3
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - totem_of_life
+  fire_crystal:
+    effect: FIRE_RESISTANCE
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - fire_crystal
+  pickel_of_power:
+    effect: WEAKNESS
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - pickel_of_power
+  honey_of_the_eater_1:
+    effect: INCREASE_DAMAGE
+    potency: 4
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - honey_of_the_eater
+  honey_of_the_eater_2:
+    effect: SLOW
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - honey_of_the_eater
+  heroic_village_bell:
+    effect: HERO_OF_THE_VILLAGE
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - heroic_village_bell
+  dwarven_pickaxe:
+    effect: FAST_DIGGING
+    potency: 2
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    main-hand: "dwarven_pickaxe"
+  winged_boots:
+    override-charm-slots:
+      - 36
+    effect: SLOW_FALLING
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - winged_boots
+  halo:
+    override-charm-slots:
+      - 39
+    effect: GLOWING
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - halo
+  cat_spirit_helm:
+    override-charm-slots:
+      - 39
+    effect: NIGHT_VISION
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - cat_spirit_helm
+  wrathbringer:
+    effect: BAD_OMEN
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - wrathbringer
+  plate_of_greed:
+    override-charm-slots:
+    - 38
+    effect: HUNGER
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - plate_of_greed
