@@ -942,7 +942,9 @@ the_holy_bible:
   material: WRITTEN_BOOK
   amount: 1
   enchants:
-    - smite:77
+    - smite:20
+  item-flags:                                  # see complete list here https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html
+    - "HIDE_ENCHANTS"                          # hide all the enchantments from the item
 mothers_milk:
   name: "&f**Mother's Milk**"
   material: MILK_BUCKET

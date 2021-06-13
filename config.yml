@@ -25,7 +25,7 @@ enable-infernal-particles: true
 # What particle effect will be expelled from all infernals every certain amount of time
 infernal-particle-type: LAVA            # list with all possible particles can be found here: https://papermc.io/javadocs/paper/1.16/org/bukkit/Particle.html , make sure to check it out and choose the one that suits your taste
 # Delay between infernal particles
-delay-between-infernal-particles: 1.25  # in seconds
+delay-between-infernal-particles: 5.00  # in seconds
 # Spread of infernal particles
 infernal-particles-spread: 0.8          # in blocks
 # Amount of particles spawned, this number greatly varies per particle, so I suggest you test it and manually adjust it to a balanced amount
@@ -41,7 +41,7 @@ infernals-cannot-damage-themselves: true
 infernals-are-persistent: false
 
 # When infernal persistence is turned off and this option is turned on, any infernal mob that gets loaded and is persistent will be removed. Basically, an option to "purge" persistent infernals from your worlds when you change your mind and don't want persistence anymore.
-infernals-persistence-purge-mode: true
+infernals-persistence-purge-mode: false
 ####################
 ####  Spawners  ####
 ####################
@@ -71,6 +71,10 @@ entities-killed-by-poison: ALL
 
 # If true, infernal mobs that steps any any Town will be removed after the provided delay, unless they exist the town before. Requires a full server restart to reflect changes in this config. Disabling this feature while using Towny may reduce overall server cpu usage.
 remove-infernal-mobs-in-towns: true
+
+# If true, only towns that have "has mobs" flag turned OFF will trigger the infernal mob removal.
+remove-from-towns-only-if-has-mobs-is-disabled: true
+
 # Delay before the infernal mob is removed from the town
 remove-infernal-mobs-in-towns-after: 5.0            # in seconds
 
@@ -101,7 +105,7 @@ enable-infernal-spawn-messages: false
 # The radius around the newly spawned infernal mob that a player has to be to receive the spawn message
 infernal-spawn-message-radius: 30       # in blocks
 # If true, nearby players will be notified about the death of a Infernal Mob with one of the spawn messages set on the `messages.yml` file
-enable-infernal-death-messages: true
+enable-infernal-death-messages: false
 # The radius around the dead infernal mob that a player has to be to receive the death message
 infernal-death-message-radius: 20       # in blocks
 
@@ -124,20 +128,20 @@ spawn-reasons-which-infernal-mobs-can-spawn:
   - BUILD_IRONGOLEM        # When an iron golem is spawned by being built
   - BUILD_SNOWMAN          # When an snowman is spawned by being built
   - BUILD_WITHER           # When an wither boss is spawned by being built
-# - CURED                  # When a villager is cured from infection
+  - CURED                  # When a villager is cured from infection
 # - CUSTOM                 # When a creature is spawned by plugins, may conflict with other plugins that also spawn mobs, disable if you notice strange behavior or compatibility errors
 # - DEFAULT                # When an entity is missing a SpawnReason
 # - DISPENSE_EGG           # When a creature is spawned by a dispenser dispensing an egg
   - DROWNED                # When a creature is spawned by another entity drowning
   - EGG                    # When a creature spawns from an egg
-# - ENDER_PEARL            # When an entity is spawned as a result of ender pearl usage
+  - ENDER_PEARL            # When an entity is spawned as a result of ender pearl usage
 # - EXPLOSION              # When eg an effect cloud is spawned as a result of a creeper exploding
   - INFECTION              # When a zombie infects a villager
-# - JOCKEY                 # When an entity spawns as a jockey of another entity (mostly spider jockeys)
+  - JOCKEY                 # When an entity spawns as a jockey of another entity (mostly spider jockeys)
   - LIGHTNING              # When a creature spawns because of a lightning strike
   - MOUNT                  # When an entity spawns as a mount of another entity (mostly chicken jockeys)
   - NATURAL                # When something spawns from natural means
-# - NETHER_PORTAL          # When a creature is spawned by nether portal
+  - NETHER_PORTAL          # When a creature is spawned by nether portal
   - OCELOT_BABY            # When an ocelot has a baby spawned along with them
   - PATROL                 # When an entity is spawned as part of a patrol
   - RAID                   # When an entity is spawned as part of a raid

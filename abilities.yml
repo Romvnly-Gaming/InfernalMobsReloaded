@@ -62,14 +62,28 @@ firework:
   chance-on-damage-taken: 0.25       # in percentage, the chance of spawning a firework on top of the entity when receiving damage from it
   damage-multiplier: 1.4-1.7         # in percentage, multiply the damage caused by the fireworks launched by the infernals with firework ability by the specified values; 1.0 would make the damage be exactly as in vanilla, 2.0 would make it cause two times the normal damage, and so on.
 
+# There's no configuration for this, it's simply a flying ability. 
+# Infernals fly on a invisible bat that has a lot of health, players are not killing it. 
 flying:
 
+# Multi Ghastly ability
+# Shoots multiple Fireballs on the target and nearby entities
+multi-ghastly:
+  nearby-entities-range: 4.0         # in blocks, how close the entity has to be of the main target to also be affected by it; if you don't want this ability to be able to affect multiple targets, set this value to 0.0
+  projectile-speed: 1.75             # speed is in vector, so you can think in it like m/s or something
+  fireball-amount: 3-6               # how many arrows are going to be shot, in default configuration it is 8-12
+  fireball-delay: 0.5                # in seconds, the delay between each fireball launch
+  recheck-delay: 2.0                 # in seconds, every 1.5 seconds it'll run the random chance to see if it's going to spawn shoot the arrows
+  chance: 0.25                       # every 'recheck-delay' seconds, the power will have 25% chance of being triggered
+
+# Ghastly, it does stuff
 ghastly:
   nearby-entities-range: 4.0         # in blocks, how close the entity has to be of the main target to also be affected by it; if you don't want this ability to be able to affect multiple targets, set this value to 0.0
   projectile-speed: 1.75             # speed is in vector, so you can think in it like m/s or something
   recheck-delay: 1.5                 # in seconds, every 1.5 seconds it'll run the random chance to see if it's going to spawn shoot the arrows
   chance: 0.25                       # every 'recheck-delay' seconds, the power will have 25% chance of being triggered
 
+# The ghost ability, basically they become a Infernal ghost or somethin, just a annoyance lol
 ghost:
   evil-chance: 0.3                   # in percentage, what chance they'll have of becoming "evil" ghosts
   item-drop-chance: 0.2              # what chance each of its items will have of being dropped upon death
@@ -212,8 +226,8 @@ teleport:
 # Thief ability
 # Every certain amount of time, a infernal mob with thief ability will have a chance of steal one part of the target's set or equipped weapons, randomly
 thief:
-  recheck-delay: 3.0                 # in seconds, each 3 seconds it'll run the random chance to see if it's going to steal a piece of target's equipment
-  chance: 0.05                       # every 'recheck-delay' seconds, it'll, at a 5% chance of happening, steal one of the equipped items of the target
+  recheck-delay: 10.0                 # in seconds, each 3 seconds it'll run the random chance to see if it's going to steal a piece of target's equipment
+  chance: 0.01                       # every 'recheck-delay' seconds, it'll, at a 5% chance of happening, steal one of the equipped items of the target
   durability-loss: 0.04-0.06         # in percentage, will reduce between 4% and 6% the durability of the equipment stolen from the victim
   affect-only-players: true          # set to true by default to prevent exploits, people "storing" mobs with thief ability and make them fight against another infernal that has special, rare armor, in order to make them steal the rare equipment of that other infernal, which will be dropped at the thief's feet, and will make getting them much easier; you may set this to false if you don't care
   require-line-of-sight: true        # if true, the ability will only trigger if the infernal mob has line of sight of the victim

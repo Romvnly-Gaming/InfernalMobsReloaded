@@ -271,8 +271,6 @@ charm-effects:
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
-    item-flags:                                  # see complete list here https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html
-      - "HIDE_ENCHANTS"                          # hide all the enchantments from the item
     required-items:
       - the_holy_bible
   wither_charm:
