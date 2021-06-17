@@ -205,6 +205,27 @@ thorny_pants:
     - "fire_protection:4:0.5"
     - "thorns:8"
     - "unbreaking:3"
+rom_chestplate:
+  name: "&5Rom's Chestplate"
+  material: "NETHERITE_CHESTPLATE"
+  amount: 1
+  lore:
+    - "&4100% Rom's Chestplate"
+  enchants:
+    - "protection:20"
+    - "unbreaking:5"
+    - "mending:1"
+    - "thorns:3"
+not_rom_chestplate:
+  name: "&5Rom's True Chestplate"
+  material: "NETHERITE_CHESTPLATE"
+  amount: 1
+  lore:
+    - "&4100% Rom's Chestplate"
+  enchants:
+    - "protection:4"
+    - "unbreaking:3"
+    - "mending:1"
 travellers_boots:
   name: "&7Travellers Boots"
   material: "CHAINMAIL_BOOTS"
