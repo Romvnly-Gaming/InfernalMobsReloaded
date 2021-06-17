@@ -69,9 +69,9 @@ flying:
 # Multi Ghastly ability
 # Shoots multiple Fireballs on the target and nearby entities
 multi-ghastly:
-  nearby-entities-range: 4.0         # in blocks, how close the entity has to be of the main target to also be affected by it; if you don't want this ability to be able to affect multiple targets, set this value to 0.0
+  nearby-entities-range: 10.0         # in blocks, how close the entity has to be of the main target to also be affected by it; if you don't want this ability to be able to affect multiple targets, set this value to 0.0
   projectile-speed: 1.75             # speed is in vector, so you can think in it like m/s or something
-  fireball-amount: 3-6               # how many arrows are going to be shot, in default configuration it is 8-12
+  fireball-amount: 8-12               # how many arrows are going to be shot, in default configuration it is 8-12
   fireball-delay: 0.5                # in seconds, the delay between each fireball launch
   recheck-delay: 2.0                 # in seconds, every 1.5 seconds it'll run the random chance to see if it's going to spawn shoot the arrows
   chance: 0.25                       # every 'recheck-delay' seconds, the power will have 25% chance of being triggered

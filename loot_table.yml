@@ -53,7 +53,6 @@ inferno_bow:
   enchants:
     - "infinity:1:0.3"
     - "flame:1-2"    
-
 lady_luck:
   name: "<#FFAA00>Lady Luck"
   material: "IRON_SWORD"
@@ -990,6 +989,21 @@ wrathbringer:
     - fire_aspect:1-5:0.3
     - looting:1-10:0.35
     - mending:1:0.15
+balancer:
+  name: "**&6Balancer**"
+  material: "NETHERITE_SWORD"
+  amount: 1
+  lore:
+    - "<#FF5555>Holds the power of the <#AA0000>Hausemaster<#FF5555>!"
+  enchants:
+    - sharpness:7-12
+    - knockback:2-4
+    - unbreaking:1-5:0.45
+    - smite:7-15:0.55
+    - fire_aspect:5:0.55
+    - looting:5-12:0.55
+    - bane_of_arthropods:1-8:0.55
+    - mending:1-2:0.25
 trusty_shield:
   name: "<#964B00>Trusty Shield"
   material: "SHIELD"
