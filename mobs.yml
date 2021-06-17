@@ -134,7 +134,7 @@ witherheart:
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "PLAY_BOSS_MUSIC"
   type: "WITHER_SKELETON"
-  spawn-chance: 0.1
+  spawn-chance: 0.10
   follow-range-multiplier: 10.0       # will have 10 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   mob-spawn-drop-chance: 0.005
   forced-abilities: 
