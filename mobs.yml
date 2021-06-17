@@ -123,7 +123,7 @@ fuke_dishron:
      - "POISONOUS"
      - "CONFUSION"
   ability-amount: 3-5
-  health-multiplier: 7.0-8.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  health-multiplier: 4.0-7.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: 
      - "guardian_tooth:0.05"
      - "trident_of_poseidon:0.1"
