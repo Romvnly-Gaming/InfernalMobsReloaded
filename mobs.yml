@@ -80,7 +80,8 @@ hausemaster:
     - "INVISIBLE"
   ability-amount: 3-10
   health-multiplier: 10.0-13.0         # will have between 3 and 5 times the normal health amount of a Zombie
-  loot-table: [angel_soul]                      # don't drop anything                # will have 75% chance of dropping a 'demon_blade'
+  loot-table:
+  - "angel_soul:0.05" # 5 percent chance
 
 hellbringer:
   display-name: "&4**Hellbringer*&r"
@@ -121,8 +122,8 @@ porky:
      - "SPEEDY"
   ability-amount: 3-5
   health-multiplier: 5.0-8.0         # will have between 3 and 5 times the normal health amount of a Zombie
-  loot-table: [hunger_charm]                      # don't drop anything                # will have 75% chance of dropping a 'demon_blade'
-
+  loot-table: 
+  - "hunger_charm:0.03"
 #Thanks Myrk for the name!
 # This guy is a menace bro might as well be a pillager
 witherheart:
@@ -165,7 +166,8 @@ blackbeard:
      - "CONFUSION"
   ability-amount: 3-5
   health-multiplier: 5.0-10.0         # will have between 3 and 5 times the normal health amount of a Zombie
-  loot-table: [shotbow]     
+  loot-table: 
+  - "showbow:0.35"
 #Thanks https://www.imagineforest.com/blog/pirate-name-generator/ for the name!
 # This guy is a menace bro might as well be a pillager
 wuharis:
@@ -212,7 +214,9 @@ bella:
   damage-multiplier: 1.5         # will inflict between 1.4 and 1.6 times the damage of a normal Skeleton (this multiplier also includes almost all abilities)
   attack-knockback-modifier: 5.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
   health-multiplier: 3.0-6.0         # will have between 3 and 5 times the normal health amount of a Zombie
-  loot-table: [rom_chestplate]
+  loot-table: 
+  - "pros_chestplate:0.25"
+  
 #Thanks https://www.fantasynamegenerators.com/minecraft-zombie-names.php for the name!
 # Drowned noob, ngl. For new players 
 famish:
