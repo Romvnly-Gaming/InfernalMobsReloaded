@@ -7,7 +7,7 @@
 # Below you'll find a list with all abilities, their settings and a explanation of what do they do and how they work
 
 # Archer ability
-# Shoots a volley of arrows on the target and nearby entities
+# Shoots a valley of arrows on the target and nearby entities
 archer:
   nearby-entities-range: 4.0        # in blocks, how close the entity has to be of the main target to also be affected by it; if you don't want abilities to be able to affect multiple targets, set its value to 0.0
   projectile-speed: 1.4             # honestly, this speed is in vector, so you can think in it like m/s or something
