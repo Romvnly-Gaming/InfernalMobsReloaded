@@ -173,7 +173,7 @@ poisonous:
   chance-on-damage-done: 0.8         # in percentage, the chance that the infernal mob with poisonous ability will have to poison the attacked entity
   chance-on-damage-taken: 0.2        # in percentage, the chance that the entity that hit the infernal mob with poisonous ability will be poisoned (valid only for melee damage)
   duration: 8.0-12.0                 # in seconds, the duration of the poison
-  potency: 6                         # what potency of poison should the entity be affected, valid values: 1-31, by my tests around 7 to 8 is where the poison is stronger, because after 8 there's a grace period in which the player cannot take damage
+  potency: 6-12                         # what potency of poison should the entity be affected, valid values: 1-31, by my tests around 7 to 8 is where the poison is stronger, because after 8 there's a grace period in which the player cannot take damage
   potion-emit-particles: true        # if entities affected by poisonous should emit poison effect particles
   potion-is-ambient: false           # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
 
