@@ -431,11 +431,21 @@ charm-effects:
     particle-mode: SELF_ONCE
     required-items:
       - winged_boots
-  halo:
+  halo_1:
     override-charm-slots:
       - 39
     effect: RESISTANCE
     potency: 2
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - halo
+  halo_2:
+    override-charm-slots:
+      - 39
+    effect: GLOWING
+    potency: 1
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
