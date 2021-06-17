@@ -104,7 +104,32 @@ hellbringer:
   ability-amount: 3-5
   health-multiplier: 5.0-8.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: []                      # don't drop anything                # will have 75% chance of dropping a 'demon_blade'
-
+duke:
+  display-name: "&4**Fuke Dishron*&r"
+  boss-bar-text: "&4**Fuke Dishron**&r"
+  mob-spawner-name: "Mob Spawner (&4**Fuke Dishron**)"
+  boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "PROGRESS"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "PLAY_BOSS_MUSIC"
+  type: "ELDER_GUARDIAN"
+  spawn-chance: 0.1
+  mob-spawn-drop-chance: 0.001
+  blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
+    - "INVISIBLE"
+    - "THIEF"
+  forced-abilities: 
+     - "LIFESTEAL"
+     - "POISONOUS"
+     - "CONFUSION"
+  ability-amount: 3-5
+  health-multiplier: 7.0-8.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  loot-table: 
+     - "guardian_tooth:0.05"
+     - "trident_of_poseidon:0.1"
+     - "shell_of_7_seas:0.25"
+     - "poisoned_blade:0.25"
+     - "mermen_helm:0.35"
 porky:
   display-name: "&a**Porky**&r"
   boss-bar-text: "&a**Porky**&r"
