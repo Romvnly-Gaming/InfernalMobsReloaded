@@ -901,7 +901,6 @@ halo:
     - "&8Torn from a fallen angel"
     - "&8By Archangel Michel himself"
   enchants:
-    - protection:7-10
     - unbreaking:7-10
     - mending:1
 cat_spirit_helm:
