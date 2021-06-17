@@ -434,8 +434,8 @@ charm-effects:
   halo:
     override-charm-slots:
       - 39
-    effect: GLOWING
-    potency: 1
+    effect: RESISTANCE
+    potency: 2
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
