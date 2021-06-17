@@ -104,10 +104,10 @@ hellbringer:
   ability-amount: 3-5
   health-multiplier: 5.0-8.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: []                      # don't drop anything                # will have 75% chance of dropping a 'demon_blade'
-duke:
+fuke_dishron:
   display-name: "&4**Fuke Dishron*&r"
   boss-bar-text: "&4**Fuke Dishron**&r"
-  mob-spawner-name: "Mob Spawner (&4**Fuke Dishron**)"
+  mob-spawner-name: "Mob Spawner (&4**Fuke Dishron**&r)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "PROGRESS"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
