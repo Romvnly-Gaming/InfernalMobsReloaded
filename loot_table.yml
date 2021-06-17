@@ -404,6 +404,7 @@ demon_sword:
   enchants:
     - sharpness:10
     - fire_aspect:3
+    - mending:1
 disposable_quick_shovel:
   name: "&6Disposable Quick SHOVEL"
   material: GOLDEN_SHOVEL
