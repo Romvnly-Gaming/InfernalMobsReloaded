@@ -205,23 +205,23 @@ thorny_pants:
     - "fire_protection:4:0.5"
     - "thorns:8"
     - "unbreaking:3"
-roms_chestplate:
-  name: "&5Rom's Chestplate"
+pros_chestplate:
+  name: "&5Pro's Chestplate"
   material: "NETHERITE_CHESTPLATE"
   amount: 1
   lore:
-    - "&4100% Rom's Chestplate"
+    - "&cProGamer101's PLAT!"
   enchants:
-    - "protection:20"
-    - "unbreaking:5"
-    - "mending:1"
-    - "thorns:3"
-not_roms_chestplate:
-  name: "&5Rom's True Chestplate"
+    - "protection:7-12:0.5"
+    - "unbreaking:3-5:0.5"
+    - "mending:1-2:0.5"
+    - "thorns:2-3:0.5"
+not_pros_chestplate:
+  name: "&5Pro's True Chestplate"
   material: "NETHERITE_CHESTPLATE"
   amount: 1
   lore:
-    - "&4100% Rom's Chestplate"
+    - "**&4PRO MINECRAFT GAYMER'S PLAT!**"
   enchants:
     - "protection:4"
     - "unbreaking:3"

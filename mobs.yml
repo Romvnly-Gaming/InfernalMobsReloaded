@@ -91,7 +91,7 @@ hellbringer:
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "PLAY_BOSS_MUSIC"
   type: "ENDERMAN"
-  spawn-chance: 0.05
+  spawn-chance: 0.025
   mob-spawn-drop-chance: 0.001
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
@@ -113,7 +113,7 @@ porky:
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "PLAY_BOSS_MUSIC"
   type: "PIGLIN"
-  spawn-chance: 0.05
+  spawn-chance: 0.025
   mob-spawn-drop-chance: 0.001
   forced-abilities: 
      - "CALL_THE_GANG"
@@ -134,7 +134,7 @@ witherheart:
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "PLAY_BOSS_MUSIC"
   type: "WITHER_SKELETON"
-  spawn-chance: 0.05
+  spawn-chance: 0.025
   follow-range-multiplier: 10.0       # will have 10 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   mob-spawn-drop-chance: 0.005
   forced-abilities: 
@@ -156,7 +156,7 @@ blackbeard:
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "PLAY_BOSS_MUSIC"
   type: "PILLAGER"
-  spawn-chance: 0.05
+  spawn-chance: 0.025
   follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   mob-spawn-drop-chance: 0.005
   forced-abilities: 
@@ -289,7 +289,7 @@ haunter:
      - "MORPH"
   type: "GHAST"
   # felt like giving it a higher spawn rate for new players <3
-  spawn-chance: 0.05
+  spawn-chance: 0.025
   follow-range-multiplier: 5.0       # will have 5 times the normal range of a Monster (makes it follow & shoot the player even at longer distances)
   mob-spawn-drop-chance: 0.005
   ability-amount: 4-5
@@ -313,9 +313,7 @@ infi:
      - "CALL_THE_GANG"
   type: "PHANTOM"
   # felt like giving it a higher spawn rate for new players <3
-  spawn-chance: 0.05
   follow-range-multiplier: 5.0       # will have 5 times the normal range of a Monster (makes it follow & shoot the player even at longer distances)
-  mob-spawn-drop-chance: 0.005
   ability-amount: 5-7
   damage-multiplier: 1.5-3.5
   health-multiplier: 3.0-7.0       # will have between 20 times the normal health amount of a Zombie
@@ -334,7 +332,7 @@ vessel:
      - "CALL_THE_GANG"
   type: "SHULKER"
   # felt like giving it a higher spawn rate for new players <3
-  spawn-chance: 0.05
+  spawn-chance: 0.025
   follow-range-multiplier: 5.0       # will have 5 times the normal range of a Monster (makes it follow & shoot the player even at longer distances)
   mob-spawn-drop-chance: 0.005
   ability-amount: 5-7
