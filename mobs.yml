@@ -93,7 +93,7 @@ baba_yaga:
     - "CREATE_WORLD_FOG"
   type: "WITCH"
   spawn-chance: 0.05
-  mob-spawn-drop-chance: 0.005
+  mob-spawn-drop-chance: 0
   forced-abilities: 
      - "BERSERK"
      - "SPEEDY"
