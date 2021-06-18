@@ -249,6 +249,22 @@ charm-effects:
     particle-mode: SELF_ONCE
     required-items:
       - poisoned_blade
+  sword_of_rage_1:
+    effect: STRENGTH
+    potency: 10-15
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - sword_of_rage   
+  sword_of_rage_2:
+    effect: ABSORPTION
+    potency: 4-5
+    delay: 20.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - sword_of_rage   
   vampire_stake:
     effect: HEAL
     potency: 1
