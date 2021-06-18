@@ -738,7 +738,8 @@ sword_of_rage: # too op to be netherite
   material: GOLDEN_SWORD
   amount: 1
   lore:
-    - "&cThat's a nice life you have there mate! Would be a shame if somethin happened to it."
+    - "&cThat's a nice life you have there mate!"
+    - "&4Would be a shame if somethin happened to it."
   enchants:
     - sharpness:15
     - mending:1:0.50
