@@ -103,6 +103,7 @@ baba_yaga:
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
     - "THIEF"
+    - "GHOST"
   ability-amount: 7-8
   health-multiplier: 5.0-9.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
