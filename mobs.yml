@@ -82,27 +82,6 @@ hausemaster:
   health-multiplier: 10.0-13.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
   - "angel_soul:0.05" # 5 percent chance
-# Thanks https://www.fantasynamegenerators.com/minecraft-wither-skeleton-names.php for the name!
-# Endgame Infernal
-disintegrater:
-  display-name: "&0Disintegrater&r"
-  mob-spawner-name: "Mob Spawner (<#828282>Annoying <#bfbfbf>**Skeleton**)"
-  type: "WITHER"
-  forced-abilities:                  # you can force a type of mob to always have some abilities, if you want (copy the ability names from either `abilities.yml` or `config.yml`); if you don't want to force any ability, you may safely omit this field
-    - "CALL_THE_GANG"
-    - "MULTI_GHASTLY"
-    - "LIFESTEAL"
-    - "WITHERING"
-  follow-range-multiplier: 30.0       # will have 30 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
-  attack-knockback-modifier: -2.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
-  damage-multiplier: 1.5         # will inflict between 1.4 and 1.6 times the damage of a normal Skeleton (this multiplier also includes almost all abilities)
-  spawn-chance: 0.1
-  mob-spawn-drop-chance: 0.001
-  ability-amount: 3-5
-  health-multiplier: 2.0-3.0         # will have between 3 and 5 times the normal health amount of a Skeleton
-  loot-table: 
-    - wither_charm:0.15
-    - totem_of_death:0.30
 baba_yaga:
   display-name: "&c**Baba Yaga**&m"
   boss-bar-text: "&4**Baba Yaga**&m"
@@ -125,7 +104,6 @@ baba_yaga:
   ability-amount: 4-6
   health-multiplier: 5.0-9.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
-  - "wither_charm:0.5" # 50 percent chance
   - "cloak_charm:0.15"
   - "aqua_charm:0.15"
   - "bunny_charm:0.1"
@@ -217,7 +195,11 @@ witherheart:
      - "NECROMANCER"
   ability-amount: 3-7
   health-multiplier: 5.0-10.0         # will have between 3 and 5 times the normal health amount of a Zombie
-  loot-table: []         
+  loot-table: 
+    - wither_charm:0.15
+    - totem_of_death:0.30
+    - not_pros_chestplate:0.10
+    - nether_sword:0.50
   
 #Thanks https://www.imagineforest.com/blog/pirate-name-generator/ for the name!
 # This guy is a menace bro might as well be a pillager
