@@ -741,7 +741,7 @@ sword_of_rage:
     - "&cThat's a nice life you have there mate!"
     - "&4Would be a shame if somethin happened to it."
   enchants:
-    - sharpness:15
+    - sharpness:20
     - mending:1:0.75
     - fire_aspect:3:0.50
     - knockback:4:0.50
