@@ -101,9 +101,10 @@ baba_yaga:
      - "MULTI_GHASTLY"
      - "TELEPORT"
      - "TOSSER"
+     - "CALL_THE_GANG"
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
-  ability-amount: 6-8
+  ability-amount: 7-8
   health-multiplier: 5.0-9.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
   - "cloak_charm:0.15"
