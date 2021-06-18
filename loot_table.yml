@@ -746,7 +746,6 @@ sword_of_rage: # too op to be netherite
     - fire_aspect:3:0.50
     - knockback:4:0.50
     - looting:1-3:0.50
-    - unbreaking:5:0.50
 bunny_charm:
   name: "&7Bunny Charm"
   material: RABBIT_FOOT
