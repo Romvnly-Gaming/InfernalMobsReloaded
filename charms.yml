@@ -260,6 +260,7 @@ charm-effects:
     effect: ABSORPTION
     potency: 4-5
     delay: 20.0
+    duration: 8.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
     main-hand: "sword_of_rage"
