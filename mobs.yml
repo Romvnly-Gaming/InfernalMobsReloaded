@@ -135,7 +135,9 @@ hellbringer:
      - "THORNMAIL"
   ability-amount: 3-5
   health-multiplier: 5.0-8.0         # will have between 3 and 5 times the normal health amount of a Zombie
-  loot-table: []                      # don't drop anything                # will have 75% chance of dropping a 'demon_blade'
+  loot-table: 
+     - "fire_crystal:0.15"
+     - "totem_of_death:0.05"
 fuke_dishron:
   display-name: "&4**Fuke Dishron*&r"
   boss-bar-text: "&4**Fuke Dishron**&r"
@@ -199,10 +201,10 @@ witherheart:
   ability-amount: 3-7
   health-multiplier: 5.0-10.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: 
-    - wither_charm:0.15
-    - totem_of_death:0.30
-    - not_pros_chestplate:0.10
-    - nether_sword:0.50
+    - "wither_charm:0.15"
+    - 'totem_of_death:0.30"
+    - "not_pros_chestplate:0.10"
+    - "nether_sword:0.50"
   
 #Thanks https://www.imagineforest.com/blog/pirate-name-generator/ for the name!
 # This guy is a menace bro might as well be a pillager
@@ -244,7 +246,8 @@ wuharis:
      - "LIFESTEAL"
   ability-amount: 3-5
   health-multiplier: 5.0-10.0         # will have between 3 and 5 times the normal health amount of a Zombie
-  loot-table: []     
+  loot-table: 
+     - "totem_of_life:0.1"   
 #Thanks https://www.imagineforest.com/blog/pirate-name-generator/ for the name!
 # Endgame menace ngl
 bella:
@@ -372,7 +375,8 @@ infi:
   ability-amount: 5-7
   damage-multiplier: 1.5-3.5
   health-multiplier: 3.0-7.0       # will have between 20 times the normal health amount of a Zombie
-  loot-table: []    
+  loot-table: 
+     - "beetle_wings:0.01" 
 #Thanks https://www.fantasynamegenerators.com/minecraft-phantom-names.php for the name!
 # Vessel medium level, ngl. 
 vessel:
@@ -384,7 +388,7 @@ vessel:
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "CREATE_WORLD_FOG"
   forced-abilities: 
-     - "CALL_THE_GANG"
+    - "CALL_THE_GANG"
   type: "SHULKER"
   # felt like giving it a higher spawn rate for new players <3
   spawn-chance: 0.09
@@ -392,7 +396,8 @@ vessel:
   ability-amount: 5-7
   damage-multiplier: 1.5-3.5
   health-multiplier: 3.0-7.0       # will have between 20 times the normal health amount of a Zombie
-  loot-table: []   
+  loot-table:
+    - "cloak_charm:0.15"
 infernal_creeper:
   display-name: "<#828282>Infernal <#38d411>**Creeper**&r"
   boss-bar-text: "<#828282>Infernal <#38d411>**Creeper**&r"
@@ -410,8 +415,8 @@ infernal_creeper:
   follow-range-multiplier: 5.0       # will have 5 times the normal range of a monster (makes it follow & shoot the player even at longer distances)
   ability-amount: 3-6                # will have between 3 and 6 abilities
   health-multiplier: 2.0             # will have 2 times the normal health amount of a Creeper
-  loot-table: []
-
+  loot-table: 
+    - "creeper_gear:0.2"
 scary_silverfish:
   display-name: "<#828282>Scary <#f5f5f5>**Fishy**&r"
   boss-bar-text: "<#828282>Scary <#f5f5f5>**Fishy**&r"
@@ -449,7 +454,8 @@ ghost:
   health-multiplier: 2.5
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
-  loot-table: []
+  loot-table:
+    - "archers_pants:0.15"  
 
 # The mob spawned when an entity with Ghost ability dies (haunted version)
 haunted_ghost:
@@ -465,4 +471,5 @@ haunted_ghost:
   health-multiplier: 3.5
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
-  loot-table: []
+  loot-table: 
+    - "nether_sword:0.12"
