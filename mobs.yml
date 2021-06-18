@@ -61,6 +61,32 @@ my_annoying_skeleton:
   ability-amount: 3-5
   health-multiplier: 5.0-8.0         # will have between 3 and 5 times the normal health amount of a Skeleton
   loot-table: []                     # don't drop anything
+# Thanks https://www.fantasynamegenerators.com/minecraft-wither-skeleton-names.php for the name!
+# Endgame Infernal
+disintegrater:
+  display-name: "&0Disintegrater&r"
+  boss-bar-text: "&8Disintegrater&r"
+  mob-spawner-name: "Mob Spawner (<#828282>Annoying <#bfbfbf>**Skeleton**)"
+  boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_20"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "DARKEN_SCREEN"
+    - "PLAY_BOSS_MUSIC"
+  type: "SKELETON"
+  forced-abilities:                  # you can force a type of mob to always have some abilities, if you want (copy the ability names from either `abilities.yml` or `config.yml`); if you don't want to force any ability, you may safely omit this field
+    - "CALL_THE_GANG"
+    - "MULTI_GHASTLY"
+    - "LIFESTEAL"
+    - "WITHER"
+  follow-range-multiplier: 30.0       # will have 30 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
+  attack-knockback-modifier: -2.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
+  damage-multiplier: 1.5         # will inflict between 1.4 and 1.6 times the damage of a normal Skeleton (this multiplier also includes almost all abilities)
+
+  spawn-chance: 0.1
+  mob-spawn-drop-chance: 0.001
+  ability-amount: 3-5
+  health-multiplier: 2.0-3.0         # will have between 3 and 5 times the normal health amount of a Skeleton
+  loot-table: []                     # don't drop anything
 # totally not housemaster but with a for copyright reasons
 hausemaster:
   display-name: "&c**Hausemaster**&r"
