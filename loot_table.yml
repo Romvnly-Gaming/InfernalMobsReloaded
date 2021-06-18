@@ -203,7 +203,7 @@ thorny_pants:
     - "<#f57542>Very Sharp..."
   enchants:
     - "fire_protection:4:0.5"
-    - "thorns:8"
+    - "thorns:10"
     - "unbreaking:3"
 pros_chestplate:
   name: "&5Pro's Chestplate"
