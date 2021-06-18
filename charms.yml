@@ -374,7 +374,7 @@ charm-effects:
     particle-mode: SELF_ONCE
     required-items:
       - angel_feather
-  totem_of_life:
+  totem_of_life_1:
     effect: FAST_DIGGING
     potency: 3
     delay: 1.0
@@ -382,6 +382,14 @@ charm-effects:
     particle-mode: SELF_ONCE
     required-items:
       - totem_of_life
+  totem_of_life_2:
+    effect: SPEED
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - totem_of_life      
   fire_crystal:
     effect: FIRE_RESISTANCE
     potency: 1
