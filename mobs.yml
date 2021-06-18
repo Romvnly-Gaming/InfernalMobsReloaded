@@ -35,7 +35,7 @@ infernal_mob:
     - "DARKEN_SCREEN"
   type: "SKELETON"
   follow-range-multiplier: 2.0       # will have 1.4 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
-  spawn-chance: 0.15
+  spawn-chance: 0.08
   mob-spawn-drop-chance: 0.0005
   ability-amount: 2-5
   health-multiplier: 5.0-8.5         # will have between 3 and 5 times the normal health amount of a Skeleton
@@ -56,7 +56,7 @@ my_annoying_skeleton:
     - "LIFESTEAL"
     - "SPEEDY"
   follow-range-multiplier: 30.0       # will have 30 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
-  spawn-chance: 0.1
+  spawn-chance: 0.5
   mob-spawn-drop-chance: 0.0005
   ability-amount: 3-5
   health-multiplier: 5.0-8.0         # will have between 3 and 5 times the normal health amount of a Skeleton
@@ -91,7 +91,7 @@ baba_yaga:
     - "PLAY_BOSS_MUSIC"
     - "CREATE_WORLD_FOG"
   type: "WITCH"
-  spawn-chance: 0.05
+  spawn-chance: 0.02
   forced-abilities: 
      - "BERSERK"
      - "SPEEDY"
@@ -105,6 +105,7 @@ baba_yaga:
     - "THIEF"
     - "GHOST"
   ability-amount: 7-8
+  damage-multiplier: 1.5
   health-multiplier: 5.0-9.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
   - "cloak_charm:0.15"
@@ -122,7 +123,7 @@ hellbringer:
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "PLAY_BOSS_MUSIC"
   type: "ENDERMAN"
-  spawn-chance: 0.1
+  spawn-chance: 0.4
   mob-spawn-drop-chance: 0.0005
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
@@ -168,7 +169,7 @@ porky:
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "PLAY_BOSS_MUSIC"
   type: "PIGLIN"
-  spawn-chance: 0.10
+  spawn-chance: 0.1
   forced-abilities: 
      - "CALL_THE_GANG"
      - "TOSSER"
@@ -188,7 +189,7 @@ witherheart:
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "PLAY_BOSS_MUSIC"
   type: "WITHER_SKELETON"
-  spawn-chance: 0.10
+  spawn-chance: 0.5
   follow-range-multiplier: 10.0       # will have 10 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   forced-abilities: 
      - "CALL_THE_GANG"
@@ -302,7 +303,7 @@ jinx:
      - "POTIONS"
   type: "SPIDER"
   # felt like giving it a higher spawn rate for new players <3
-  spawn-chance: 0.1
+  spawn-chance: 0.9
   follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   ability-amount: 3
   health-multiplier: 3.0       # will have between 3 and 5 times the normal health amount of a Zombie
