@@ -738,10 +738,9 @@ sword_of_rage: # too op to be netherite
   material: GOLDEN_SWORD
   amount: 1
   lore:
-    - "&5Forged from the rage of a father when he lost everything."
     - "&cThat's a nice life you have there mate! Would be a shame if somethin happened to it."
   enchants:
-    - sharpness:8-15
+    - sharpness:15
     - mending:1:0.50
     - fire_aspect:3:0.50
     - knockback:4:0.50
