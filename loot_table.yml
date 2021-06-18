@@ -733,12 +733,12 @@ vampire_stake:
     - "&cHeals you when used"
   enchants:
     - sharpness:5
-sword_of_rage:
+sword_of_rage: # too op to be netherite
   name: "&4Sword of Rage"
-  material: NETHERITE_SWORD
+  material: GOLDEN_SWORD
   amount: 1
   lore:
-    - "&5Forged from the rage of Mmadrid509 when he lost everything."
+    - "&5Forged from the rage of a father when he lost everything."
     - "&cThat's a nice life you have there mate! Would be a shame if somethin happened to it."
   enchants:
     - sharpness:8-15
