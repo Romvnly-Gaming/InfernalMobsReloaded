@@ -733,7 +733,7 @@ vampire_stake:
     - "&cHeals you when used"
   enchants:
     - sharpness:5
-sword_of_rage: 
+axe_of_rage: 
   name: "&5Axe of Rage"
   material: STONE_AXE
   amount: 1
