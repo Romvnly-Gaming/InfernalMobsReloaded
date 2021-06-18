@@ -88,11 +88,6 @@ disintegrater:
   display-name: "&0Disintegrater&r"
   boss-bar-text: "&8Disintegrater&r"
   mob-spawner-name: "Mob Spawner (<#828282>Annoying <#bfbfbf>**Skeleton**)"
-  boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
-  boss-bar-overlay: "NOTCHED_20"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
-  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
-    - "DARKEN_SCREEN"
-    - "PLAY_BOSS_MUSIC"
   type: "WITHER"
   forced-abilities:                  # you can force a type of mob to always have some abilities, if you want (copy the ability names from either `abilities.yml` or `config.yml`); if you don't want to force any ability, you may safely omit this field
     - "CALL_THE_GANG"
