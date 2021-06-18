@@ -72,7 +72,7 @@ disintegrater:
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "DARKEN_SCREEN"
     - "PLAY_BOSS_MUSIC"
-  type: "SKELETON"
+  type: "WITHER"
   forced-abilities:                  # you can force a type of mob to always have some abilities, if you want (copy the ability names from either `abilities.yml` or `config.yml`); if you don't want to force any ability, you may safely omit this field
     - "CALL_THE_GANG"
     - "MULTI_GHASTLY"
