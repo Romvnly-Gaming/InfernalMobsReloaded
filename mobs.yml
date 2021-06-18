@@ -120,9 +120,10 @@ baba_yaga:
      - "BERSERK"
      - "SPEEDY"
      - "WEAKNESS"
+     - "MULTI_GHASTLY"
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
-  ability-amount: 3-5
+  ability-amount: 4-6
   health-multiplier: 5.0-9.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
   - "wither_charm:0.5" # 50 percent chance
