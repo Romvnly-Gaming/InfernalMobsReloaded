@@ -350,9 +350,17 @@ charm-effects:
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
     main-hand: "demon_blade"
-  totem_of_death:
+  totem_of_death_1:
     effect: SLOW_DIGGING
     potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - totem_of_death
+  totem_of_death_2:
+    effect: STRENGTH
+    potency: 10
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
