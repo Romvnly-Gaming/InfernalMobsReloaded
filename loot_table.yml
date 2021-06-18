@@ -741,6 +741,7 @@ axe_of_rage:
     - "&cThat's a nice life you have there mate!"
     - "&4Would be a shame if somethin happened to it."
   enchants:
+    - smite:5-12  
     - sharpness:20
     - mending:1:0.75
     - fire_aspect:3:0.50
