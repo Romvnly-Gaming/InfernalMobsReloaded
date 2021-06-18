@@ -99,17 +99,19 @@ baba_yaga:
      - "SPEEDY"
      - "WEAKNESS"
      - "MULTI_GHASTLY"
+     - "TELEPORT"
+     - "TOSSER"
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
-  ability-amount: 4-6
+  ability-amount: 6-8
   health-multiplier: 5.0-9.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
   - "cloak_charm:0.15"
   - "aqua_charm:0.15"
   - "bunny_charm:0.1"
   - "shield_of_power:0.1"
-  - "vampire_stake:0.499"
-  - "sword_of_rage:0.001"
+  - "vampire_stake:0.49"
+  - "sword_of_rage:0.01"
 hellbringer:
   display-name: "&4**Hellbringer*&r"
   boss-bar-text: "&4**Hellbringer**&r"
