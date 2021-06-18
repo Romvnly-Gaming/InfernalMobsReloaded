@@ -402,7 +402,7 @@ demon_sword:
   lore:
     - "&cFiery hot!"
   enchants:
-    - sharpness:10
+    - sharpness:7-10
     - fire_aspect:3
     - mending:1
 disposable_quick_shovel:
@@ -741,16 +741,12 @@ sword_of_rage:
     - "&5Forged from the rage of Mmadrid509 when he lost everything."
     - "&cThat's a nice life you have there mate! Would be a shame if somethin happened to it."
   enchants:
-    - sharpness:15-20
-    - mending:1
-    - fire_aspect:3
-    - knockback:4
-    - looting:1-3
-    - unbreaking:5
-  item-flags:
-    - "HIDE_ATTRIBUTES"
-    - "HIDE_ENCHANTS"
-    - "HIDE_UNBREAKABLE"
+    - sharpness:8-15
+    - mending:1:0.50
+    - fire_aspect:3:0.50
+    - knockback:4:0.50
+    - looting:1-3:0.50
+    - unbreaking:5:0.50
 bunny_charm:
   name: "&7Bunny Charm"
   material: RABBIT_FOOT
