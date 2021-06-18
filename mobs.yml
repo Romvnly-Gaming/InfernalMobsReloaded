@@ -10,7 +10,7 @@ my_custom_skeleton:
     - "CREATE_WORLD_FOG"
   type: "SKELETON"                   # list with all entity types can be seen here https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html , Ctrl + F
   spawn-chance: 0.01                 # has 15% change of being a infernal mob; accepts any value between 0 and 1; 0 means no mob of that type will become infernal, 0.5 means 50% of all mobs of that type will be of that type, and 1 means 100% ALL mobs of that type will become infernal
-  mob-spawn-drop-chance: 0.001     # has 0.035% chance of this infernal mob type drop its spawner
+  mob-spawn-drop-chance: 0.0005     # has 0.035% chance of this infernal mob type drop its spawner
   ability-amount: 2-5                # will have between 2 and 4 abilities
   follow-range-multiplier: 1.4       # will have 1.4 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   damage-multiplier: 1.4-1.6         # will inflict between 1.4 and 1.6 times the damage of a normal Skeleton (this multiplier also includes almost all abilities)
@@ -36,7 +36,7 @@ infernal_mob:
   type: "SKELETON"
   follow-range-multiplier: 2.0       # will have 1.4 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   spawn-chance: 0.15
-  mob-spawn-drop-chance: 0.001
+  mob-spawn-drop-chance: 0.0005
   ability-amount: 2-5
   health-multiplier: 5.0-8.5         # will have between 3 and 5 times the normal health amount of a Skeleton
   loot-table:  []
@@ -57,7 +57,7 @@ my_annoying_skeleton:
     - "SPEEDY"
   follow-range-multiplier: 30.0       # will have 30 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   spawn-chance: 0.1
-  mob-spawn-drop-chance: 0.001
+  mob-spawn-drop-chance: 0.0005
   ability-amount: 3-5
   health-multiplier: 5.0-8.0         # will have between 3 and 5 times the normal health amount of a Skeleton
   loot-table: []                     # don't drop anything
@@ -73,7 +73,6 @@ hausemaster:
     - "CREATE_WORLD_FOG"
   type: "ZOMBIE"
   spawn-chance: 0.04
-  mob-spawn-drop-chance: 0.005
   forced-abilities: 
      - "ARMOURED"
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
@@ -93,7 +92,6 @@ baba_yaga:
     - "CREATE_WORLD_FOG"
   type: "WITCH"
   spawn-chance: 0.05
-  mob-spawn-drop-chance: 0
   forced-abilities: 
      - "BERSERK"
      - "SPEEDY"
@@ -124,7 +122,7 @@ hellbringer:
     - "PLAY_BOSS_MUSIC"
   type: "ENDERMAN"
   spawn-chance: 0.1
-  mob-spawn-drop-chance: 0.001
+  mob-spawn-drop-chance: 0.0005
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
     - "THIEF"
@@ -145,7 +143,6 @@ fuke_dishron:
     - "PLAY_BOSS_MUSIC"
   type: "ELDER_GUARDIAN"
   spawn-chance: 0.1
-  mob-spawn-drop-chance: 0.001
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
     - "THIEF"
@@ -171,7 +168,6 @@ porky:
     - "PLAY_BOSS_MUSIC"
   type: "PIGLIN"
   spawn-chance: 0.10
-  mob-spawn-drop-chance: 0.001
   forced-abilities: 
      - "CALL_THE_GANG"
      - "TOSSER"
@@ -193,7 +189,6 @@ witherheart:
   type: "WITHER_SKELETON"
   spawn-chance: 0.10
   follow-range-multiplier: 10.0       # will have 10 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
-  mob-spawn-drop-chance: 0.005
   forced-abilities: 
      - "CALL_THE_GANG"
      - "LIFESTEAL"
@@ -219,7 +214,6 @@ blackbeard:
   type: "PILLAGER"
   spawn-chance: 0.025
   follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
-  mob-spawn-drop-chance: 0.005
   forced-abilities: 
      - "ARCHER"
      - "CALL_THE_GANG"
@@ -242,7 +236,6 @@ wuharis:
   # felt like giving it a higher spawn rate
   spawn-chance: 0.11
   follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
-  mob-spawn-drop-chance: 0.005
   forced-abilities: 
      - "POTIONS"
      - "LIFESTEAL"
@@ -263,7 +256,6 @@ bella:
   # felt like giving it a higher spawn rate
   spawn-chance: 0.1
   follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
-  mob-spawn-drop-chance: 0.005
   forced-abilities: 
      - "TELEPORT"
      - "SECOND_WIND"
@@ -291,7 +283,6 @@ famish:
   # felt like giving it a higher spawn rate for new players <3
   spawn-chance: 0.13
   follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
-  mob-spawn-drop-chance: 0.005
   ability-amount: 2-5
   damage-multiplier: 1.5         # will inflict between 1.4 and 1.6 times the damage of a normal Skeleton (this multiplier also includes almost all abilities)
   health-multiplier: 3.0       # will have between 3 and 5 times the normal health amount of a Zombie
@@ -312,7 +303,6 @@ jinx:
   # felt like giving it a higher spawn rate for new players <3
   spawn-chance: 0.1
   follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
-  mob-spawn-drop-chance: 0.005
   ability-amount: 3
   health-multiplier: 3.0       # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: []  
@@ -333,7 +323,6 @@ pyro:
   # felt like giving it a higher spawn rate for new players <3
   spawn-chance: 0.1
   follow-range-multiplier: 5.0       # will have 5 times the normal range of a Monster (makes it follow & shoot the player even at longer distances)
-  mob-spawn-drop-chance: 0.005
   ability-amount: 4-6
   health-multiplier: 4.0-6.0       # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: []  
@@ -354,7 +343,6 @@ haunter:
   # felt like giving it a higher spawn rate for new players <3
   spawn-chance: 0.09
   follow-range-multiplier: 5.0       # will have 5 times the normal range of a Monster (makes it follow & shoot the player even at longer distances)
-  mob-spawn-drop-chance: 0.005
   ability-amount: 4-5
   health-multiplier: 20.0       # will have between 20 times the normal health amount of a Zombie
   loot-table: [] 
@@ -398,7 +386,6 @@ vessel:
   # felt like giving it a higher spawn rate for new players <3
   spawn-chance: 0.09
   follow-range-multiplier: 5.0       # will have 5 times the normal range of a Monster (makes it follow & shoot the player even at longer distances)
-  mob-spawn-drop-chance: 0.005
   ability-amount: 5-7
   damage-multiplier: 1.5-3.5
   health-multiplier: 3.0-7.0       # will have between 20 times the normal health amount of a Zombie
@@ -415,12 +402,13 @@ infernal_creeper:
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "THIEF"
   type: "CREEPER"
-  spawn-chance: 0.05               # has 25% change of being a infernal mob
-  mob-spawn-drop-chance: 0.001
+  spawn-chance: 0.06               # has 25% change of being a infernal mob
+  mob-spawn-drop-chance: 0.00050
   follow-range-multiplier: 5.0       # will have 5 times the normal range of a monster (makes it follow & shoot the player even at longer distances)
   ability-amount: 3-6                # will have between 3 and 6 abilities
   health-multiplier: 2.0             # will have 2 times the normal health amount of a Creeper
   loot-table: []
+
 scary_silverfish:
   display-name: "<#828282>Scary <#f5f5f5>**Fishy**&r"
   boss-bar-text: "<#828282>Scary <#f5f5f5>**Fishy**&r"
@@ -429,7 +417,7 @@ scary_silverfish:
   boss-bar-overlay: "PROGRESS"       # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   type: "SILVERFISH"
   spawn-chance: 0.40                 # has 20% change of being a infernal mob
-  mob-spawn-drop-chance: 0.001
+  mob-spawn-drop-chance: 0.0005
   ability-amount: 2                  # will have 2 abilities
   attack-knockback-modifier: 0.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
   health-multiplier: 2.0             # will have 2 times the normal health amount of a Creeper
