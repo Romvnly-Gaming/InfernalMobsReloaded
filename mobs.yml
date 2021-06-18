@@ -10,7 +10,7 @@ my_custom_skeleton:
     - "CREATE_WORLD_FOG"
   type: "SKELETON"                   # list with all entity types can be seen here https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html , Ctrl + F
   spawn-chance: 0.01                 # has 15% change of being a infernal mob; accepts any value between 0 and 1; 0 means no mob of that type will become infernal, 0.5 means 50% of all mobs of that type will be of that type, and 1 means 100% ALL mobs of that type will become infernal
-  mob-spawn-drop-chance: 0.0005     # has 0.035% chance of this infernal mob type drop its spawner
+  mob-spawn-drop-chance: 0.00049     # has 0.035% chance of this infernal mob type drop its spawner
   ability-amount: 2-5                # will have between 2 and 4 abilities
   follow-range-multiplier: 1.4       # will have 1.4 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   damage-multiplier: 1.4-1.6         # will inflict between 1.4 and 1.6 times the damage of a normal Skeleton (this multiplier also includes almost all abilities)
