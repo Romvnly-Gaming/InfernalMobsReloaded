@@ -733,9 +733,9 @@ vampire_stake:
     - "&cHeals you when used"
   enchants:
     - sharpness:5
-sword_of_rage: # too op to be netherite
+sword_of_rage: # fine but leave it as diamond, have you've seen the chances?
   name: "&4Sword of Rage"
-  material: GOLDEN_SWORD
+  material: DIAMOND_SWORD
   amount: 1
   lore:
     - "&cThat's a nice life you have there mate!"
