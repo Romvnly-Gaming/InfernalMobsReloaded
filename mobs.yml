@@ -108,7 +108,8 @@ baba_yaga:
   - "aqua_charm:0.15"
   - "bunny_charm:0.1"
   - "shield_of_power:0.1"
-
+  - "vampire_stake:0.499"
+  - "sword_of_rage:0.001"
 hellbringer:
   display-name: "&4**Hellbringer*&r"
   boss-bar-text: "&4**Hellbringer**&r"
