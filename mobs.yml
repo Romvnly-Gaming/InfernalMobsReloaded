@@ -432,7 +432,7 @@ scary_silverfish:
   loot-table: []
 magma_boss:
   display-name: "<#828282>**Boss** <#bfbfbf>**Magma Cream**&m"
-  boss-bar-text: "<#828282>***Boss*** <#bfbfbf>**Magma Cream**&m"
+  boss-bar-text: "<#828282>**Boss** <#bfbfbf>**Magma Cream**&m"
   mob-spawner-name: "Mob Spawner (magma)"
   boss-bar-color: "BLUE"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
