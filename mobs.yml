@@ -202,7 +202,7 @@ porky:
   health-multiplier: 5.0-10.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: 
     - "wither_charm:0.15"
-    - 'totem_of_death:0.30"
+    - "totem_of_death:0.30"
     - "not_pros_chestplate:0.10"
     - "nether_sword:0.50"
   
