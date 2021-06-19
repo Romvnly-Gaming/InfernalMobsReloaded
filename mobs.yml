@@ -454,7 +454,7 @@ magma_boss:
     - "FLYING"
   follow-range-multiplier: 2.0       # will have 1.4 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   spawn-chance: 0.01
-  ability-amount: 8
+  ability-amount: 7-8
   health-multiplier: 8.0-10.5         # will have between 3 and 5 times the normal health amount of a Skeleton
   loot-table:  []
   
