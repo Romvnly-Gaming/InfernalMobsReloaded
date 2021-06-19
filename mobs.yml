@@ -18,7 +18,7 @@ my_custom_skeleton:
   health-multiplier: 2.5-4.0         # will have between 2.5 and 4 times the normal health amount of a Skeleton
   speed-multiplier: 1.39              # will have 1.4 times the normal speed of a Skeleton
   run-command:                       # will run the command as the server when a infernal of this type dies, replacing <player> with the name of the player who killed the entity
-  - ""
+     - ""
   forced-abilities:                  # you can force a type of mob to always have some abilities, if you want (copy the ability names from either `abilities.yml` or `config.yml`); if you don't want to force any ability, you may safely omit this field
     - "ARCHER"
   loot-table:                        # what items the mob will have a chance of dropping; if you don't want the mob to drop anything extra, just omit this field
@@ -109,12 +109,12 @@ baba_yaga:
   damage-multiplier: 1.5
   health-multiplier: 5.0-9.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
-  - "cloak_charm:0.15"
-  - "aqua_charm:0.15"
-  - "bunny_charm:0.1"
-  - "shield_of_power:0.1"
-  - "vampire_stake:0.49"
-  - "axe_of_rage:0.01"
+    - "cloak_charm:0.15"
+    - "aqua_charm:0.15"
+    - "bunny_charm:0.1"
+    - "shield_of_power:0.1"
+    - "vampire_stake:0.49"
+    - "axe_of_rage:0.01"
 
 
 hellbringer:
@@ -273,7 +273,7 @@ bella:
   attack-knockback-modifier: 5.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
   health-multiplier: 3.0-6.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: 
-  - "pros_chestplate:0.25"
+    - "pros_chestplate:0.25"
   
 #Thanks https://www.fantasynamegenerators.com/minecraft-zombie-names.php for the name!
 # Drowned noob, ngl. For new players 
@@ -430,7 +430,7 @@ scary_silverfish:
   attack-knockback-modifier: 0.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
   health-multiplier: 2.0             # will have 2 times the normal health amount of a Creeper
   loot-table: []
-#magma_boss:
+#magma_boss: 
 #  display-name: "<#828282>**Boss** <#bfbfbf>**Magma Cream**&m"
 #  boss-bar-text: "<#828282>**Boss** <#bfbfbf>**Magma Cream**&m"
  # mob-spawner-name: "Mob Spawner (magma)"
