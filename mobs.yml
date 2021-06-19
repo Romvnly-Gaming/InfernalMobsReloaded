@@ -438,7 +438,7 @@ magma_boss:
   boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "DARKEN_SCREEN"
-  type: "MAGMA_CREAM"
+  type: "MAGMA_CUBE"
   forced-abilities: 
      - "MOLTEN"
      - "HEAVY"
