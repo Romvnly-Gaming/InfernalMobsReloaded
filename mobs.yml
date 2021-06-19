@@ -470,7 +470,6 @@ infernal_boss:
   spawn-chance: 0.1
   follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   forced-abilities: 
-     - "MOLTEN"
      - "HEAVY"
      - "BERSERK"
      - "LIGHTNING"
