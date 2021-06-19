@@ -430,15 +430,45 @@ scary_silverfish:
   attack-knockback-modifier: 0.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
   health-multiplier: 2.0             # will have 2 times the normal health amount of a Creeper
   loot-table: []
-magma_boss:
-  display-name: "<#828282>**Boss** <#bfbfbf>**Magma Cream**&m"
-  boss-bar-text: "<#828282>**Boss** <#bfbfbf>**Magma Cream**&m"
-  mob-spawner-name: "Mob Spawner (magma)"
-  boss-bar-color: "BLUE"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
-  boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+#magma_boss:
+#  display-name: "<#828282>**Boss** <#bfbfbf>**Magma Cream**&m"
+#  boss-bar-text: "<#828282>**Boss** <#bfbfbf>**Magma Cream**&m"
+ # mob-spawner-name: "Mob Spawner (magma)"
+ # boss-bar-color: "BLUE"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+ # boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+ # boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+ #   - "DARKEN_SCREEN"
+ # type: "MAGMA_CUBE"
+ # forced-abilities: 
+ #    - "MOLTEN"
+  #   - "HEAVY"
+   #  - "BERSERK"
+    # - "LIGHTNING"
+     #- "TELEPORT"
+     #- "TOSSER"
+     #- "CALL_THE_GANG"
+  #blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
+   # - "INVISIBLE"
+    #- "THIEF"
+    #- "GHOST"
+    #- "FLYING"
+  #follow-range-multiplier: 2.0       # will have 1.4 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
+  #spawn-chance: 0.01
+  #ability-amount: 7-8
+  #health-multiplier: 8.0-10.5         # will have between 3 and 5 times the normal health amount of a Skeleton
+  #loot-table:  []
+infernal_boss:
+  display-name: "<#828282>(BOSS) <#bfbfbf>**Magma Cube**&m"
+  boss-bar-text: "<#828282>(BOSS) <#bfbfbf>**Magma Cube**&m"
+  mob-spawner-name: "Mob Spawner (&a**No**&r)"
+  boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_20"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
-    - "DARKEN_SCREEN"
+    - "PLAY_BOSS_MUSIC"
   type: "MAGMA_CUBE"
+  # felt like giving it a higher spawn rate
+  spawn-chance: 0.1
+  follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   forced-abilities: 
      - "MOLTEN"
      - "HEAVY"
@@ -448,16 +478,15 @@ magma_boss:
      - "TOSSER"
      - "CALL_THE_GANG"
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
-    - "INVISIBLE"
     - "THIEF"
+    - "INVISIBLE"
     - "GHOST"
     - "FLYING"
-  follow-range-multiplier: 2.0       # will have 1.4 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
-  spawn-chance: 0.01
   ability-amount: 7-8
-  health-multiplier: 8.0-10.5         # will have between 3 and 5 times the normal health amount of a Skeleton
-  loot-table:  []
-  
+  damage-multiplier: 1.5         # will inflict between 1.4 and 1.6 times the damage of a normal Skeleton (this multiplier also includes almost all abilities)
+  attack-knockback-modifier: 5.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
+  health-multiplier: 8.0-10.5         # will have between 3 and 5 times the normal health amount of a Zombie
+  loot-table: []
 
 ############################################################
 # +------------------------------------------------------+ #
