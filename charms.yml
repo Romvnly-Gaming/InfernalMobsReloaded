@@ -259,7 +259,7 @@ charm-effects:
   axe_of_rage_2:
     effect: ABSORPTION
     potency: 4
-    delay: 20.0
+    delay: 15.0
     duration: 8.0
     effect-mode: SELF_RECURRENT
     particle-mode: SELF_ONCE
