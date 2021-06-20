@@ -891,7 +891,7 @@ trident_of_poseidon:
     - "&3Wielded by Poseidon during the great war."
   enchants:
     - loyalty:3
-    - sharpness:3-5
+    - sharpness:5-9
     - impaling:4
     - channeling:1
 angel_feather:
@@ -986,7 +986,7 @@ the_holy_bible:
   material: WRITTEN_BOOK
   amount: 1
   enchants:
-    - smite:20
+    - smite:20-30
   item-flags:                                  # see complete list here https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html
     - "HIDE_ENCHANTS"                          # hide all the enchantments from the item
 mothers_milk:
