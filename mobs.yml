@@ -458,8 +458,8 @@ scary_silverfish:
   health-multiplier: 2.0             # will have 2 times the normal health amount of a Creeper
   loot-table: []
 infernal_boss:
-  display-name: "<#828282>(BOSS) <#bfbfbf>**Magma Cube**&m"
-  boss-bar-text: "<#828282>(BOSS) <#bfbfbf>**Magma Cube**&m"
+  display-name: "<#828282>(BOSS) <#bfbfbf>**The Molten**&m"
+  boss-bar-text: "<#828282>(BOSS) <#bfbfbf>**The Molten**&m"
   mob-spawner-name: "Mob Spawner (&a**No**&r)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_20"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
@@ -467,21 +467,23 @@ infernal_boss:
     - "PLAY_BOSS_MUSIC"
   type: "MAGMA_CUBE"
   # felt like giving it a higher spawn rate
-  spawn-chance: 0.1
+  spawn-chance: 0.02
   follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   forced-abilities: 
+     - "MOLTEN"
      - "HEAVY"
      - "BERSERK"
      - "LIGHTNING"
      - "TELEPORT"
      - "TOSSER"
      - "CALL_THE_GANG"
+     - "SECOND_WIND"
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "THIEF"
     - "INVISIBLE"
     - "GHOST"
     - "FLYING"
-  ability-amount: 7-8
+  ability-amount: 8-10
   damage-multiplier: 1.5         # will inflict between 1.4 and 1.6 times the damage of a normal Skeleton (this multiplier also includes almost all abilities)
   attack-knockback-modifier: 5.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
   health-multiplier: 8.0-10.5         # will have between 3 and 5 times the normal health amount of a Zombie
