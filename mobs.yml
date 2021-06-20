@@ -92,7 +92,7 @@ baba_yaga:
     - "PLAY_BOSS_MUSIC"
     - "CREATE_WORLD_FOG"
   type: "WITCH"
-  spawn-chance: 0.02
+  spawn-chance: 0.01
   forced-abilities: 
      - "BERSERK"
      - "SPEEDY"
