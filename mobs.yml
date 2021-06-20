@@ -105,9 +105,10 @@ baba_yaga:
     - "INVISIBLE"
     - "THIEF"
     - "GHOST"
+    - "MORPH"
   ability-amount: 7-8
-  damage-multiplier: 1.5
-  health-multiplier: 5.0-9.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  damage-multiplier: 3.5
+  health-multiplier: 9.0-14.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
     - "cloak_charm:0.15"
     - "aqua_charm:0.15"
@@ -157,8 +158,8 @@ fuke_dishron:
      - "LIFESTEAL"
      - "POISONOUS"
      - "CONFUSION"
-  ability-amount: 3-5
-  health-multiplier: 4.0-7.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  ability-amount: 5-10
+  health-multiplier: 7.0-10.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: 
      - "guardian_tooth:0.05"
      - "trident_of_poseidon:0.1"
@@ -483,10 +484,10 @@ infernal_boss:
     - "INVISIBLE"
     - "GHOST"
     - "FLYING"
-  ability-amount: 8-10
-  damage-multiplier: 1.5         # will inflict between 1.4 and 1.6 times the damage of a normal Skeleton (this multiplier also includes almost all abilities)
+  ability-amount: 10-14
+  damage-multiplier: 2.5         # will inflict between 1.4 and 1.6 times the damage of a normal Skeleton (this multiplier also includes almost all abilities)
   attack-knockback-modifier: 5.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
-  health-multiplier: 8.0-10.5         # will have between 3 and 5 times the normal health amount of a Zombie
+  health-multiplier: 13.0-15.5         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: 
     - "hell_cream:0.25"  
 
