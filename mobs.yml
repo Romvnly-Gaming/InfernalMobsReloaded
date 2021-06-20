@@ -487,7 +487,8 @@ infernal_boss:
   damage-multiplier: 1.5         # will inflict between 1.4 and 1.6 times the damage of a normal Skeleton (this multiplier also includes almost all abilities)
   attack-knockback-modifier: 5.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
   health-multiplier: 8.0-10.5         # will have between 3 and 5 times the normal health amount of a Zombie
-  loot-table: []
+  loot-table: 
+    - "hell_cream:0.25"  
 
 ############################################################
 # +------------------------------------------------------+ #
