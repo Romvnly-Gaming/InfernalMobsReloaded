@@ -69,6 +69,16 @@ wacker:
     - "Wack 'em back!"
   enchants:
     - "knockback:7-10"
+hell_cream:
+  name: "**Cream of Hell**"
+  material: "MAGMA_CREAM"
+  amount: 1
+  lore:
+    - "&4BURN YOUR ENEMIES TO ASHES!"
+    - "*BECOME THE GOD OF FIRE!*"  
+  enchants:
+    - "fire_aspect:5-8"
+    - "sharpness:1-5:0.10"
 special_diamond:
   name: "[&aSpecial Diamond](hover: <r>How Did We Get Here?)"
   material: "DIAMOND"
