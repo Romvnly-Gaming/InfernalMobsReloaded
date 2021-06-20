@@ -261,7 +261,7 @@ charm-effects:
     potency: 4
     delay: 20.0
     duration: 8.0
-    effect-mode: SELF_PERMANENT
+    effect-mode: SELF_RECURRENT
     particle-mode: SELF_ONCE
     main-hand: "axe_of_rage"
   vampire_stake:
