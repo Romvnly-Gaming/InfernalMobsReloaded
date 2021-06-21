@@ -16,7 +16,7 @@ my_custom_skeleton:
   damage-multiplier: 1.4-1.6         # will inflict between 1.4 and 1.6 times the damage of a normal Skeleton (this multiplier also includes almost all abilities)
   attack-knockback-modifier: 0.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
   health-multiplier: 2.5-4.0         # will have between 2.5 and 4 times the normal health amount of a Skeleton
-  speed-multiplier: 1.4 # will have 1.4 times the normal speed of a Skeleton
+  speed-multiplier: 1.39 # will have 1.4 times the normal speed of a Skeleton
   run-command:                       # will run the command as the server when a infernal of this type dies, replacing <player> with the name of the player who killed the entity
      - ""
   forced-abilities:                  # you can force a type of mob to always have some abilities, if you want (copy the ability names from either `abilities.yml` or `config.yml`); if you don't want to force any ability, you may safely omit this field
