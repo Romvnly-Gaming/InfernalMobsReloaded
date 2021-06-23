@@ -141,6 +141,15 @@ charm-effects:
     particle-mode: SELF_ONCE
     particle-type: cloud
     main-hand: "backhoe"
+  hell_cream:
+    effect: FIRE_RESISTANCE
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    particle-type: flame
+    required-items:
+      - hell_cream
   angel_soul:
     effect: LEVITATION
     potency: 1
