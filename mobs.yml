@@ -106,9 +106,9 @@ baba_yaga:
     - "THIEF"
     - "GHOST"
     - "MORPH"
-  ability-amount: 7-8
-  damage-multiplier: 3.5
-  health-multiplier: 9.0-14.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  ability-amount: 7-10
+  damage-multiplier: 5.5
+  health-multiplier: 10.0-14.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
     - "cloak_charm:0.15"
     - "aqua_charm:0.15"
