@@ -467,7 +467,7 @@ infernal_boss:
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "PLAY_BOSS_MUSIC"
   type: "MAGMA_CUBE"
-  # felt like giving it a lower spawn rate :Troll:
+  # felt like giving it a lower spawn rate (insert funny troll face)
   spawn-chance: 0.001
   follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   forced-abilities: 
