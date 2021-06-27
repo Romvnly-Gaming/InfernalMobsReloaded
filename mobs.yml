@@ -142,7 +142,7 @@ hellbringer:
      - "fire_crystal:0.15"
      - "totem_of_death:0.05"
 fuke_dishron:
-  display-name: "&4**Fuke Dishron*&r"
+  display-name: "&4**Fuke Dishron**&r"
   boss-bar-text: "&4**Fuke Dishron**&r"
   mob-spawner-name: "Mob Spawner (&4**Fuke Dishron**&r)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
