@@ -95,8 +95,10 @@ mjolnir:
     - "&6Whosoever holds this hammer, if he be worthy, shall possess the power of Thor."
     - "&4*Become the god of thunder with your thunderous wrath*"  
   enchants:
-    - "fire_aspect:5-8"
-    - "sharpness:1-5:0.10"
+    - "sweeping_edge:5:0.50"
+    - "smite:5:0.50"
+    - "loyalty:10"
+    - "sharpness:1-12"
 special_diamond:
   name: "[&aSpecial Diamond](hover: <r>How Did We Get Here?)"
   material: "DIAMOND"
