@@ -34,6 +34,6 @@ global-drops:
     - "demon_sword:0.05" #5% drop from Infernal Skeletons
     - "silky:0.02" #2% drop rate
     - "butcher_axe:0.10" #10% drop rate
-    - "inferno_box:0.06" #6% drop rate 
+    - "inferno_bow:0.06" #6% drop rate 
     - "lady_luck:0.05" #5% drop rate rate
     - "wacker:0.05" #5% drop rate rate
