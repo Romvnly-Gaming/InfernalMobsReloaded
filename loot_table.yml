@@ -93,7 +93,7 @@ mjolnir:
   amount: 1
   lore:
     - "&6Whosoever holds this hammer, if he be worthy, shall possess the power of Thor."
-    - "&4*Become the god of thunder with your thunderous wrath"  
+    - "&4*Become the god of thunder with your thunderous wrath*"  
   enchants:
     - "fire_aspect:5-8"
     - "sharpness:1-5:0.10"
