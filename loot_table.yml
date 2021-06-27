@@ -79,6 +79,24 @@ hell_cream:
   enchants:
     - "fire_aspect:5-8"
     - "sharpness:1-5:0.10"
+wacker:
+  name: "<g:#d7fc03:#03fc77>**Wacker**"
+  material: "WOOD_SWORD"
+  amount: 1
+  lore:
+    - "Wack 'em back!"
+  enchants:
+    - "knockback:7-10"
+mjolnir:
+  name: "**Thors Axe**"
+  material: IRON_AXE
+  amount: 1
+  lore:
+    - "&6Whosoever holds this hammer, if he be worthy, shall possess the power of Thor."
+    - "&4*Become the god of thunder with your thunderous wrath"  
+  enchants:
+    - "fire_aspect:5-8"
+    - "sharpness:1-5:0.10"
 special_diamond:
   name: "[&aSpecial Diamond](hover: <r>How Did We Get Here?)"
   material: "DIAMOND"
