@@ -265,6 +265,16 @@ travellers_boots:
   enchants:
     - "protection:5"
     - "unbreaking:3"
+flying_bow:
+  name: "&5Bow of Flying"
+  material: "BOW"
+  amount: 1
+  lore:
+    - "&8Make your enemies FLOAT!"
+  enchants:
+    - "power:2-5"
+    - "unbreaking:3"
+    - "mending:1:0.25"
 rusty_iron_helm:
   name: "&7Rusty Iron Helm"
   material: "IRON_HELMET"
