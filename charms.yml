@@ -100,6 +100,16 @@ charm-effects:
     particle-type: flame                        # see full list here https://papermc.io/javadocs/paper/1.16/org/bukkit/Particle.html
     required-items:                            # the effect will require ALL the items listed below to be active
       - "mothers_milk"
+  flying_bow:
+    effect: LEVITATION
+    potency: 1
+    duration: 3
+    delay: 1
+    effect-mode: TARGET_ON_HIT
+    particle-mode: TARGET_WHEN_APPLIED        # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
+    particle-type: cloud
+    required_items: 
+      - "flying_bow"  
   fast_miner:
     player-message: "<#36f5f2>Suddenly, you gain the agility of the gods."   # omit this field to send nothing to the player when the effects kicks in
     effect: FAST_DIGGING                       # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.16/org/bukkit/potion/PotionEffectType.html
