@@ -270,7 +270,7 @@ flying_bow:
   material: "BOW"
   amount: 1
   lore:
-    - "&8Make your enemies FLOAT!"
+    - "&8Make your enemies LEVITATE!"
   enchants:
     - "power:2-5"
     - "unbreaking:3"
