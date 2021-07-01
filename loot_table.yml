@@ -394,6 +394,15 @@ thors_apple:
   amount: 2
   lore:
     - "&eStolen from Thors own table."
+pillow_padded_boots:
+  name: "&9Pillow Padded Boots"
+  material: LEATHER_BOOTS
+  amount: 1
+  lore: 
+    - "You'll survive larger falls!"
+  enchants:
+    - feather_falling:15
+    - unbreaking:1-3:0.25
 easter_bunnys_carrot:
   name: Easter Bunny's Carrot
   material: GOLDEN_CARROT
