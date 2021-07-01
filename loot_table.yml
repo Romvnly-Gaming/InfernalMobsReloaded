@@ -402,7 +402,7 @@ test_rod:
     - "You arent supposed to have this..."
     - "i needed to test smth rom"
   enchants:
-    - power: 10  
+    - power:10  
 easter_bunnys_carrot:
   name: Easter Bunny's Carrot
   material: GOLDEN_CARROT
