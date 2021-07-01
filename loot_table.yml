@@ -394,15 +394,6 @@ thors_apple:
   amount: 2
   lore:
     - "&eStolen from Thors own table."
-test_rod:
-  name: "TESTING ROD"
-  material: FISHING_ROD
-  amount: 1
-  lore:
-    - "You arent supposed to have this..."
-    - "i needed to test smth rom"
-  enchants:
-    - power:10  
 easter_bunnys_carrot:
   name: Easter Bunny's Carrot
   material: GOLDEN_CARROT
