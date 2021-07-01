@@ -445,6 +445,40 @@ infernal_creeper:
   health-multiplier: 2.0             # will have 2 times the normal health amount of a Creeper
   loot-table: 
     - "creeper_gear:0.2"
+    - "creeper_head_mk2:0.05"
+the_starved:
+  display-name: "<#828282>(BOSS) <#bfbfbf>**The Starved**&m"
+  boss-bar-text: "<#828282>(BOSS) <#bfbfbf>**The Starved**&m"
+  mob-spawner-name: "Mob Spawner (INVALID)"
+  boss-bar-color: "WHITE"           # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "PROGRESS"       # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  type: "HUSK"
+  spawn-chance: 0.005                 # has 20% change of being a infernal mob
+  ability-amount: 7                  # will have 2 abilities
+  attack-knockback-modifier: 5.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
+  health-multiplier: 15-20             # will have 2 times the normal health amount of a Creeper
+  follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
+  damage-multiplier: 2.5
+  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "PLAY_BOSS_MUSIC"
+    - "DARKEN_SCREEN"
+    - "CREATE_WORLD_FOG"
+  forced-abilities: 
+    - "HUNGER"
+    - "HEAVY"
+    - "BERSERK"
+    - "TELEPORT"
+    - "TOSSER"
+    - "CALL_THE_GANG"
+    - "SECOND_WIND"
+  blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
+    - "THIEF"
+    - "INVISIBLE"
+    - "GHOST"
+    - "FLYING"
+  loot-table: 
+    - "hunger_charm:0.025"
+    - "starvation_curse:0.025"
 scary_silverfish:
   display-name: "<#828282>Scary <#f5f5f5>**Fishy**&r"
   boss-bar-text: "<#828282>Scary <#f5f5f5>**Fishy**&r"

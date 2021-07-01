@@ -212,9 +212,17 @@ charm-effects:
     particle-mode: SELF_ONCE
     required-items:
       - sugar_of_ianite
+  starvation_curse:
+    effect: HUNGER
+    potency: 3
+    delay: 1.0
+    effect-mode: TARGET_ON_HIT
+    particle-mode: TARGET_WHEN_APPLIED
+    required-items:
+      - starvation_curse
   hunger_charm:
     effect: SATURATION
-    potency: 5
+    potency: 3
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE

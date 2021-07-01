@@ -394,6 +394,18 @@ thors_apple:
   amount: 2
   lore:
     - "&eStolen from Thors own table."
+creeper_head_mk2:
+  name: "&2Creeper Head Mk.II"
+  material: CREEPER_HEAD
+  amount: 1
+  enchants: 
+    - blast_protection:1-10
+starvation_curse:
+  name: "&4Starvation Curse"
+  material: BONE
+  amount: 1
+  lore:
+    - "Starve your enemies."
 pillow_padded_boots:
   name: "&9Pillow Padded Boots"
   material: LEATHER_BOOTS
