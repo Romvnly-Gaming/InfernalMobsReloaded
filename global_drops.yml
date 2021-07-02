@@ -29,7 +29,7 @@ global-drops:
     - "axe_of_rage:0.000001"    
     - "excalibur:0.01"
     - "wacker:0.05"
-    - "glass_drill:0.2"
+    - "glass_drill:0.05"
     - "eliminators_helmet:0.005"
     - "demon_sword:0.05" 
     - "silky:0.02"
