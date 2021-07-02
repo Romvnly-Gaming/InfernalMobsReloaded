@@ -459,10 +459,6 @@ the_starved:
   health-multiplier: 15-20             # will have 2 times the normal health amount of a Creeper
   follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   damage-multiplier: 5
-  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
-    - "PLAY_BOSS_MUSIC"
-    - "DARKEN_SCREEN"
-    - "CREATE_WORLD_FOG"
   forced-abilities: 
     - "HUNGER"
     - "HEAVY"
