@@ -458,7 +458,7 @@ the_starved:
   attack-knockback-modifier: 5.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
   health-multiplier: 15-20             # will have 2 times the normal health amount of a Creeper
   follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
-  damage-multiplier: 2.5
+  damage-multiplier: 5
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "PLAY_BOSS_MUSIC"
     - "DARKEN_SCREEN"
