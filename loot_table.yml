@@ -162,6 +162,15 @@ golden_spoon:
   enchants:
     - "fortune:5"
     - "unbreaking:4-6"
+lucky_rod:
+  name: "&5Lucky Fishing Rod"
+  material: FISHING_ROD
+  amount: 1
+  lore:
+    - "*Looks like someone lost their lucky rod.*" 
+  enchants:
+    - "luck_of_the_sea:5-15:0.38"
+    - "lure:3-5:0.25" 
 glass_drill:
   name: "&7Glass Drill"
   material: "GOLDEN_PICKAXE"
