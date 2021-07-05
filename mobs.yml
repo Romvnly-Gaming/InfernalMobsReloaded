@@ -502,7 +502,8 @@ the_tortured:
     - "INVISIBLE"
     - "GHOST"
     - "FLYING"
-  loot-table: []
+  loot-table: 
+    - "chain_of_protection:0.1"
 scary_silverfish:
   display-name: "<#828282>Scary <#f5f5f5>**Fishy**&r"
   boss-bar-text: "<#828282>Scary <#f5f5f5>**Fishy**&r"
