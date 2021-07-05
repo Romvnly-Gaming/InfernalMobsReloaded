@@ -580,6 +580,14 @@ spiked_chestplate:
     - "&8Nothing can survive this."
   enchants:
     - thorns:10
+chain_of_protection:
+  name: "&8Chain of Protection"
+  material: CHAIN
+  amount: 1
+  lore:
+    - "&8Survive at the cost of your speed!"
+  enchants:
+    - unbreaking:1
 archers_pants:
   name: "&cArchers Pants"
   material: IRON_LEGGINGS
