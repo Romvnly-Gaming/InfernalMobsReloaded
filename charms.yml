@@ -160,6 +160,20 @@ charm-effects:
     particle-type: flame
     required-items:
       - hell_cream
+  chain_of_protection_1:
+    effect: RESISTANCE
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    required-items:
+      - chain_of_protection
+  chain_of_protection_2:
+    effect: SLOWNESS
+    potency: 9
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    required-items:
+      - chain_of_protection
   angel_soul:
     effect: LEVITATION
     potency: 1
