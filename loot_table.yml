@@ -267,7 +267,7 @@ seamsplitter:
     - "mending:1"
     - "infinity:1:0.5"
     - "punch:1-5"
-enchanted_golden_apple:
+enchanted_apple:
   name: "Notch's Apple"
   material: ENCHANTED_GOLDEN_APPLE
   amount: 1
