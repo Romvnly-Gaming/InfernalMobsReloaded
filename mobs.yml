@@ -185,7 +185,7 @@ jack:
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "PLAY_BOSS_MUSIC"
     - "CREATE_WORLD_FOG"
-  type: "STRAY"
+  type: "VINDICATOR"
   spawn-chance: 0.1
   forced-abilities: 
      - "ARMOURED"
@@ -208,6 +208,7 @@ jack:
   loot-table:
     - "axe_of_rage:0.005"
     - "jacks_axe:0.1"
+
 hellbringer:
   display-name: "&4**Hellbringer*&r"
   boss-bar-text: "&4**Hellbringer**&r"
