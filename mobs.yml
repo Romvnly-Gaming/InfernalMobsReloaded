@@ -146,7 +146,36 @@ the_cursed:
   health-multiplier: 13.0-20.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
     - "blinding_curse:0.15"
-
+the_hypothermic:
+  display-name: "&c**The Hypothermic**&m"
+  boss-bar-text: "&4**(BOSS) The Hypothermic**&m"
+  mob-spawner-name: "Mob Spawner (&4**Hypothermic**)"
+  boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "PLAY_BOSS_MUSIC"
+    - "CREATE_WORLD_FOG"
+  type: "STRAY"
+  spawn-chance: 0.1
+  forced-abilities: 
+     - "ARCHER"
+     - "RUST"
+     - "WEAKNESS"
+     - "WEBBER"
+     - "MULTI_GHASTLY"
+     - "TELEPORT"
+     - "CALL_THE_GANG"
+     - "SECOND_WIND"
+  blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
+    - "INVISIBLE"
+    - "THIEF"
+    - "MORPH"
+    - "GHOST"
+  ability-amount: 11-14
+  damage-multiplier: 6.6
+  health-multiplier: 18.0-30.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  loot-table:
+    - "seamsplitter:0.15"
 hellbringer:
   display-name: "&4**Hellbringer*&r"
   boss-bar-text: "&4**Hellbringer**&r"
