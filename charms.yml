@@ -226,6 +226,15 @@ charm-effects:
     particle-mode: TARGET_WHEN_APPLIED
     required-items:
       - blinding_curse
+  jacks_axe:
+    effect: POISON
+    potency: 2
+    delay: 10
+    effect-mode: TARGET_ON_HIT
+    particle-mode: TARGET_WHEN_APPLIED
+    duration: 5
+    required-items:
+      - jacks_axe
   sugar_of_ianite:
     effect: SPEED
     potency: 4

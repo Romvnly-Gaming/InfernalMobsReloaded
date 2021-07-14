@@ -415,6 +415,16 @@ drowned_boots:
     - protection:3
     - unbreaking:2
     - depth_strider:2
+jacks_axe:
+  name: "Jack's Axe"
+  material: IRON_AXE
+  amount: 1
+  lore:
+    - "Jack was back with his trusty axe."
+  enchants:
+    - unbreaking:3
+    - sharpness:7
+    - curse_of_vanishing:1
 blinding_curse:
   name: "&3Blinding Curse"
   material: GUNPOWDER

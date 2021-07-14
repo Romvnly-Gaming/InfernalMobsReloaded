@@ -176,6 +176,38 @@ the_hypothermic:
   health-multiplier: 18.0-30.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
     - "seamsplitter:0.15"
+jack:
+  display-name: "&c**Jack**&m"
+  boss-bar-text: "&4**(BOSS) Jack**&m"
+  mob-spawner-name: "Mob Spawner (&4**cheater**)"
+  boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "PLAY_BOSS_MUSIC"
+    - "CREATE_WORLD_FOG"
+  type: "STRAY"
+  spawn-chance: 0.1
+  forced-abilities: 
+     - "ARMOURED"
+     - "BERSERK"
+     - "POTIONS"
+     - "POISONESS"
+     - "NECROMANCER"
+     - "TELEPORT"
+     - "THORNMAIL"
+     - "SPEEDY"
+     - "SECOND_WIND"
+  blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
+    - "INVISIBLE"
+    - "THIEF"
+    - "MORPH"
+    - "GHOST"
+  ability-amount: 10-13
+  damage-multiplier: 2
+  health-multiplier: 18.0-21.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  loot-table:
+    - "axe_of_rage:0.005"
+    - "jacks_axe:0.1"
 hellbringer:
   display-name: "&4**Hellbringer*&r"
   boss-bar-text: "&4**Hellbringer**&r"
