@@ -115,7 +115,36 @@ baba_yaga:
     - "shield_of_power:0.1"
     - "vampire_stake:0.49"
     - "axe_of_rage:0.01"
-
+the_cursed:
+  display-name: "&c**The Cursed**&m"
+  boss-bar-text: "&4**(BOSS) The Cursed**&m"
+  mob-spawner-name: "Mob Spawner (&4**noi**)"
+  boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "PLAY_BOSS_MUSIC"
+    - "CREATE_WORLD_FOG"
+  type: "ZOMBIE_VILLAGER"
+  spawn-chance: 0.01
+  forced-abilities: 
+     - "BLINDING"
+     - "CONFUSION"
+     - "GHOST"
+     - "WEAKNESS"
+     - "HUNGER"
+     - "TELEPORT"
+     - "KAMIKAZE"
+     - "CALL_THE_GANG"
+     - "SECOND_WIND"
+  blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
+    - "INVISIBLE"
+    - "THIEF"
+    - "MORPH"
+  ability-amount: 9-14
+  damage-multiplier: 6.6
+  health-multiplier: 13.0-20.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  loot-table:
+    - "blinding_curse:0.15"
 
 hellbringer:
   display-name: "&4**Hellbringer*&r"

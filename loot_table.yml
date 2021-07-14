@@ -415,6 +415,14 @@ drowned_boots:
     - protection:3
     - unbreaking:2
     - depth_strider:2
+blinding_curse:
+  name: "&3Blinding Curse"
+  material: GUNPOWDER
+  amount: 1
+  lore:
+    - "&3Kind of mean to throw gunpowder in someone's eyes."
+  enchants:
+    - unbreaking:1
 thors_apple:
   name: "&eThors Apple"
   material: GOLDEN_APPLE

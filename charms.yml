@@ -218,6 +218,14 @@ charm-effects:
     particle-mode: SELF_ONCE
     required-items:
       - shell_of_7_seas
+  blinding_curse:
+    effect: BLINDNESS
+    potency: 1
+    delay: 10.0
+    effect-mode: TARGET_ON_HIT
+    particle-mode: TARGET_WHEN_APPLIED
+    required-items:
+      - blinding_curse
   sugar_of_ianite:
     effect: SPEED
     potency: 4
