@@ -132,6 +132,7 @@ the_cursed:
      - "GHOST"
      - "WEAKNESS"
      - "HUNGER"
+     - "MULTI_GHASTLY"
      - "TELEPORT"
      - "KAMIKAZE"
      - "CALL_THE_GANG"
