@@ -162,6 +162,7 @@ blacklisted-baby-mob-types:
   - WOLF
   - PIGLIN
   - MAGMA_CUBE
+  - HOGLIN
 
 # Which types of infernal mobs can spawn mounted onto another mob; to prevent all mobs from spawning mounted, just delete all the items and insert empty square brackets instead
 # Full list of mobs can be found here https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html , Ctrl + F

@@ -156,7 +156,7 @@ the_hypothermic:
     - "PLAY_BOSS_MUSIC"
     - "CREATE_WORLD_FOG"
   type: "STRAY"
-  spawn-chance: 0.1
+  spawn-chance: 0.05
   forced-abilities: 
      - "ARCHER"
      - "RUST"
@@ -208,7 +208,37 @@ jack:
   loot-table:
     - "axe_of_rage:0.005"
     - "jacks_axe:0.1"
-
+sir_piggens:
+  display-name: "&c**Sir Piggens**&m"
+  boss-bar-text: "&4**(BOSS) Sir Piggens**&m"
+  mob-spawner-name: "Mob Spawner (&4**bap**)"
+  boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "PLAY_BOSS_MUSIC"
+    - "CREATE_WORLD_FOG"
+  type: "HOGLIN"
+  spawn-chance: 0.05
+  forced-abilities: 
+     - "HEAVY"
+     - "BERSERK"
+     - "WITHERING"
+     - "POISONESS"
+     - "NECROMANCER"
+     - "TELEPORT"
+     - "SPEEDY"
+     - "SECOND_WIND"
+  blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
+    - "INVISIBLE"
+    - "THIEF"
+    - "MORPH"
+    - "GHOST"
+  ability-amount: 9-13
+  damage-multiplier: 4
+  health-multiplier: 8.0-13.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  loot-table:
+    - "hunger_charm:0.01"
+    - "hunger_support:0.2"
 hellbringer:
   display-name: "&4**Hellbringer*&r"
   boss-bar-text: "&4**Hellbringer**&r"

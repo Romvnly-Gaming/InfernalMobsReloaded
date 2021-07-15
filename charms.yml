@@ -235,6 +235,24 @@ charm-effects:
     duration: 5
     required-items:
       - jacks_axe
+  hunger_support_1:
+    effect: SATURATION
+    potency: 5
+    delay: 10
+    effect-mode: TARGET_ON_HIT
+    particle-mode: TARGET_WHEN_APPLIED
+    particle-type: end_rod
+    required-items:
+      - hunger_support
+  hunger_support_2:
+    effect: INSTANT_HEALTH
+    potency: 2
+    delay: 10
+    effect-mode: TARGET_ON_HIT
+    particle-mode: TARGET_WHEN_APPLIED
+    particle-type: heart
+    required-items:
+      - hunger_support  
   sugar_of_ianite:
     effect: SPEED
     potency: 4

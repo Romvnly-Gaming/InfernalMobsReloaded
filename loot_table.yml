@@ -404,6 +404,12 @@ drowned_leggings:
   enchants:
     - protection:3
     - thorns:5
+hunger_support:
+  name: "Hunger Support"
+  material: BLAZE_ROD
+  amount: 1
+  lore:
+    - "Help your teammates in battle! *By hitting them?*"
 drowned_boots:
   name: "&3Drowned Boots"
   material: DIAMOND_BOOTS
