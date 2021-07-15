@@ -410,6 +410,8 @@ hunger_support:
   amount: 1
   lore:
     - "Help your teammates in battle! *By hitting them?*"
+  enchants:
+    - unbreaking:1
 drowned_boots:
   name: "&3Drowned Boots"
   material: DIAMOND_BOOTS
