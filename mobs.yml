@@ -169,6 +169,7 @@ hellbringer:
   loot-table: 
      - "fire_crystal:0.15"
      - "totem_of_death:0.05"
+
 fuke_dishron:
   display-name: "&4**Fuke Dishron**&r"
   boss-bar-text: "&4**Fuke Dishron**&r"
@@ -194,6 +195,22 @@ fuke_dishron:
      - "shell_of_7_seas:0.25"
      - "poisoned_blade:0.25"
      - "mermen_helm:0.35"
+jerry:
+  display-name: "jerry"
+  boss-bar-text: "jerry"
+  mob-spawner-name: "Mob Spawner (jerry)"
+  boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "PROGRESS"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "PLAY_BOSS_MUSIC"
+  type: "SHEEP"
+  spawn-chance: 0.01
+  blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
+    - "INVISIBLE"
+    - "THIEF"
+  ability-amount: 1
+  health-multiplier: 5         # will have between 3 and 5 times the normal health amount of a Zombie
+  loot-table: []
 porky:
   display-name: "&a**Porky**&r"
   boss-bar-text: "&a**Porky**&r"
