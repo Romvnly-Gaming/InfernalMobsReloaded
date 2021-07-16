@@ -404,6 +404,14 @@ drowned_leggings:
   enchants:
     - protection:3
     - thorns:5
+hunger_support:
+  name: "Hunger Support"
+  material: BLAZE_ROD
+  amount: 1
+  lore:
+    - "Help your teammates in battle! *By hitting them?*"
+  enchants:
+    - unbreaking:1
 drowned_boots:
   name: "&3Drowned Boots"
   material: DIAMOND_BOOTS
@@ -415,6 +423,16 @@ drowned_boots:
     - protection:3
     - unbreaking:2
     - depth_strider:2
+jacks_axe:
+  name: "Jack's Axe"
+  material: IRON_AXE
+  amount: 1
+  lore:
+    - "Jack was back with his trusty axe."
+  enchants:
+    - unbreaking:3
+    - sharpness:7
+    - curse_of_vanishing:1
 blinding_curse:
   name: "&3Blinding Curse"
   material: GUNPOWDER
