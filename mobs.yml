@@ -115,6 +115,35 @@ baba_yaga:
     - "shield_of_power:0.1"
     - "vampire_stake:0.49"
     - "axe_of_rage:0.01"
+the_resistant:
+  display-name: "&c**The Resistant**&m"
+  boss-bar-text: "&4**The Resistant**&m"
+  mob-spawner-name: "Mob Spawner (&4**The Resistant**)"
+  boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "PLAY_BOSS_MUSIC"
+    - "CREATE_WORLD_FOG"
+  type: "SHULKER"
+  spawn-chance: 0.05
+  forced-abilities: 
+     - "LIGHTNING"
+     - "WITHERING"
+     - "POTIONS"
+     - "MULTI_GHASTLY"
+     - "LIFESTEAL"
+     - "TOSSER"
+     - "CALL_THE_GANG"
+  blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
+    - "INVISIBLE"
+    - "THIEF"
+    - "GHOST"
+    - "MORPH"
+  ability-amount: 10-15
+  damage-multiplier: 5.5
+  health-multiplier: 9.0-10.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  loot-table:
+    - "armor_of_resistance:0.05"
 the_cursed:
   display-name: "&c**The Cursed**&m"
   boss-bar-text: "&4**(BOSS) The Cursed**&m"

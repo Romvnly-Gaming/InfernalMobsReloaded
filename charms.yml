@@ -160,6 +160,14 @@ charm-effects:
     particle-type: flame
     required-items:
       - hell_cream
+  armor_of_resistance:
+    effect: RESISTANCE
+    potency: 2
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - armor_of_resistance
   chain_of_protection_1:
     effect: RESISTANCE
     potency: 5
