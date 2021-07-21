@@ -163,8 +163,8 @@ charm-effects:
   red_rose:
     effect: REGENERATION
     potency: 3
-    delay: 1.0
-    effect-mode: SELF_PERMANENT
+    delay: 10.0
+    effect-mode: SELF_RECURRENT
     particle-mode: SELF_ONCE
     required-items:
       - red_rose
