@@ -160,6 +160,22 @@ charm-effects:
     particle-type: flame
     required-items:
       - hell_cream
+  red_rose:
+    effect: REGENERATION
+    potency: 3
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - red_rose
+  slowness_curse:
+    effect: SLOWNESS
+    potency: 2
+    delay: 1.0
+    effect-mode: TARGET_ON_HIT
+    particle-mode: TARGET_WHEN_APPLIED
+    required-items:
+      - slowness_curse
   armor_of_resistance:
     effect: RESISTANCE
     potency: 2

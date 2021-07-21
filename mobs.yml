@@ -144,6 +144,66 @@ the_resistant:
   health-multiplier: 9.0-10.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
     - "armor_of_resistance:0.05"
+the_golem:
+  display-name: "&c**The Golem**&m"
+  boss-bar-text: "&4**The Golem**&m"
+  mob-spawner-name: "Mob Spawner (&4**The Golem**)"
+  boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "PLAY_BOSS_MUSIC"
+    - "CREATE_WORLD_FOG"
+  type: "IRON_GOLEM"
+  spawn-chance: 0.01
+  forced-abilities: 
+     - "HEAVY"
+     - "WITHERING"
+     - "BERSERK"
+     - "MULTI_GHASTLY"
+     - "TOSSER"
+     - "TELEPORT"
+     - "SPEEDY"
+     - "CALL_THE_GANG"
+  blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
+    - "INVISIBLE"
+    - "THIEF"
+    - "GHOST"
+    - "MORPH"
+  ability-amount: 10
+  damage-multiplier: 2
+  health-multiplier: 5.0-7.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  loot-table:
+    - "red_rose:0.05"
+sticky:
+  display-name: "&c**Sticky the Slime**&m"
+  boss-bar-text: "&4**Sticky the Slime**&m"
+  mob-spawner-name: "Mob Spawner (&4**Sticky the Slime**)"
+  boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "PLAY_BOSS_MUSIC"
+    - "CREATE_WORLD_FOG"
+  type: "SLIME"
+  spawn-chance: 0.1
+  forced-abilities: 
+     - "HEAVY"
+     - "SLOWNESS"
+     - "BERSERK"
+     - "MULTI_GHASTLY"
+     - "TOSSER"
+     - "TELEPORT"
+     - "CONFUSION"
+     - "CALL_THE_GANG"
+  blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
+    - "INVISIBLE"
+    - "THIEF"
+    - "GHOST"
+    - "MORPH"
+  ability-amount: 8-12
+  damage-multiplier: 8
+  health-multiplier: 15-25         # will have between 3 and 5 times the normal health amount of a Zombie
+  loot-table:
+    - "slowness_curse:0.05"
 the_cursed:
   display-name: "&c**The Cursed**&m"
   boss-bar-text: "&4**(BOSS) The Cursed**&m"

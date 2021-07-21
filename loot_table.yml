@@ -255,6 +255,18 @@ pros_chestplate:
     - "unbreaking:3-5:0.5"
     - "mending:1-2:0.5"
     - "thorns:2-3:0.5"
+red_rose:
+  name: "&4Red Rose"
+  material: "POPPY"
+  amount: 1
+  lore:
+    - "A romantic gesture."
+slowness_curse:
+  name: "Slowness Curse"
+  material: "Slimeball"
+  amount: 1
+  lore:
+    - "Slows mobs too!"
 armor_of_resistance:
   name: "Armor of Resistance"
   material: NETHERITE_CHESTPLATE
