@@ -165,6 +165,7 @@ charm-effects:
     effect: REGENERATION
     potency: 3
     delay: 10.0
+    duration: 5.0
     effect-mode: SELF_RECURRENT
     particle-mode: SELF_ONCE
     required-items:
