@@ -139,6 +139,7 @@ the_resistant:
     - "THIEF"
     - "GHOST"
     - "MORPH"
+    - "FLYING"
   ability-amount: 10-15
   damage-multiplier: 5.5
   health-multiplier: 9.0-10.0         # will have between 3 and 5 times the normal health amount of a Zombie
