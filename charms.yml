@@ -67,6 +67,7 @@ charm-effects-world-whitelist:
 valid-charm-slots:
   - 0-8
   - 40
+  - 36-39
 charm-effects:
   thors_apple:
     override-charm-slots:                      # that's how you override slots, so it won't use the global slots; remember that 'main-hand' property ignore slots, both global ones and the override ones
