@@ -263,7 +263,7 @@ red_rose:
     - "A romantic gesture."
 slowness_curse:
   name: "Slowness Curse"
-  material: "Slimeball"
+  material: "SLIMEBALL"
   amount: 1
   lore:
     - "Slows mobs too!"
