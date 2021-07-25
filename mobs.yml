@@ -132,7 +132,6 @@ the_resistant:
      - "POTIONS"
      - "MULTI_GHASTLY"
      - "LIFESTEAL"
-     - "TOSSER"
      - "CALL_THE_GANG"
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
@@ -140,6 +139,7 @@ the_resistant:
     - "GHOST"
     - "MORPH"
     - "FLYING"
+    - "SECOND_WIND"
   ability-amount: 10-15
   damage-multiplier: 5.5
   health-multiplier: 9.0-10.0         # will have between 3 and 5 times the normal health amount of a Zombie
