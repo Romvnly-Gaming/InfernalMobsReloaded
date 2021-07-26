@@ -174,7 +174,7 @@ the_golem:
   damage-multiplier: 2
   health-multiplier: 5.0-7.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
-    - "red_rose:0.05"
+    - "mothers_milk:0.05"
 sticky:
   display-name: "&c**Sticky the Slime**&m"
   boss-bar-text: "&4**Sticky the Slime**&m"
