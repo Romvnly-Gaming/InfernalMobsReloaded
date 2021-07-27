@@ -251,10 +251,10 @@ pros_chestplate:
   lore:
     - "&cProGamer101's PLAT!"
   enchants:
-    - "protection:7-12:0.5"
-    - "unbreaking:3-5:0.5"
-    - "mending:1-2:0.5"
-    - "thorns:2-3:0.5"
+    - "protection:7-12:0.75"
+    - "unbreaking:3-5:0.75"
+    - "mending:1-2:0.75"
+    - "thorns:2-3:0.75"
 red_rose:
   name: "&4Red Rose"
   material: "POPPY"

@@ -501,7 +501,7 @@ charm-effects:
       - totem_of_life
   totem_of_life_2:
     effect: SPEED
-    potency: 5
+    potency: 4
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -525,7 +525,7 @@ charm-effects:
       - pickel_of_power
   honey_of_the_eater_1:
     effect: INCREASE_DAMAGE
-    potency: 4
+    potency: 3
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
