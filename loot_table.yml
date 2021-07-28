@@ -244,6 +244,16 @@ thorny_pants:
     - "fire_protection:4:0.5"
     - "thorns:10"
     - "unbreaking:3"
+test_sword:
+  name: "<#42f593>Test Sword"
+  material: "NETHERITE_SWORD"
+  amount: 1
+  lore:
+    - "<#f57542>Very Sharp..."
+  enchants:
+    - "sharpness:-20"
+    - "knockback:-5"
+    - "unbreaking:-10"
 pros_chestplate:
   name: "&5Pro's Chestplate"
   material: "NETHERITE_CHESTPLATE"
