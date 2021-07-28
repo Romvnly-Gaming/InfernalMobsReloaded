@@ -23,40 +23,7 @@ my_custom_skeleton:
     - "ARCHER"
   loot-table:                        # what items the mob will have a chance of dropping; if you don't want the mob to drop anything extra, just omit this field
     - "demon_sword:0.954321"         # will have 95.4321% chance of dropping a 'demon_sword'
-the_giant_ARENA:
-  display-name: "&c**The Giant**&m"
-  boss-bar-text: "&4**The Giant**&m"
-  mob-spawner-name: "Mob Spawner (&4**Baba Yaga**)"
-  boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
-  boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
-  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
-    - "PLAY_BOSS_MUSIC"
-    - "CREATE_WORLD_FOG"
-  type: "GIANT"
-  spawn-chance: 0.0000000000001
-  forced-abilities: 
-     - "BERSERK"
-     - "SPEEDY"
-     - "WEAKNESS"
-     - "MULTI_GHASTLY"
-     - "TELEPORT"
-     - "TOSSER"
-     - "CALL_THE_GANG"
-  blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
-    - "INVISIBLE"
-    - "THIEF"
-    - "GHOST"
-    - "MORPH"
-  ability-amount: 7-10
-  damage-multiplier: 5.5
-  health-multiplier: 10.0-14.0         # will have between 3 and 5 times the normal health amount of a Zombie
-  loot-table:
-    - "cloak_charm:0.15"
-    - "aqua_charm:0.15"
-    - "bunny_charm:0.1"
-    - "shield_of_power:0.1"
-    - "vampire_stake:0.49"
-    - "axe_of_rage:0.01"
+
 
 infernal_mob:
   display-name: "<#828282>Infernal <#bfbfbf>**Skeleton**&r"
