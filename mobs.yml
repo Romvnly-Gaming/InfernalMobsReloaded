@@ -386,7 +386,7 @@ wuharis:
   ability-amount: 3-5
   health-multiplier: 5.0-10.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: 
-     - "totem_of_life:0.1"   
+     - "totem_of_life:0.01"   
 #Thanks https://www.imagineforest.com/blog/pirate-name-generator/ for the name!
 # Endgame menace ngl
 bella:
