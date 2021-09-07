@@ -484,7 +484,7 @@ charm-effects:
       - angel_feather
   totem_of_life_1:
     effect: FAST_DIGGING
-    potency: 3
+    potency: 1
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -492,7 +492,7 @@ charm-effects:
       - totem_of_life
   totem_of_life_2:
     effect: SPEED
-    potency: 4
+    potency: 2
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
