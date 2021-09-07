@@ -8,7 +8,6 @@
 
 # To add items to this list, remove the square brackets and add items like the examples below
 global-drops: 
-    - "mothers_milk:0.001" # Mothers milk is a rare item, treat it as such
     - "netherite_ingot:0.0020"
     - "netherite_scrap:0.0020"
     - "shell_of_7_seas:0.01"

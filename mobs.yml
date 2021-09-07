@@ -115,6 +115,96 @@ baba_yaga:
     - "shield_of_power:0.1"
     - "vampire_stake:0.49"
     - "axe_of_rage:0.01"
+the_resistant:
+  display-name: "&c**The Resistant**&m"
+  boss-bar-text: "&4**The Resistant**&m"
+  mob-spawner-name: "Mob Spawner (&4**The Resistant**)"
+  boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "PLAY_BOSS_MUSIC"
+    - "CREATE_WORLD_FOG"
+  type: "SHULKER"
+  spawn-chance: 0.05
+  forced-abilities: 
+     - "LIGHTNING"
+     - "WITHERING"
+     - "POTIONS"
+     - "MULTI_GHASTLY"
+     - "LIFESTEAL"
+     - "CALL_THE_GANG"
+  blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
+    - "INVISIBLE"
+    - "THIEF"
+    - "GHOST"
+    - "MORPH"
+    - "FLYING"
+    - "SECOND_WIND"
+  ability-amount: 10-15
+  damage-multiplier: 5.5
+  health-multiplier: 9.0-10.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  loot-table:
+    - "armor_of_resistance:0.05"
+the_golem:
+  display-name: "&c**The Golem**&m"
+  boss-bar-text: "&4**The Golem**&m"
+  mob-spawner-name: "Mob Spawner (&4**The Golem**)"
+  boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "PLAY_BOSS_MUSIC"
+    - "CREATE_WORLD_FOG"
+  type: "IRON_GOLEM"
+  spawn-chance: 0.01
+  forced-abilities: 
+     - "HEAVY"
+     - "WITHERING"
+     - "BERSERK"
+     - "MULTI_GHASTLY"
+     - "TOSSER"
+     - "TELEPORT"
+     - "SPEEDY"
+     - "CALL_THE_GANG"
+  blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
+    - "INVISIBLE"
+    - "THIEF"
+    - "GHOST"
+    - "MORPH"
+  ability-amount: 10
+  damage-multiplier: 2
+  health-multiplier: 5.0-7.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  loot-table:
+    - "mothers_milk:0.05"
+sticky:
+  display-name: "&c**Sticky the Slime**&m"
+  boss-bar-text: "&4**Sticky the Slime**&m"
+  mob-spawner-name: "Mob Spawner (&4**Sticky the Slime**)"
+  boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "PLAY_BOSS_MUSIC"
+    - "CREATE_WORLD_FOG"
+  type: "SLIME"
+  spawn-chance: 0.1
+  forced-abilities: 
+     - "HEAVY"
+     - "SLOWNESS"
+     - "BERSERK"
+     - "MULTI_GHASTLY"
+     - "TOSSER"
+     - "TELEPORT"
+     - "CONFUSION"
+     - "CALL_THE_GANG"
+  blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
+    - "INVISIBLE"
+    - "THIEF"
+    - "GHOST"
+    - "MORPH"
+  ability-amount: 8-12
+  damage-multiplier: 8
+  health-multiplier: 15-25         # will have between 3 and 5 times the normal health amount of a Zombie
+  loot-table:
+    - "slowness_curse:0.05"
 the_cursed:
   display-name: "&c**The Cursed**&m"
   boss-bar-text: "&4**(BOSS) The Cursed**&m"
@@ -399,14 +489,14 @@ bella:
     - "PLAY_BOSS_MUSIC"
   type: "RAVAGER"
   # felt like giving it a higher spawn rate
-  spawn-chance: 0.1
+  spawn-chance: 0.05
   follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   forced-abilities: 
      - "TELEPORT"
-     - "SECOND_WIND"
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "THIEF"
     - "INVISIBLE"
+    - "FLYING"
   ability-amount: 3-5
   damage-multiplier: 1.5         # will inflict between 1.4 and 1.6 times the damage of a normal Skeleton (this multiplier also includes almost all abilities)
   attack-knockback-modifier: 5.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)

@@ -251,10 +251,34 @@ pros_chestplate:
   lore:
     - "&cProGamer101's PLAT!"
   enchants:
-    - "protection:7-12:0.5"
-    - "unbreaking:3-5:0.5"
-    - "mending:1-2:0.5"
-    - "thorns:2-3:0.5"
+    - "protection:7-12:0.75"
+    - "unbreaking:3-5:0.75"
+    - "mending:1-2:0.75"
+    - "thorns:2-3:0.75"
+red_rose:
+  name: "&4Red Rose"
+  material: "POPPY"
+  amount: 1
+  lore:
+    - "A romantic gesture."
+slowness_curse:
+  name: "Slowness Curse"
+  material: "COBWEB"
+  amount: 1
+  lore:
+    - "Slows mobs too!"
+armor_of_resistance:
+  name: "Armor of Resistance"
+  material: NETHERITE_CHESTPLATE
+  amount: 1
+  lore:
+    - "From an ancient civilization of magic."
+  enchants:
+    - "protection:7-10"
+    - "unbreaking:1-3"
+    - "mending:1:0.25"
+    - "fire_protection:5:0.5"
+    - "blast_protection:5:0.5"
 seamsplitter:
   name: "&4Seamsplitter"
   material: "BOW"
@@ -263,10 +287,10 @@ seamsplitter:
     - "&5The Bow of Death"
   enchants:
     - "flame:3"
-    - "power:5-10"
+    - "power:10-20"
     - "mending:1"
-    - "infinity:1:0.5"
-    - "punch:1-5"
+    - "infinity:1:0.75"
+    - "punch:2-5"
 enchanted_apple:
   name: "Notch's Apple"
   material: ENCHANTED_GOLDEN_APPLE
@@ -1095,12 +1119,10 @@ king_uthers_greaves:
     - mending:1
 the_holy_bible:
   name: "&f**The Holy Bible**"
-  material: WRITTEN_BOOK
+  material: BOOK
   amount: 1
   enchants:
-    - smite:20-30
-  item-flags:                                  # see complete list here https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/inventory/ItemFlag.html
-    - "HIDE_ENCHANTS"                          # hide all the enchantments from the item
+    - smite:20-50
 mothers_milk:
   name: "&f**Mother's Milk**"
   material: MILK_BUCKET
