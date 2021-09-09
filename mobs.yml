@@ -114,7 +114,54 @@ baba_yaga:
     - "bunny_charm:0.1"
     - "shield_of_power:0.1"
     - "vampire_stake:0.49"
+    - "golden_stick:0.25"
     - "axe_of_rage:0.01"
+orion:
+  display-name: "&kee &c&l **Orion** &m&f&kee"
+  boss-bar-text: "&kee &c&l **Orion** &m&f&kee"
+  mob-spawner-name: "Mob Spawner (&4**Cheater Cheater, Pumpkin Eater**)"
+  boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "PLAY_BOSS_MUSIC"
+    - "CREATE_WORLD_FOG"
+  type: "WITHER"
+  spawn-chance: 0.05
+  forced-abilities: 
+     - "LIGHTNING"
+     - "WITHERING"
+     - "POTIONS"
+     - "MULTI_GHASTLY"
+     - "LIFESTEAL"
+     - "CALL_THE_GANG"
+     - "CONFUSION"
+     - "BLINDING"
+     - "FIREWORK"
+     - "GHOST"
+     - "HEAVY"
+     - "HUNGER"
+     - "LEVITATE"
+     - "SECOND_WIND"
+     - "NECROMANCER"
+     - "POISIONOUS"
+     - "POTIONS"
+     - "RUST"
+     - "SPEEDY"
+     - "THORNMAIL"
+     - "WEBBER"
+  blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
+    - "INVISIBLE"
+    - "THIEF"
+    - "MORPH"
+    - "FLYING"
+
+  ability-amount: 21
+  damage-multiplier: 6
+  health-multiplier: 166         # will have between 3 and 5 times the normal health amount of a Zombie
+  loot-table:
+    - "armor_of_resistance:0.5
+    - "orions_heart:1"
+    - "bane_of_orion:1"
 the_resistant:
   display-name: "&c**The Resistant**&m"
   boss-bar-text: "&4**The Resistant**&m"

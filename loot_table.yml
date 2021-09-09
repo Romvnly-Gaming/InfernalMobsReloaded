@@ -234,6 +234,15 @@ creeper_gear:
   enchants:
     - "blast_protection:5:0.5"
     - "unbreaking:3"
+golden_stick:
+  name: "Golden Stick"
+  material: "BLAZE_ROD"
+  amount: 1
+  lore:
+    - "A new upgrade!"
+  enchants:
+    - "sharpness:7"
+    - "fire_aspect:1"
 thorny_pants:
   name: "<#42f593>Thorny Pants"
   material: "CHAINMAIL_CHESTPLATE"
@@ -871,6 +880,15 @@ poisoned_blade:
   enchants:
     - unbreaking:2
     - sharpness:2
+netherite_shield:
+  name: "Netherite Shield"
+  material: SHIELD
+  amount: 1
+  lore:
+    - "The Shield Shall Never Break, for it Now Shares a Special Bond With You, Making it Everlasting."
+  enchants:
+    - unbreaking:9-10
+    - mending:1:0.25
 vampire_stake:
   name: "&4Vampire Stake"
   material: STICK
@@ -879,6 +897,30 @@ vampire_stake:
     - "&cHeals you when used"
   enchants:
     - sharpness:5
+bane_of_orion:
+  name: "&klee &6&l Bane of Orion &f&klee"
+  material: netherite_sword
+  amount: 1
+  lore:
+    - "&klee &6&lLEGENDARY ITEM &klee"
+    - "The sword which has been crafted to burn Orion's blood, was inevitably made, from his own blood."
+  enchants:
+    - "unbreaking:5-10"
+    - "sharpness:20-25"
+    - "fire_aspect:2-5"
+    - "mending:1-5"
+    - "knockback:5-7"
+    - "looting:5-9"
+orions_heart:
+  name: "&klee &6&l Orion's Heart &f&klee"
+  material: chorus_fruit
+  amount: 1
+  lore:
+    - "&klee &6&lLEGENDARY ITEM &klee"
+    - "You tore the heart out of Orion and killed him, showing your strength to everyone. You are truely, the best of the best."
+    - "Let this trophy shine with you."
+  enchants:
+    - "unbreaking:100"
 axe_of_rage: 
   name: "&5Axe of Rage"
   material: STONE_AXE
