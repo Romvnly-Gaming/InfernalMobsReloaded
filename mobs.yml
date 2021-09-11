@@ -163,6 +163,7 @@ orion:
     - "reapers_scythe:0.5"
     - "orions_heart:1"
     - "bane_of_orion:1"
+    - "thank_book:1"
 the_resistant:
   display-name: "&c**The Resistant**&m"
   boss-bar-text: "&4**The Resistant**&m"
@@ -862,7 +863,7 @@ haunted_ghost:
   spawn-chance: 0.0                  # no spawn chance for ghost, remember, it's not supposed to spawn naturally
   mob-spawn-drop-chance: 0.0         # no spawn for ghost
   ability-amount: 0                  # value ignored since ghost abilities are hardcoded
-  health-multiplier: 3.5
+  health-multiplier: 5.5
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
   loot-table: 

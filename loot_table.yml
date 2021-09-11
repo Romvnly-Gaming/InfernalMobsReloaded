@@ -1250,6 +1250,16 @@ trusty_shield:
     - "half_vertical:magenta"                  # patterns are, also, case insensitive
     - "TRIANGLE_TOP:ORANGE"
     - "sku:RED"                                # may also use pattern identifier names (this is SKULL)
+thank_book:
+  type: "book"                                 # you must specify that this item is a book
+  material: "WRITTEN_BOOK"                     # valid values: WRITTEN_BOOK, WRITABLE_BOOK; the former is not editable, the latter is; if you don't specify a type, WRITTEN_BOOK will be used
+  title: "<#c663f7>Thanks (9/10/2021)<#FFAA00>1"           # all books must have a title
+  author: "Mmadrid509"                           # optional, doesn't support colors
+  generation: "TATTERED"                       # valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED; of all those, only ORIGINAL and COPY_OF_ORIGINAL can be copied by players, keep that in mind; will default to ORIGINAL if you don't specify
+  pages:                                       # the page system a little weird, each of these lines is a new page, and you start a new line by using \n
+    - "Hey Guys! Madrid Here,\nI just wanted to say thanks, for everything, which would be supporting me on this nice development journey.\nI will continue to develop for Easy SMP for as long as I can\nYou guys are a great community."      # page #1
+    - "To clarify, I'm not leaving and simply want to thank you for actually taking the time to admire my work and my nonsensical infernals that I have made\nThanks again, and also\nGood job on killing Orion! I knew you guys could come together and do it."    # page #2
+    - "Jack, if this is you taking advantage of an exploit, throw all these items into a cactus. For these items are meant for the community."
 plate_of_greed:
   name: "&6**Plate of Greed**"
   material: NETHERITE_CHESTPLATE
