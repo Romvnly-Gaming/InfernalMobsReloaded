@@ -897,6 +897,19 @@ vampire_stake:
     - "&cHeals you when used"
   enchants:
     - sharpness:5
+reapers_scythe:
+  name: "&klee &5&l Reaper's Scythe &f&klee"
+  material: netherite_hoe
+  amount: 1
+  lore:
+    - "&klee &5&lMYTHIC ITEM &klee"
+    - "A reaper's blade."
+  enchants:
+    - "unbreaking:5"
+    - "sharpness:10"
+    - "smite:25"
+    - "mending:1"
+    - "looting:3"
 bane_of_orion:
   name: "&klee &6&l Bane of Orion &f&klee"
   material: netherite_sword
