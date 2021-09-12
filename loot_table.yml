@@ -456,6 +456,19 @@ drowned_boots:
     - protection:3
     - unbreaking:2
     - depth_strider:2
+atlas:
+  name: "&klee &4&lAtlas &klee"
+  material: DIAMOND_SWORD
+  amount: 1
+  lore:
+    - "&klee &4&lBLOODTHIRSTY SWORD &klee"
+    - "Forged from the Blood of the Ancients. Repurposed to cause Death."
+    - "Any that stand in the way shall fall."
+  enchants:
+    - "sharpness:20-25"
+    - "unbreaking:10"
+    - "mending:1:0.25"
+    - "fire_aspect:2"
 jacks_axe:
   name: "Jack's Axe"
   material: IRON_AXE
@@ -898,11 +911,11 @@ vampire_stake:
   enchants:
     - sharpness:5
 reapers_scythe:
-  name: "&klee &5&l Reaper's Scythe &f&klee"
+  name: "&klee &d&l Reaper's Scythe &f&klee"
   material: netherite_hoe
   amount: 1
   lore:
-    - "&klee &5&lMYTHIC ITEM &klee"
+    - "&klee &d&lMYTHIC ITEM &klee"
     - "A reaper's blade."
   enchants:
     - "unbreaking:5"
@@ -935,10 +948,11 @@ orions_heart:
   enchants:
     - "unbreaking:100"
 axe_of_rage: 
-  name: "&5Axe of Rage"
+  name: "&4&lAxe of Rage"
   material: STONE_AXE
   amount: 1
   lore:
+    - "&kleee &4&lBLOODTHIRSTY AXE &kleee"
     - "&cThat's a nice life you have there mate!"
     - "&4Would be a shame if somethin happened to it."
   enchants:
