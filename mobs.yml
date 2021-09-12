@@ -157,7 +157,7 @@ orion:
 
   ability-amount: 21
   damage-multiplier: 6
-  health-multiplier: 166         # will have between 3 and 5 times the normal health amount of a Zombie
+  health-multiplier: 83         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
     - "armor_of_resistance:0.5"
     - "reapers_scythe:0.5"
