@@ -930,11 +930,11 @@ reapers_scythe:
     - "mending:1"
     - "looting:3"
 bane_of_orion:
-  name: "&klee &6&l Bane of Orion &f&klee"
+  name: "&6&l&klee Bane of Orion &klee"
   material: netherite_sword
   amount: 1
   lore:
-    - "&6&l&klee &6&l LEGENDARY ITEM &f&klee"
+    - "&6&l&klee &6&l LEGENDARY ITEM &klee"
     - "The sword which has been crafted to burn Orion's blood, was inevitably made, from his own blood."
   enchants:
     - "unbreaking:5-10"
