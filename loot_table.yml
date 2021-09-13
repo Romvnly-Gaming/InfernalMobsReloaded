@@ -910,8 +910,14 @@ vampire_stake:
     - "&cHeals you when used"
   enchants:
     - sharpness:5
+testbook:
+  name: "Enchanted Book"
+  material: ENCHANTED_BOOK
+  amount: 1
+  enchants:
+    - "sharpness:10"
 reapers_scythe:
-  name: " &d&l&klee &d&lReaper's Scythe &f&klee"
+  name: "&d&l&klee &d&lReaper's Scythe &f&klee"
   material: netherite_hoe
   amount: 1
   lore:
