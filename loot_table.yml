@@ -461,7 +461,7 @@ atlas:
   material: DIAMOND_SWORD
   amount: 1
   lore:
-    - "&4&l&klee &4&lBLOODTHIRSTY SWORD &klee"
+    - "&4&l&klee &4&l BLOODTHIRSTY SWORD &klee"
     - "Forged from the Blood of the Ancients. Repurposed to cause Death."
     - "Any that stand in the way shall fall."
   enchants:
@@ -952,7 +952,7 @@ axe_of_rage:
   material: STONE_AXE
   amount: 1
   lore:
-    - "&4&l&klee &4&lBLOODTHIRSTY AXE &klee"
+    - "&4&l&klee &4&l BLOODTHIRSTY AXE &klee"
     - "&cThat's a nice life you have there mate!"
     - "&4Would be a shame if somethin happened to it."
   enchants:
