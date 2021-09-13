@@ -930,7 +930,7 @@ reapers_scythe:
     - "mending:1"
     - "looting:3"
 bane_of_orion:
-  name: "&6&l&klee &6&lBane of Orion &klee"
+  name: "&6&l&klee &6&l Bane of Orion &klee"
   material: netherite_sword
   amount: 1
   lore:
@@ -948,7 +948,7 @@ orions_heart:
   material: chorus_fruit
   amount: 1
   lore:
-    - "&6&l&klee &6&lLEGENDARY ITEM &klee"
+    - "&6&l&klee &6&l LEGENDARY ITEM &klee"
     - "You tore the heart out of Orion and killed him, showing your strength to everyone. You are truely, the best of the best."
     - "Let this trophy shine with you."
   enchants:
