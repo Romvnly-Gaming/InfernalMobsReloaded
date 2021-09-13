@@ -457,11 +457,11 @@ drowned_boots:
     - unbreaking:2
     - depth_strider:2
 atlas:
-  name: "&klee &4&lAtlas &klee"
+  name: "&4&l&klee &4&lAtlas &klee"
   material: DIAMOND_SWORD
   amount: 1
   lore:
-    - "&4&l&klee BLOODTHIRSTY SWORD &klee"
+    - "&4&l&klee &4&lBLOODTHIRSTY SWORD &klee"
     - "Forged from the Blood of the Ancients. Repurposed to cause Death."
     - "Any that stand in the way shall fall."
   enchants:
@@ -911,11 +911,11 @@ vampire_stake:
   enchants:
     - sharpness:5
 reapers_scythe:
-  name: " &d&l&klee Reaper's Scythe &f&klee"
+  name: " &d&l&klee &d&lReaper's Scythe &f&klee"
   material: netherite_hoe
   amount: 1
   lore:
-    - "&d&l&klee MYTHIC ITEM &klee"
+    - "&d&l&klee &d&lMYTHIC ITEM &klee"
     - "A reaper's blade."
   enchants:
     - "unbreaking:5"
@@ -928,7 +928,7 @@ bane_of_orion:
   material: netherite_sword
   amount: 1
   lore:
-    - "&klee &6&lLEGENDARY ITEM &klee"
+    - "&6&l&klee &6&lLEGENDARY ITEM &f&klee"
     - "The sword which has been crafted to burn Orion's blood, was inevitably made, from his own blood."
   enchants:
     - "unbreaking:5-10"
@@ -942,7 +942,7 @@ orions_heart:
   material: chorus_fruit
   amount: 1
   lore:
-    - "&klee &6&lLEGENDARY ITEM &klee"
+    - "&klee &6&lLEGENDARY ITEM &f&klee"
     - "You tore the heart out of Orion and killed him, showing your strength to everyone. You are truely, the best of the best."
     - "Let this trophy shine with you."
   enchants:
@@ -952,7 +952,7 @@ axe_of_rage:
   material: STONE_AXE
   amount: 1
   lore:
-    - "&4&l&kleee BLOODTHIRSTY AXE &kleee"
+    - "&4&l&klee &4&lBLOODTHIRSTY AXE &klee"
     - "&cThat's a nice life you have there mate!"
     - "&4Would be a shame if somethin happened to it."
   enchants:
