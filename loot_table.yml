@@ -915,7 +915,7 @@ reapers_scythe:
   material: netherite_hoe
   amount: 1
   lore:
-    - "&d&l&klee &d&lMYTHIC ITEM &klee"
+    - "&d&l&klee &d&l MYTHIC ITEM &klee"
     - "A reaper's blade."
   enchants:
     - "unbreaking:5"
@@ -928,7 +928,7 @@ bane_of_orion:
   material: netherite_sword
   amount: 1
   lore:
-    - "&6&l&klee &6&lLEGENDARY ITEM &f&klee"
+    - "&6&l&klee &6&l LEGENDARY ITEM &f&klee"
     - "The sword which has been crafted to burn Orion's blood, was inevitably made, from his own blood."
   enchants:
     - "unbreaking:5-10"
@@ -942,7 +942,7 @@ orions_heart:
   material: chorus_fruit
   amount: 1
   lore:
-    - "&klee &6&lLEGENDARY ITEM &f&klee"
+    - "&klee &6&l LEGENDARY ITEM &f&klee"
     - "You tore the heart out of Orion and killed him, showing your strength to everyone. You are truely, the best of the best."
     - "Let this trophy shine with you."
   enchants:
