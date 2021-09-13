@@ -917,7 +917,7 @@ testbook:
   enchants:
     - "sharpness:10"
 reapers_scythe:
-  name: "&d&l&klee &d&lReaper's Scythe &klee"
+  name: "&d&l&klee &d&l Reaper's Scythe &klee"
   material: netherite_hoe
   amount: 1
   lore:
