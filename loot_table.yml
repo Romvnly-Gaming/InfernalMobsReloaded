@@ -461,7 +461,7 @@ atlas:
   material: DIAMOND_SWORD
   amount: 1
   lore:
-    - "&klee &4&lBLOODTHIRSTY SWORD &klee"
+    - "&4&l&klee BLOODTHIRSTY SWORD &klee"
     - "Forged from the Blood of the Ancients. Repurposed to cause Death."
     - "Any that stand in the way shall fall."
   enchants:
@@ -911,11 +911,11 @@ vampire_stake:
   enchants:
     - sharpness:5
 reapers_scythe:
-  name: "&klee &d&l Reaper's Scythe &f&klee"
+  name: " &d&l&klee Reaper's Scythe &f&klee"
   material: netherite_hoe
   amount: 1
   lore:
-    - "&klee &d&lMYTHIC ITEM &klee"
+    - "&d&l&klee MYTHIC ITEM &klee"
     - "A reaper's blade."
   enchants:
     - "unbreaking:5"
@@ -952,7 +952,7 @@ axe_of_rage:
   material: STONE_AXE
   amount: 1
   lore:
-    - "&kleee &4&lBLOODTHIRSTY AXE &kleee"
+    - "&4&l&kleee BLOODTHIRSTY AXE &kleee"
     - "&cThat's a nice life you have there mate!"
     - "&4Would be a shame if somethin happened to it."
   enchants:
