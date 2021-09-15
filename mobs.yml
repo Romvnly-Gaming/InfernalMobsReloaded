@@ -147,7 +147,6 @@ orion:
      - "POTIONS"
      - "RUST"
      - "SPEEDY"
-     - "THORNMAIL"
      - "WEBBER"
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
@@ -155,7 +154,7 @@ orion:
     - "MORPH"
     - "FLYING"
 
-  ability-amount: 21
+  ability-amount: 19
   damage-multiplier: 3
   health-multiplier: 166         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
