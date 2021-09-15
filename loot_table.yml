@@ -457,7 +457,7 @@ drowned_boots:
     - unbreaking:2
     - depth_strider:2
 atlas:
-  name: "&4&l&klee &4&lAtlas &klee"
+  name: "&4&l&klee &4&l Atlas &klee"
   material: DIAMOND_SWORD
   amount: 1
   lore:
