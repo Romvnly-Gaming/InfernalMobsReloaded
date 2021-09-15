@@ -126,7 +126,7 @@ orion:
     - "PLAY_BOSS_MUSIC"
     - "CREATE_WORLD_FOG"
   type: "WITHER"
-  spawn-chance: 0.05
+  spawn-chance: 0.00005
   forced-abilities: 
      - "LIGHTNING"
      - "WITHERING"
