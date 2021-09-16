@@ -358,6 +358,22 @@ charm-effects:
     effect-mode: SELF_RECURRENT
     particle-mode: SELF_ONCE
     main-hand: "axe_of_rage"
+  axe_of_rage_1d:
+    player-message: "&4&lYou become bloodthirsty, you feel the hatred begin to run through you. You suddenly gain the urge to kill. All you begin to hear is 'Kill Kill Kill', and you feel compelled to comply."
+    effect: STRENGTH
+    potency: 15
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    main-hand: "axe_of_rage_dev"
+  axe_of_rage_2d:
+    effect: ABSORPTION
+    potency: 4
+    delay: 15.0
+    duration: 8.0
+    effect-mode: SELF_RECURRENT
+    particle-mode: SELF_ONCE
+    main-hand: "axe_of_rage_dev"
   vampire_stake:
     effect: HEAL
     potency: 1

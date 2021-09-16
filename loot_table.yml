@@ -970,6 +970,23 @@ axe_of_rage:
     - knockback:4:0.50
     - unbreaking:10
     - looting:1-3 #this already has rng
+axe_of_rage_dev: 
+  name: "&7&lA Dev's Axe"
+  material: STONE_AXE
+  amount: 1
+  lore:
+    - "&4&l&klee &7&l HACKER AXE &klee"
+    - "&cThat's a nice life you have there mate!"
+    - "&4Would be a shame if somethin happened to it."
+  enchants:
+    - smite:5-12  
+    - sharpness:100
+    - mending:1:0.75
+    - fire_aspect:3:0.50
+    - knockback:4:0.50
+    - unbreaking:10
+    - looting:1-3 #this already has rng
+
 bunny_charm:
   name: "&7Bunny Charm"
   material: RABBIT_FOOT
