@@ -949,7 +949,8 @@ orions_heart:
   amount: 1
   lore:
     - "&6&l&klee &6&l LEGENDARY ITEM &klee"
-    - "You tore the heart out of Orion and killed him, showing your strength to everyone. You are truely, the best of the best."
+    - "You tore the heart out of Orion and killed him, showing your strength to everyone. You are truely,"
+    - "the best of the best."
     - "Let this trophy shine with you."
   enchants:
     - "unbreaking:100"
@@ -963,10 +964,11 @@ axe_of_rage:
     - "&4Would be a shame if somethin happened to it."
   enchants:
     - smite:5-12  
-    - sharpness:20
+    - sharpness:25
     - mending:1:0.75
     - fire_aspect:3:0.50
     - knockback:4:0.50
+    - unbreaking:10
     - looting:1-3 #this already has rng
 bunny_charm:
   name: "&7Bunny Charm"
