@@ -975,7 +975,7 @@ axe_of_rage_dev:
   material: STONE_AXE
   amount: 1
   lore:
-    - "&4&l&klee &7&l HACKER AXE &klee"
+    - "&7&l&klee &7&l HACKER AXE &klee"
     - "&cThat's a nice life you have there mate!"
     - "&4Would be a shame if somethin happened to it."
   enchants:
