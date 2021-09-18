@@ -779,19 +779,6 @@ the_tortured:
     - "FLYING"
   loot-table: 
     - "chain_of_protection:0.1"
-scary_silverfish:
-  display-name: "<#828282>Scary <#f5f5f5>**Fishy**&r"
-  boss-bar-text: "<#828282>Scary <#f5f5f5>**Fishy**&r"
-  mob-spawner-name: "Mob Spawner (<#828282>Scary <#f5f5f5>**Fishy**&r)"
-  boss-bar-color: "YELLOW"           # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
-  boss-bar-overlay: "PROGRESS"       # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
-  type: "SILVERFISH"
-  spawn-chance: 0.40                 # has 20% change of being a infernal mob
-  mob-spawn-drop-chance: 0.0005
-  ability-amount: 2                  # will have 2 abilities
-  attack-knockback-modifier: 0.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
-  health-multiplier: 2.0             # will have 2 times the normal health amount of a Creeper
-  loot-table: []
 infernal_boss:
   display-name: "<#828282>(BOSS) <#bfbfbf>**The Molten**&m"
   boss-bar-text: "<#828282>(BOSS) <#bfbfbf>**The Molten**&m"
