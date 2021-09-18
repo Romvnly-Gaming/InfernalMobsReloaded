@@ -154,7 +154,7 @@ orion:
     - "FLYING"
 
   ability-amount: 19
-  damage-multiplier: 3
+  damage-multiplier: 1.5
   health-multiplier: 83         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
     - "armor_of_resistance:0.5"
