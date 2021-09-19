@@ -360,7 +360,7 @@ charm-effects:
     main-hand: "axe_of_rage"
   suspicious_totem_1:
     effect: SPEED
-    potency: 0,3
+    potency: 0-3
     delay: 1
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -368,7 +368,7 @@ charm-effects:
       - suspicious_totem
   suspicious_totem_2:
     effect: SLOWNESS
-    potency: 0,4
+    potency: 0-4
     delay: 1
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -376,7 +376,7 @@ charm-effects:
       - suspicious_totem
   suspicious_totem_3:
     effect: HASTE
-    potency: 0,5
+    potency: 0-5
     delay: 1
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -384,7 +384,7 @@ charm-effects:
       - suspicious_totem
   suspicious_totem_4:
     effect: MINING_FATIGUE
-    potency: 0,10
+    potency: 0-10
     delay: 1
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -392,7 +392,7 @@ charm-effects:
       - suspicious_totem
   suspicious_totem_5:
     effect: STRENGTH
-    potency: 0,12
+    potency: 0-12
     delay: 1
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -400,7 +400,7 @@ charm-effects:
       - suspicious_totem
   suspicious_totem_6:
     effect: JUMP_BOOST
-    potency: 0,5
+    potency: 0-5
     delay: 1
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -408,7 +408,7 @@ charm-effects:
       - suspicious_totem
   suspicious_totem_7:
     effect: NAUSEA
-    potency: 0,3
+    potency: 0-3
     delay: 1
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -424,7 +424,7 @@ charm-effects:
       - suspicious_totem
   suspicious_totem_9:
     effect: RESISTANCE
-    potency: 0,4
+    potency: 0-4
     delay: 1
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -464,7 +464,7 @@ charm-effects:
       - suspicious_totem
   suspicious_totem_14:
     effect: HUNGER
-    potency: 0,10
+    potency: 0-10
     delay: 1
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -472,7 +472,7 @@ charm-effects:
       - suspicious_totem
   suspicious_totem_15:
     effect: WEAKNESS
-    potency: 0,5
+    potency: 0-5
     delay: 1
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -480,7 +480,7 @@ charm-effects:
       - suspicious_totem
   suspicious_totem_16:
     effect: POISON
-    potency: 0,3
+    potency: 0-3
     delay: 1
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -488,7 +488,7 @@ charm-effects:
       - suspicious_totem
   suspicious_totem_17:
     effect: WITHER
-    potency: 0,2
+    potency: 0-2
     delay: 1
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -496,7 +496,7 @@ charm-effects:
       - suspicious_totem
   suspicious_totem_18:
     effect: HEALTH_BOOST
-    potency: 0,3
+    potency: 0-3
     delay: 1
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
