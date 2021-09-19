@@ -1113,6 +1113,12 @@ fire_crystal:
   amount: 1
   enchants:
     - unbreaking:1
+suspicious_totem:
+  name: "&a&lSuspicious Totem"
+  material: TOTEM_OF_UNDYING
+  amount: 1
+  enchants:
+    - protection:1
 trident_of_poseidon:
   name: "&b**Trident of Poseidon**"
   material: TRIDENT
