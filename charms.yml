@@ -172,7 +172,7 @@ charm-effects:
       - hell_cream
   hell_cream_3:
     effect: WITHER
-    potency: 3
+    potency: 6
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
