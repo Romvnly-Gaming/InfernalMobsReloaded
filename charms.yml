@@ -290,7 +290,7 @@ charm-effects:
       - hunger_support  
   sugar_of_ianite:
     effect: SPEED
-    potency: 10
+    potency: 5
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
