@@ -363,7 +363,7 @@ charm-effects:
   axe_of_rage_1:
    # player-message: "&4&lYou become bloodthirsty, you feel the hatred begin to run through you. You suddenly gain the urge to kill. All you begin to hear is 'Kill Kill Kill', and you feel compelled to comply."
     effect: STRENGTH
-    potency: 3
+    potency: 8
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
