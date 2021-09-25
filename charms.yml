@@ -152,7 +152,7 @@ charm-effects:
     particle-mode: SELF_ONCE
     particle-type: cloud
     main-hand: "backhoe"
-  hell_cream:
+  hell_cream_1:
     effect: FIRE_RESISTANCE
     potency: 1
     delay: 1.0
@@ -161,9 +161,27 @@ charm-effects:
     particle-type: flame
     required-items:
       - hell_cream
+  hell_cream_2:
+    effect: WEAKNESS
+    potency: 3
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    particle-type: flame
+    required-items:
+      - hell_cream
+  hell_cream_3:
+    effect: WITHER
+    potency: 3
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    particle-type: flame
+    required-items:
+      - hell_cream
   slowness_curse:
     effect: SLOWNESS
-    potency: 2
+    potency: 1
     delay: 1.0
     effect-mode: TARGET_ON_HIT
     particle-mode: TARGET_WHEN_APPLIED
@@ -179,14 +197,14 @@ charm-effects:
       - armor_of_resistance
   chain_of_protection_1:
     effect: RESISTANCE
-    potency: 5
+    potency: 3
     delay: 1.0
     effect-mode: SELF_PERMANENT
     required-items:
       - chain_of_protection
   chain_of_protection_2:
     effect: SLOWNESS
-    potency: 9
+    potency: 10
     delay: 1.0
     effect-mode: SELF_PERMANENT
     required-items:
@@ -280,7 +298,7 @@ charm-effects:
       - sugar_of_ianite
   starvation_curse:
     effect: HUNGER
-    potency: 3
+    potency: 5
     delay: 1.0
     effect-mode: TARGET_ON_HIT
     particle-mode: TARGET_WHEN_APPLIED
@@ -343,16 +361,16 @@ charm-effects:
     required-items:
       - poisoned_blade
   axe_of_rage_1:
-    player-message: "&4&lYou become bloodthirsty, you feel the hatred begin to run through you. You suddenly gain the urge to kill. All you begin to hear is 'Kill Kill Kill', and you feel compelled to comply."
+   # player-message: "&4&lYou become bloodthirsty, you feel the hatred begin to run through you. You suddenly gain the urge to kill. All you begin to hear is 'Kill Kill Kill', and you feel compelled to comply."
     effect: STRENGTH
-    potency: 5
+    potency: 3
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
     main-hand: "axe_of_rage"
   axe_of_rage_2:
     effect: ABSORPTION
-    potency: 4
+    potency: 2
     delay: 15.0
     duration: 8.0
     effect-mode: SELF_RECURRENT
@@ -629,7 +647,7 @@ charm-effects:
     main-hand: "demon_blade"
   totem_of_death_1:
     effect: SLOW_DIGGING
-    potency: 5
+    potency: 7
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -637,7 +655,7 @@ charm-effects:
       - totem_of_death
   totem_of_death_2:
     effect: STRENGTH
-    potency: 10
+    potency: 3
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -661,7 +679,7 @@ charm-effects:
       - totem_of_life
   totem_of_life_2:
     effect: SPEED
-    potency: 2
+    potency: 1
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -677,7 +695,7 @@ charm-effects:
       - fire_crystal
   pickel_of_power:
     effect: WEAKNESS
-    potency: 5
+    potency: 10
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -766,7 +784,7 @@ charm-effects:
     override-charm-slots:
     - 38
     effect: HUNGER
-    potency: 1
+    potency: 5
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
