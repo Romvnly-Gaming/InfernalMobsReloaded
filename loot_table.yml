@@ -728,6 +728,17 @@ archers_pants_mk_2:
   enchants:
     - projectile_protection:5
     - unbreaking:4
+powered_armor:
+  name: "[{"text":""},{"text":"P","bold":true,"color":"gold"},{"text":"o","bold":true,"color":"#dcab35"},{"text":"w","bold":true,"color":"#dfb335"},{"text":"e","bold":true,"color":"#e3bb37"},{"text":"r","bold":true,"color":"#e6c438"},{"text":"e","bold":true,"color":"#e9cc39"},{"text":"d ","bold":true,"color":"#edd43a"},{"text":"A","bold":true,"color":"#f0dc3b"},{"text":"r","bold":true,"color":"#f3e53c"},{"text":"m","bold":true,"color":"#f7ed3d"},{"text":"o","bold":true,"color":"#faf53e"},{"text":"r","bold":true,"color":"yellow"}]"
+  material: NETHERITE_CHESTPLATE
+  amount: 1
+  lore:
+    - "&lPowered Up."
+  enchants:
+    - protection:10-15
+    - unbreaking:5
+    - mending:1
+    - thorns:1-5
 league_boots:
   name: "&27 League Boots"
   material: DIAMOND_BOOTS

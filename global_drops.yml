@@ -27,7 +27,7 @@ global-drops:
     - "angel_feather:0.0020"
     - "not_pros_chestplate:0.001"
     - "axe_of_rage:0.000001"
-    - "atlas:0.00025" # (0.025% chance [Literally as rare as the Golden Frying Pan])    
+    - "atlas:0.000025" # (0.025% chance [Literally as rare as the Golden Frying Pan])    
     - "excalibur:0.01"
     - "wacker:0.016"
     - "netherite_shield:0.0012"
@@ -39,3 +39,4 @@ global-drops:
     - "inferno_bow:0.06" 
     - "lady_luck:0.05" 
     - "wacker:0.02"
+    - "golden_coins:0.03"
