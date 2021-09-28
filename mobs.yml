@@ -439,7 +439,7 @@ jerry:
     - "INVISIBLE"
     - "THIEF"
   ability-amount: 1
-  health-multiplier: 5         # will have between 3 and 5 times the normal health amount of a Zombie
+  health-multiplier: 100         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: []
 porky:
   display-name: "&a**Porky**&r"

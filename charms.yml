@@ -197,14 +197,14 @@ charm-effects:
       - armor_of_resistance
   chain_of_protection_1:
     effect: RESISTANCE
-    potency: 3
+    potency: 2
     delay: 1.0
     effect-mode: SELF_PERMANENT
     required-items:
       - chain_of_protection
   chain_of_protection_2:
     effect: SLOWNESS
-    potency: 10
+    potency: 15
     delay: 1.0
     effect-mode: SELF_PERMANENT
     required-items:
