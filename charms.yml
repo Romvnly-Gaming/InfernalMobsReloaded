@@ -197,14 +197,14 @@ charm-effects:
       - armor_of_resistance
   chain_of_protection_1:
     effect: RESISTANCE
-    potency: 2
+    potency: 1
     delay: 1.0
     effect-mode: SELF_PERMANENT
     required-items:
       - chain_of_protection
   chain_of_protection_2:
     effect: SLOWNESS
-    potency: 15
+    potency: 20
     delay: 1.0
     effect-mode: SELF_PERMANENT
     required-items:
@@ -655,7 +655,7 @@ charm-effects:
       - totem_of_death
   totem_of_death_2:
     effect: STRENGTH
-    potency: 3
+    potency: 20
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
