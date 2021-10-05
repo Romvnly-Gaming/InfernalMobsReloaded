@@ -78,6 +78,12 @@ remove-from-towns-only-if-has-mobs-is-disabled: true
 # Delay before the infernal mob is removed from the town
 remove-infernal-mobs-in-towns-after: 5.0            # in seconds
 
+####################
+### SilkSpawners ###
+####################
+
+# Turn on the compatibility layer between SilkSpawners and InfernalMobsReloaded, which will make this plugin act in passive mode, just adding the infernal mobs tags to the spawner handled by SilkSpawners, instead of handling all dropping mechanisms. This configuration requires a full server restart to reflect changes.
+silkspawners-handles-spawner-drop: true
 
 ############################################################
 # +------------------------------------------------------+ #
