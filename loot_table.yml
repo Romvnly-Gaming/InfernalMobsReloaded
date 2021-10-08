@@ -296,10 +296,23 @@ seamsplitter:
     - "&5The Bow of Death"
   enchants:
     - "flame:3"
-    - "power:10-20"
+    - "power:10-15"
     - "mending:1"
     - "infinity:1:0.75"
     - "punch:2-5"
+# LIMTIED ITEM
+HALLOWEEN_BIG_SHOT:
+  name: "&e&l[BIG SHOT]"
+  material: "BOW"
+  amount: 1
+  enchants: 
+    - "power:15-20"
+    - "infinity:1-2"
+    - "flame:1:0.5"
+    - "punch:5-9"
+  lore:
+    - "&6&lHALLOWEEN ITEM"
+    - "&4&lDon't you want to be a &e&l[BIG SHOT]&4&l?"
 enchanted_apple:
   name: "Notch's Apple"
   material: ENCHANTED_GOLDEN_APPLE
