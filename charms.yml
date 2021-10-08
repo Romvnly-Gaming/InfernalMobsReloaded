@@ -655,7 +655,7 @@ charm-effects:
       - totem_of_death
   totem_of_death_2:
     effect: STRENGTH
-    potency: 20
+    potency: 3
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
