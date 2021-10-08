@@ -852,4 +852,3 @@ haunted_ghost:
     - "INVISIBLE"
   loot-table: 
     - "nether_sword:0.12"
-    - "seamsplitter:0.05"
