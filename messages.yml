@@ -6,6 +6,8 @@
 
 # Almost all the messages that you can change are here, you may use any hex color you want
 # You can find the message syntax and check what you can do here https://mf.mattstudios.me/message/mf-msg/syntax
+# infernal-mob-spawn-messages and infernal-mob-death-messages have been discontinued in the later Infernal Mobs updates, they remain here for documentation purposes only
+
 
 infernal-mob-spawn-messages:
   - '<#ff5555>An Infernal mob has spawned near you!'
