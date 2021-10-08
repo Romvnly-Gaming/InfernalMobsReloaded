@@ -304,6 +304,31 @@ charm-effects:
     particle-mode: TARGET_WHEN_APPLIED
     required-items:
       - starvation_curse
+  hallowed_set_1:
+    effect: SATURATION
+    potency: 3
+    delay: 1
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - HALLOWEEN_HALLOWED_PUMPKIN
+      - HALLOWEEN_HALLOWED_BOOTS
+      - HALLOWEEN_HALLOWED_LEGGINGS
+      - HALLOWEEN_HALLOWED_CHESTPLATE
+      - HALLOWEEN_HALLOWED_SWORD
+    hallowed_set_2:
+    effect: ABSORPTION
+    potency: 5
+    delay: 15.0
+    duration: 8.0
+    effect-mode: SELF_RECURRENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - HALLOWEEN_HALLOWED_PUMPKIN
+      - HALLOWEEN_HALLOWED_BOOTS
+      - HALLOWEEN_HALLOWED_LEGGINGS
+      - HALLOWEEN_HALLOWED_CHESTPLATE
+      - HALLOWEEN_HALLOWED_SWORD
   hunger_charm:
     effect: SATURATION
     potency: 1
@@ -368,6 +393,13 @@ charm-effects:
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
     main-hand: "axe_of_rage"
+  HALLOWEEN_BIG_SHOT:
+    effect: HEALTH_BOOST
+    potency: 3-4
+    delay: 1.0
+    effect: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    main-hand: "HALLOWEEN_BIG_SHOT"
   axe_of_rage_2:
     effect: ABSORPTION
     potency: 2

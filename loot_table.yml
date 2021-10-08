@@ -300,7 +300,21 @@ seamsplitter:
     - "mending:1"
     - "infinity:1:0.75"
     - "punch:2-5"
-# LIMTIED ITEM
+
+
+
+
+
+
+
+# LIMTIED ITEMS
+
+
+
+
+
+
+
 HALLOWEEN_BIG_SHOT:
   name: "&e&l[BIG SHOT]"
   material: "BOW"
@@ -310,9 +324,94 @@ HALLOWEEN_BIG_SHOT:
     - "infinity:1-2"
     - "flame:1:0.5"
     - "punch:5-9"
+    - "mending:1"
+    - "unbreaking:1-5"
   lore:
-    - "&6&lHALLOWEEN ITEM"
+    - "&6HALLOWEEN ITEM"
     - "&4&lDon't you want to be a &e&l[BIG SHOT]&4&l?"
+
+HALLOWEEN_HALLOWED_PUMPKIN:
+  name: "&6&lHallowed Pumpkin"
+  material: "CARVED_PUMPKIN"
+  amount: 1
+  enchants: 
+    - "protection:15"
+    - "fire_protection:5"
+    - "thorns:1:0.25"
+    - "mending:1:0.5"
+  lore:
+    - "&6HALLOWEEN ITEM"
+    - "A strange orange liquid leaks out of it."
+
+HALLOWEEN_HALLOWED_BOOTS:
+  name: "&6&lHallowed Boots"
+  material: "LEATHER_BOOTS"
+  amount: 1
+  enchants: 
+    - "protection:10-12:0.9"
+    - "fire_protection:5"
+    - "thorns:1:0.5"
+    - "unbreaking:5"
+    - "mending:1"
+  lore:
+    - "&6HALLOWEEN ITEM"
+    - "&4Finally, Infernal Boots"
+
+HALLOWEEN_HALLOWED_LEGGINGS:
+  name: "&6&lHallowed Pants"
+  material: "LEATHER_LEGGINGS"
+  amount: 1
+  enchants: 
+    - "protection:10-15"
+    - "fire_protection:5"
+    - "thorns:1:0.5"
+    - "unbreaking:5"
+    - "mending:1"
+  lore:
+    - "&6HALLOWEEN ITEM"
+    - "Orange Liquid Leaks Out."
+
+HALLOWEEN_HALLOWED_CHESTPLATE:
+  name: "&6&lHallowed Chestplate"
+  material: "LEATHER_CHESTPLATE"
+  amount: 1
+  enchants: 
+    - "protection:12-15"
+    - "fire_protection:5"
+    - "thorns:1:0.5"
+    - "unbreaking:5"
+    - "mending:2:0.66667"
+  lore:
+    - "&6HALLOWEEN ITEM"
+    - "Orange Liquid Leaks Out the Front."
+
+HALLOWEEN_HALLOWED_SWORD:
+  name: "&6&lHallowed Sword"
+  material: "IRON_SWORD"
+  amount: 1
+  enchants: 
+    - "sharpness:10-15"
+    - "fire_aspect:1-5"
+    - "knockback:1:0.5"
+    - "unbreaking:5"
+    - "mending:1"
+  lore:
+    - "&6HALLOWEEN ITEM"
+    - "It's covered in the orange liquid."
+
+
+
+
+#NORMALITEMS
+
+
+
+
+
+
+
+
+
 enchanted_apple:
   name: "Notch's Apple"
   material: ENCHANTED_GOLDEN_APPLE
