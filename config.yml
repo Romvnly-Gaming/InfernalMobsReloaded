@@ -260,7 +260,7 @@ disabled-abilities:
 #  - LEVITATE
 #  - LIFESTEAL
   - LIGHTNING
-  - MULTI-GHASTLY
+  - MULTI_GHASTLY
 #  - MOLTEN
 #  - MORPH
 #  - MOUNTED
