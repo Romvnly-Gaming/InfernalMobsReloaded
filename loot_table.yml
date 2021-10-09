@@ -301,21 +301,9 @@ seamsplitter:
     - "infinity:1:0.75"
     - "punch:2-5"
 
-
-
-
-
-
-
 # LIMTIED ITEMS
 
-
-
-
-
-
-
-HALLOWEEN_BIG_SHOT:
+halloween_big_shot:
   name: "&e&l[[BIG SHOT]]"
   material: "BOW"
   amount: 1
@@ -330,7 +318,7 @@ HALLOWEEN_BIG_SHOT:
     - "&6HALLOWEEN ITEM"
     - "&4&lDon't you want to be a &e&l[BIG SHOT]&4&l?"
 
-HALLOWEEN_HALLOWED_PUMPKIN:
+halloween_hallowed_pumpkin:
   name: "&6&lHallowed Pumpkin"
   material: "CARVED_PUMPKIN"
   amount: 1
@@ -356,8 +344,7 @@ HALLOWEEN_HALLOWED_BOOTS:
   lore:
     - "&6HALLOWEEN ITEM"
     - "&4Finally, Infernal Boots"
-
-HALLOWEEN_HALLOWED_LEGGINGS:
+halloween_hallowed_LEGGINGS:
   name: "&6&lHallowed Pants"
   material: "LEATHER_LEGGINGS"
   amount: 1
@@ -371,7 +358,7 @@ HALLOWEEN_HALLOWED_LEGGINGS:
     - "&6HALLOWEEN ITEM"
     - "Orange Liquid Leaks Out."
 
-HALLOWEEN_HALLOWED_CHESTPLATE:
+halloween_hallowed_chestplate:
   name: "&6&lHallowed Chestplate"
   material: "LEATHER_CHESTPLATE"
   amount: 1
@@ -385,7 +372,7 @@ HALLOWEEN_HALLOWED_CHESTPLATE:
     - "&6HALLOWEEN ITEM"
     - "Orange Liquid Leaks Out the Front."
 
-HALLOWEEN_HALLOWED_SWORD:
+halloween_hallowed_sword:
   name: "&6&lHallowed Sword"
   material: "IRON_SWORD"
   amount: 1
@@ -398,20 +385,6 @@ HALLOWEEN_HALLOWED_SWORD:
   lore:
     - "&6HALLOWEEN ITEM"
     - "It's covered in the orange liquid."
-
-
-
-
-#NORMALITEMS
-
-
-
-
-
-
-
-
-
 enchanted_apple:
   name: "Notch's Apple"
   material: ENCHANTED_GOLDEN_APPLE
