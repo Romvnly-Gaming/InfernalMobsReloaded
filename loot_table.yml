@@ -316,7 +316,7 @@ seamsplitter:
 
 
 HALLOWEEN_BIG_SHOT:
-  name: "&e&l[BIG SHOT]"
+  name: "&e&l[[BIG SHOT]]"
   material: "BOW"
   amount: 1
   enchants: 
