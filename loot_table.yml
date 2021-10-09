@@ -331,7 +331,7 @@ halloween_hallowed_pumpkin:
     - "&6HALLOWEEN ITEM"
     - "A strange orange liquid leaks out of it."
 
-HALLOWEEN_HALLOWED_BOOTS:
+halloween_hallowed_boots:
   name: "&6&lHallowed Boots"
   material: "LEATHER_BOOTS"
   amount: 1
@@ -344,7 +344,7 @@ HALLOWEEN_HALLOWED_BOOTS:
   lore:
     - "&6HALLOWEEN ITEM"
     - "&4Finally, Infernal Boots"
-halloween_hallowed_LEGGINGS:
+halloween_hallowed_pants:
   name: "&6&lHallowed Pants"
   material: "LEATHER_LEGGINGS"
   amount: 1
