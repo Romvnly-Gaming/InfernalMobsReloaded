@@ -51,8 +51,6 @@
 ## 5. BOTH_WHEN_APPLIED is also only a valid particle mode for SELF_ON_HIT, TARGET_ON_HIT, and BOTH_ON_HIT effect modes, it'll spawn particles on both self and the target, every time the effect happens
 ## Below you can create as many effects as you want, and link them with the items from `loot_table.yml` file
 
-
-
 ############################################################
 # +------------------------------------------------------+ #
 # |             Charm Effects World Whitelist            | #
@@ -70,36 +68,36 @@ valid-charm-slots:
   - 36-39
 charm-effects:
   thors_apple:
-    override-charm-slots:                      # that's how you override slots, so it won't use the global slots; remember that 'main-hand' property ignore slots, both global ones and the override ones
+    override-charm-slots: # that's how you override slots, so it won't use the global slots; remember that 'main-hand' property ignore slots, both global ones and the override ones
       - 0-3
-    player-message: "<#d75eff>You feel your wounds disappearing."   # omit this field to send nothing to the player when the effects kicks in
-    effect: INSTANT_HEALTH                     # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.17/org/bukkit/potion/PotionEffectType.html
-    potency: 1-2                               # potion level
-#    duration: 10.0                            # duration does nothing here, since instant healing is an instant effect
-    delay: 20.0-30.0                           # in seconds, the delay between each recurrent application
-    effect-mode: SELF_RECURRENT                # type of effect that will be applied on the player, choose from SELF_PERMANENT, SELF_RECURRENT, and TARGET_TEMPORARY
-    particle-mode: SELF_WHEN_APPLIED        # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
-    particle-type: totem                       # see full list here https://papermc.io/javadocs/paper/1.17/org/bukkit/Particle.html
-    required-items:                            # the effect will require ALL the items listed below to be active
+    player-message: "<#d75eff>You feel your wounds disappearing." # omit this field to send nothing to the player when the effects kicks in
+    effect: INSTANT_HEALTH # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.17/org/bukkit/potion/PotionEffectType.html
+    potency: 1-2 # potion level
+    #    duration: 10.0                            # duration does nothing here, since instant healing is an instant effect
+    delay: 20.0-30.0 # in seconds, the delay between each recurrent application
+    effect-mode: SELF_RECURRENT # type of effect that will be applied on the player, choose from SELF_PERMANENT, SELF_RECURRENT, and TARGET_TEMPORARY
+    particle-mode: SELF_WHEN_APPLIED # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
+    particle-type: totem # see full list here https://papermc.io/javadocs/paper/1.17/org/bukkit/Particle.html
+    required-items: # the effect will require ALL the items listed below to be active
       - "thors_apple"
   mothers_milk_1:
-    effect: REGENERATION                     # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.17/org/bukkit/potion/PotionEffectType.html
-    potency: 2-3                              # potion level
-    duration: 3.0                            # duration does nothing here, since instant healing is an instant effect
-    delay: 10.0                           # in seconds, the delay between each recurrent application
-    effect-mode: SELF_RECURRENT                # type of effect that will be applied on the player, choose from SELF_PERMANENT, SELF_RECURRENT, and TARGET_TEMPORARY
-    particle-mode: SELF_WHEN_APPLIED        # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
-    particle-type: SPELL_INSTANT                       # see full list here https://papermc.io/javadocs/paper/1.17/org/bukkit/Particle.html
-    required-items:                            # the effect will require ALL the items listed below to be active
+    effect: REGENERATION # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.17/org/bukkit/potion/PotionEffectType.html
+    potency: 2-3 # potion level
+    duration: 3.0 # duration does nothing here, since instant healing is an instant effect
+    delay: 10.0 # in seconds, the delay between each recurrent application
+    effect-mode: SELF_RECURRENT # type of effect that will be applied on the player, choose from SELF_PERMANENT, SELF_RECURRENT, and TARGET_TEMPORARY
+    particle-mode: SELF_WHEN_APPLIED # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
+    particle-type: SPELL_INSTANT # see full list here https://papermc.io/javadocs/paper/1.17/org/bukkit/Particle.html
+    required-items: # the effect will require ALL the items listed below to be active
       - "mothers_milk"
 
   mothers_milk_2:
-    effect: FAST_DIGGING                   # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.17/org/bukkit/potion/PotionEffectType.html
-    potency: 3                              # potion level
-    effect-mode: SELF_PERMANENT             # type of effect that will be applied on the player, choose from SELF_PERMANENT, SELF_RECURRENT, and TARGET_TEMPORARY
-    particle-mode: SELF_ONCE        # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
-    particle-type: flame                        # see full list here https://papermc.io/javadocs/paper/1.17/org/bukkit/Particle.html
-    required-items:                            # the effect will require ALL the items listed below to be active
+    effect: FAST_DIGGING # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.17/org/bukkit/potion/PotionEffectType.html
+    potency: 3 # potion level
+    effect-mode: SELF_PERMANENT # type of effect that will be applied on the player, choose from SELF_PERMANENT, SELF_RECURRENT, and TARGET_TEMPORARY
+    particle-mode: SELF_ONCE # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
+    particle-type: flame # see full list here https://papermc.io/javadocs/paper/1.17/org/bukkit/Particle.html
+    required-items: # the effect will require ALL the items listed below to be active
       - "mothers_milk"
   flying_bow:
     effect: LEVITATION
@@ -107,15 +105,15 @@ charm-effects:
     duration: 3
     delay: 1
     effect-mode: TARGET_ON_HIT
-    particle-mode: TARGET_WHEN_APPLIED        # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
+    particle-mode: TARGET_WHEN_APPLIED # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
     particle-type: cloud
-    required_items: 
-      - "flying_bow"  
+    required_items:
+      - "flying_bow"
   fast_miner:
-    player-message: "<#36f5f2>Suddenly, you gain the agility of the gods."   # omit this field to send nothing to the player when the effects kicks in
-    effect: FAST_DIGGING                       # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.17/org/bukkit/potion/PotionEffectType.html
-    potency: 3    # potion level
-    delay: 1.0                               # delay does nothing since this is a permanent effect
+    player-message: "<#36f5f2>Suddenly, you gain the agility of the gods." # omit this field to send nothing to the player when the effects kicks in
+    effect: FAST_DIGGING # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.17/org/bukkit/potion/PotionEffectType.html
+    potency: 3 # potion level
+    delay: 1.0 # delay does nothing since this is a permanent effect
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
     particle-type: flame
@@ -123,27 +121,27 @@ charm-effects:
 
   fast_digger:
     player-message: "&6Suddenly, the power of your golden heart flows through you.\nDon't give up on your dreams."
-    effect: FAST_DIGGING                       # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.17/org/bukkit/potion/PotionEffectType.html
-    potency: 10    # potion level
-    delay: 1.0                               # delay does nothing since this is a permanent effect
+    effect: FAST_DIGGING # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.17/org/bukkit/potion/PotionEffectType.html
+    potency: 10 # potion level
+    delay: 1.0 # delay does nothing since this is a permanent effect
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
     particle-type: VILLAGER_HAPPY
     main-hand: "golden_spoon"
- 
+
   demon_touch:
-    player-message: "<#36f5f2>Your sword dismember a part of your opponent."   # message that will be sent to the player, when their target is effect by the charm's effect, omit this field to send nothing
-    target-message: "<#36f5f2>You got dismembered by your opponent's demonic sword."   # message that will be sent to the player's target, when affected by the effect, omit this field to send nothing
-    effect: HARM                               # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.17/org/bukkit/potion/PotionEffectType.html
-    potency: 1-2                               # potion level
-#   duration: 10.0                             # duration does nothing here, since instant damage is an instant effect
-    delay: 12.0                                # in seconds, delay between each application
+    player-message: "<#36f5f2>Your sword dismember a part of your opponent." # message that will be sent to the player, when their target is effect by the charm's effect, omit this field to send nothing
+    target-message: "<#36f5f2>You got dismembered by your opponent's demonic sword." # message that will be sent to the player's target, when affected by the effect, omit this field to send nothing
+    effect: HARM # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.17/org/bukkit/potion/PotionEffectType.html
+    potency: 1-2 # potion level
+    #   duration: 10.0                             # duration does nothing here, since instant damage is an instant effect
+    delay: 12.0 # in seconds, delay between each application
     effect-mode: TARGET_ON_HIT
     particle-mode: BOTH_WHEN_APPLIED
     particle-type: flame
-    main-hand: "demon_sword"                   # will require 'demon_sword' to be on the main hand for the effect to kicks in
+    main-hand: "demon_sword" # will require 'demon_sword' to be on the main hand for the effect to kicks in
     #required-items:                           # you can add more items as requirement, just not in the main hand since players cannot hold two items at the same time using the main hand
-      #- "another_item"
+    #- "another_item"
   backhoe:
     effect: FAST_DIGGING
     potency: 2
@@ -287,7 +285,7 @@ charm-effects:
     particle-mode: TARGET_WHEN_APPLIED
     particle-type: heart
     required-items:
-      - hunger_support  
+      - hunger_support
   sugar_of_ianite:
     effect: SPEED
     potency: 5
@@ -405,49 +403,24 @@ charm-effects:
     potency: 1-2
     delay: 1.0
     duration: 5.0
-    effect-mode: TARGET_ON_HIT  
+    effect-mode: TARGET_ON_HIT
     particle-mode: SELF_ONCE
     required-items:
       - poisoned_blade
   axe_of_rage_1:
-   # player-message: "&4&lYou become bloodthirsty, you feel the hatred begin to run through you. You suddenly gain the urge to kill. All you begin to hear is 'Kill Kill Kill', and you feel compelled to comply."
     effect: STRENGTH
     potency: 8
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
     main-hand: "axe_of_rage"
-  HALLOWEEN_BIG_SHOT:
+  halloween_big_shot:
     effect: HEALTH_BOOST
     potency: 3-4
     delay: 1.0
-    effect: SELF_PERMANENT
-    particle-mode: SELF_ONCE
-    main-hand: "HALLOWEEN_BIG_SHOT"
-  axe_of_rage_2:
-    effect: ABSORPTION
-    potency: 2
-    delay: 15.0
-    duration: 8.0
-    effect-mode: SELF_RECURRENT
-    particle-mode: SELF_ONCE
-    main-hand: "axe_of_rage"
-  axe_of_rage_1d:
-    player-message: "&4&lYou become bloodthirsty, you feel the hatred begin to run through you. You suddenly gain the urge to kill. All you begin to hear is 'Kill Kill Kill', and you feel compelled to comply."
-    effect: STRENGTH
-    potency: 15
-    delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
-    main-hand: "axe_of_rage_dev"
-  axe_of_rage_2d:
-    effect: ABSORPTION
-    potency: 4
-    delay: 15.0
-    duration: 8.0
-    effect-mode: SELF_RECURRENT
-    particle-mode: SELF_ONCE
-    main-hand: "axe_of_rage_dev"
+    main-hand: "halloween_big_shot"
   vampire_stake:
     effect: HEAL
     potency: 1
@@ -533,15 +506,15 @@ charm-effects:
     particle-mode: TARGET_WHEN_APPLIED
     main-hand: "sky_sword"
   shield_of_power:
-      override-charm-slots:                      # that's how you override slots, so it won't use the global slots; remember that 'main-hand' property ignore slots, both global ones and the override ones
-       - 40
-      effect: INCREASE_DAMAGE
-      potency: 2
-      delay: 1.0
-      effect-mode: SELF_PERMANENT
-      particle-mode: SELF_ONCE
-      required-items:
-        - shield_of_power
+    override-charm-slots: # that's how you override slots, so it won't use the global slots; remember that 'main-hand' property ignore slots, both global ones and the override ones
+      - 40
+    effect: INCREASE_DAMAGE
+    potency: 2
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - shield_of_power
   demon_blade:
     effect: INCREASE_DAMAGE
     potency: 2
@@ -588,7 +561,7 @@ charm-effects:
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
     required-items:
-      - totem_of_life      
+      - totem_of_life
   fire_crystal:
     effect: FIRE_RESISTANCE
     potency: 1
@@ -686,7 +659,7 @@ charm-effects:
       - wrathbringer
   plate_of_greed:
     override-charm-slots:
-    - 38
+      - 38
     effect: HUNGER
     potency: 5
     delay: 1.0
