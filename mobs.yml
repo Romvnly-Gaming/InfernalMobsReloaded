@@ -121,12 +121,12 @@ the_hallowed:
     - "FLYING"
     - "MORPH"
   loot-table: 
-      - "HALLOWEEN_HALLOWED_PUMPKIN:0.25"
-      - "HALLOWEEN_HALLOWED_BOOTS:0.25"
-      - "HALLOWEEN_HALLOWED_LEGGINGS:0.25"
-      - "HALLOWEEN_HALLOWED_CHESTPLATE:0.25"
-      - "HALLOWEEN_HALLOWED_SWORD:0.25"
-      - "HALLOWEEN_BIG_SHOT:0.01"
+      - "halloween_hallowed_pumpkin:0.25"
+      - "halloween_hallowed_boots:0.25"
+      - "halloween_hallowed_leggings:0.25"
+      - "halloween_hallowed_chestplate:0.25"
+      - "halloween_hallowed_sword:0.25"
+      - "halloween_big_shot:0.01"
 the_powered:
   display-name: "&e&l**The Powered**&m"
   boss-bar-text: "&e&l(BOSS) **The Powered**&m"
