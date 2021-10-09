@@ -700,31 +700,6 @@ haunter:
   health-multiplier: 20.0       # will have between 20 times the normal health amount of a Zombie
   loot-table: [] 
 # Thanks https://www.fantasynamegenerators.com/minecraft-phantom-names.php for the name!
-# Infi medium level, ngl. 
-infi:
-  display-name: "<#7b03fc>**Infi**&r"
-  boss-bar-text: "<#7b03fc>**Infi**&r"
-  mob-spawner-name: "Mob Spawner (<#7b03fc>**Infi**&r)"
-  boss-bar-color: "PURPLE"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
-  boss-bar-overlay: "NOTCHED_10"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
-  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
-    - "DARKEN_SCREEN"
-  forced-abilities: 
-     - "MULTI_GHASTLY"
-     - "ARCHER"
-     - "TELEPORT"
-     - "MOLTEN"
-     - "CALL_THE_GANG"
-  type: "PHANTOM"
-  spawn-chance: 0.025
-  # felt like giving it a higher spawn rate for new players <3
-  follow-range-multiplier: 5.0       # will have 5 times the normal range of a Monster (makes it follow & shoot the player even at longer distances)
-  ability-amount: 5-7
-  damage-multiplier: 1.5-3.5
-  health-multiplier: 3.0-7.0       # will have between 20 times the normal health amount of a Zombie
-  loot-table: 
-     - "beetle_wings:0.01" 
-# Thanks https://www.fantasynamegenerators.com/minecraft-phantom-names.php for the name!
 # Vessel medium level, ngl. 
 vessel:
   display-name: "<#7b03fc>**Vessel**&r"
@@ -898,3 +873,4 @@ haunted_ghost:
     - "INVISIBLE"
   loot-table: 
     - "nether_sword:0.12"
+    - "beetle_wings:0.01"
