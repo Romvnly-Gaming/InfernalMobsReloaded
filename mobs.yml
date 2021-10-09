@@ -98,10 +98,10 @@ the_hallowed:
   type: "ZOMBIE"
   spawn-chance: 0.01                 # has 20% change of being a infernal mob
   ability-amount: 9-11                 # will have 2 abilities
-  attack-knockback-modifier: 5.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
+  attack-knockback-modifier: 1.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
   health-multiplier: 25-30             # will have 2 times the normal health amount of a Creeper
   follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
-  damage-multiplier: 5-10
+  damage-multiplier: 3-5
   forced-abilities: 
     - "NECROMANCER"
     - "HUNGER"
