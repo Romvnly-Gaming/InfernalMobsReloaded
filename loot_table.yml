@@ -344,7 +344,7 @@ halloween_hallowed_boots:
   lore:
     - "&6HALLOWEEN ITEM"
     - "&4Finally, Infernal Boots"
-halloween_hallowed_pants:
+halloween_hallowed_leggings:
   name: "&6&lHallowed Pants"
   material: "LEATHER_LEGGINGS"
   amount: 1
