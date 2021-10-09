@@ -195,7 +195,7 @@ potions:
 # Rust ability
 # Each attack of infernal with this ability has a chance of damaging the any items the target is currently holding (main hand only, off hand only, or both, picked at random)
 rust:
-  chance-on-damage-done: 0.15         # in percentage, the chance that the infernal mob with rust ability will have to damage the tools of the attacked entity
+  chance-on-damage-done: 0.05         # in percentage, the chance that the infernal mob with rust ability will have to damage the tools of the attacked entity
   durability-loss: 0.075-0.15        # in percentage, will reduce between 7.5% and 15% the durability of the tool being held by the victim when triggered
   send-message-to-player: true       # if true, will send a message to player warning him that his tools got corroded by the infernal
 

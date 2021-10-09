@@ -847,6 +847,39 @@ powered_armor:
   lore:
     - "&lPowered Up."
   enchants:
+    - protection:10-12
+    - unbreaking:5
+    - mending:1
+    - thorns:1-5
+powered_leggings:
+  name: "&e&lPowered Leggings"
+  material: NETHERITE_LEGGINGS
+  amount: 1
+  lore:
+    - "&lPowered Up."
+  enchants:
+    - protection:10
+    - unbreaking:5
+    - mending:1
+    - thorns:1-5
+powered_boots:
+  name: "&e&lPowered Boots"
+  material: NETHERITE_BOOTS
+  amount: 1
+  lore:
+    - "&lPowered Up."
+  enchants:
+    - protection:5-9
+    - unbreaking:5
+    - mending:1
+    - thorns:1-5
+powered_helmet:
+  name: "&e&lPowered Helmet"
+  material: NETHERITE_HELMET
+  amount: 1
+  lore:
+    - "&lPowered Up."
+  enchants:
     - protection:10-15
     - unbreaking:5
     - mending:1

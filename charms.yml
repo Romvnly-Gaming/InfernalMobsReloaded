@@ -316,7 +316,7 @@ charm-effects:
       - HALLOWEEN_HALLOWED_LEGGINGS
       - HALLOWEEN_HALLOWED_CHESTPLATE
       - HALLOWEEN_HALLOWED_SWORD
-    hallowed_set_2:
+  hallowed_set_2:
     effect: ABSORPTION
     potency: 5
     delay: 15.0
@@ -329,6 +329,30 @@ charm-effects:
       - HALLOWEEN_HALLOWED_LEGGINGS
       - HALLOWEEN_HALLOWED_CHESTPLATE
       - HALLOWEEN_HALLOWED_SWORD
+  powered_set_1:
+    effect: RESISTANCE
+    potency: 2
+    delay: 15.0
+    duration: 8.0
+    effect-mode: SELF_RECURRENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - powered_helmet
+      - powered_armor
+      - powered_leggings
+      - powered_boots
+  powered_set_2:
+    effect: STRENGTH
+    potency: 4
+    delay: 15.0
+    duration: 8.0
+    effect-mode: SELF_RECURRENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - powered_helmet
+      - powered_armor
+      - powered_leggings
+      - powered_boots
   hunger_charm:
     effect: SATURATION
     potency: 1

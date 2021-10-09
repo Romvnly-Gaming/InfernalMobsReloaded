@@ -116,6 +116,80 @@ baba_yaga:
     - "vampire_stake:0.49"
     - "golden_stick:0.25"
     - "axe_of_rage:0.01"
+the_hallowed:
+  display-name: "&6&l**The Hallowed**&m"
+  boss-bar-text: "&6&l(BOSS) **The Hallowed**&m"
+  mob-spawner-name: "Mob Spawner (YOURE GETTING BANNED)"
+  boss-bar-color: "WHITE"           # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "PROGRESS"       # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  type: "ZOMBIE"
+  spawn-chance: 0.01                 # has 20% change of being a infernal mob
+  ability-amount: 9-11                 # will have 2 abilities
+  attack-knockback-modifier: 5.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
+  health-multiplier: 25-30             # will have 2 times the normal health amount of a Creeper
+  follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
+  damage-multiplier: 5-10
+  forced-abilities: 
+    - "NECROMANCER"
+    - "HUNGER"
+    - "HEAVY"
+    - "BERSERK"
+    - "TELEPORT"
+    - "TOSSER"
+    - "RUST"
+    - "CALL_THE_GANG"
+    - "SECOND_WIND"
+  blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
+    - "THIEF"
+    - "MOUNTED"
+    - "INVISIBLE"
+    - "KAMIKAZE"
+    - "GHOST"
+    - "FLYING"
+    - "MORPH"
+  loot-table: 
+      - "HALLOWEEN_HALLOWED_PUMPKIN:0.25"
+      - "HALLOWEEN_HALLOWED_BOOTS:0.25"
+      - "HALLOWEEN_HALLOWED_LEGGINGS:0.25"
+      - "HALLOWEEN_HALLOWED_CHESTPLATE:0.25"
+      - "HALLOWEEN_HALLOWED_SWORD:0.25"
+      - "HALLOWEEN_BIG_SHOT:0.01"
+the_powered:
+  display-name: "&e&l**The Powered**&m"
+  boss-bar-text: "&e&l(BOSS) **The Powered**&m"
+  mob-spawner-name: "Mob Spawner (YOURE GETTING POWER BANNED)"
+  boss-bar-color: "WHITE"           # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "PROGRESS"       # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  type: "RAVAGER"
+  spawn-chance: 0.005                 # has 20% change of being a infernal mob
+  ability-amount: 9-11                 # will have 2 abilities
+  attack-knockback-modifier: 5.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
+  health-multiplier: 5-8             # will have 2 times the normal health amount of a Creeper
+  follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
+  damage-multiplier: 5
+  forced-abilities: 
+    - "LIGHTNING"
+    - "MOLTEN"
+    - "HEAVY"
+    - "BERSERK"
+    - "TELEPORT"
+    - "TOSSER"
+    - "CONFUSION"
+    - "CALL_THE_GANG"
+    - "SECOND_WIND"
+  blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
+    - "THIEF"
+    - "MOUNTED"
+    - "INVISIBLE"
+    - "KAMIKAZE"
+    - "GHOST"
+    - "FLYING"
+    - "MORPH"
+  loot-table: 
+      - "powered_armor:0.1"
+      - "powered_boots:0.1"
+      - "powered_leggings:0.1"
+      - "powered_helmet:0.1"
 orion:
   display-name: "&kee &c&l **Orion** &m&f&kee"
   boss-bar-text: "&kee &c&l **Orion** &m&f&kee"
@@ -720,6 +794,7 @@ infernal_creeper:
   loot-table: 
     - "creeper_gear:0.2"
     - "creeper_head_mk2:0.05"
+
 the_starved:
   display-name: "<#828282>(BOSS) <#bfbfbf>**The Starved**&m"
   boss-bar-text: "<#828282>(BOSS) <#bfbfbf>**The Starved**&m"
