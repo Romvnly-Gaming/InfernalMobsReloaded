@@ -354,11 +354,14 @@ charm-effects:
   hunger_charm:
     effect: SATURATION
     potency: 1
-    delay: 1.0
-    effect-mode: SELF_PERMANENT
-    particle-mode: SELF_ONCE
+    duration: 1.0                            # duration does nothing here, since instant healing is an instant effect
+    delay: 60.0                           # in seconds, the delay between each recurrent application
+    effect-mode: SELF_RECURRENT                # type of effect that will be applied on the player, choose from SELF_PERMANENT, SELF_RECURRENT, and TARGET_TEMPORARY
+    particle-mode: SELF_WHEN_APPLIED        # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
+    particle-type: SPELL_INSTANT                       # see full list here https://papermc.io/javadocs/paper/1.16/org/bukkit/Particle.html
     required-items:
       - hunger_charm
+
   american_axe:
     effect: FAST_DIGGING
     potency: 1
