@@ -563,7 +563,7 @@ jacks_axe:
   enchants:
     - unbreaking:3
     - sharpness:7
-    - curse_of_vanishing:1
+    - vanishing_curse:1
 blinding_curse:
   name: "&3Blinding Curse"
   material: GUNPOWDER
