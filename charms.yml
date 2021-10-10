@@ -309,11 +309,11 @@ charm-effects:
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
     required-items:
-      - HALLOWEEN_HALLOWED_PUMPKIN
-      - HALLOWEEN_HALLOWED_BOOTS
-      - HALLOWEEN_HALLOWED_LEGGINGS
-      - HALLOWEEN_HALLOWED_CHESTPLATE
-      - HALLOWEEN_HALLOWED_SWORD
+      - halloween_hallowed_pumpkin
+      - halloween_hallowed_boots
+      - halloween_hallowed_leggings
+      - halloween_hallowed_chestplate
+      - halloween_hallowed_sword
   hallowed_set_2:
     effect: ABSORPTION
     potency: 5
@@ -322,11 +322,11 @@ charm-effects:
     effect-mode: SELF_RECURRENT
     particle-mode: SELF_ONCE
     required-items:
-      - HALLOWEEN_HALLOWED_PUMPKIN
-      - HALLOWEEN_HALLOWED_BOOTS
-      - HALLOWEEN_HALLOWED_LEGGINGS
-      - HALLOWEEN_HALLOWED_CHESTPLATE
-      - HALLOWEEN_HALLOWED_SWORD
+      - halloween_hallowed_pumpkin
+      - halloween_hallowed_boots
+      - halloween_hallowed_leggings
+      - halloween_hallowed_chestplate
+      - halloween_hallowed_sword
   powered_set_1:
     effect: RESISTANCE
     potency: 2
