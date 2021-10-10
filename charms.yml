@@ -327,6 +327,19 @@ charm-effects:
       - halloween_hallowed_leggings
       - halloween_hallowed_chestplate
       - halloween_hallowed_sword
+  hallowed_set_3:
+    effect: SLOWNESS
+    potency: 5
+    delay: 300.0
+    duration: 999.0
+    effect-mode: SELF_RECURRENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - halloween_hallowed_pumpkin
+      - halloween_hallowed_boots
+      - halloween_hallowed_leggings
+      - halloween_hallowed_chestplate
+      - halloween_hallowed_sword
   powered_set_1:
     effect: RESISTANCE
     potency: 2
