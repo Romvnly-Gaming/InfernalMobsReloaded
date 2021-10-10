@@ -44,3 +44,6 @@ you-have-broken-your-charm: "<#55FF55>You just broke your charm <charm>, it'll n
 not-holding-charm: "<#FF5555>You are not holding a charm, this command may only be used when holding charms."
 you-dont-have-permission-to-break-charms: "<#FF5555>You are holding a working charm, but you don't have permission to break charms!"
 you-dont-have-permission-to-restore-charms: "<#FF5555>You are holding a broken charm, but you don't have permission to fix charms!"
+killed-all-infernals: "<#55FF55>Killed all loaded infernals from all worlds."
+killed-all-infernals-on-world: "<#55FF55>Killed all loaded infernals from world <#FFAA00><world><#55FF55>."
+world-not-found: "<#FF5555>World named <#FFAA00><world> <#FF5555>could not be found, please double check if that world exists and is loaded, then try again."
