@@ -118,6 +118,8 @@ the_hallowed:
     - "INVISIBLE"
     - "KAMIKAZE"
     - "GHOST"
+    - "LEVITATE"
+    - "BLINDING"
     - "FLYING"
     - "MORPH"
   loot-table: 
