@@ -378,6 +378,7 @@ halloween_hallowed_sword:
   amount: 1
   enchants: 
     - "sharpness:10-15"
+    - "smite:10-30"
     - "fire_aspect:1-5"
     - "knockback:1:0.5"
     - "unbreaking:5"
