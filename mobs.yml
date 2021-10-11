@@ -308,7 +308,7 @@ the_cursed:
     - "PLAY_BOSS_MUSIC"
     - "CREATE_WORLD_FOG"
   type: "ZOMBIE_VILLAGER"
-  spawn-chance: 0.01
+  spawn-chance: 0.002
   forced-abilities: 
      - "BLINDING"
      - "CONFUSION"
@@ -401,7 +401,7 @@ sir_piggens:
     - "PLAY_BOSS_MUSIC"
     - "CREATE_WORLD_FOG"
   type: "HOGLIN"
-  spawn-chance: 0.05
+  spawn-chance: 0.005
   forced-abilities: 
      - "HEAVY"
      - "BERSERK"
@@ -628,7 +628,7 @@ jinx:
      - "POTIONS"
   type: "SPIDER"
   # felt like giving it a higher spawn rate for new players <3
-  spawn-chance: 0.9
+  spawn-chance: 0.02
   follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   ability-amount: 3
   health-multiplier: 3.0       # will have between 3 and 5 times the normal health amount of a Zombie
