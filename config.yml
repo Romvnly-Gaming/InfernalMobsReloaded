@@ -32,7 +32,7 @@ infernal-particles-spread: 0.8          # in blocks
 infernal-particles-amount: 15           # in particles
 
 # Display custom name mode, valid values are NONE, LOOKING_AT, ALWAYS; keep in mind that this option only affect new infernal mobs, the ones that already exist won't be affected by this change
-display-infernal-custom-name-mode: ALWAYS
+display-infernal-custom-name-mode: LOOKING_AT
 
 # Prevent infernals mobs from damaging itself, they literally cannot take damage of their own abilities, no matter what
 infernals-cannot-damage-themselves: true
