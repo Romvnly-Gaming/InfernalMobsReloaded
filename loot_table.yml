@@ -1352,7 +1352,7 @@ the_holy_bible:
   material: BOOK
   amount: 1
   enchants:
-    - smite:20-50
+    - smite:10-20
 mothers_milk:
   name: "&f**Mother's Milk**"
   material: MILK_BUCKET
