@@ -96,7 +96,7 @@ the_hallowed:
   boss-bar-color: "WHITE"           # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "PROGRESS"       # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   type: "ZOMBIE"
-  spawn-chance: 0.01                 # has 20% change of being a infernal mob
+  spawn-chance: 0.01                # has 20% change of being a infernal mob
   ability-amount: 9-11                 # will have 2 abilities
   attack-knockback-modifier: 1.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
   health-multiplier: 25-30             # will have 2 times the normal health amount of a Creeper
@@ -123,11 +123,11 @@ the_hallowed:
     - "FLYING"
     - "MORPH"
   loot-table: 
-      - "halloween_hallowed_pumpkin:0.25"
-      - "halloween_hallowed_boots:0.25"
-      - "halloween_hallowed_leggings:0.25"
-      - "halloween_hallowed_chestplate:0.25"
-      - "halloween_hallowed_sword:0.25"
+      - "halloween_hallowed_pumpkin:0.15"
+      - "halloween_hallowed_boots:0.15"
+      - "halloween_hallowed_leggings:0.10"
+      - "halloween_hallowed_chestplate:0.05"
+      - "halloween_hallowed_sword:0.01"
       - "halloween_big_shot:0.01"
 the_powered:
   display-name: "&e&l**The Powered**&r"
