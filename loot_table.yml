@@ -386,12 +386,6 @@ halloween_hallowed_sword:
   lore:
     - "&6HALLOWEEN ITEM"
     - "It's covered in the orange liquid."
-enchanted_apple:
-  name: "Notch's Apple"
-  material: ENCHANTED_GOLDEN_APPLE
-  amount: 1
-  lore:
-    - "*It's just an apple.*"
 not_pros_chestplate:
   name: "&5Pro's True Chestplate"
   material: "NETHERITE_CHESTPLATE"
