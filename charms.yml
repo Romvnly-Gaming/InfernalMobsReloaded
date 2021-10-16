@@ -259,7 +259,7 @@ charm-effects:
     particle-mode: TARGET_WHEN_APPLIED
     required-items:
       - blinding_curse
-  jacks_axe:
+  onslaughts_axe:
     effect: POISON
     potency: 2
     delay: 10
@@ -267,7 +267,7 @@ charm-effects:
     particle-mode: TARGET_WHEN_APPLIED
     duration: 5
     required-items:
-      - jacks_axe
+      - onslaughts_axe
   hunger_support_1:
     effect: SATURATION
     potency: 5
