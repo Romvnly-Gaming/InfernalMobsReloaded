@@ -126,7 +126,7 @@ the_hallowed:
       - "halloween_hallowed_boots:0.15"
       - "halloween_hallowed_leggings:0.10"
       - "halloween_hallowed_chestplate:0.05"
-      - "halloween_hallowed_sword:0.01"
+      - "halloween_hallowed_sword:0.1"
       - "halloween_big_shot:0.01"
 the_powered:
   display-name: "&e&l**The Powered**&r"
@@ -166,7 +166,7 @@ the_powered:
 orion:
   display-name: "&kee &c&l **Orion** &m&f&kee&r"
   boss-bar-text: "&kee &c&l **Orion** &m&f&kee&r"
-  mob-spawner-name: "Mob Spawner (&e&l**The Powered**)"
+  mob-spawner-name: "Mob Spawner (&e&l**The Orion**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
