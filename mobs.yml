@@ -97,11 +97,10 @@ the_hallowed:
   boss-bar-overlay: "PROGRESS"       # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   type: "ZOMBIE"
   spawn-chance: 0.01                # has 20% change of being a infernal mob
-  ability-amount: 9-11                 # will have 2 abilities
-  attack-knockback-modifier: 1.0     # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
+  ability-amount: 4-11                 # will have 2 abilities
   health-multiplier: 25-30             # will have 2 times the normal health amount of a Creeper
   follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
-  damage-multiplier: 3-5
+  damage-multiplier: 2
   forced-abilities: 
     - "NECROMANCER"
     - "HUNGER"
@@ -386,11 +385,10 @@ onslaught:
     - "MORPH"
     - "GHOST"
   ability-amount: 10-13
-  damage-multiplier: 2
   health-multiplier: 18.0-21.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
     - "axe_of_rage:0.005"
-    - "jacks_axe:0.1"
+    - "onslaughts_axe:0.1"
 sir_piggens:
   display-name: "&c**Sir Piggens**&r"
   boss-bar-text: "&4**(BOSS) Sir Piggens**&r"

@@ -549,12 +549,12 @@ atlas:
     - "unbreaking:10"
     - "mending:1:0.25"
     - "fire_aspect:2"
-jacks_axe:
-  name: "Jack's Axe"
+onslaughts_axe:
+  name: "Onslaught's Axe"
   material: IRON_AXE
   amount: 1
   lore:
-    - "Jack was back with his trusty axe."
+    - "Onslaught is back with his trusty axe."
   enchants:
     - unbreaking:3
     - sharpness:7
@@ -564,7 +564,7 @@ blinding_curse:
   material: GUNPOWDER
   amount: 1
   lore:
-    - "&3Kind of mean to throw gunpowder in someone's eyes."
+    - "Meant to throw gunpowder in someone's eyes."
   enchants:
     - unbreaking:1
 thors_apple:

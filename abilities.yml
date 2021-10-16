@@ -44,7 +44,7 @@ call-the-gang:
   amount: 2-4                        # will call between 2 and 4 mobs of its type
   # All the reinforcements spawned by Call the Gang gain potion of speed, you can change the potency of the effect, its duration and particle properties below
   potency: 3-5                       # what potency of speed should the reinforcements be affected by; level 1 will provide 20% speed bonus, and each subsequent level increase the speed by another 20%
-  duration: 8.0-11.0                 # in seconds, the duration of the speed effect
+  duration: 8.0-20.0                 # in seconds, the duration of the speed effect
   potion-emit-particles: true        # if entities affected by potion of speed should emit speed effect particles
   potion-is-ambient: false           # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
 
@@ -71,7 +71,7 @@ flying:
 multi-ghastly:
   nearby-entities-range: 10.0         # in blocks, how close the entity has to be of the main target to also be affected by it; if you don't want this ability to be able to affect multiple targets, set this value to 0.0
   projectile-speed: 1.75             # speed is in vector, so you can think in it like m/s or something
-  fireball-amount: 8-12               # how many arrows are going to be shot, in default configuration it is 8-12
+  fireball-amount: 4-8              # how many arrows are going to be shot, in default configuration it is 8-12
   fireball-delay: 0.5                # in seconds, the delay between each fireball launch
   recheck-delay: 2.0                 # in seconds, every 1.5 seconds it'll run the random chance to see if it's going to spawn shoot the arrows
   chance: 0.25                       # every 'recheck-delay' seconds, the power will have 25% chance of being triggered
@@ -195,7 +195,7 @@ potions:
 # Rust ability
 # Each attack of infernal with this ability has a chance of damaging the any items the target is currently holding (main hand only, off hand only, or both, picked at random)
 rust:
-  chance-on-damage-done: 0.05         # in percentage, the chance that the infernal mob with rust ability will have to damage the tools of the attacked entity
+  chance-on-damage-done: 0.10         # in percentage, the chance that the infernal mob with rust ability will have to damage the tools of the attacked entity
   durability-loss: 0.075-0.15        # in percentage, will reduce between 7.5% and 15% the durability of the tool being held by the victim when triggered
   send-message-to-player: true       # if true, will send a message to player warning him that his tools got corroded by the infernal
 

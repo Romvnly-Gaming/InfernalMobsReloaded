@@ -27,15 +27,14 @@ global-drops:
     - "not_pros_chestplate:0.001"
     - "axe_of_rage:0.000001"
     - "atlas:0.000025" # (0.025% chance [Literally as rare as the Golden Frying Pan])    
-    - "excalibur:0.01"
-    - "wacker:0.016"
+    - "excalibur:0.005" # Excalibur is too common
+    - "wacker:0.016" 
     - "netherite_shield:0.0012"
     - "glass_drill:0.016"
     - "eliminators_helmet:0.005"
     - "demon_sword:0.001" # This item is literally all around the map, it's too public 
-    - "silky:0.02"
+    - "silky:0.005"
     - "butcher_axe:0.10" 
-    - "inferno_bow:0.06" 
+    - "inferno_bow:0.02" 
     - "lady_luck:0.05" 
-    - "wacker:0.02"
-    - "golden_coins:0.03"
+    - "golden_coins:0.03" 
