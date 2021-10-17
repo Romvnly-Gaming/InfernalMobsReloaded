@@ -126,7 +126,7 @@ the_hallowed:
       - "halloween_hallowed_boots:0.15"
       - "halloween_hallowed_leggings:0.10"
       - "halloween_hallowed_chestplate:0.05"
-      - "halloween_hallowed_sword:0.1"
+      - "halloween_hallowed_sword:0.02"
       - "halloween_big_shot:0.01"
 the_powered:
   display-name: "&e&l**The Powered**&r"
