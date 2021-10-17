@@ -49,6 +49,7 @@ hausemaster:
      - "ARMOURED"
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
+    - "THIEF" # Temporary; To fix thief bug where it disappears with ye loot
   ability-amount: 3-10
   health-multiplier: 10.0-13.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
