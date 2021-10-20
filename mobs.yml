@@ -430,7 +430,7 @@ hellbringer:
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "PLAY_BOSS_MUSIC"
   type: "ENDERMAN"
-  spawn-chance: 0.4
+  spawn-chance: 0.05
   mob-spawn-drop-chance: 0.0005
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
