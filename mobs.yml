@@ -83,13 +83,13 @@ baba_yaga:
   damage-multiplier: 5.5
   health-multiplier: 10.0-14.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
-    - "cloak_charm:0.15"
-    - "aqua_charm:0.15"
+    - "cloak_charm:0.01"
+    - "aqua_charm:0.01"
     - "bunny_charm:0.1"
     - "shield_of_power:0.1"
-    - "vampire_stake:0.49"
-    - "golden_stick:0.25"
-    - "axe_of_rage:0.01"
+    - "vampire_stake:0.05"
+    - "golden_stick:0.05"
+    - "axe_of_rage:0.001"
 the_hallowed:
   display-name: "&6&l**The Hallowed**&r"
   boss-bar-text: "&6&l(BOSS) **The Hallowed**&r"
