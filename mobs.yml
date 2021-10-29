@@ -503,7 +503,7 @@ porky:
   health-multiplier: 5.0-8.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: 
     - "hunger_charm:0.03"
-  witherheart:
+witherheart:
   display-name: "&0**Wither&4Heart**&r"
   boss-bar-text: "&4**WitherHeart**&r"
   mob-spawner-name: "Mob Spawner (&4**WitherHeart**&r)"
