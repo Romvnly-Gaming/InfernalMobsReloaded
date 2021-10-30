@@ -19,8 +19,6 @@ murder_axe:
   lore:                                        # this is how you set up lore that has multiple lines
     - "This is a lore"
     - "With multiple lines"
-
-
 silky:
   name: "<#00AA00>Silky"
   material: "DIAMOND_PICKAXE"
