@@ -556,7 +556,7 @@ blinding_curse:
 thors_apple:
   name: "&eThors Apple"
   material: GOLDEN_APPLE
-  amount: 2
+  amount: 1
   lore:
     - "&eStolen from Thors own table."
 creeper_head_mk2:
@@ -1427,12 +1427,6 @@ plate_of_greed:
     - unbreaking:1-10:0.24
     - fire_protection:1-10:0.15
     - mending:1
-thors_apple:
-  name: "<#FFFF55>Thors Apple"
-  material: "GOLDEN_APPLE"
-  amount: 2-5                                  # random amount between 2 and 5
-  lore:
-    - "<#FFFF55>Stolen from Thors own table."
 example_book:
   type: "book"                                 # you must specify that this item is a book
   material: "WRITTEN_BOOK"                     # valid values: WRITTEN_BOOK, WRITABLE_BOOK; the former is not editable, the latter is; if you don't specify a type, WRITTEN_BOOK will be used
