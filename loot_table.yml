@@ -73,14 +73,6 @@ hell_cream:
   enchants:
     - "fire_aspect:5-8"
     - "sharpness:1-5:0.10"
-wacker:
-  name: "<g:#d7fc03:#03fc77>**Wacker**"
-  material: "WOOD_SWORD"
-  amount: 1
-  lore:
-    - "Wack 'em back!"
-  enchants:
-    - "knockback:7-10"
 mjolnir:
   name: "**Thors Axe**"
   material: IRON_AXE
