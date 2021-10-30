@@ -20,12 +20,6 @@ murder_axe:
     - "This is a lore"
     - "With multiple lines"
 
-demon_sword:
-  name: "<#AA0000>Demon Sword"
-  material: "GOLDEN_SWORD"
-  amount: 1
-  lore: []                                     # put this empty square brackets to make the item have no lore, or simply omit this field
-  enchants: []                                 # put this empty square brackets to make the item have no enchants, or simply omit this field
 
 silky:
   name: "<#00AA00>Silky"
