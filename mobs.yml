@@ -439,7 +439,7 @@ hellbringer:
      - "LIFESTEAL"
      - "MORPH"
      - "THORNMAIL"
-  ability-amount: 3-5
+  ability-amount: 5-8
   health-multiplier: 5.0-8.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: 
      - "fire_crystal:0.15"
