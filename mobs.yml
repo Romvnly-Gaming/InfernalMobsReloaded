@@ -50,11 +50,11 @@ hausemaster:
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
     - "THIEF" # Temporary; To fix thief bug where it disappears with ye loot
-  ability-amount: 3-10
-  health-multiplier: 10.0-13.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  ability-amount: 4-10
+  health-multiplier: 10.0-15.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
     - "angel_soul:0.05" # 5 percent chance
-    - "balancer:0.0001"
+    - "balancer:0.0005"
 baba_yaga:
   display-name: "&c**Baba Yaga**&r"
   boss-bar-text: "&4**Baba Yaga**&r"
