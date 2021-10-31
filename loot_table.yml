@@ -19,14 +19,6 @@ murder_axe:
   lore:                                        # this is how you set up lore that has multiple lines
     - "This is a lore"
     - "With multiple lines"
-
-demon_sword:
-  name: "<#AA0000>Demon Sword"
-  material: "GOLDEN_SWORD"
-  amount: 1
-  lore: []                                     # put this empty square brackets to make the item have no lore, or simply omit this field
-  enchants: []                                 # put this empty square brackets to make the item have no enchants, or simply omit this field
-
 silky:
   name: "<#00AA00>Silky"
   material: "DIAMOND_PICKAXE"
@@ -79,14 +71,6 @@ hell_cream:
   enchants:
     - "fire_aspect:5-8"
     - "sharpness:1-5:0.10"
-wacker:
-  name: "<g:#d7fc03:#03fc77>**Wacker**"
-  material: "WOOD_SWORD"
-  amount: 1
-  lore:
-    - "Wack 'em back!"
-  enchants:
-    - "knockback:7-10"
 mjolnir:
   name: "**Thors Axe**"
   material: IRON_AXE
@@ -578,7 +562,7 @@ blinding_curse:
 thors_apple:
   name: "&eThors Apple"
   material: GOLDEN_APPLE
-  amount: 2
+  amount: 1
   lore:
     - "&eStolen from Thors own table."
 creeper_head_mk2:
@@ -1449,12 +1433,6 @@ plate_of_greed:
     - unbreaking:1-10:0.24
     - fire_protection:1-10:0.15
     - mending:1
-thors_apple:
-  name: "<#FFFF55>Thors Apple"
-  material: "GOLDEN_APPLE"
-  amount: 2-5                                  # random amount between 2 and 5
-  lore:
-    - "<#FFFF55>Stolen from Thors own table."
 example_book:
   type: "book"                                 # you must specify that this item is a book
   material: "WRITTEN_BOOK"                     # valid values: WRITTEN_BOOK, WRITABLE_BOOK; the former is not editable, the latter is; if you don't specify a type, WRITTEN_BOOK will be used
