@@ -484,7 +484,8 @@ jerry:
     - "THIEF"
   ability-amount: 1
   health-multiplier: 100         # will have between 3 and 5 times the normal health amount of a Zombie
-  loot-table: []
+  loot-table: 
+    - "jerrys_bane:0.01"
 porky:
   display-name: "&a**Porky**&r"
   boss-bar-text: "&a**Porky**&r"
