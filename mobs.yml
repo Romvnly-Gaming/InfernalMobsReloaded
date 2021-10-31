@@ -430,7 +430,7 @@ hellbringer:
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "PLAY_BOSS_MUSIC"
   type: "ENDERMAN"
-  spawn-chance: 0.05
+  spawn-chance: 0.005
   mob-spawn-drop-chance: 0.0005
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
@@ -439,8 +439,8 @@ hellbringer:
      - "LIFESTEAL"
      - "MORPH"
      - "THORNMAIL"
-  ability-amount: 5-8
-  health-multiplier: 5.0-8.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  ability-amount: 5-15
+  health-multiplier: 5.0-10.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: 
      - "fire_crystal:0.15"
      - "totem_of_death:0.05"
@@ -482,7 +482,7 @@ jerry:
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
     - "THIEF"
-  ability-amount: 1
+  ability-amount: 4
   health-multiplier: 100         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: 
     - "jerrys_bane:0.01"
@@ -737,7 +737,7 @@ infernal_creeper:
   mob-spawn-drop-chance: 0.00050
   follow-range-multiplier: 5.0       # will have 5 times the normal range of a monster (makes it follow & shoot the player even at longer distances)
   ability-amount: 3-6                # will have between 3 and 6 abilities
-  health-multiplier: 2.0             # will have 2 times the normal health amount of a Creeper
+  health-multiplier: 3.0             # will have 2 times the normal health amount of a Creeper
   loot-table: 
     - "creeper_gear:0.2"
     - "creeper_head_mk2:0.05"

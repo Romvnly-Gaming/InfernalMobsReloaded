@@ -1377,7 +1377,7 @@ wrathbringer:
   lore:
     - "&4A righteous wrath this is not"
   enchants:
-    - sharpness:3-10
+    - sharpness:3-8
     - unbreaking:1-5:0.25
     - bane_of_arthropods:1-8:0.15
     - smite:1-8:0.15
