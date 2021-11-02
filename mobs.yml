@@ -50,11 +50,11 @@ hausemaster:
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
     - "THIEF" # Temporary; To fix thief bug where it disappears with ye loot
-  ability-amount: 4-10
-  health-multiplier: 10.0-15.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  ability-amount: 3-10
+  health-multiplier: 10.0-13.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
     - "angel_soul:0.05" # 5 percent chance
-    - "balancer:0.0005"
+    - "balancer:0.0001"
 baba_yaga:
   display-name: "&c**Baba Yaga**&r"
   boss-bar-text: "&4**Baba Yaga**&r"
@@ -90,45 +90,6 @@ baba_yaga:
     - "vampire_stake:0.05"
     - "golden_stick:0.05"
     - "axe_of_rage:0.001"
-the_hallowed:
-  display-name: "&6&l**The Hallowed**&r"
-  boss-bar-text: "&6&l(BOSS) **The Hallowed**&r"
-  mob-spawner-name: "Mob Spawner (&6&l**The Hallowed**)"
-  boss-bar-color: "WHITE"           # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
-  boss-bar-overlay: "PROGRESS"       # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
-  type: "ZOMBIE"
-  spawn-chance: 0.01                # has 20% change of being a infernal mob
-  ability-amount: 4-11                 # will have 2 abilities
-  health-multiplier: 25-30             # will have 2 times the normal health amount of a Creeper
-  follow-range-multiplier: 2.0       # will have 2 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
-  damage-multiplier: 2
-  forced-abilities: 
-    - "NECROMANCER"
-    - "HUNGER"
-    - "HEAVY"
-    - "BERSERK"
-    - "TELEPORT"
-    - "TOSSER"
-    - "RUST"
-    - "CALL_THE_GANG"
-    - "SECOND_WIND"
-  blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
-    - "THIEF"
-    - "MOUNTED"
-    - "INVISIBLE"
-    - "KAMIKAZE"
-    - "GHOST"
-    - "LEVITATE"
-    - "BLINDING"
-    - "FLYING"
-    - "MORPH"
-  loot-table: 
-      - "halloween_hallowed_pumpkin:0.15"
-      - "halloween_hallowed_boots:0.15"
-      - "halloween_hallowed_leggings:0.10"
-      - "halloween_hallowed_chestplate:0.05"
-      - "halloween_hallowed_sword:0.02"
-      - "halloween_big_shot:0.01"
 the_powered:
   display-name: "&e&l**The Powered**&r"
   boss-bar-text: "&e&l(BOSS) **The Powered**&r"
@@ -430,7 +391,7 @@ hellbringer:
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "PLAY_BOSS_MUSIC"
   type: "ENDERMAN"
-  spawn-chance: 0.005
+  spawn-chance: 0.05
   mob-spawn-drop-chance: 0.0005
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
@@ -439,8 +400,8 @@ hellbringer:
      - "LIFESTEAL"
      - "MORPH"
      - "THORNMAIL"
-  ability-amount: 5-15
-  health-multiplier: 5.0-10.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  ability-amount: 3-5
+  health-multiplier: 5.0-8.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: 
      - "fire_crystal:0.15"
      - "totem_of_death:0.05"
@@ -482,10 +443,9 @@ jerry:
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
     - "THIEF"
-  ability-amount: 4
+  ability-amount: 1
   health-multiplier: 100         # will have between 3 and 5 times the normal health amount of a Zombie
-  loot-table: 
-    - "jerrys_bane:0.01"
+  loot-table: []
 porky:
   display-name: "&a**Porky**&r"
   boss-bar-text: "&a**Porky**&r"
@@ -737,7 +697,7 @@ infernal_creeper:
   mob-spawn-drop-chance: 0.00050
   follow-range-multiplier: 5.0       # will have 5 times the normal range of a monster (makes it follow & shoot the player even at longer distances)
   ability-amount: 3-6                # will have between 3 and 6 abilities
-  health-multiplier: 3.0             # will have 2 times the normal health amount of a Creeper
+  health-multiplier: 2.0             # will have 2 times the normal health amount of a Creeper
   loot-table: 
     - "creeper_gear:0.2"
     - "creeper_head_mk2:0.05"

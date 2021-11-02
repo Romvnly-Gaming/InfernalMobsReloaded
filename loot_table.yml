@@ -272,14 +272,6 @@ armor_of_resistance:
     - "mending:1:0.25"
     - "fire_protection:5:0.5"
     - "blast_protection:5:0.5"
-jerrys_bane:
-  name: "Jerry's Bane"
-  material: WOODEN_SWORD
-  amount: 1
-  lore:
-    - "jerry."
-  enchants:
-    - "sharpness:1"
 seamsplitter:
   name: "&4Seamsplitter"
   material: "BOW"
@@ -1385,7 +1377,7 @@ wrathbringer:
   lore:
     - "&4A righteous wrath this is not"
   enchants:
-    - sharpness:3-8
+    - sharpness:3-10
     - unbreaking:1-5:0.25
     - bane_of_arthropods:1-8:0.15
     - smite:1-8:0.15
