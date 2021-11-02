@@ -1370,6 +1370,14 @@ cool_banner:
   patterns:                                    # may contain infinite amount of patterns
     - "GRADIENT:magenta"
     - "sku:LIME"
+cake_01:
+  name: "&c**B-Day Cake**"
+  material: CAKE
+  amount: 1
+  lore:
+    - "&dBut for who?"
+  enchants:
+    - unbreaking:10
 wrathbringer:
   name: "&c**Wrathbringer**"
   material: NETHERITE_SWORD

@@ -18,6 +18,7 @@ global-drops:
     - "the_holy_bible:0.002"
     - "king_uthers_greaves:0.0010" # Rare item
     - "cat_spirit_helm:0.0010" # Rare item
+    - "cake_01:0.001"
     - "halo:0.005"
     - "dwarven_pickaxe:0.005" # Hot item
     - "heroic_village_bell:0.0010" # Hot item
