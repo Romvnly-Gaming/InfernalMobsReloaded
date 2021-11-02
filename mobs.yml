@@ -50,11 +50,11 @@ hausemaster:
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
     - "THIEF" # Temporary; To fix thief bug where it disappears with ye loot
-  ability-amount: 4-10
-  health-multiplier: 10.0-15.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  ability-amount: 3-10
+  health-multiplier: 10.0-13.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
     - "angel_soul:0.05" # 5 percent chance
-    - "balancer:0.0005"
+    - "balancer:0.0001"
 baba_yaga:
   display-name: "&c**Baba Yaga**&r"
   boss-bar-text: "&4**Baba Yaga**&r"
@@ -430,7 +430,7 @@ hellbringer:
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "PLAY_BOSS_MUSIC"
   type: "ENDERMAN"
-  spawn-chance: 0.005
+  spawn-chance: 0.05
   mob-spawn-drop-chance: 0.0005
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
@@ -439,8 +439,8 @@ hellbringer:
      - "LIFESTEAL"
      - "MORPH"
      - "THORNMAIL"
-  ability-amount: 5-15
-  health-multiplier: 5.0-10.0         # will have between 3 and 5 times the normal health amount of a Zombie
+  ability-amount: 3-5
+  health-multiplier: 5.0-8.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: 
      - "fire_crystal:0.15"
      - "totem_of_death:0.05"
@@ -482,10 +482,9 @@ jerry:
   blacklisted-abilities:                 # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
     - "THIEF"
-  ability-amount: 4
+  ability-amount: 1
   health-multiplier: 100         # will have between 3 and 5 times the normal health amount of a Zombie
-  loot-table: 
-    - "jerrys_bane:0.01"
+  loot-table: []
 porky:
   display-name: "&a**Porky**&r"
   boss-bar-text: "&a**Porky**&r"
@@ -737,7 +736,7 @@ infernal_creeper:
   mob-spawn-drop-chance: 0.00050
   follow-range-multiplier: 5.0       # will have 5 times the normal range of a monster (makes it follow & shoot the player even at longer distances)
   ability-amount: 3-6                # will have between 3 and 6 abilities
-  health-multiplier: 3.0             # will have 2 times the normal health amount of a Creeper
+  health-multiplier: 2.0             # will have 2 times the normal health amount of a Creeper
   loot-table: 
     - "creeper_gear:0.2"
     - "creeper_head_mk2:0.05"
