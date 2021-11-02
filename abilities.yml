@@ -56,7 +56,7 @@ call-the-gang:
 # Confusion ability
 # Each of its attacks may confuse on their targets (nausea), warping and wobbling the target's vision similarly to a nether portal, side effects: their target may puke
 confusion:
-  Description: A Infernal attacks may confuse on their targets (nausea), warping and wobbling the targets vision similarly to a nether portal, side effects: their target may puke
+  Description: "A Infernal attacks may confuse on their targets (nausea), warping and wobbling the targets vision similarly to a nether portal, side effects: their target may puke"
   chance-on-damage-done: 0.5         # in percentage, the chance that the infernal mob with confusion ability will have to confuse the attacked entity
   duration: 10.0-12.0                # in seconds, the duration of the confusion effect
   potion-emit-particles: true        # if entities affected by confusion should emit confusion effect particles
@@ -136,7 +136,7 @@ kamikaze:
 # Levitate ability
 # On damage, have a chance of making the victim fluctuate in the air for some time, aka "transform them into piñata"
 levitate:
-  Description: On damage, have a chance of making the victim fluctuate in the air for some time, aka "transform them into piñata"
+  Description: On damage, have a chance of making the victim fluctuate in the air for some time
   chance-on-damage-done: 0.5         # in percentage, the chance that the infernal mob with levitate ability will have to make the attacked entity levitate
   duration: 3.0-5.0                  # in seconds, the duration of the levitate effect
   potency: 1-2                       # what potency of levitation should the entity be affected by, each level increase the floating rate by 0.9 blocks per second, valid values: 1-127, more info here https://minecraft.fandom.com/wiki/Levitation
@@ -160,7 +160,7 @@ lightning:
 # Molten ability
 # Any infernal with this ability is immune to fire/lava. They set on fire entities that they attack and entities that attack them, it's basically a pyromaniac in disguise. "Set your life on fire. Seek those who fan your flames" - Rumi
 molten:
-  Description: Any infernal with this ability is immune to fire/lava. They set on fire players that they attack and entities that attack them, it's basically a pyromaniac in disguise.
+  Description: "Any infernal with this ability is immune to fire/lava. They set on fire players that they attack and entities that attack them, it's basically a pyromaniac in disguise."
   chance-on-damage-done: 0.6         # in percentage, the chance that the infernal mob with molten ability will have to set the attacked entity on fire
   chance-on-damage-taken: 0.4        # in percentage, the chance that the entity that hit the infernal mob with molten ability will be set on fire (valid only for melee damage)
   duration: 6.0-10.0                 # in seconds, the duration of the fire
@@ -257,7 +257,7 @@ teleport:
 # Thief ability
 # Every certain amount of time, a infernal mob with thief ability will have a chance of steal one part of the target's set or equipped weapons, randomly
 thief:
-  Description: Every certain amount of time, a infernal mob with thief ability will have a chance of steal one part of the target's set or equipped weapons, randomly
+  Description: "Every certain amount of time, a infernal mob with thief ability will have a chance of steal one part of the target's set or equipped weapons, randomly"
   recheck-delay: 10.0                 # in seconds, each 3 seconds it'll run the random chance to see if it's going to steal a piece of target's equipment
   chance: 0.10                      # every 'recheck-delay' seconds, it'll, at a 5% chance of happening, steal one of the equipped items of the target
   durability-loss: 0.04-0.06         # in percentage, will reduce between 4% and 6% the durability of the equipment stolen from the victim
@@ -308,7 +308,7 @@ webber:
 # Withering ability
 # Each attack of the infernal with withering ability will have a chance of applying wither effect to the target; Wither is a status effect that inflicts damage over time. Unlike Poison, it can affect undead mobs, and can kill. It is usually difficult for the player to see how much health they have left, as it turns the player's health bar black.
 withering:
-  Description: Each attack of the infernal with withering ability will have a chance of applying wither effect to the target; Wither is a status effect that inflicts damage over time.
+  Description: "Each attack of the infernal with withering ability will have a chance of applying wither effect to the target; Wither is a status effect that inflicts damage over time."
   chance-on-damage-done: 0.65        # in percentage, the chance that the infernal mob will have to apply wither to their target
   potency: 1                         # what potency of wither should the entity be affected, check the damages here https://minecraft.fandom.com/wiki/Wither_(effect) , valid values for potency are 1 up until 32; of course you can use random range here as well, I just didn't because the withering effect already strong enough at level 1
   duration: 18.0-30.0                # in seconds, the duration of the wither effect; a
