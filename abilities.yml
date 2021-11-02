@@ -56,7 +56,7 @@ call-the-gang:
 # Confusion ability
 # Each of its attacks may confuse on their targets (nausea), warping and wobbling the target's vision similarly to a nether portal, side effects: their target may puke
 confusion:
-  Description: A Infernal attacks may confuse on their targets (nausea), warping and wobbling the target's vision similarly to a nether portal, side effects: their target may puke
+  Description: A Infernal attacks may confuse on their targets (nausea), warping and wobbling the targets vision similarly to a nether portal, side effects: their target may puke
   chance-on-damage-done: 0.5         # in percentage, the chance that the infernal mob with confusion ability will have to confuse the attacked entity
   duration: 10.0-12.0                # in seconds, the duration of the confusion effect
   potion-emit-particles: true        # if entities affected by confusion should emit confusion effect particles
