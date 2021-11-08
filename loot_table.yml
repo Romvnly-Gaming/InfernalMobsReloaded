@@ -1384,6 +1384,19 @@ wrathbringer:
     - fire_aspect:1-5:0.3
     - looting:1-10:0.35
     - mending:1:0.15
+devils_knife:
+  name: "&5&l**Devil's Knife**"
+  material: IRON_HORE
+  amount: 1
+  lore:
+    - "*not a reference i swear*"
+    - "You hear an insane laugh resonate from the knife."
+  enchants:
+    - sharpness:25-30
+    - unbreaking:1-5:0.25
+    - fire_aspect:1-5:0.5
+    - looting:1-10:0.35
+    - mending:1:0.15
 balancer:
   name: "**&6Balancer**"
   material: "NETHERITE_SWORD"
