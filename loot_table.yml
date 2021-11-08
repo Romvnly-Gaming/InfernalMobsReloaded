@@ -1386,7 +1386,7 @@ wrathbringer:
     - mending:1:0.15
 devils_knife:
   name: "&5&l**Devil's Knife**"
-  material: IRON_HORE
+  material: IRON_HOE
   amount: 1
   lore:
     - "*not a reference i swear*"
