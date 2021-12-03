@@ -1,8 +1,8 @@
 # List of all mobs that can spawn!
 
 infernal_skeleteon:
-  display-name: "<#828282>Infernal <#bfbfbf>**Skeleton**&r"
-  boss-bar-text: "<#828282>Infernal <#bfbfbf>**Skeleton**&r"
+  display-name: "<#828282>Infernal <#bfbfbf>**Skeleton**"
+  boss-bar-text: "<#828282>Infernal <#bfbfbf>**Skeleton**"
   mob-spawner-name: "Mob Spawner (<#828282>Infernal <#bfbfbf>**Skeleton**)"
   boss-bar-color: "BLUE"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
@@ -15,8 +15,8 @@ infernal_skeleteon:
   health-multiplier: 5.0-8.5         # will have between 3 and 5 times the normal health amount of a Skeleton
   loot-table:  []
 my_annoying_skeleton:
-  display-name: "<#828282>Annoying <#bfbfbf>**Skeleton**&r"
-  boss-bar-text: "<#828282>Annoying <#bfbfbf>**Skeleton**&r"
+  display-name: "<#828282>Annoying <#bfbfbf>**Skeleton**"
+  boss-bar-text: "<#828282>Annoying <#bfbfbf>**Skeleton**"
   mob-spawner-name: "Mob Spawner (<#828282>Annoying <#bfbfbf>**Skeleton**)"
   boss-bar-color: "BLUE"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
@@ -35,8 +35,8 @@ my_annoying_skeleton:
   loot-table: []                     # don't drop anything
 # totally not housemaster but with a for copyright reasons!
 hausemaster:
-  display-name: "&c**Hausemaster**&r"
-  boss-bar-text: "&4**Hausemaster**&r"
+  display-name: "&c**Hausemaster**"
+  boss-bar-text: "&4**Hausemaster**"
   mob-spawner-name: "Mob Spawner (&4**Hausemaster**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
@@ -56,8 +56,8 @@ hausemaster:
     - "angel_soul:0.05" # 5 percent chance
     - "balancer:0.0001"
 baba_yaga:
-  display-name: "&c**Baba Yaga**&r"
-  boss-bar-text: "&4**Baba Yaga**&r"
+  display-name: "&c**Baba Yaga**"
+  boss-bar-text: "&4**Baba Yaga**"
   mob-spawner-name: "Mob Spawner (&4**Baba Yaga**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
@@ -91,8 +91,8 @@ baba_yaga:
     - "golden_stick:0.05"
     - "axe_of_rage:0.001"
 the_powered:
-  display-name: "&e&l**The Powered**&r"
-  boss-bar-text: "&e&l(BOSS) **The Powered**&r"
+  display-name: "&e&l**The Powered**"
+  boss-bar-text: "&e&l(BOSS) **The Powered**"
   mob-spawner-name: "Mob Spawner (&e&l**The Powered**)"
   boss-bar-color: "WHITE"           # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "PROGRESS"       # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
@@ -126,8 +126,8 @@ the_powered:
       - "powered_leggings:0.1"
       - "powered_helmet:0.1"
 orion:
-  display-name: "&kee &c&l **Orion** &m&f&kee&r"
-  boss-bar-text: "&kee &c&l **Orion** &m&f&kee&r"
+  display-name: "&kee &c&l **Orion** &m&f&kee"
+  boss-bar-text: "&kee &c&l **Orion** &m&f&kee"
   mob-spawner-name: "Mob Spawner (&e&l**The Orion**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
@@ -170,8 +170,8 @@ orion:
     - "bane_of_orion:1"
     - "thank_book:1"
 the_resistant:
-  display-name: "&c**The Resistant**&r"
-  boss-bar-text: "&4**The Resistant**&r"
+  display-name: "&c**The Resistant**"
+  boss-bar-text: "&4**The Resistant**"
   mob-spawner-name: "Mob Spawner (&4**The Resistant**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
@@ -200,8 +200,8 @@ the_resistant:
   loot-table:
     - "armor_of_resistance:0.05"
 the_condemned:
-  display-name: "&c**The Condemned**&r"
-  boss-bar-text: "&4**The Condemned**&r"
+  display-name: "&c**The Condemned**"
+  boss-bar-text: "&4**The Condemned**"
   mob-spawner-name: "Mob Spawner (&4**The Condemned**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
@@ -230,8 +230,8 @@ the_condemned:
   loot-table:
     - "mothers_milk:0.05"
 sticky_the_slime:
-  display-name: "&c**Sticky The Slime**&r"
-  boss-bar-text: "&4**Sticky The Slime**&r"
+  display-name: "&c**Sticky The Slime**"
+  boss-bar-text: "&4**Sticky The Slime**"
   mob-spawner-name: "Mob Spawner (&4**Sticky The Slime**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
@@ -260,8 +260,8 @@ sticky_the_slime:
   loot-table:
     - "slowness_curse:0.05"
 the_cursed:
-  display-name: "&c**The Cursed**&r"
-  boss-bar-text: "&4**(BOSS) The Cursed**&r"
+  display-name: "&c**The Cursed**"
+  boss-bar-text: "&4**(BOSS) The Cursed**"
   mob-spawner-name: "Mob Spawner (&c**The Cursed**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
@@ -291,8 +291,8 @@ the_cursed:
   loot-table:
     - "blinding_curse:0.15"
 the_hypothermic:
-  display-name: "&c**The Hypothermic**&r"
-  boss-bar-text: "&4**(BOSS) The Hypothermic**&r"
+  display-name: "&c**The Hypothermic**"
+  boss-bar-text: "&4**(BOSS) The Hypothermic**"
   mob-spawner-name: "Mob Spawner (&4**Hypothermic**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
@@ -321,8 +321,8 @@ the_hypothermic:
   loot-table:
     - "seamsplitter:0.15"
 onslaught:
-  display-name: "&c**Onslaught**&r"
-  boss-bar-text: "&4**(BOSS) Onslaught**&r"
+  display-name: "&c**Onslaught**"
+  boss-bar-text: "&4**(BOSS) Onslaught**"
   mob-spawner-name: "Mob Spawner (&4**Onslaught**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
@@ -352,8 +352,8 @@ onslaught:
     - "axe_of_rage:0.005"
     - "onslaughts_axe:0.1"
 sir_piggens:
-  display-name: "&c**Sir Piggens**&r"
-  boss-bar-text: "&4**(BOSS) Sir Piggens**&r"
+  display-name: "&c**Sir Piggens**"
+  boss-bar-text: "&4**(BOSS) Sir Piggens**"
   mob-spawner-name: "Mob Spawner (&4**Sir Piggens**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
@@ -383,8 +383,8 @@ sir_piggens:
     - "hunger_charm:0.01"
     - "hunger_support:0.2"
 hellbringer:
-  display-name: "&4**Hellbringer*&r"
-  boss-bar-text: "&4**Hellbringer**&r"
+  display-name: "&4**Hellbringer**"
+  boss-bar-text: "&4**Hellbringer**"
   mob-spawner-name: "Mob Spawner (&4**Hellbringer**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "PROGRESS"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
@@ -406,9 +406,9 @@ hellbringer:
      - "fire_crystal:0.15"
      - "totem_of_death:0.05"
 fuke_dishron:
-  display-name: "&4**Fuke Dishron**&r"
-  boss-bar-text: "&4**Fuke Dishron**&r"
-  mob-spawner-name: "Mob Spawner (&4**Fuke Dishron**&r)"
+  display-name: "&4**Fuke Dishron**"
+  boss-bar-text: "&4**Fuke Dishron**"
+  mob-spawner-name: "Mob Spawner (&4**Fuke Dishron**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "PROGRESS"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
@@ -447,9 +447,9 @@ jerry:
   health-multiplier: 100         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table: []
 porky:
-  display-name: "&a**Porky**&r"
-  boss-bar-text: "&a**Porky**&r"
-  mob-spawner-name: "Mob Spawner (&a**Porky**&r)"
+  display-name: "&a**Porky**"
+  boss-bar-text: "&a**Porky**"
+  mob-spawner-name: "Mob Spawner (&a**Porky**)"
   boss-bar-color: "GREEN"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "PROGRESS"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
@@ -465,9 +465,9 @@ porky:
   loot-table: 
     - "hunger_charm:0.03"
 witherheart:
-  display-name: "&0**Wither&4Heart**&r"
-  boss-bar-text: "&4**WitherHeart**&r"
-  mob-spawner-name: "Mob Spawner (&4**WitherHeart**&r)"
+  display-name: "&0**Wither&4Heart**"
+  boss-bar-text: "&4**WitherHeart**"
+  mob-spawner-name: "Mob Spawner (&4**WitherHeart**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_6"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
@@ -490,9 +490,9 @@ witherheart:
 #Thanks https://www.imagineforest.com/blog/pirate-name-generator/ for the name!
 # This guy is a menace bro might as well be a pillager
 blackbeard:
-  display-name: "&0**Black<#8a4816>beard**&r"
-  boss-bar-text: "&8**Black<#8a4816>beard**&r"
-  mob-spawner-name: "Mob Spawner (&0**Black<#8a4816>beard**&r)"
+  display-name: "&0**Black<#8a4816>beard**"
+  boss-bar-text: "&8**Black<#8a4816>beard**"
+  mob-spawner-name: "Mob Spawner (&0**Black<#8a4816>beard**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_6"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
@@ -511,9 +511,9 @@ blackbeard:
 # Thanks https://www.imagineforest.com/blog/pirate-name-generator/ for the name!
 # This guy is a menace bro might as well be a pillager
 wuharis:
-  display-name: "&d**Wuharis**&r"
-  boss-bar-text: "&d**Wuharis**&r"
-  mob-spawner-name: "Mob Spawner (&d**Wuharis**&r)"
+  display-name: "&d**Wuharis**"
+  boss-bar-text: "&d**Wuharis**"
+  mob-spawner-name: "Mob Spawner (&d**Wuharis**)"
   boss-bar-color: "PURPLE"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_20"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
@@ -532,9 +532,9 @@ wuharis:
 # Thanks https://www.imagineforest.com/blog/pirate-name-generator/ for the name!
 # Endgame menace ngl
 bella:
-  display-name: "&a**Bella**&r"
-  boss-bar-text: "&a**Bella**&r"
-  mob-spawner-name: "Mob Spawner (&a**Bella**&r)"
+  display-name: "&a**Bella**"
+  boss-bar-text: "&a**Bella**"
+  mob-spawner-name: "Mob Spawner (&a**Bella**)"
   boss-bar-color: "GREEN"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_20"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
@@ -559,9 +559,9 @@ bella:
 #Thanks https://www.fantasynamegenerators.com/minecraft-zombie-names.php for the name!
 # Drowned noob, ngl. For new players 
 famish:
-  display-name: "&4**Famish**&r"
-  boss-bar-text: "&4**Famish**&r"
-  mob-spawner-name: "Mob Spawner (&4**Famish**&r)"
+  display-name: "&4**Famish**"
+  boss-bar-text: "&4**Famish**"
+  mob-spawner-name: "Mob Spawner (&4**Famish**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_6"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
@@ -577,9 +577,9 @@ famish:
 #Thanks https://animalhype.com/arachnids/spider-names/ for the name!
 # Spider noob, ngl. For new players 
 jinx:
-  display-name: "&5**Jinx**&r"
-  boss-bar-text: "<#800080>**Jinx**&r"
-  mob-spawner-name: "Mob Spawner (<#800080>**Jinx**&r)"
+  display-name: "&5**Jinx**"
+  boss-bar-text: "<#800080>**Jinx**"
+  mob-spawner-name: "Mob Spawner (<#800080>**Jinx**)"
   boss-bar-color: "PURPLE"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_6"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
@@ -596,9 +596,9 @@ jinx:
 #Thanks Google for the name!
 # Spider noob, ngl. For new players 
 pyro:
-  display-name: "<#fa8c4f>**Pyro**&r"
-  boss-bar-text: "<#fa8c4f>**Pyro**&r"
-  mob-spawner-name: "Mob Spawner (<#fa8c4f>**Pyro**&r)"
+  display-name: "<#fa8c4f>**Pyro**"
+  boss-bar-text: "<#fa8c4f>**Pyro**"
+  mob-spawner-name: "Mob Spawner (<#fa8c4f>**Pyro**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_6"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
@@ -643,9 +643,9 @@ pyro:
 # Thanks https://animalhype.com/arachnids/spider-names/ for the name!
 # Spider noob, ngl. For new players 
 haunter:
-  display-name: "<#f54242>**Haunter**&r"
-  boss-bar-text: "<#f54242>**Haunter**&r"
-  mob-spawner-name: "Mob Spawner (<#f54242>**Haunter**&r)"
+  display-name: "<#f54242>**Haunter**"
+  boss-bar-text: "<#f54242>**Haunter**"
+  mob-spawner-name: "Mob Spawner (<#f54242>**Haunter**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_6"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
@@ -663,9 +663,9 @@ haunter:
 # Thanks https://www.fantasynamegenerators.com/minecraft-phantom-names.php for the name!
 # Vessel medium level, ngl. 
 vessel:
-  display-name: "<#7b03fc>**Vessel**&r"
-  boss-bar-text: "<#7b03fc>**Vessel**&r"
-  mob-spawner-name: "Mob Spawner (<#7b03fc>**Vessel**&r)"
+  display-name: "<#7b03fc>**Vessel**"
+  boss-bar-text: "<#7b03fc>**Vessel**"
+  mob-spawner-name: "Mob Spawner (<#7b03fc>**Vessel**)"
   boss-bar-color: "PURPLE"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
@@ -682,9 +682,9 @@ vessel:
   loot-table:
     - "cloak_charm:0.15"
 infernal_creeper:
-  display-name: "<#828282>Infernal <#38d411>**Creeper**&r"
-  boss-bar-text: "<#828282>Infernal <#38d411>**Creeper**&r"
-  mob-spawner-name: "Mob Spawner (<#828282>Infernal <#38d411>**Creeper**&r)"
+  display-name: "<#828282>Infernal <#38d411>**Creeper**"
+  boss-bar-text: "<#828282>Infernal <#38d411>**Creeper**"
+  mob-spawner-name: "Mob Spawner (<#828282>Infernal <#38d411>**Creeper**)"
   boss-bar-color: "GREEN"            # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
@@ -703,8 +703,8 @@ infernal_creeper:
     - "creeper_head_mk2:0.05"
 
 the_starved:
-  display-name: "<#828282>(BOSS) <#bfbfbf>**The Starved**&r"
-  boss-bar-text: "<#828282>(BOSS) <#bfbfbf>**The Starved**&r"
+  display-name: "<#828282>(BOSS) <#bfbfbf>**The Starved**"
+  boss-bar-text: "<#828282>(BOSS) <#bfbfbf>**The Starved**"
   mob-spawner-name: "Mob Spawner (INVALID)"
   boss-bar-color: "WHITE"           # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "PROGRESS"       # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
@@ -732,8 +732,8 @@ the_starved:
     - "hunger_charm:0.025"
     - "starvation_curse:0.025"
 the_tortured:
-  display-name: "<#828282>(BOSS) <#bfbfbf>**The Tortured**&r"
-  boss-bar-text: "<#828282>(BOSS) <#bfbfbf>**The Tortured**&r"
+  display-name: "<#828282>(BOSS) <#bfbfbf>**The Tortured**"
+  boss-bar-text: "<#828282>(BOSS) <#bfbfbf>**The Tortured**"
   mob-spawner-name: "Mob Spawner (ERR)"
   boss-bar-color: "WHITE"           # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "PROGRESS"       # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
@@ -761,9 +761,9 @@ the_tortured:
   loot-table: 
     - "chain_of_protection:0.1"
 the_molten:
-  display-name: "<#828282>(BOSS) <#bfbfbf>**The Molten**&r"
-  boss-bar-text: "<#828282>(BOSS) <#bfbfbf>**The Molten**&r"
-  mob-spawner-name: "Mob Spawner (&a**No**&r)"
+  display-name: "<#828282>(BOSS) <#bfbfbf>**The Molten**"
+  boss-bar-text: "<#828282>(BOSS) <#bfbfbf>**The Molten**"
+  mob-spawner-name: "Mob Spawner (&a**No**)"
   boss-bar-color: "RED"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_20"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
@@ -803,8 +803,8 @@ the_molten:
 
 # The mob spawned when an entity with Ghost ability dies (normal version)
 ghost:
-  display-name: "<#fafafa>**Ghost**&r"
-  boss-bar-text: "<#fafafa>**Ghost**&r"
+  display-name: "<#fafafa>**Ghost**"
+  boss-bar-text: "<#fafafa>**Ghost**"
   mob-spawner-name: ""               # no spawner name since it'll never drop a spawner
   boss-bar-color: "WHITE"            # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_10"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
@@ -820,8 +820,8 @@ ghost:
 
 # The mob spawned when an entity with Ghost ability dies (haunted version)
 haunted_ghost:
-  display-name: "<#ff3d3d>Haunted <#fafafa>**Ghost**&r"
-  boss-bar-text: "<#ff3d3d>Haunted <#fafafa>**Ghost**&r"
+  display-name: "<#ff3d3d>Haunted <#fafafa>**Ghost**"
+  boss-bar-text: "<#ff3d3d>Haunted <#fafafa>**Ghost**"
   mob-spawner-name: ""               # no spawner name since it'll never drop a spawner
   boss-bar-color: "WHITE"            # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_10"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20

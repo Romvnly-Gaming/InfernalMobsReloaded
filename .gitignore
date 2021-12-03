@@ -1,1 +1,4 @@
 README.md
+
+# This was necessary so development data isn't leaked into production unnecessary wasting space. 
+infernal_loot_old.yml 

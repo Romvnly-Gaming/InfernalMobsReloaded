@@ -12,7 +12,6 @@ global-drops:
     - "netherite_scrap:0.0020"
     - "shell_of_7_seas:0.01"
     - "cool_banner:0.010"
-    - "wrathbringer:0.001"
     - "trusty_shield:0.012" # Trusty trash
     - "plate_of_greed:0.001"
     - "the_holy_bible:0.002"
@@ -25,7 +24,6 @@ global-drops:
     - "honey_of_the_eater:0.0050" # Please remove this item from the game lord have mercy on our soul
     - "pickel_of_power:0.0020"
     - "angel_feather:0.0020"
-    - "not_pros_chestplate:0.001"
     - "axe_of_rage:0.000001"
     - "atlas:0.000025" # (0.025% chance [Literally as rare as the Golden Frying Pan])    
     - "excalibur:0.005" # Excalibur is too common
@@ -34,7 +32,6 @@ global-drops:
     - "glass_drill:0.016"
     - "eliminators_helmet:0.005"
     - "demon_sword:0.001" # This item is literally all around the map, it's too public 
-    - "silky:0.005"
     - "butcher_axe:0.10" 
     - "inferno_bow:0.02" 
     - "lady_luck:0.05" 

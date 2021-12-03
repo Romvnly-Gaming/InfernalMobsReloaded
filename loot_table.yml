@@ -11,23 +11,7 @@
 # Item material list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
 # Enchantment list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
 
-murder_axe:
-  type: "normal"                               # valid values: NORMAL, BOOK; you may omit this field for normal items
-  name: "<#AAAAAA>Murder Axe"                  # item display name, the name that will appear when the player hover over the item or holds it
-  material: "IRON_AXE"                         # vanilla material of an item, use the name exactly as listed in the website
-  amount: 1                                    # if you omit this field, the amount will default to 1
-  lore:                                        # this is how you set up lore that has multiple lines
-    - "This is a lore"
-    - "With multiple lines"
-silky:
-  name: "<#00AA00>Silky"
-  material: "DIAMOND_PICKAXE"
-  amount: 1
-  lore:
-    - "<#AAAAAA>Silkier than milk!"
-  enchants:
-    - "unbreaking:3-5"                             # will make every 'silky' pickaxe have efficiency level 1; default level of all enchantments is 1, unless otherwise specified; enchantment level range goes from 1 to 65535, but not all enchantments scale with level
-    - "silk_touch:5"                           # will make every 'silky' pickaxe have Silk Touch level 5   
+
 butcher_axe:
   name: "<#00AA00>Butcher Axe"
   material: "IRON_AXE"
@@ -60,7 +44,7 @@ wacker:
   lore:
     - "Wack 'em back!"
   enchants:
-    - "knockback:7-10"
+    - "knockback:1-4"
 hell_cream:
   name: "**Cream of Hell**"
   material: "MAGMA_CREAM"
@@ -72,7 +56,7 @@ hell_cream:
     - "fire_aspect:5-8"
     - "sharpness:1-5:0.10"
 mjolnir:
-  name: "**Thors Axe**"
+  name: "**Mjolnir**"
   material: IRON_AXE
   amount: 1
   lore:
@@ -83,14 +67,6 @@ mjolnir:
     - "smite:5:0.50"
     - "loyalty:10"
     - "sharpness:1-12"
-special_diamond:
-  name: "[&aSpecial Diamond](hover: <r>How Did We Get Here?)"
-  material: "DIAMOND"
-  amount: 1-5
-  lore:
-    - "&r*Special Diamond, just for <r:0.5:1.0>||sam||*"
-  enchants:
-    - "unbreaking:8-10"
 arthropod_blade:
   name: "<g:#2d3835:#869c96>Arthropod Blade"
   material: "DIAMOND_SWORD"
@@ -237,17 +213,6 @@ thorny_pants:
     - "fire_protection:4:0.5"
     - "thorns:10"
     - "unbreaking:3"
-pros_chestplate:
-  name: "&5Pro's Chestplate"
-  material: "NETHERITE_CHESTPLATE"
-  amount: 1
-  lore:
-    - "&cProGamer101's PLAT!"
-  enchants:
-    - "protection:7-12:0.75"
-    - "unbreaking:3-5:0.75"
-    - "mending:1-2:0.75"
-    - "thorns:2-3:0.75"
 red_rose:
   name: "&4Red Rose"
   material: "POPPY"
@@ -1370,48 +1335,37 @@ cake_01:
     - "&dBut for who?"
   enchants:
     - unbreaking:10
-wrathbringer:
-  name: "&c**Wrathbringer**"
-  material: NETHERITE_SWORD
-  amount: 1
-  lore:
-    - "&4A righteous wrath this is not"
-  enchants:
-    - sharpness:3-10
-    - unbreaking:1-5:0.25
-    - bane_of_arthropods:1-8:0.15
-    - smite:1-8:0.15
-    - fire_aspect:1-5:0.3
-    - looting:1-10:0.35
-    - mending:1:0.15
-devils_knife:
-  name: "&5&l**Devil's Knife**"
-  material: IRON_HOE
-  amount: 1
-  lore:
-    - "*not a reference i swear*"
-    - "You hear an insane laugh resonate from the knife."
-  enchants:
-    - sharpness:25-30
-    - unbreaking:1-5:0.25
-    - fire_aspect:1-5:0.5
-    - looting:1-10:0.35
-    - mending:1:0.15
-balancer:
-  name: "**&6Balancer**"
-  material: "NETHERITE_SWORD"
-  amount: 1
-  lore:
-    - "<#FF5555>Holds the power of the <#AA0000>Hausemaster<#FF5555>!"
-  enchants:
-    - sharpness:7-12
-    - knockback:2-4
-    - unbreaking:1-5:0.45
-    - smite:7-15:0.55
-    - fire_aspect:5:0.55
-    - looting:5-12:0.55
-    - bane_of_arthropods:1-8:0.55
-    - mending:1-2:0.25
+# Maybe used as a go to guide for future weapons of mass destruction?
+
+# wrathbringer:
+#   name: "&c**Wrathbringer**"
+#   material: NETHERITE_SWORD
+#   amount: 1
+#   lore:
+#     - "&4A righteous wrath this is not"
+#   enchants:
+#     - sharpness:3-10
+#     - unbreaking:1-5:0.25
+#     - bane_of_arthropods:1-8:0.15
+#     - smite:1-8:0.15
+#     - fire_aspect:1-5:0.3
+#     - looting:1-10:0.35
+#     - mending:1:0.15
+# balancer:
+#   name: "**&6Balancer**"
+#   material: "NETHERITE_SWORD"
+#   amount: 1
+#   lore:
+#     - "<#FF5555>Holds the power of the <#AA0000>Hausemaster<#FF5555>!"
+#   enchants:
+#     - sharpness:7-12
+#     - knockback:2-4
+#     - unbreaking:1-5:0.45
+#     - smite:7-15:0.55
+#     - fire_aspect:5:0.55
+#     - looting:5-12:0.55
+#     - bane_of_arthropods:1-8:0.55
+#     - mending:1-2:0.25
 trusty_shield:
   name: "<#964B00>Trusty Shield"
   material: "SHIELD"
@@ -1424,16 +1378,6 @@ trusty_shield:
     - "half_vertical:magenta"                  # patterns are, also, case insensitive
     - "TRIANGLE_TOP:ORANGE"
     - "sku:RED"                                # may also use pattern identifier names (this is SKULL)
-thank_book:
-  type: "book"                                 # you must specify that this item is a book
-  material: "WRITTEN_BOOK"                     # valid values: WRITTEN_BOOK, WRITABLE_BOOK; the former is not editable, the latter is; if you don't specify a type, WRITTEN_BOOK will be used
-  title: "<#c663f7>Thanks (9/10/2021)<#FFAA00>"           # all books must have a title
-  author: "Mmadrid509"                           # optional, doesn't support colors
-  generation: "TATTERED"                       # valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED; of all those, only ORIGINAL and COPY_OF_ORIGINAL can be copied by players, keep that in mind; will default to ORIGINAL if you don't specify
-  pages:                                       # the page system a little weird, each of these lines is a new page, and you start a new line by using \n
-    - "Hey Guys! Madrid Here,\nI just wanted to say thanks, for everything, which would be supporting me on this nice development journey.\nI will continue to develop for Easy SMP for as long as I can\nYou guys are a great community."      # page #1
-    - "To clarify, I'm not leaving and simply want to thank you for actually taking the time to admire my work and my nonsensical infernals that I have made\nThanks again, and also\nGood job on killing Orion! I knew you guys could come together and do it."    # page #2
-    - "Jack, if this is you taking advantage of an exploit, throw all these items into a cactus. For these items are meant for the community."
 plate_of_greed:
   name: "&6**Plate of Greed**"
   material: NETHERITE_CHESTPLATE
@@ -1446,17 +1390,17 @@ plate_of_greed:
     - unbreaking:1-10:0.24
     - fire_protection:1-10:0.15
     - mending:1
-example_book:
-  type: "book"                                 # you must specify that this item is a book
-  material: "WRITTEN_BOOK"                     # valid values: WRITTEN_BOOK, WRITABLE_BOOK; the former is not editable, the latter is; if you don't specify a type, WRITTEN_BOOK will be used
-  title: "<#c663f7>Title <#FFAA00>1"           # all books must have a title
-  author: "Author 1"                           # optional, doesn't support colors
-  generation: "TATTERED"                       # valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED; of all those, only ORIGINAL and COPY_OF_ORIGINAL can be copied by players, keep that in mind; will default to ORIGINAL if you don't specify
-  pages:                                       # the page system a little weird, each of these lines is a new page, and you start a new line by using \n
-    - "first page\nsecond line of the <#c663f7>first page"      # page #1
-    - "second page\nsecond line of the <#c663f7>second page"    # page #2
-    - ""                                                        # page #3 will be empty
-    - "<#ff5555>fourth page"                                    # page #4
+# example_book:
+#   type: "book"                                 # you must specify that this item is a book
+#   material: "WRITTEN_BOOK"                     # valid values: WRITTEN_BOOK, WRITABLE_BOOK; the former is not editable, the latter is; if you don't specify a type, WRITTEN_BOOK will be used
+#   title: "<#c663f7>Title <#FFAA00>1"           # all books must have a title
+#   author: "Author 1"                           # optional, doesn't support colors
+#   generation: "TATTERED"                       # valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED; of all those, only ORIGINAL and COPY_OF_ORIGINAL can be copied by players, keep that in mind; will default to ORIGINAL if you don't specify
+#   pages:                                       # the page system a little weird, each of these lines is a new page, and you start a new line by using \n
+#     - "first page\nsecond line of the <#c663f7>first page"      # page #1
+#     - "second page\nsecond line of the <#c663f7>second page"    # page #2
+#     - ""                                                        # page #3 will be empty
+#     - "<#ff5555>fourth page"                                    # page #4
 
 
 ############################################################

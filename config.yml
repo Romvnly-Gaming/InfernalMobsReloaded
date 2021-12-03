@@ -126,6 +126,7 @@ worlds-in-which-infernal-mobs-can-spawn:
   - "world"
   - "world_nether"
   - "world_the_end"
+  - "infernal_arena"
 
 # Mobs spawned under reasons listed below will have a chance of becoming infernal mobs, see all spawn reasons here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html , Ctrl + F is your friend
 spawn-reasons-which-infernal-mobs-can-spawn:
@@ -159,7 +160,7 @@ spawn-reasons-which-infernal-mobs-can-spawn:
 # - SPAWNER                # When a creature spawns from a spawner, if enabled ALL spawners will have a chance of spawning infernal mobs
   - SPAWNER_EGG            # When a creature spawns from a Spawner Egg
   - TRAP                   # When an entity spawns as a trap for players approaching
-# - VILLAGE_DEFENSE        # When an iron golem is spawned to defend a village
+  - VILLAGE_DEFENSE        # When an iron golem is spawned to defend a village
   - VILLAGE_INVASION       # When a zombie is spawned to invade a village
 
 # Baby form of the mobs inside this list won't become infernals; to disable this blacklist, just delete all the items and insert empty square brackets instead
