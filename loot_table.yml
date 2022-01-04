@@ -1424,7 +1424,7 @@ trusty_shield:
     - "half_vertical:magenta"                  # patterns are, also, case insensitive
     - "TRIANGLE_TOP:ORANGE"
     - "sku:RED"                                # may also use pattern identifier names (this is SKULL)
-thank_book:
+you_did_it_book:
   type: "book"                                 # you must specify that this item is a book
   material: "WRITTEN_BOOK"                     # valid values: WRITTEN_BOOK, WRITABLE_BOOK; the former is not editable, the latter is; if you don't specify a type, WRITTEN_BOOK will be used
   title: "<#c663f7>Thanks (9/10/2021)<#FFAA00>"           # all books must have a title

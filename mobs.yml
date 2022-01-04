@@ -171,7 +171,7 @@ orion:
     - "god_apple:0.50"
     - "orions_heart"
     - "bane_of_orion"
-    - "thank_book"
+    - "you_did_it_book"
 the_resistant:
   display-name: "&c**The Resistant**&r"
   boss-bar-text: "&4**The Resistant**&r"
