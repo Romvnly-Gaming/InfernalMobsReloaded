@@ -61,9 +61,11 @@ nightmare:
   type: "SPIDER"
   forced-abilities:                  # you can force a type of mob to always have some abilities, if you want (copy the ability names from either `abilities.yml` or `config.yml`); if you don't want to force any ability, you may safely omit this field
     - "BLINDNESS"
+    - "SPEEDY"
     - "INVISIBLE"
   spawn-chance: 0.05
   ability-amount: 4-7
+  damage-multiplier: 2.1
   health-multiplier: 2.0-4.0         # will have between 3 and 5 times the normal health amount of a Spider
   loot-table: 
      - "arthropod_blade:0.25"
