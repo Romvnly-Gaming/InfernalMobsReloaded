@@ -418,6 +418,7 @@ onslaught:
     - "axe_of_rage:0.005"
     - "battle_axe:0.25"
     - "onslaughts_axe:0.1"
+    - "devils_knife:0.05"
 sir_piggens:
   display-name: "&c**Sir Piggens**"
   boss-bar-text: "&4**(BOSS) Sir Piggens**"
