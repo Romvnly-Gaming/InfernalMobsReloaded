@@ -8,21 +8,20 @@
 # You can find the message syntax and check what you can do here https://mf.mattstudios.me/message/mf-msg/syntax
 # infernal-mob-spawn-messages and infernal-mob-death-messages have been discontinued in the later Infernal Mobs updates, they remain here for documentation purposes only
 
-
 infernal-mob-spawn-messages:
-  - '<#ff5555>An Infernal mob has spawned near you!'
-  - '<#ff5555>Watch out!'
-  - '<#ff5555>You hear a faint scream...'
-  - '<#ff5555>Something is coming...'
-  - '<#ff5555>You hear a mob nearby...'
+  - "<#ff5555>An Infernal mob has spawned near you!"
+  - "<#ff5555>Watch out!"
+  - "<#ff5555>You hear a faint scream..."
+  - "<#ff5555>Something is coming..."
+  - "<#ff5555>You hear a mob nearby..."
 
 infernal-mob-death-messages:
-  - '<#ff5555><player> <#ff5555>has killed an Infernal mob<#ff5555>!'
-  - '<#ff5555>A Infernal mob <#ff5555>was slain by <player><#ff5555>!'
-  - '<#ff5555><player><#ff5555>owned an Infernal mob<#ff5555>!'
-  - '<#ff5555>A mob <#ff5555>was beheaded by <player><#ff5555>''s weapon!'
-  - '<#ff5555><player><#ff5555>''s weapon <#ff5555>killed an mob<#ff5555>!'
-  - '<#ff5555>A mob <#ff5555>was killed by <player> <#ff5555>using a weapon<#ff5555>!'
+  - "<#ff5555><player> <#ff5555>has killed an Infernal mob<#ff5555>!"
+  - "<#ff5555>A Infernal mob <#ff5555>was slain by <player><#ff5555>!"
+  - "<#ff5555><player><#ff5555>owned an Infernal mob<#ff5555>!"
+  - "<#ff5555>A mob <#ff5555>was beheaded by <player><#ff5555>'s weapon!"
+  - "<#ff5555><player><#ff5555>'s weapon <#ff5555>killed an mob<#ff5555>!"
+  - "<#ff5555>A mob <#ff5555>was killed by <player> <#ff5555>using a weapon<#ff5555>!"
 
 ability-doesnt-exist: "<#FF5555>Sorry, there is no ability named <ability>, please type a valid ability."
 configs-reloaded: "<#55FF55>Reloaded configs."

@@ -4,13 +4,12 @@
 # +------------------------------------------------------+ #
 ############################################################
 
-# Plugin created by SecretX (github.com/SecretX33) 
+# Plugin created by SecretX (github.com/SecretX33)
 # Version 1.0.3.2
 
 # InfernalMobsReloaded create Infernal Mobs according to `mobs.yml` file
 
 # This file will NEVER get modified after being created, when updating the plugin please make sure you rename this one and let a new one be created, and copy your old configs to the new config file.
-
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -23,13 +22,16 @@ enable-particle-effects: true
 # If true, all infernals will have a periodic particle effect
 enable-infernal-particles: true
 # What particle effect will be expelled from all infernals every certain amount of time
-infernal-particle-type: LAVA            # list with all possible particles can be found here: https://papermc.io/javadocs/paper/1.16/org/bukkit/Particle.html , make sure to check it out and choose the one that suits your taste
+infernal-particle-type: EXPLOSION_HUGE # list with all possible particles can be found here: https://papermc.io/javadocs/paper/1.16/org/bukkit/Particle.html , make sure to check it out and choose the one that suits your taste
 # Delay between infernal particles
-delay-between-infernal-particles: 5.00  # in seconds
+delay-between-infernal-particles: 5.00 # in seconds
 # Spread of infernal particles
-infernal-particles-spread: 0.8          # in blocks
+infernal-particles-spread: 0.8 # in blocks
 # Amount of particles spawned, this number greatly varies per particle, so I suggest you test it and manually adjust it to a balanced amount
-infernal-particles-amount: 15           # in particles
+infernal-particles-amount: 15 # in particles
+
+# Prevents the log on the console of messages like "Named entity EntitySkeletonWither['Wither Skeleton123'/357, uuid='d647ceaf-dc5d-4cab-a973-36620594ee97', l='ServerLevel[world]', x=682.66, y=72.00, z=-54.21, cpos=[42, -4], tl=45, v=true] died: Wither Skeleton123 was slain by SecretX" when the mob is an infernal mob, thus completely eliminating the spam of these useless messages.
+prevent-named-entity-console-messages-for-infernal-mobs: true
 
 # Display custom name mode, valid values are NONE, LOOKING_AT, ALWAYS; keep in mind that this option only affect new infernal mobs, the ones that already exist won't be affected by this change
 display-infernal-custom-name-mode: LOOKING_AT
@@ -56,7 +58,6 @@ enable-spawner-drops: true
 # If set to any value other than NONE, that type of entity will be able to die from poison, similar to the wither effect; valid values: NONE, MONSTERS, PLAYERS, ALL
 entities-killed-by-poison: ALL
 
-
 ############################################################
 # +------------------------------------------------------+ #
 # |                  Integration Configs                 | #
@@ -76,7 +77,7 @@ remove-infernal-mobs-in-towns: true
 remove-from-towns-only-if-has-mobs-is-disabled: true
 
 # Delay before the infernal mob is removed from the town
-remove-infernal-mobs-in-towns-after: 5.0            # in seconds
+remove-infernal-mobs-in-towns-after: 5.0 # in seconds
 
 ####################
 ### SilkSpawners ###
@@ -107,13 +108,13 @@ boss-bar-require-line-of-sight: true
 ############################################################
 
 # If true, nearby players will be notified about the spawn of a new Infernal Mob with one of the spawn messages set on the `messages.yml` file
-enable-infernal-spawn-messages: false
+enable-infernal-spawn-messages: true
 # The radius around the newly spawned infernal mob that a player has to be to receive the spawn message
-infernal-spawn-message-radius: 30       # in blocks
+infernal-spawn-message-radius: 30 # in blocks
 # If true, nearby players will be notified about the death of a Infernal Mob with one of the spawn messages set on the `messages.yml` file
 enable-infernal-death-messages: false
 # The radius around the dead infernal mob that a player has to be to receive the death message
-infernal-death-message-radius: 20       # in blocks
+infernal-death-message-radius: 20 # in blocks
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -130,38 +131,38 @@ worlds-in-which-infernal-mobs-can-spawn:
 
 # Mobs spawned under reasons listed below will have a chance of becoming infernal mobs, see all spawn reasons here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html , Ctrl + F is your friend
 spawn-reasons-which-infernal-mobs-can-spawn:
-  - BEEHIVE                # When a bee is released from a beehive/bee nest
-  - BREEDING               # When an animal breeds to create a child
-  - BUILD_IRONGOLEM        # When an iron golem is spawned by being built
-  - BUILD_SNOWMAN          # When an snowman is spawned by being built
-  - BUILD_WITHER           # When an wither boss is spawned by being built
-  - CURED                  # When a villager is cured from infection
-# - CUSTOM                 # When a creature is spawned by plugins, may conflict with other plugins that also spawn mobs, disable if you notice strange behavior or compatibility errors
-# - DEFAULT                # When an entity is missing a SpawnReason
-# - DISPENSE_EGG           # When a creature is spawned by a dispenser dispensing an egg
-  - DROWNED                # When a creature is spawned by another entity drowning
-  - EGG                    # When a creature spawns from an egg
-  - ENDER_PEARL            # When an entity is spawned as a result of ender pearl usage
-# - EXPLOSION              # When eg an effect cloud is spawned as a result of a creeper exploding
-  - INFECTION              # When a zombie infects a villager
-  - JOCKEY                 # When an entity spawns as a jockey of another entity (mostly spider jockeys)
-  - LIGHTNING              # When a creature spawns because of a lightning strike
-  - MOUNT                  # When an entity spawns as a mount of another entity (mostly chicken jockeys)
-  - NATURAL                # When something spawns from natural means
-  - NETHER_PORTAL          # When a creature is spawned by nether portal
-  - OCELOT_BABY            # When an ocelot has a baby spawned along with them
-  - PATROL                 # When an entity is spawned as part of a patrol
-  - RAID                   # When an entity is spawned as part of a raid
-  - REINFORCEMENTS         # When an entity calls for reinforcements
-# - SHEARED                # When an cow is spawned by shearing a mushroom cow
-  - SHOULDER_ENTITY        # When an entity is spawned as a result of the entity it is being perched on jumping or being damaged
-  - SILVERFISH_BLOCK       # When a silverfish spawns from a block
-  - SLIME_SPLIT            # When a slime splits
-# - SPAWNER                # When a creature spawns from a spawner, if enabled ALL spawners will have a chance of spawning infernal mobs
-  - SPAWNER_EGG            # When a creature spawns from a Spawner Egg
-  - TRAP                   # When an entity spawns as a trap for players approaching
-  - VILLAGE_DEFENSE        # When an iron golem is spawned to defend a village
-  - VILLAGE_INVASION       # When a zombie is spawned to invade a village
+  - BEEHIVE # When a bee is released from a beehive/bee nest
+  - BREEDING # When an animal breeds to create a child
+  - BUILD_IRONGOLEM # When an iron golem is spawned by being built
+  - BUILD_SNOWMAN # When an snowman is spawned by being built
+  - BUILD_WITHER # When an wither boss is spawned by being built
+  - CURED # When a villager is cured from infection
+  # - CUSTOM                 # When a creature is spawned by plugins, may conflict with other plugins that also spawn mobs, disable if you notice strange behavior or compatibility errors
+  # - DEFAULT                # When an entity is missing a SpawnReason
+  # - DISPENSE_EGG           # When a creature is spawned by a dispenser dispensing an egg
+  - DROWNED # When a creature is spawned by another entity drowning
+  - EGG # When a creature spawns from an egg
+  - ENDER_PEARL # When an entity is spawned as a result of ender pearl usage
+  # - EXPLOSION              # When eg an effect cloud is spawned as a result of a creeper exploding
+  - INFECTION # When a zombie infects a villager
+  - JOCKEY # When an entity spawns as a jockey of another entity (mostly spider jockeys)
+  - LIGHTNING # When a creature spawns because of a lightning strike
+  - MOUNT # When an entity spawns as a mount of another entity (mostly chicken jockeys)
+  - NATURAL # When something spawns from natural means
+  - NETHER_PORTAL # When a creature is spawned by nether portal
+  - OCELOT_BABY # When an ocelot has a baby spawned along with them
+  - PATROL # When an entity is spawned as part of a patrol
+  - RAID # When an entity is spawned as part of a raid
+  - REINFORCEMENTS # When an entity calls for reinforcements
+  # - SHEARED                # When an cow is spawned by shearing a mushroom cow
+  - SHOULDER_ENTITY # When an entity is spawned as a result of the entity it is being perched on jumping or being damaged
+  - SILVERFISH_BLOCK # When a silverfish spawns from a block
+  - SLIME_SPLIT # When a slime splits
+  # - SPAWNER                # When a creature spawns from a spawner, if enabled ALL spawners will have a chance of spawning infernal mobs
+  - SPAWNER_EGG # When a creature spawns from a Spawner Egg
+  - TRAP # When an entity spawns as a trap for players approaching
+  - VILLAGE_DEFENSE # When an iron golem is spawned to defend a village
+  - VILLAGE_INVASION # When a zombie is spawned to invade a village
 
 # Baby form of the mobs inside this list won't become infernals; to disable this blacklist, just delete all the items and insert empty square brackets instead
 # Full list of mobs can be found here https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html , Ctrl + F
@@ -243,27 +244,27 @@ mob-types-that-can-wear-armor:
 
 # Disable abilities you don't want mobs to have here by removing the square brackets and uncommenting them
 # The file `abilities.yml` contain a full explanation of all abilities if you need it
-disabled-abilities: 
-#  - ARCHER
-#  - ARMOURED
-#  - BERSERK
-#  - BLINDING
-#  - CALL_THE_GANG
-#  - CONFUSION
-#  - FIREWORK
-#  - FLYING
-#  - GHASTLY
-#  - GHOST
-#  - HEAVY
-#  - HUNGER
-#  - INVISIBLE
+disabled-abilities:
+  #  - ARCHER
+  #  - ARMOURED
+  #  - BERSERK
+  #  - BLINDING
+  #  - CALL_THE_GANG
+  #  - CONFUSION
+  #  - FIREWORK
+  #  - FLYING
+  #  - GHASTLY
+  #  - GHOST
+  #  - HEAVY
+  #  - HUNGER
+  #  - INVISIBLE
   - KAMIKAZE
-#  - LEVITATE
-#  - LIFESTEAL
+  #  - LEVITATE
+  #  - LIFESTEAL
   - LIGHTNING
   - MULTI_GHASTLY
-#  - MOLTEN
-#  - MORPH
+  #  - MOLTEN
+  - MORPH
 #  - MOUNTED
 #  - NECROMANCER
 #  - POISONOUS

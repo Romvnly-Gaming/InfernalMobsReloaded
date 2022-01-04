@@ -89,13 +89,12 @@ charm-effects:
   flying_bow:
     effect: LEVITATION
     potency: 1
-    duration: 3
+    duration: 5
     delay: 1
     effect-mode: TARGET_ON_HIT
     particle-mode: TARGET_WHEN_APPLIED # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
     particle-type: cloud
-    required_items:
-      - "flying_bow"
+    main-hand: "flying_bow"
 
   fast_digger:
     player-message: "&6Suddenly, the power of your golden heart flows through you.\nDon't give up on your dreams."
@@ -178,6 +177,13 @@ charm-effects:
     effect-mode: SELF_PERMANENT
     required-items:
       - chain_of_protection
+  netherite_shield:
+    effect: RESISTANCE
+    potency: 2
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    valid-charm-slots:
+      - 40
   chain_of_protection_2:
     effect: SLOWNESS
     potency: 20
@@ -308,9 +314,7 @@ charm-effects:
   hallowed_set_3:
     effect: SLOWNESS
     potency: 5
-    delay: 300.0
-    duration: 999.0
-    effect-mode: SELF_RECURRENT
+    effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
     required-items:
       - halloween_hallowed_pumpkin
@@ -345,11 +349,11 @@ charm-effects:
   hunger_charm:
     effect: SATURATION
     potency: 1
-    duration: 1.0                            # duration does nothing here, since instant healing is an instant effect
-    delay: 45.0                           # in seconds, the delay between each recurrent application
-    effect-mode: SELF_RECURRENT                # type of effect that will be applied on the player, choose from SELF_PERMANENT, SELF_RECURRENT, and TARGET_TEMPORARY
-    particle-mode: SELF_WHEN_APPLIED        # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
-    particle-type: SPELL_INSTANT                       # see full list here https://papermc.io/javadocs/paper/1.16/org/bukkit/Particle.html
+    duration: 1.0 # duration does nothing here, since instant healing is an instant effect
+    delay: 45.0 # in seconds, the delay between each recurrent application
+    effect-mode: SELF_RECURRENT # type of effect that will be applied on the player, choose from SELF_PERMANENT, SELF_RECURRENT, and TARGET_TEMPORARY
+    particle-mode: SELF_WHEN_APPLIED # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
+    particle-type: SPELL_INSTANT # see full list here https://papermc.io/javadocs/paper/1.16/org/bukkit/Particle.html
     required-items:
       - hunger_charm
 
@@ -491,6 +495,35 @@ charm-effects:
     particle-type: cloud
     required-items:
       - golden_coins
+  chain_of_protection:
+    effect: SLOWNESS
+    potency: 2
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    required-items:
+      - chain_of_protection
+  death_mask:
+    effect: STRENGTH
+    potency: 2
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    valid-charm-slots:
+      - 39
+  magic_hoe:
+    effect: FAST_DIGGING
+    potency: 2
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    main-hand: "magic_hoe"
+  death_mask_2:
+    effect: WITHER
+    potency: 1-3
+    delay: 1.0s
+    duration: 3.0
+    effect-mode: TARGET_ON_HIT
+    particle-mode: TARGET_WHEN_APPLIED
+    valid-charm-slots:
+      - 39
   sky_sword:
     effect: LEVITATION
     potency: 2

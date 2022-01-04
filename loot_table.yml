@@ -11,7 +11,6 @@
 # Item material list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
 # Enchantment list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
 
-
 butcher_axe:
   name: "<#00AA00>Butcher Axe"
   material: "IRON_AXE"
@@ -28,7 +27,7 @@ inferno_bow:
     - "<#FF5555>Holds the power of the <#AA0000>NetherWorld<#FF5555>!"
   enchants:
     - "infinity:1:0.3"
-    - "flame:1-2"    
+    - "flame:1-2"
 lady_luck:
   name: "<#FFAA00>Lady Luck"
   material: "IRON_SWORD"
@@ -51,7 +50,7 @@ hell_cream:
   amount: 1
   lore:
     - "&4BURN YOUR ENEMIES TO ASHES!"
-    - "*BECOME THE GOD OF FIRE!*"  
+    - "*BECOME THE GOD OF FIRE!*"
   enchants:
     - "fire_aspect:5-8"
     - "sharpness:1-5:0.10"
@@ -61,7 +60,7 @@ mjolnir:
   amount: 1
   lore:
     - "&6Whosoever holds this hammer, if he be worthy, shall possess the power of Thor."
-    - "&4*Become the god of thunder with your thunderous wrath*"  
+    - "&4*Become the god of thunder with your thunderous wrath*"
   enchants:
     - "sweeping_edge:5:0.50"
     - "smite:5:0.50"
@@ -127,10 +126,10 @@ lucky_rod:
   material: FISHING_ROD
   amount: 1
   lore:
-    - "*Looks like someone lost their lucky rod.*" 
+    - "*Looks like someone lost their lucky rod.*"
   enchants:
     - "luck_of_the_sea:5-15:0.38"
-    - "lure:3-5:0.25" 
+    - "lure:3-5:0.25"
 glass_drill:
   name: "&7Glass Drill"
   material: "GOLDEN_PICKAXE"
@@ -256,7 +255,7 @@ halloween_big_shot:
   name: "&e&l[[BIG SHOT]]"
   material: "BOW"
   amount: 1
-  enchants: 
+  enchants:
     - "power:15-20"
     - "infinity:1-2"
     - "flame:1:0.5"
@@ -271,7 +270,7 @@ halloween_hallowed_pumpkin:
   name: "&6&lHallowed Pumpkin"
   material: "CARVED_PUMPKIN"
   amount: 1
-  enchants: 
+  enchants:
     - "protection:15"
     - "fire_protection:5"
     - "thorns:1:0.25"
@@ -284,7 +283,7 @@ halloween_hallowed_boots:
   name: "&6&lHallowed Boots"
   material: "LEATHER_BOOTS"
   amount: 1
-  enchants: 
+  enchants:
     - "protection:10-12:0.9"
     - "fire_protection:5"
     - "thorns:1:0.5"
@@ -297,7 +296,7 @@ halloween_hallowed_leggings:
   name: "&6&lHallowed Pants"
   material: "LEATHER_LEGGINGS"
   amount: 1
-  enchants: 
+  enchants:
     - "protection:10-15"
     - "fire_protection:5"
     - "thorns:1:0.5"
@@ -311,7 +310,7 @@ halloween_hallowed_chestplate:
   name: "&6&lHallowed Chestplate"
   material: "LEATHER_CHESTPLATE"
   amount: 1
-  enchants: 
+  enchants:
     - "protection:12-15"
     - "fire_protection:5"
     - "thorns:1:0.5"
@@ -325,7 +324,7 @@ halloween_hallowed_sword:
   name: "&6&lHallowed Sword"
   material: "IRON_SWORD"
   amount: 1
-  enchants: 
+  enchants:
     - "sharpness:10-15"
     - "smite:10-30"
     - "fire_aspect:1-5"
@@ -492,6 +491,7 @@ atlas:
   lore:
     - "&4&l&klee &4&l BLOODTHIRSTY SWORD &klee"
     - "Forged from the Blood of the Ancients. Repurposed to cause Death."
+    - "So sharp that it seems invisible."
     - "Any that stand in the way shall fall."
   enchants:
     - "sharpness:20-25"
@@ -526,7 +526,7 @@ creeper_head_mk2:
   name: "&2Creeper Head Mk.II"
   material: CREEPER_HEAD
   amount: 1
-  enchants: 
+  enchants:
     - blast_protection:1-10
 starvation_curse:
   name: "&4Starvation Curse"
@@ -538,7 +538,7 @@ pillow_padded_boots:
   name: "&9Pillow Padded Boots"
   material: LEATHER_BOOTS
   amount: 1
-  lore: 
+  lore:
     - "You'll survive larger falls!"
   enchants:
     - feather_falling:15-25
@@ -891,24 +891,6 @@ nether_star:
   amount: 1
   lore:
     - "&0From the depths of the Nether!"
-poison_potion:
-  name: "&aPoison Potion"
-  material: POTION
-  amount: 8
-  lore:
-    - "&2Very deadly."
-invisibility_potion:
-  name: "&fInvisibility Potion"
-  material: POTION
-  amount: 6
-  lore:
-    - "&7From nowhere?"
-life_potion:
-  name: "&dLife Potion"
-  material: POTION
-  amount: 5
-  lore:
-    - "&5Not many left on earth."
 eliminators_helmet:
   name: "&3Eliminator's Helmet"
   material: IRON_HELMET
@@ -975,6 +957,7 @@ netherite_shield:
   enchants:
     - unbreaking:9-10
     - mending:1:0.25
+    - "protection:5-10:0.50"
 vampire_stake:
   name: "&4Vampire Stake"
   material: STICK
@@ -983,7 +966,7 @@ vampire_stake:
     - "&cHeals you when used"
   enchants:
     - sharpness:5
-testbook:
+enchantedbook:
   name: "Enchanted Book"
   material: ENCHANTED_BOOK
   amount: 1
@@ -1027,7 +1010,7 @@ orions_heart:
     - "Let this trophy shine with you."
   enchants:
     - "unbreaking:100"
-axe_of_rage: 
+axe_of_rage:
   name: "&4&lAxe of Rage"
   material: STONE_AXE
   amount: 1
@@ -1036,14 +1019,14 @@ axe_of_rage:
     - "&cThat's a nice life you have there mate!"
     - "&4Would be a shame if somethin happened to it."
   enchants:
-    - smite:5-12  
+    - smite:5-12
     - sharpness:25
     - mending:1:0.75
     - fire_aspect:3:0.50
     - knockback:4:0.50
     - unbreaking:10
     - looting:1-3 #this already has rng
-axe_of_rage_dev: 
+axe_of_rage_dev:
   name: "&7&lA Dev's Axe"
   material: STONE_AXE
   amount: 1
@@ -1052,7 +1035,7 @@ axe_of_rage_dev:
     - "&cThat's a nice life you have there mate!"
     - "&4Would be a shame if somethin happened to it."
   enchants:
-    - smite:5-12  
+    - smite:5-12
     - sharpness:100
     - mending:1:0.75
     - fire_aspect:3:0.50
@@ -1145,7 +1128,7 @@ shield_of_power:
   name: "&7**Shield of Power**"
   material: SHIELD
   amount: 1
-  patterns:                                    # may contain infinite amount of patterns
+  patterns: # may contain infinite amount of patterns
     - "gra:YELLOW"
     - "rd:YELLOW"
     - "dls:LIGHT_BLUE"
@@ -1324,7 +1307,7 @@ cool_banner:
   amount: 1
   lore:
     - "Lore with single line"
-  patterns:                                    # may contain infinite amount of patterns
+  patterns: # may contain infinite amount of patterns
     - "GRADIENT:magenta"
     - "sku:LIME"
 cake_01:
@@ -1369,15 +1352,15 @@ cake_01:
 trusty_shield:
   name: "<#964B00>Trusty Shield"
   material: "SHIELD"
-  dye-color: "RED"                             # base color of the shield patterns
+  dye-color: "RED" # base color of the shield patterns
   amount: 1
-  lore:                                        # and this is how you make the item lore with only one line
+  lore: # and this is how you make the item lore with only one line
     - "<#964B00>Trust thou shield."
-  patterns:                                    # may contain infinite amount of patterns
-    - "GRADIENT:LIME"                          # format is "pattern:color", pattern list can be found here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/banner/PatternType.html , color list can be found here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/DyeColor.html
-    - "half_vertical:magenta"                  # patterns are, also, case insensitive
+  patterns: # may contain infinite amount of patterns
+    - "GRADIENT:LIME" # format is "pattern:color", pattern list can be found here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/banner/PatternType.html , color list can be found here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/DyeColor.html
+    - "half_vertical:magenta" # patterns are, also, case insensitive
     - "TRIANGLE_TOP:ORANGE"
-    - "sku:RED"                                # may also use pattern identifier names (this is SKULL)
+    - "sku:RED" # may also use pattern identifier names (this is SKULL)
 plate_of_greed:
   name: "&6**Plate of Greed**"
   material: NETHERITE_CHESTPLATE
@@ -1401,7 +1384,6 @@ plate_of_greed:
 #     - "second page\nsecond line of the <#c663f7>second page"    # page #2
 #     - ""                                                        # page #3 will be empty
 #     - "<#ff5555>fourth page"                                    # page #4
-
 
 ############################################################
 # +------------------------------------------------------+ #
@@ -1444,7 +1426,7 @@ armoured_sword:
   material: "NETHERITE_SWORD"
   amount: 1
   enchants:
-    - "damage_all:2-4"                   # sharpness 2-4
+    - "damage_all:2-4" # sharpness 2-4
 
 armoured_bow:
   name: "<#808080>Armoured Bow"
@@ -1463,7 +1445,6 @@ armoured_crossbow:
     - "piercing:1-3"
     - "quick_charge:2-3"
 
-
 ############################################################
 # +------------------------------------------------------+ #
 # |                    Ghost Equipment                   | #
@@ -1480,7 +1461,7 @@ ghost_helmet:
 ghost_chestplate:
   name: "<#808080>Ghost Chestplate"
   material: "LEATHER_CHESTPLATE"
-  color: "240, 240, 240"                 # RGB
+  color: "240, 240, 240" # RGB
   amount: 1
   enchants:
     - "protection_environmental:7-9"
@@ -1505,7 +1486,7 @@ haunted_ghost_helmet:
 haunted_ghost_chestplate:
   name: "<#808080>Haunted Ghost Chestplate"
   material: "LEATHER_CHESTPLATE"
-  color: "0, 0, 0"                       # RGB
+  color: "0, 0, 0" # RGB
   amount: 1
   enchants:
     - "protection_environmental:9-11"
@@ -1517,7 +1498,6 @@ haunted_ghost_weapon:
   enchants:
     - "arrow_damage:4"
     - "arrow_knockback"
-
 # You may also want to implement these, just uncomment them and fill the necessary data
 
 # haunted_ghost_leggings:
