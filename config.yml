@@ -141,7 +141,7 @@ spawn-reasons-which-infernal-mobs-can-spawn:
   - DROWNED                # When a creature is spawned by another entity drowning
   - EGG                    # When a creature spawns from an egg
   - ENDER_PEARL            # When an entity is spawned as a result of ender pearl usage
-# - EXPLOSION              # When eg an effect cloud is spawned as a result of a creeper exploding
+  - EXPLOSION              # When eg an effect cloud is spawned as a result of a creeper exploding
   - INFECTION              # When a zombie infects a villager
   - JOCKEY                 # When an entity spawns as a jockey of another entity (mostly spider jockeys)
   - LIGHTNING              # When a creature spawns because of a lightning strike
