@@ -907,7 +907,7 @@ archers_bow:
     - infinity:1
 god_apple:
   name: "&6God Apple"
-  material: GOLDEN_APPLE
+  material: ENCHANTED_GOLDEN_APPLE
   amount: 1
   lore:
     - "&6Not eaten my mortals!"

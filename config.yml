@@ -242,7 +242,7 @@ mob-types-that-can-wear-armor:
 
 # Disable abilities you don't want mobs to have here by removing the square brackets and uncommenting them
 # The file `abilities.yml` contain a full explanation of all abilities if you need it
-disabled-abilities: 
+disabled-abilities: []
 #  - ARCHER
 #  - ARMOURED
 #  - BERSERK
@@ -256,11 +256,11 @@ disabled-abilities:
 #  - HEAVY
 #  - HUNGER
 #  - INVISIBLE
-  - KAMIKAZE
+#  - KAMIKAZE
 #  - LEVITATE
 #  - LIFESTEAL
-  - LIGHTNING
-  - MULTI_GHASTLY
+#  - LIGHTNING
+#  - MULTI_GHASTLY
 #  - MOLTEN
 #  - MORPH
 #  - MOUNTED

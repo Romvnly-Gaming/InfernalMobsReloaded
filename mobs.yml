@@ -166,9 +166,12 @@ orion:
   loot-table:
     - "armor_of_resistance:0.5"
     - "reapers_scythe:0.5"
-    - "orions_heart:1"
-    - "bane_of_orion:1"
-    - "thank_book:1"
+    - "balancer:0.25"
+    - "atlas:0.15"
+    - "god_apple:0.50"
+    - "orions_heart"
+    - "bane_of_orion"
+    - "thank_book"
 the_resistant:
   display-name: "&c**The Resistant**&r"
   boss-bar-text: "&4**The Resistant**&r"
@@ -320,6 +323,7 @@ the_hypothermic:
   health-multiplier: 18.0-30.0         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
     - "seamsplitter:0.15"
+    - "god_apple:0.25"
 onslaught:
   display-name: "&c**Onslaught**&r"
   boss-bar-text: "&4**(BOSS) Onslaught**&r"
