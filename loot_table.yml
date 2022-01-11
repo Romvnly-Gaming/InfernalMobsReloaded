@@ -1101,30 +1101,40 @@ bunny_charm:
   amount: 1
   lore:
     - "&8Jump Higher"
+  enchants:
+    - unbreaking:1
 wither_charm:
   name: "&7Wither Charm"
   material: WITHER_SKELETON_SKULL
   amount: 1
   lore:
     - "&8Wither all ye fight!"
+  enchants:
+    - unbreaking:1
 cloak_charm:
   name: "&7Cloak Charm"
   material: FIREWORK_ROCKET
   amount: 1
   lore:
     - "&8They will see you not"
+  enchants:
+    - unbreaking:1
 weakness_charm:
   name: "&cWeakness Charm"
   material: BONE
   amount: 1
   lore:
     - "&4Weaken your foes"
+  enchants:
+    - unbreaking:1
 aqua_charm:
   name: "&bAqua Charm"
   material: PRISMARINE_CRYSTALS
   amount: 1
   lore:
     - "&3Become the fish..."
+  enchants:
+    - unbreaking:1
 guardian_tooth:
   name: "&bGuardian Tooth"
   material: PRISMARINE_SHARD
@@ -1132,6 +1142,8 @@ guardian_tooth:
   lore:
     - "&3It can only make"
     - "&3you stronger!"
+  enchants:
+    - unbreaking:1
 soggy_sponge:
   name: "&eSoggy Sponge"
   material: SPONGE
@@ -1162,12 +1174,16 @@ angel_soul:
   amount: 1
   lore:
     - "&6Bottled for your convenience"
+  enchants:
+    - unbreaking:1
 golden_coins:
   name: "&6GOLDEN Coins"
   material: BEETROOT_SEEDS
   amount: 1
   lore:
     - "&7They bring you luck"
+  enchants:
+    - unbreaking:1
 sky_sword:
   name: "&f**Sky Sword**"
   material: IRON_SWORD
