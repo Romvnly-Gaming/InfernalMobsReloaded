@@ -32,3 +32,5 @@ global-drops:
   - "inferno_bow:0.02"
   - "lady_luck:0.05"
   - "golden_coins:0.03"
+  - "zepher_wings:0.001"
+
