@@ -1428,6 +1428,20 @@ balancer:
     - looting:5-12:0.55
     - bane_of_arthropods:1-8:0.55
     - mending:1-2:0.25
+xyphers_bane:
+  name: "**&5Xypher's Bane**"
+  material: IRON_SWORD
+  amount: 1
+  lore: 
+    - "Powered by Xypher's Last Breath."
+    - "Dude. Chill."
+  enchants:
+    - sharpness:3-35
+    - knockback:7-35
+    - unbreaking:1-35:0.15
+    - fire_aspect:10:0.55
+    - looting:8-25:0.15
+    - mending:1-3:0.8
 the_final_say:
   name: "**&4&lThe Final Say**"
   material: "NETHERITE_SWORD"
