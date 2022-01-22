@@ -1428,6 +1428,19 @@ balancer:
     - looting:5-12:0.55
     - bane_of_arthropods:1-8:0.55
     - mending:1-2:0.25
+the_final_say:
+  name: "**&4&lThe Final Say**"
+  material: "NETHERITE_SWORD"
+  amount: 1
+  lore:
+    - "<#FF5555>Tired of losing arguments? Use this to shut em up!<#FF5555>"
+  enchants:
+    - sharpness:9-15
+    - knockback:2-5
+    - unbreaking:1-8:0.5
+    - fire_aspect:5:0.55
+    - looting:8-12:0.55
+    - mending:1-2:0.8
 trusty_shield:
   name: "<#964B00>Trusty Shield"
   material: "SHIELD"

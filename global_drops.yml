@@ -40,3 +40,4 @@ global-drops:
     - "lady_luck:0.05" 
     - "golden_coins:0.03"
     - "zepher_wings:0.001"
+    - "the_final_say:0.0001"
