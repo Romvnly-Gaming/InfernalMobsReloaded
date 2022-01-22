@@ -128,7 +128,7 @@ xypher:
     - "FLYING"
   ability-amount: 18-20
   damage-multiplier: 5.5
-  health-multiplier: 100         # will have between 3 and 5 times the normal health amount of a Zombie
+  health-multiplier: 150         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
     - "xyphers_bane:0.5"
     - "axe_of_rage:0.15"
