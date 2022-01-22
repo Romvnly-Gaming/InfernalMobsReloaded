@@ -1474,8 +1474,8 @@ example_book:
     - ""                                                        # page #3 will be empty
     - "<#ff5555>fourth page"                                    # page #4
     
-zepher_wings:
-name: "<#FFFFFF>Zepher <#FFFFFF>Wings"
+zephyr_wings:
+name: "<#FFFFFF>Zephyr <#FFFFFF>Wings"
 material: "NETHERITE_BOOTS"
 amount: 1
 lore:
