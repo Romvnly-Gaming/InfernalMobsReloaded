@@ -1386,7 +1386,7 @@ plate_of_greed:
 #     - "<#ff5555>fourth page"                                    # page #4
 zephyr_wings:
   name: "<#FFFFFF>Zephyr <#FFFFFF>Wings"
-  material: "NETHERITE_BOOTS"
+  material: "IRON_BOOTS"
   amount: 1
   lore:
     - "<#FFFFFF>Crafted with the almighty <#AA0000>Beetle Wings<#FF5555>!"
