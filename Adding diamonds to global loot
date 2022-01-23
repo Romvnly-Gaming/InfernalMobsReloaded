@@ -1,0 +1,12 @@
+# loot_table.yml
+Zepher Wings:
+  name: "<#FFFFFF>Zepher <#FFFFFF>Wings"
+  material: "netherite_boots"
+  amount: 1
+  lore:
+    - "<#FFFFFF>Crafted with the almighty <#AA0000>Beetle Wings<#FF5555>!"
+  enchants:
+    - "protection:15-20"
+    - "feather_falling:10"
+    - "unbreaking:10"
+    - "mending:1"
