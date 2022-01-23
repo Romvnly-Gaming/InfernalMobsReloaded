@@ -1,0 +1,280 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                      InfernalMobsReloaded            | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Plugin created by SecretX (github.com/SecretX33) 
+# Version 1.0.3.2
+
+# InfernalMobsReloaded create Infernal Mobs according to `mobs.yml` file
+
+# This file will NEVER get modified after being created, when updating the plugin please make sure you rename this one and let a new one be created, and copy your old configs to the new config file.
+
+
+############################################################
+# +------------------------------------------------------+ #
+# |                   General Settings                   | #
+# +------------------------------------------------------+ #
+############################################################
+
+# If false, particles effects for ALL things will be disabled GLOBALLY
+enable-particle-effects: true
+# If true, all infernals will have a periodic particle effect
+enable-infernal-particles: true
+# What particle effect will be expelled from all infernals every certain amount of time
+infernal-particle-type: LAVA            # list with all possible particles can be found here: https://papermc.io/javadocs/paper/1.16/org/bukkit/Particle.html , make sure to check it out and choose the one that suits your taste
+# Delay between infernal particles
+delay-between-infernal-particles: 5.00  # in seconds
+# Spread of infernal particles
+infernal-particles-spread: 0.8          # in blocks
+# Amount of particles spawned, this number greatly varies per particle, so I suggest you test it and manually adjust it to a balanced amount
+infernal-particles-amount: 15           # in particles
+
+# Display custom name mode, valid values are NONE, LOOKING_AT, ALWAYS; keep in mind that this option only affect new infernal mobs, the ones that already exist won't be affected by this change
+display-infernal-custom-name-mode: LOOKING_AT
+
+# Prevent infernals mobs from damaging itself, they literally cannot take damage of their own abilities, no matter what
+infernals-cannot-damage-themselves: true
+
+# Prevent despawn of infernals, it doesn't mean this option will force chunks infernal mobs are in to always be loaded, it means that infernals will be saved with the chunk when it's get unloaded, and respawned once the chunk is loaded again (pretty much like villagers). May cause increase in infernal population around busy areas.
+infernals-are-persistent: false
+
+# When infernal persistence is turned off and this option is turned on, any infernal mob that gets loaded and is persistent will be removed. Basically, an option to "purge" persistent infernals from your worlds when you change your mind and don't want persistence anymore.
+infernals-persistence-purge-mode: false
+####################
+####  Spawners  ####
+####################
+
+# If disabled, no spawners will be dropped, no matter what chance you put on your `mobs.yml` file
+enable-spawner-drops: true
+
+#####################
+### Lethal Poison ###
+#####################
+
+# If set to any value other than NONE, that type of entity will be able to die from poison, similar to the wither effect; valid values: NONE, MONSTERS, PLAYERS, ALL
+entities-killed-by-poison: ALL
+
+
+############################################################
+# +------------------------------------------------------+ #
+# |                  Integration Configs                 | #
+# +------------------------------------------------------+ #
+############################################################
+
+# You can config below plugin integration with other plugins, does nothing if the plugin is absent
+
+#############
+### Towny ###
+#############
+
+# If true, infernal mobs that steps any any Town will be removed after the provided delay, unless they exist the town before. Requires a full server restart to reflect changes in this config. Disabling this feature while using Towny may reduce overall server cpu usage.
+remove-infernal-mobs-in-towns: true
+
+# If true, only towns that have "has mobs" flag turned OFF will trigger the infernal mob removal.
+remove-from-towns-only-if-has-mobs-is-disabled: true
+
+# Delay before the infernal mob is removed from the town
+remove-infernal-mobs-in-towns-after: 5.0            # in seconds
+
+####################
+### SilkSpawners ###
+####################
+
+# Turn on the compatibility layer between SilkSpawners and InfernalMobsReloaded, which will make this plugin act in passive mode, just adding the infernal mobs tags to the spawner handled by SilkSpawners, instead of handling all dropping mechanisms. This configuration requires a full server restart to reflect changes.
+silkspawners-handles-spawner-drop: true
+
+############################################################
+# +------------------------------------------------------+ #
+# |                       Boss Bars                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+# If true, infernal mobs boss bar will be shown to the player's within configured range
+enable-boss-bars: true
+# Min distance that the player can approach an infernal before its boss bar is shown
+boss-bar-show-range-distance: 25.0
+# Min height that the player can approach an infernal before the boss bar is shown
+boss-bar-show-range-height: 10.0
+# If enabled, the player will require line of sight of the infernal to display the bar, this prevents random boss bars from appearing to player that cannot even see the infernal mob; as side effect, if you use "world fog" as parameter in your boss bars, it might looks weird in certain cases because the fog might keep showing and hiding as the player tries to flee from an infernal mob
+boss-bar-require-line-of-sight: true
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Spawn messages                    | #
+# +------------------------------------------------------+ #
+############################################################
+
+# If true, nearby players will be notified about the spawn of a new Infernal Mob with one of the spawn messages set on the `messages.yml` file
+enable-infernal-spawn-messages: false
+# The radius around the newly spawned infernal mob that a player has to be to receive the spawn message
+infernal-spawn-message-radius: 30       # in blocks
+# If true, nearby players will be notified about the death of a Infernal Mob with one of the spawn messages set on the `messages.yml` file
+enable-infernal-death-messages: false
+# The radius around the dead infernal mob that a player has to be to receive the death message
+infernal-death-message-radius: 20       # in blocks
+
+############################################################
+# +------------------------------------------------------+ #
+# |                      Whitelists                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Worlds in which mobs will have a chance of becoming infernal mobs; <ALL> is a special tag, it will allow the spawn of infernal mobs on ALL worlds; to prevent the spawn of infernals everywhere, just delete all the items and insert empty square brackets instead
+worlds-in-which-infernal-mobs-can-spawn:
+  - "world"
+  - "world_nether"
+  - "world_the_end"
+
+# Mobs spawned under reasons listed below will have a chance of becoming infernal mobs, see all spawn reasons here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/CreatureSpawnEvent.SpawnReason.html , Ctrl + F is your friend
+spawn-reasons-which-infernal-mobs-can-spawn:
+  - BEEHIVE                # When a bee is released from a beehive/bee nest
+  - BREEDING               # When an animal breeds to create a child
+  - BUILD_IRONGOLEM        # When an iron golem is spawned by being built
+  - BUILD_SNOWMAN          # When an snowman is spawned by being built
+  - BUILD_WITHER           # When an wither boss is spawned by being built
+  - CURED                  # When a villager is cured from infection
+# - CUSTOM                 # When a creature is spawned by plugins, may conflict with other plugins that also spawn mobs, disable if you notice strange behavior or compatibility errors
+# - DEFAULT                # When an entity is missing a SpawnReason
+# - DISPENSE_EGG           # When a creature is spawned by a dispenser dispensing an egg
+  - DROWNED                # When a creature is spawned by another entity drowning
+  - EGG                    # When a creature spawns from an egg
+  - ENDER_PEARL            # When an entity is spawned as a result of ender pearl usage
+  - EXPLOSION              # When eg an effect cloud is spawned as a result of a creeper exploding
+  - INFECTION              # When a zombie infects a villager
+  - JOCKEY                 # When an entity spawns as a jockey of another entity (mostly spider jockeys)
+  - LIGHTNING              # When a creature spawns because of a lightning strike
+  - MOUNT                  # When an entity spawns as a mount of another entity (mostly chicken jockeys)
+  - NATURAL                # When something spawns from natural means
+  - NETHER_PORTAL          # When a creature is spawned by nether portal
+  - OCELOT_BABY            # When an ocelot has a baby spawned along with them
+  - PATROL                 # When an entity is spawned as part of a patrol
+  - RAID                   # When an entity is spawned as part of a raid
+  - REINFORCEMENTS         # When an entity calls for reinforcements
+# - SHEARED                # When an cow is spawned by shearing a mushroom cow
+  - SHOULDER_ENTITY        # When an entity is spawned as a result of the entity it is being perched on jumping or being damaged
+  - SILVERFISH_BLOCK       # When a silverfish spawns from a block
+  - SLIME_SPLIT            # When a slime splits
+# - SPAWNER                # When a creature spawns from a spawner, if enabled ALL spawners will have a chance of spawning infernal mobs
+  - SPAWNER_EGG            # When a creature spawns from a Spawner Egg
+  - TRAP                   # When an entity spawns as a trap for players approaching
+# - VILLAGE_DEFENSE        # When an iron golem is spawned to defend a village
+  - VILLAGE_INVASION       # When a zombie is spawned to invade a village
+
+# Baby form of the mobs inside this list won't become infernals; to disable this blacklist, just delete all the items and insert empty square brackets instead
+# Full list of mobs can be found here https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html , Ctrl + F
+blacklisted-baby-mob-types:
+  - WOLF
+  - PIGLIN
+  - MAGMA_CUBE
+  - HOGLIN
+
+# Which types of infernal mobs can spawn mounted onto another mob; to prevent all mobs from spawning mounted, just delete all the items and insert empty square brackets instead
+# Full list of mobs can be found here https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html , Ctrl + F
+infernal-mobs-that-can-spawn-mounted:
+  - DROWNED
+  - ENDERMAN
+  - EVOKER
+  - HUSK
+  - ILLUSIONER
+  - PIG_ZOMBIE
+  - PIGLIN
+  - SKELETON
+  - SNOWMAN
+  - STRAY
+  - VILLAGER
+  - VINDICATOR
+  - WITCH
+  - WITHER_SKELETON
+  - ZOMBIE
+  - ZOMBIE_VILLAGER
+  - ZOMBIFIED_PIGLIN
+
+# Which types of mobs can become a mount for a mounted infernal mob; to disable all the mounts, just delete all the items and insert empty square brackets instead
+# Full list of mobs can be found here https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html , Ctrl + F
+mobs-that-can-be-rided-by-mounted-infernals:
+  - CHICKEN
+  - COW
+  - DONKEY
+  - GHAST
+  - HOGLIN
+  - HORSE
+  - LLAMA
+  - MAGMA_CUBE
+  - MULE
+  - MUSHROOM_COW
+  - PHANTOM
+  - PIG
+  - POLAR_BEAR
+  - SHEEP
+  - SKELETON_HORSE
+  - SLIME
+  - SPIDER
+  - STRIDER
+  - ZOGLIN
+  - ZOMBIE_HORSE
+
+# This list is used to check if a mob can wear armor for the Armoured ability, or if it cannot then it got a fallback potion effect
+# Please keep it up to date with your minecraft version. I could have hardcoded that, but them the plugin wouldn't be future-proof, and I want you to be able to add more mobs that can wear armor as they got released by Mojang
+mob-types-that-can-wear-armor:
+  - DROWNED
+  - EVOKER
+  - GIANT
+  - HUSK
+  - PIGLIN
+  - PIGLIN
+  - PIGLIN_BRUTE
+  - PILLAGER
+  - SKELETON
+  - STRAY
+  - VINDICATOR
+  - WITHER_SKELETON
+  - ZOMBIE
+  - ZOMBIE_VILLAGER
+  - ZOMBIFIED_PIGLIN
+
+############################################################
+# +------------------------------------------------------+ #
+# |                     Mob Abilities                    | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Disable abilities you don't want mobs to have here by removing the square brackets and uncommenting them
+# The file `abilities.yml` contain a full explanation of all abilities if you need it
+disabled-abilities: []
+#  - ARCHER
+#  - ARMOURED
+#  - BERSERK
+#  - BLINDING
+#  - CALL_THE_GANG
+#  - CONFUSION
+#  - FIREWORK
+#  - FLYING
+#  - GHASTLY
+#  - GHOST
+#  - HEAVY
+#  - HUNGER
+#  - INVISIBLE
+#  - KAMIKAZE
+#  - LEVITATE
+#  - LIFESTEAL
+#  - LIGHTNING
+#  - MULTI_GHASTLY
+#  - MOLTEN
+#  - MORPH
+#  - MOUNTED
+#  - NECROMANCER
+#  - POISONOUS
+#  - POTIONS
+#  - RUST
+#  - SECOND_WIND
+#  - SLOWNESS
+#  - SPEEDY
+#  - TELEPORT
+#  - THIEF
+#  - THORNMAIL
+#  - TOSSER
+#  - WEAKNESS
+#  - WEBBER
+#  - WITHERING
