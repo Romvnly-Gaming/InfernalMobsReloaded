@@ -1397,7 +1397,7 @@ zephyr_wings:
     - mending:1
 
 # Gives target Dolphin's Grace when Lazy's Tail is in their offhand or hotbar or slots specified by charms.yml
-dolphin's_tail:
+dolphins_tail:
   name: "<#FFFFFF>Dolphin's <#FFFFFF>Tail"
   material: RAW_COD
   amount: 1
