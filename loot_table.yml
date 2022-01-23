@@ -1396,6 +1396,22 @@ zephyr_wings:
     - unbreaking:10
     - mending:1
 
+# Gives target Dolphin's Grace when Lazy's Tail is in their offhand or hotbar or slots specified by charms.yml
+dolphin's_tail:
+  name: "<#FFFFFF>Dolphin's <#FFFFFF>Tail"
+  material: RAW_COD
+  amount: 1
+  lore: 
+    - "<#5555FF>Gracings from Aqua Lord"
+
+guardian_tooth:
+  name: "&bGuardian Tooth"
+  material: PRISMARINE_SHARD
+  amount: 1
+  lore:
+    - "&3It can only make"
+    - "&3you stronger!"
+
 ############################################################
 # +------------------------------------------------------+ #
 # |                    Armoured Armor                    | #
