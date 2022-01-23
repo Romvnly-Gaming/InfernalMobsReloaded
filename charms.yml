@@ -486,15 +486,6 @@ charm-effects:
     particle-mode: SELF_ONCE
     required-items:
       - guardian_tooth
-  golden_coins:
-    effect: LUCK
-    potency: 1
-    delay: 1.0
-    effect-mode: SELF_PERMANENT
-    particle-mode: SELF_ONCE
-    particle-type: cloud
-    required-items:
-      - golden_coins
   chain_of_protection:
     effect: SLOWNESS
     potency: 2
@@ -704,3 +695,4 @@ charm-effects:
     particle-type: SPELL_INSTANT l
     required-items: # the effect will require ALL the items listed below to be active
       - dolphins_tail
+  
