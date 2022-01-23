@@ -694,3 +694,13 @@ charm-effects:
     particle-mode: SELF_ONCE
     required-items:
       - plate_of_greed
+  dolphin's_tail:
+    effect: DOLPHINS_GRACE
+    potency: 2-3 # potion level, RNG can also be applied here as well.
+    duration: 3.0 # duration is infinite and constant
+    delay: 10.0 # in seconds, the delay between each recurrent application
+    effect-mode: SELF_RECURRENT # type of effect that will be applied on the player, choose from SELF_PERMANENT, SELF_RECURRENT, and TARGET_TEMPORARY
+    particle-mode: SELF_WHEN_APPLIED # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
+    particle-type: SPELL_INSTANT l
+    required-items: # the effect will require ALL the items listed below to be active
+      - dolphins_tail
