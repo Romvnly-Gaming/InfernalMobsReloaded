@@ -34,4 +34,5 @@ global-drops:
   - "golden_coins:0.03"
   - "zepher_wings:0.001"
   - "dolphins_grace:0.001"
-
+  - "diamond:0.0020"
+ 
