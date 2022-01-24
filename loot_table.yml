@@ -1010,6 +1010,38 @@ orions_heart:
     - "Let this trophy shine with you."
   enchants:
     - "unbreaking:100"
+apprentice_thief_boots:
+  name: "Apprentice Thief Boots"
+  material: LEATHER_BOOTS
+  amount: 1
+  enchants:
+    - unbreaking:1-4
+    - mending:1:0.15
+  lore:
+    - "Rarity: Common"
+    - "The beginning of a life of crime."
+golden_frying_pan:
+  name: "<#FFD700>Golden Frying Pan<##FFD700>"
+  material: GOLDEN_SHOVEL
+  amount: 1
+  enchants:
+    - unbreaking:100
+    - mending:1
+    - sharpness:1
+    - bane_of_athropods:1
+    - smite:1
+  lore:
+    - "Rarity: <#FFD700>Royal<#FFD700>"
+    - "<#FFD700>Guess you're rich now.<#FFD700>"
+apprentice_thief_charm:
+  name: "Apprentice Thief Charm"
+  material: TRAPPED_CHEST
+  amount: 1
+  enchants:
+    - unbreaking:1
+  lore:
+    - "Rarity: Common"
+    - "Maybe you'll actually steal something this time."
 axe_of_rage:
   name: "&4&lAxe of Rage"
   material: STONE_AXE

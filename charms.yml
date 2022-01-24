@@ -565,6 +565,30 @@ charm-effects:
     particle-mode: SELF_ONCE
     required-items:
       - totem_of_death
+  apprentice_thief_boots:
+    effect: SPEED
+    potency:2
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - apprentice_thief_boots
+  golden_frying_pan:
+    effect: GLOWING
+    potency:1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - golden_frying_pan
+  apprentice_thief_boots:
+    effect: INVISIBILITY
+    potency:1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - apprentice_thief_boots
   angel_feather:
     effect: SLOW_FALLING
     potency: 1
