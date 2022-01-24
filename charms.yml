@@ -159,24 +159,6 @@ charm-effects:
     particle-type: flame
     required-items:
       - hell_cream
-  hell_cream_2:
-    effect: WEAKNESS
-    potency: 3
-    delay: 1.0
-    effect-mode: SELF_PERMANENT
-    particle-mode: SELF_ONCE
-    particle-type: flame
-    required-items:
-      - hell_cream
-  hell_cream_3:
-    effect: WITHER
-    potency: 6
-    delay: 1.0
-    effect-mode: SELF_PERMANENT
-    particle-mode: SELF_ONCE
-    particle-type: flame
-    required-items:
-      - hell_cream
   slowness_curse:
     effect: SLOWNESS
     potency: 1
