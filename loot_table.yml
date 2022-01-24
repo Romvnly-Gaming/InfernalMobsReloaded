@@ -1416,6 +1416,25 @@ plate_of_greed:
 #     - "second page\nsecond line of the <#c663f7>second page"    # page #2
 #     - ""                                                        # page #3 will be empty
 #     - "<#ff5555>fourth page"                                    # page #4
+zephyr_wings:
+  name: "<#FFFFFF>Zephyr <#FFFFFF>Wings"
+  material: "IRON_BOOTS"
+  amount: 1
+  lore:
+    - "<#FFFFFF>Crafted with the almighty <#AA0000>Beetle Wings<#FF5555>!"
+  enchants:
+    - protection:15-20
+    - feather_falling:10
+    - unbreaking:10
+    - mending:1
+
+# Gives target Dolphin's Grace when Lazy's Tail is in their offhand or hotbar or slots specified by charms.yml
+dolphins_tail:
+  name: "<#FFFFFF>Dolphin's <#FFFFFF>Tail"
+  material: RAW_COD
+  amount: 1
+  lore: 
+    - "<#5555FF>Gracings from Aqua Lord"
 
 ############################################################
 # +------------------------------------------------------+ #
