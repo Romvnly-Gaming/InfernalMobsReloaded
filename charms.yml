@@ -567,7 +567,7 @@ charm-effects:
       - totem_of_death
   apprentice_thief_boots:
     effect: SPEED
-    potency:2
+    potency: 2
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -575,7 +575,7 @@ charm-effects:
       - apprentice_thief_boots
   golden_frying_pan:
     effect: GLOWING
-    potency:1
+    potency: 1
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
@@ -583,7 +583,7 @@ charm-effects:
       - golden_frying_pan
   apprentice_thief_boots:
     effect: INVISIBILITY
-    potency:1
+    potency: 1
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
