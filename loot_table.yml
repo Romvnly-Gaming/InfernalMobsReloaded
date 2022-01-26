@@ -872,7 +872,7 @@ archers_bow:
     - infinity:1
 god_apple:
   name: "&6God Apple"
-  material: GOLDEN_APPLE
+  material: ENCHANTED_GOLDEN_APPLE
   amount: 1
   lore:
     - "&6Not eaten my mortals!"
@@ -1081,30 +1081,40 @@ bunny_charm:
   amount: 1
   lore:
     - "&8Jump Higher"
+  enchants:
+    - unbreaking:1
 wither_charm:
   name: "&7Wither Charm"
   material: WITHER_SKELETON_SKULL
   amount: 1
   lore:
     - "&8Wither all ye fight!"
+  enchants:
+    - unbreaking:1
 cloak_charm:
   name: "&7Cloak Charm"
   material: FIREWORK_ROCKET
   amount: 1
   lore:
     - "&8They will see you not"
+  enchants:
+    - unbreaking:1
 weakness_charm:
   name: "&cWeakness Charm"
   material: BONE
   amount: 1
   lore:
     - "&4Weaken your foes"
+  enchants:
+    - unbreaking:1
 aqua_charm:
   name: "&bAqua Charm"
   material: PRISMARINE_CRYSTALS
   amount: 1
   lore:
     - "&3Become the fish..."
+  enchants:
+    - unbreaking:1
 guardian_tooth:
   name: "&bGuardian Tooth"
   material: PRISMARINE_SHARD
@@ -1112,6 +1122,8 @@ guardian_tooth:
   lore:
     - "&3It can only make"
     - "&3you stronger!"
+  enchants:
+    - unbreaking:1
 soggy_sponge:
   name: "&eSoggy Sponge"
   material: SPONGE
@@ -1142,12 +1154,16 @@ angel_soul:
   amount: 1
   lore:
     - "&6Bottled for your convenience"
+  enchants:
+    - unbreaking:1
 golden_coins:
   name: "&6GOLDEN Coins"
   material: BEETROOT_SEEDS
   amount: 1
   lore:
     - "&7They bring you luck"
+  enchants:
+    - unbreaking:1
 sky_sword:
   name: "&f**Sky Sword**"
   material: IRON_SWORD
@@ -1381,6 +1397,75 @@ cake_01:
 #     - looting:5-12:0.55
 #     - bane_of_arthropods:1-8:0.55
 #     - mending:1-2:0.25
+wrathbringer:
+  name: "&c**Wrathbringer**"
+  material: NETHERITE_SWORD
+  amount: 1
+  lore:
+    - "&4A righteous wrath this is not"
+  enchants:
+    - sharpness:3-10
+    - unbreaking:1-5:0.25
+    - bane_of_arthropods:1-8:0.15
+    - smite:1-8:0.15
+    - fire_aspect:1-5:0.3
+    - looting:1-10:0.35
+    - mending:1:0.15
+devils_knife:
+  name: "&5&l**Devil's Knife**"
+  material: IRON_HOE
+  amount: 1
+  lore:
+    - "*not a reference i swear*"
+    - "You hear an insane laugh resonate from the knife."
+  enchants:
+    - sharpness:25-30
+    - unbreaking:1-5:0.25
+    - fire_aspect:1-5:0.5
+    - looting:1-10:0.35
+    - mending:1:0.15
+balancer:
+  name: "**&6Balancer**"
+  material: "NETHERITE_SWORD"
+  amount: 1
+  lore:
+    - "<#FF5555>Holds the power of the <#AA0000>Hausemaster<#FF5555>!"
+  enchants:
+    - sharpness:7-12
+    - knockback:2-4
+    - unbreaking:1-5:0.45
+    - smite:7-15:0.55
+    - fire_aspect:5:0.55
+    - looting:5-12:0.55
+    - bane_of_arthropods:1-8:0.55
+    - mending:1-2:0.25
+xyphers_bane:
+  name: "**&5Xypher's Bane**"
+  material: IRON_SWORD
+  amount: 1
+  lore: 
+    - "Powered by Xypher's Last Breath."
+    - "Dude. Chill."
+  enchants:
+    - sharpness:3-35
+    - knockback:7-35
+    - unbreaking:1-35:0.15
+    - fire_aspect:10:0.55
+    - looting:8-25:0.15
+    - mending:1-3:0.8
+the_final_say:
+  name: "**&4&lThe Final Say**"
+  material: "NETHERITE_SWORD"
+  amount: 1
+  lore:
+    - "<#FF5555>Tired of losing arguments? Use this to shut em up!<#FF5555>"
+  enchants:
+    - sharpness:9-15
+    - knockback:2-5
+    - unbreaking:1-8:0.5
+    - fire_aspect:5:0.55
+    - looting:8-12:0.55
+    - mending:1-2:0.8
 trusty_shield:
   name: "<#964B00>Trusty Shield"
   material: "SHIELD"
@@ -1427,7 +1512,6 @@ zephyr_wings:
     - feather_falling:10
     - unbreaking:10
     - mending:1
-
 # Gives target Dolphin's Grace when Lazy's Tail is in their offhand or hotbar or slots specified by charms.yml
 dolphins_tail:
   name: "<#FFFFFF>Dolphin's <#FFFFFF>Tail"
@@ -1435,7 +1519,6 @@ dolphins_tail:
   amount: 1
   lore: 
     - "<#5555FF>Gracings from Aqua Lord"
-
 ############################################################
 # +------------------------------------------------------+ #
 # |                    Armoured Armor                    | #
