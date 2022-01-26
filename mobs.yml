@@ -177,35 +177,51 @@ azrid:
     - "apprentice_thief_boots:0.1"
     - "golden_frying_pan:0.000509"
     - "apprentice_thief_charm:0.01"
-autolycus:
-  display-name: "&c**Autolycus**"
-  boss-bar-text: "&4**Autolycus**"
-  mob-spawner-name: "Mob Spawner (&4**Azrid**)"
-  boss-bar-color: "YELLOW" # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
-  boss-bar-overlay: "NOTCHED_12" # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
-  boss-bar-flags: # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+xypher:
+  display-name: "&c**Xypher**&r"
+  boss-bar-text: "&4**Xypher**&r"
+  mob-spawner-name: "Mob Spawner (&4**Xypher**)"
+  boss-bar-color: "PINK"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "PLAY_BOSS_MUSIC"
     - "CREATE_WORLD_FOG"
-  type: "ZOMBIE"
-  spawn-chance: 0.1
-  forced-abilities:
-    - "SPEEDY"
-    - "THIEF"
-    - "CALL_THE_GANG"
-    - "CONFUSION"
-    - "FIREWORK"
-  blacklisted-abilities: # add abilities here to prevent the mob from acquiring it
+  type: "ENDER_DRAGON"
+  # you are dead
+  spawn-chance: 0.000000005
+  forced-abilities: 
+     - "LIGHTNING"
+     - "WITHERING"
+     - "POTIONS"
+     - "MULTI_GHASTLY"
+     - "LIFESTEAL"
+     - "CALL_THE_GANG"
+     - "CONFUSION"
+     - "FIREWORK"
+     - "GHOST"
+     - "HEAVY"
+     - "HUNGER"
+     - "LEVITATE"
+     - "SECOND_WIND"
+     - "NECROMANCER"
+     - "POTIONS"
+     - "RUST"
+     - "SPEEDY"
+     - "WEBBER"
+     - "THIEF"
+  blacklisted-abilities:                 
     - "INVISIBLE"
-    - "GHOST"
     - "MORPH"
-  ability-amount: 5
-  damage-multiplier: 1.75
-  health-multiplier: 0.5 # will have between 3 and 5 times the normal health amount of a Zombie
+    - "FLYING"
+  ability-amount: 18-20
+  damage-multiplier: 5.5
+  health-multiplier: 150         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
-    - "skilled_thief_boots:0.1"
-    - "golden_frying_pan:0.000509"
-    - "skilled_thief_charm:0.01"
-
+    - "xyphers_bane:0.5"
+    - "axe_of_rage:0.15"
+    - "shield_of_power:0.1"
+    - "golden_stick:0.05"
+    - "atlas:0.75"
 the_powered:
   display-name: "&e&l**The Powered**"
   boss-bar-text: "&e&l(BOSS) **The Powered**"
@@ -278,14 +294,17 @@ orion:
     - "MORPH"
     - "FLYING"
   ability-amount: 18
-  damage-multiplier: 1.5
-  health-multiplier: 83 # will have between 3 and 5 times the normal health amount of a Zombie
+  damage-multiplier: 3.5
+  health-multiplier: 83         # will have between 3 and 5 times the normal health amount of a Zombie
   loot-table:
     - "armor_of_resistance:0.5"
     - "reapers_scythe:0.5"
-    - "orions_heart:1"
-    - "bane_of_orion:1"
-    - "thank_book:1"
+    - "balancer:0.25"
+    - "atlas:0.15"
+    - "god_apple:0.50"
+    - "orions_heart"
+    - "bane_of_orion"
+    - "you_did_it_book"
 the_resistant:
   display-name: "&c**The Resistant**"
   boss-bar-text: "&4**The Resistant**"
