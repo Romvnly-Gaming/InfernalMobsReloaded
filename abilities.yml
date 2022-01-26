@@ -9,171 +9,171 @@
 # Archer ability
 # Shoots a valley of arrows on the target and nearby entities
 archer:
-  Description: Shoots a valley of arrows on the target and nearby entities
-  nearby-entities-range: 4.0        # in blocks, how close the entity has to be of the main target to also be affected by it; if you don't want abilities to be able to affect multiple targets, set its value to 0.0
-  projectile-speed: 1.4             # honestly, this speed is in vector, so you can think in it like m/s or something
-  arrow-amount: 8-12                # how many arrows are going to be shot, in default configuration it is 8-12
-  arrow-delay: 0.2                  # in seconds, the delay between each arrow launch
-  recheck-delay: 1.5                # in seconds, every 1.5 seconds it'll run the random chance to see if it's going to spawn shoot the arrows
-  chance: 0.15                      # in percentage, every 'recheck-delay' seconds, the power will have 15% chance of being triggered
+  description: Shoots a valley of arrows on the target and nearby entities
+  nearby-entities-range: 4.0 # in blocks, how close the entity has to be of the main target to also be affected by it; if you don't want abilities to be able to affect multiple targets, set its value to 0.0
+  projectile-speed: 1.4 # honestly, this speed is in vector, so you can think in it like m/s or something
+  arrow-amount: 8-12 # how many arrows are going to be shot, in default configuration it is 8-12
+  arrow-delay: 0.2 # in seconds, the delay between each arrow launch
+  recheck-delay: 1.5 # in seconds, every 1.5 seconds it'll run the random chance to see if it's going to spawn shoot the arrows
+  chance: 0.15 # in percentage, every 'recheck-delay' seconds, the power will have 15% chance of being triggered
 
 # Armoured ability
 # Makes the entity spawn with a beefy armor, or a damage reduction effect if it cannot wear armor
 armoured:
-  Description: Makes the Infernal spawn with a beefy armor, or a damage reduction effect if it cannot wear armor
-  armor-drop-chance: 0.001               # armoured mobs will have 0.1% chance of dropping one of its special armor pieces or weapon
-  fallback-dmg-resist-potion-level: 1    # When the mob cannot wear armor, it'll instead gain the Resistance effect; level 1 will provide 20% damage reduction, and each subsequent level increase the protection by another 20% damage reduction
-  potion-emit-particles: false           # if entities affected by the fallback damage resist should emit damage resist potion effect particles
-  potion-is-ambient: true                # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles (only makes sense if you have the particles on, otherwise does nothing)
+  description: Makes the Infernal spawn with a beefy armor, or a damage reduction effect if it cannot wear armor
+  armor-drop-chance: 0.01 # armoured mobs will have 0.1% chance of dropping one of its special armor pieces or weapon
+  fallback-dmg-resist-potion-level: 1 # When the mob cannot wear armor, it'll instead gain the Resistance effect; level 1 will provide 20% damage reduction, and each subsequent level increase the protection by another 20% damage reduction
+  potion-emit-particles: false # if entities affected by the fallback damage resist should emit damage resist potion effect particles
+  potion-is-ambient: true # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles (only makes sense if you have the particles on, otherwise does nothing)
 
 # Berserk ability
 # The entity inflict more damage, but also receive more damage
 berserk:
-  Description: The Infernal inflict more damage, but also receive more damage
-  damage-caused-bonus: 1.4-1.5         # multiplies all damage caused by this entity by a random value between 1.4 and 1.5
-  damage-received-bonus: 1.25-1.35     # multiplies all damage received by this entity by a random value between 1.25 and 1.35
+  description: The Infernal inflict more damage, but also receive more damage
+  damage-caused-bonus: 1.4-1.5 # multiplies all damage caused by this entity by a random value between 1.4 and 1.5
+  damage-received-bonus: 1.25-1.35 # multiplies all damage received by this entity by a random value between 1.25 and 1.35
 
 # Blinding ability
 # Each of its attacks may cause blindness on whoever is unlucky enough to be fighting against it
 blinding:
-  Description: Each of its attacks may cause blindness on whoever is unlucky enough to be fighting against it
-  chance-on-damage-done: 0.75        # in percentage, the chance that the infernal mob with blinding ability will have to blind the attacked entity
-  duration: 6.0-8.0                  # in seconds, the duration of the blindness effect
-  potion-emit-particles: true        # if entities affected by confusion should emit blindness effect particles
-  potion-is-ambient: true            # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
+  description: Each of its attacks may cause blindness on whoever is unlucky enough to be fighting against it
+  chance-on-damage-done: 0.75 # in percentage, the chance that the infernal mob with blinding ability will have to blind the attacked entity
+  duration: 2.0-5.0 # in seconds, the duration of the blindness effect
+  potion-emit-particles: true # if entities affected by confusion should emit blindness effect particles
+  potion-is-ambient: true # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
 
 call-the-gang:
-  Description: Calls in %amount% of baby reinforcements or normal ones if there isnt a baby type of the Infernal. All the reinforcements spawned by Call the Gang gain speed.
-  recheck-delay: 2.0                 # in seconds, every 2 second it'll run the random chance to see if it's going to spawn a "gang" of babies of its type
-  chance: 0.025                      # in percentage, will have 2.5% chance of calling the "gang" every 'recheck-delay' seconds
-  amount: 2-4                        # will call between 2 and 4 mobs of its type
+  description: Calls in %amount% of baby reinforcements or normal ones if there isnt a baby type of the Infernal. All the reinforcements spawned by Call the Gang gain speed.
+  recheck-delay: 2.0 # in seconds, every 2 second it'll run the random chance to see if it's going to spawn a "gang" of babies of its type
+  chance: 0.025 # in percentage, will have 2.5% chance of calling the "gang" every 'recheck-delay' seconds
+  amount: 2-3 # will call between 2 and 4 mobs of its type
   # All the reinforcements spawned by Call the Gang gain potion of speed, you can change the potency of the effect, its duration and particle properties below
-  potency: 3-5                       # what potency of speed should the reinforcements be affected by; level 1 will provide 20% speed bonus, and each subsequent level increase the speed by another 20%
-  duration: 8.0-20.0                 # in seconds, the duration of the speed effect
-  potion-emit-particles: true        # if entities affected by potion of speed should emit speed effect particles
-  potion-is-ambient: false           # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
+  potency: 1-3 # what potency of speed should the reinforcements be affected by; level 1 will provide 20% speed bonus, and each subsequent level increase the speed by another 20%
+  duration: 8.0-20.0 # in seconds, the duration of the speed effect
+  potion-emit-particles: true # if entities affected by potion of speed should emit speed effect particles
+  potion-is-ambient: false # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
 
 # Confusion ability
 # Each of its attacks may confuse on their targets (nausea), warping and wobbling the target's vision similarly to a nether portal, side effects: their target may puke
 confusion:
-  Description: "A Infernal attacks may confuse on their targets (nausea), warping and wobbling the targets vision similarly to a nether portal, side effects: their target may puke"
-  chance-on-damage-done: 0.5         # in percentage, the chance that the infernal mob with confusion ability will have to confuse the attacked entity
-  duration: 10.0-12.0                # in seconds, the duration of the confusion effect
-  potion-emit-particles: true        # if entities affected by confusion should emit confusion effect particles
-  potion-is-ambient: true            # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
+  description: "A Infernal attacks may confuse on their targets (nausea), warping and wobbling the targets vision similarly to a nether portal, side effects: their target may puke"
+  chance-on-damage-done: 0.5 # in percentage, the chance that the infernal mob with confusion ability will have to confuse the attacked entity
+  duration: 3.0-6.0 # in seconds, the duration of the confusion effect
+  potion-emit-particles: true # if entities affected by confusion should emit confusion effect particles
+  potion-is-ambient: true # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
 
 # Firework ability
 # Each attack received may cause a firework to spawn on the feet of the attacker entity, annoyance at its finest
 firework:
-  Description: Each attack sustained may cause a firework to spawn on the feet of the attacker, annoyance at its finest
-  chance-on-damage-taken: 0.25       # in percentage, the chance of spawning a firework on top of the entity when receiving damage from it
-  damage-multiplier: 1.4-1.7         # in percentage, multiply the damage caused by the fireworks launched by the infernals with firework ability by the specified values; 1.0 would make the damage be exactly as in vanilla, 2.0 would make it cause two times the normal damage, and so on.
+  description: Each attack sustained may cause a firework to spawn on the feet of the attacker, annoyance at its finest
+  chance-on-damage-taken: 0.45 # in percentage, the chance of spawning a firework on top of the entity when receiving damage from it
+  damage-multiplier: 1.4-1.7 # in percentage, multiply the damage caused by the fireworks launched by the infernals with firework ability by the specified values; 1.0 would make the damage be exactly as in vanilla, 2.0 would make it cause two times the normal damage, and so on.
 
-# There's no configuration for this, it's simply a flying ability. 
-# Infernals fly on a invisible bat that has a lot of health, players are not killing it. 
+# There's no configuration for this, it's simply a flying ability.
+# Infernals fly on a invisible bat that has a lot of health, players are not killing it.
 flying:
-  Description: Infernals fly on a invisible bat that has a lot of health, players are not killing it. 
- 
+  description: Infernals fly on a invisible bat that has a lot of health, players are not killing it.
+
 # Multi Ghastly ability
 # Shoots multiple Fireballs on the target and nearby entities
 multi-ghastly:
-  Description: Shoots multiple Fireballs on the target and nearby entities
-  nearby-entities-range: 10.0         # in blocks, how close the entity has to be of the main target to also be affected by it; if you don't want this ability to be able to affect multiple targets, set this value to 0.0
-  projectile-speed: 1.75             # speed is in vector, so you can think in it like m/s or something
-  fireball-amount: 4-8              # how many arrows are going to be shot, in default configuration it is 8-12
-  fireball-delay: 0.5                # in seconds, the delay between each fireball launch
-  recheck-delay: 2.0                 # in seconds, every 1.5 seconds it'll run the random chance to see if it's going to spawn shoot the arrows
-  chance: 0.25                       # every 'recheck-delay' seconds, the power will have 25% chance of being triggered
+  description: Shoots multiple Fireballs on the target and nearby entities
+  nearby-entities-range: 10.0 # in blocks, how close the entity has to be of the main target to also be affected by it; if you don't want this ability to be able to affect multiple targets, set this value to 0.0
+  projectile-speed: 1.75 # speed is in vector, so you can think in it like m/s or something
+  fireball-amount: 2-6 # how many arrows are going to be shot, in default configuration it is 8-12
+  fireball-delay: 0.5 # in seconds, the delay between each fireball launch
+  recheck-delay: 2.0 # in seconds, every 1.5 seconds it'll run the random chance to see if it's going to spawn shoot the arrows
+  chance: 0.25 # every 'recheck-delay' seconds, the power will have 25% chance of being triggered
 
 # Ghastly, it does stuff
 ghastly:
-  Description: It does stuff.
-  nearby-entities-range: 4.0         # in blocks, how close the entity has to be of the main target to also be affected by it; if you don't want this ability to be able to affect multiple targets, set this value to 0.0
-  projectile-speed: 1.75             # speed is in vector, so you can think in it like m/s or something
-  recheck-delay: 1.5                 # in seconds, every 1.5 seconds it'll run the random chance to see if it's going to spawn shoot the arrows
-  chance: 0.25                       # every 'recheck-delay' seconds, the power will have 25% chance of being triggered
+  description: It does stuff.
+  nearby-entities-range: 4.0 # in blocks, how close the entity has to be of the main target to also be affected by it; if you don't want this ability to be able to affect multiple targets, set this value to 0.0
+  projectile-speed: 1.75 # speed is in vector, so you can think in it like m/s or something
+  recheck-delay: 1.5 # in seconds, every 1.5 seconds it'll run the random chance to see if it's going to spawn shoot the arrows
+  chance: 0.25 # every 'recheck-delay' seconds, the power will have 25% chance of being triggered
 
 # The ghost ability, basically they become a Infernal ghost or somethin, just a annoyance lol
 ghost:
-  Description: The ghost ability, basically they become a Infernal ghost or somethin, just a annoyance lol
-  evil-chance: 0.3                   # in percentage, what chance they'll have of becoming "evil" ghosts
-  item-drop-chance: 0.2              # what chance each of its items will have of being dropped upon death
+  description: The ghost ability, basically they become a Infernal ghost or somethin, just a annoyance lol
+  evil-chance: 0.3 # in percentage, what chance they'll have of becoming "evil" ghosts
+  item-drop-chance: 0.2 # what chance each of its items will have of being dropped upon death
 
 # Heavy ability
 # Any infernal with this effect will be considerably heavier, receiving much, much less knockback from incoming attacks
 heavy:
-  Description: Any infernal with this effect will be considerably heavier, receiving much, much less knockback from incoming attacks
-  knockback-resist-percentage: 0.45-0.75     # The scale of the amount of knockback resisted from attacks and projectiles, does not affect explosions; 0.0 value means 0% resistance, 0.5 means 50% resistance and 1.0 means 100% resistance added (meaning fully invincible against knockbacks)
+  description: Any infernal with this effect will be considerably heavier, receiving much, much less knockback from incoming attacks
+  knockback-resist-percentage: 0.45-0.75 # The scale of the amount of knockback resisted from attacks and projectiles, does not affect explosions; 0.0 value means 0% resistance, 0.5 means 50% resistance and 1.0 means 100% resistance added (meaning fully invincible against knockbacks)
 
 # Hunger ability
 # When applied, causes the hunger bar to deplete faster than normal, and depending on the potency, making harder even to run, since the hunger bar will keep depleting fast, and if they don't eat they'll not be able to run plus start starving (taking periodic damage)
 hunger:
-  Description: When applied, causes the hunger bar to deplete faster than normal, and depending on the potency, making harder even to run, since the hunger bar will keep depleting fast, and if they don't eat they'll not be able to run plus start starving
-  chance-on-damage-done: 0.7         # in percentage, the chance that the infernal mob with hunger ability will have to apply hunger to the attacked entity
-  duration: 30.0-45.0                # in seconds, the duration of the hunger effect
-  potency: 8-12                      # what potency of hunger should the entity be affected by, each level increase the rate the hunger bar depletes by 40 / level per second, so hunger with potency 40 will depletes one "food" per second, potency 20 will depletes one "food" every 2 seconds, potency 10 will be every 4 seconds, and so on.
-  potion-emit-particles: true        # if entities affected by levitate should emit hunger effect particles
-  potion-is-ambient: true            # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
+  description: When applied, causes the hunger bar to deplete faster than normal, and depending on the potency, making harder even to run, since the hunger bar will keep depleting fast, and if they don't eat they'll not be able to run plus start starving
+  chance-on-damage-done: 0.7 # in percentage, the chance that the infernal mob with hunger ability will have to apply hunger to the attacked entity
+  duration: 30.0-45.0 # in seconds, the duration of the hunger effect
+  potency: 20-40 # what potency of hunger should the entity be affected by, each level increase the rate the hunger bar depletes by 40 / level per second, so hunger with potency 40 will depletes one "food" per second, potency 20 will depletes one "food" every 2 seconds, potency 10 will be every 4 seconds, and so on.
+  potion-emit-particles: true # if entities affected by levitate should emit hunger effect particles
+  potion-is-ambient: true # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
 
 # Invisible ability
 # Mobs with this ability will be completely invisible and silent, things can become really interesting if a creeper had spawns with this ability-, wait, this gave an idea...
 invisible:
-  Description: Infernal becomes invisible and silent. 
-  disable-equipment-visibility: true   # if enabled, the entity will be made fully invisible, including their armor and weapon (note that it'll only work if you have ProtocolLib, otherwise the plugin will automatically fallback to false); if disabled, only potion will be used to make the entity invisible, so its armor and weapons will still be visible
-  disable-entity-sounds: true          # can make the infernal spookier, but at the same time may frustrate players a bit because they will get no sound feedback from the entity when hitting it, the choice is yours; only affect new generated infernals
-  disable-infernal-particles: true     # if infernal particles should NOT be emitted by invisible infernals, probably a good idea to keep it enabled if you want spookier invisible infernals
-  potion-emit-particles: false         # if invisible mobs should emit invisible particles as if they had used a potion of invisibility
-  potion-is-ambient: false             # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
+  description: Infernal becomes invisible and silent.
+  disable-equipment-visibility: true # if enabled, the entity will be made fully invisible, including their armor and weapon (note that it'll only work if you have ProtocolLib, otherwise the plugin will automatically fallback to false); if disabled, only potion will be used to make the entity invisible, so its armor and weapons will still be visible
+  disable-entity-sounds: false # can make the infernal spookier, but at the same time may frustrate players a bit because they will get no sound feedback from the entity when hitting it, the choice is yours; only affect new generated infernals
+  disable-infernal-particles: true # if infernal particles should NOT be emitted by invisible infernals, probably a good idea to keep it enabled if you want spookier invisible infernals
+  potion-emit-particles: false # if invisible mobs should emit invisible particles as if they had used a potion of invisibility
+  potion-is-ambient: false # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
 
 # Kamikaze ability
 # Explode on death, simple, yet super effective. "Sometimes, the best tools are the simpler ones".
 kamikaze:
-  Description: Explode on death, simple, yet super effective.
-  explosion-power: 3.0               # the power of the explosion, where 4.0 is equals to a explosion TNT; modifies both damage and range of the explosion; if set to 0.0, only the sound will be played
-  set-on-fire: true                  # if the explosion should set things on fire
-  break-blocks: true                 # if the explosion should break blocks
+  description: Explode on death, simple, yet super effective.
+  explosion-power: 2.0 # the power of the explosion, where 4.0 is equals to a explosion TNT; modifies both damage and range of the explosion; if set to 0.0, only the sound will be played
+  set-on-fire: true # if the explosion should set things on fire
+  break-blocks: true # if the explosion should break blocks
 
 # Levitate ability
 # On damage, have a chance of making the victim fluctuate in the air for some time, aka "transform them into piñata"
 levitate:
-  Description: On damage, have a chance of making the victim fluctuate in the air for some time
-  chance-on-damage-done: 0.5         # in percentage, the chance that the infernal mob with levitate ability will have to make the attacked entity levitate
-  duration: 3.0-5.0                  # in seconds, the duration of the levitate effect
-  potency: 1-2                       # what potency of levitation should the entity be affected by, each level increase the floating rate by 0.9 blocks per second, valid values: 1-127, more info here https://minecraft.fandom.com/wiki/Levitation
-  potion-emit-particles: true        # if entities affected by levitate should emit levitation effect particles
-  potion-is-ambient: false           # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
+  description: On damage, have a chance of making the victim fluctuate in the air for some time
+  chance-on-damage-done: 0.5 # in percentage, the chance that the infernal mob with levitate ability will have to make the attacked entity levitate
+  duration: 3.0-5.0 # in seconds, the duration of the levitate effect
+  potency: 1-2 # what potency of levitation should the entity be affected by, each level increase the floating rate by 0.9 blocks per second, valid values: 1-127, more info here https://minecraft.fandom.com/wiki/Levitation
+  potion-emit-particles: true # if entities affected by levitate should emit levitation effect particles
+  potion-is-ambient: false # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
 
 # Lifesteal ability
 # For each damage the infernal mob cause, there's a chance that it'll be healed by a certain amount of the damage inflicted upon his targets
 lifesteal:
-  Description: For each damage the infernal mob cause, theres a chance that itll be healed by a certain amount of the damage inflicted upon his targets
-  chance-on-damage-done: 0.75                       # in percentage, will have 75% chance of healing any damage caused by it
-  healing-percentage: 0.5-0.8        # the amount of healing received will be between 50% and 80% of the damage received; may be any value >= 0
+  description: For each damage the infernal mob cause, theres a chance that itll be healed by a certain amount of the damage inflicted upon his targets
+  chance-on-damage-done: 0.75 # in percentage, will have 75% chance of healing any damage caused by it
+  healing-percentage: 0.5-0.8 # the amount of healing received will be between 50% and 80% of the damage received; may be any value >= 0
 
 # Lightning ability
 # On damage, have a chance of making a lightning fall right on their target, poor them... At least they had an electrifying experience.
 lightning:
-  Description: On damage, have a chance of making a lightning fall right on their target, poor them... At least they had an electrifying experience.
-  chance-on-damage-done: 0.4         # in percentage, the chance of a lightning strike the attacked entity
-  damage-multiplier: 1.4-1.7         # in percentage, multiply the damage caused by the lightning strikes launched by the infernals with lightning ability,by the specified values; 1.0 would make the damage be exactly as in vanilla, 2.0 would make it cause two times the normal damage, and so on.
+  description: On damage, have a chance of making a lightning fall right on their target, poor them... At least they had an electrifying experience.
+  chance-on-damage-done: 0.4 # in percentage, the chance of a lightning strike the attacked entity
+  damage-multiplier: 1.4-1.7 # in percentage, multiply the damage caused by the lightning strikes launched by the infernals with lightning ability,by the specified values; 1.0 would make the damage be exactly as in vanilla, 2.0 would make it cause two times the normal damage, and so on.
 
 # Molten ability
 # Any infernal with this ability is immune to fire/lava. They set on fire entities that they attack and entities that attack them, it's basically a pyromaniac in disguise. "Set your life on fire. Seek those who fan your flames" - Rumi
 molten:
-  Description: "Any infernal with this ability is immune to fire/lava. They set on fire players that they attack and entities that attack them, it's basically a pyromaniac in disguise."
-  chance-on-damage-done: 0.6         # in percentage, the chance that the infernal mob with molten ability will have to set the attacked entity on fire
-  chance-on-damage-taken: 0.4        # in percentage, the chance that the entity that hit the infernal mob with molten ability will be set on fire (valid only for melee damage)
-  duration: 6.0-10.0                 # in seconds, the duration of the fire
-  potion-emit-particles: true        # if mobs with molten effect should emit particles as if they had used a potion of fire resistance
-  potion-is-ambient: false           # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
+  description: "Any infernal with this ability is immune to fire/lava. They set on fire players that they attack and entities that attack them, it's basically a pyromaniac in disguise."
+  chance-on-damage-done: 0.6 # in percentage, the chance that the infernal mob with molten ability will have to set the attacked entity on fire
+  chance-on-damage-taken: 0.4 # in percentage, the chance that the entity that hit the infernal mob with molten ability will be set on fire (valid only for melee damage)
+  duration: 6.0-10.0 # in seconds, the duration of the fire
+  potion-emit-particles: true # if mobs with molten effect should emit particles as if they had used a potion of fire resistance
+  potion-is-ambient: false # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
 
 # Morph ability
 # Every so often, while in combat, the infernal mob will have a chance of morphing into another infernal.
 morph:
-  Description: Every so often, while in combat, the infernal mob will have a chance of morphing into another infernal.
-  keep-hp-percentage: true           # if true, the new morphed entity will have the same percentage HP as the previous one, else it'll be fully healed
-  recheck-delay: 2.0                 # in seconds, every 2 seconds it'll run the random chance to see if it's going to morph into another entity
-  chance: 0.01                       # in percentage, every 'recheck-delay' seconds, the morph will have 1% of happening
+  description: Every so often, while in combat, the infernal mob will have a chance of morphing into another infernal.
+  keep-hp-percentage: true # if true, the new morphed entity will have the same percentage HP as the previous one, else it'll be fully healed
+  recheck-delay: 2.0 # in seconds, every 2 seconds it'll run the random chance to see if it's going to morph into another entity
+  chance: 0.01 # in percentage, every 'recheck-delay' seconds, the morph will have 1% of happening
 
 # Mounted ability
 # Gives a chance of a mob spawning mounted on another mob, currently all its configs are in config.yml
@@ -182,50 +182,50 @@ morph:
 # Necromancer ability
 # Shoots a Wither Skull on the target and nearby entities
 necromancer:
-  Description: Shoots a Wither Skull on the target and nearby players
-  nearby-entities-range: 4.0         # in blocks, how close the entity has to be of the main target to also be affected by it; if you don't want this ability to be able to affect multiple targets, set this value to 0.0
+  description: Shoots a Wither Skull on the target and nearby players
+  nearby-entities-range: 4.0 # in blocks, how close the entity has to be of the main target to also be affected by it; if you don't want this ability to be able to affect multiple targets, set this value to 0.0
   projectile-speed: 1.7
-  recheck-delay: 1.25                # in seconds, every 1.25 seconds it'll run the random chance to see if it's going to spawn shoot a wither skull
-  chance: 0.25                       # in percentage, every 'recheck-delay' seconds, the power will have 25% chance of being triggered
+  recheck-delay: 1.25 # in seconds, every 1.25 seconds it'll run the random chance to see if it's going to spawn shoot a wither skull
+  chance: 0.25 # in percentage, every 'recheck-delay' seconds, the power will have 25% chance of being triggered
 
 # Poisonous ability
 # This kind of infernal has strong poison capabilities, anything that dares who hurt them or fool enough to let them be touched by it will suffer the consequences
 poisonous:
-  Description: This kind of infernal has strong poison capabilities, anything that dares who hurt them or fool enough to let them be touched by it will suffer the consequences
-  chance-on-damage-done: 0.8         # in percentage, the chance that the infernal mob with poisonous ability will have to poison the attacked entity
-  chance-on-damage-taken: 0.2        # in percentage, the chance that the entity that hit the infernal mob with poisonous ability will be poisoned (valid only for melee damage)
-  duration: 8.0-12.0                 # in seconds, the duration of the poison
-  potency: 6-12                         # what potency of poison should the entity be affected, valid values: 1-31, by my tests around 7 to 8 is where the poison is stronger, because after 8 there's a grace period in which the player cannot take damage
-  potion-emit-particles: true        # if entities affected by poisonous should emit poison effect particles
-  potion-is-ambient: false           # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
+  description: This kind of infernal has strong poison capabilities, anything that dares who hurt them or fool enough to let them be touched by it will suffer the consequences
+  chance-on-damage-done: 0.8 # in percentage, the chance that the infernal mob with poisonous ability will have to poison the attacked entity
+  chance-on-damage-taken: 0.2 # in percentage, the chance that the entity that hit the infernal mob with poisonous ability will be poisoned (valid only for melee damage)
+  duration: 8.0-12.0 # in seconds, the duration of the poison
+  potency: 6-12 # what potency of poison should the entity be affected, valid values: 1-31, by my tests around 7 to 8 is where the poison is stronger, because after 8 there's a grace period in which the player cannot take damage
+  potion-emit-particles: true # if entities affected by poisonous should emit poison effect particles
+  potion-is-ambient: false # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
 
 # Potions ability
 # Periodically, while in combat, have a chance of throwing various potions on the target, currently has no configs
 potions:
-  Description: Periodically, while in combat, have a chance of throwing various potions on the target
-  enabled-types:                     # See all types here https://papermc.io/javadocs/paper/1.16/org/bukkit/potion/PotionEffectType.html
-  - HARM
-  - POISON
-  - SLOW
-  - BLINDNESS
-  - CONFUSION
-  - WEAKNESS
-  - SLOW_DIGGING
-  nearby-entities-range: 4.0         # in blocks, how close the entity has to be of the main target to also be target by a thrown; if you don't want this ability to be able to target multiple targets, set its value to 0.0
-  recheck-delay: 1.0                 # in seconds, every second it'll have a chance of throwing a random potion at the target
-  chance: 0.05                       # in percentage, will have 5% chance of calling the "gang" every 'recheck-delay' seconds
-  throw-delay: 0.3-0.4               # in seconds, the delay between each "potion volley"
-  amount: 1-2                        # amount of potion thrown, per target
-  potency: 2-4                       # what potency the potions thrown by the infernal should have
-  duration: 8.0-11.0                 # in seconds, the duration of the speed effect of the thrown potions
+  description: Periodically, while in combat, have a chance of throwing various potions on the target
+  enabled-types: # See all types here https://papermc.io/javadocs/paper/1.16/org/bukkit/potion/PotionEffectType.html
+    - HARM
+    - POISON
+    - SLOW
+    - BLINDNESS
+    - CONFUSION
+    - WEAKNESS
+    - SLOW_DIGGING
+  nearby-entities-range: 4.0 # in blocks, how close the entity has to be of the main target to also be target by a thrown; if you don't want this ability to be able to target multiple targets, set its value to 0.0
+  recheck-delay: 1.0 # in seconds, every second it'll have a chance of throwing a random potion at the target
+  chance: 0.05 # in percentage, will have 5% chance of calling the "gang" every 'recheck-delay' seconds
+  throw-delay: 0.3-0.4 # in seconds, the delay between each "potion volley"
+  amount: 1-2 # amount of potion thrown, per target
+  potency: 2-4 # what potency the potions thrown by the infernal should have
+  duration: 8.0-11.0 # in seconds, the duration of the speed effect of the thrown potions
 
 # Rust ability
 # Each attack of infernal with this ability has a chance of damaging the any items the target is currently holding (main hand only, off hand only, or both, picked at random)
 rust:
-  Description: Each attack of infernal with this ability has a chance of damaging the any items the target is currently holding (main hand only, off hand only, or both, picked at random)
-  chance-on-damage-done: 0.10         # in percentage, the chance that the infernal mob with rust ability will have to damage the tools of the attacked entity
-  durability-loss: 0.075-0.15        # in percentage, will reduce between 7.5% and 15% the durability of the tool being held by the victim when triggered
-  send-message-to-player: true       # if true, will send a message to player warning him that his tools got corroded by the infernal
+  description: Each attack of infernal with this ability has a chance of damaging the any items the target is currently holding (main hand only, off hand only, or both, picked at random)
+  chance-on-damage-done: 0.10 # in percentage, the chance that the infernal mob with rust ability will have to damage the tools of the attacked entity
+  durability-loss: 0.075-0.15 # in percentage, will reduce between 7.5% and 15% the durability of the tool being held by the victim when triggered
+  send-message-to-player: true # if true, will send a message to player warning him that his tools got corroded by the infernal
 
 # Second Wind ability
 # Revives on death, currently has no configs
@@ -234,83 +234,83 @@ rust:
 # Slowness ability
 # Each attack of the infernal with slowness will have a chance of slowing (possibly massively) a target by a random amount of time
 slowness:
-  Description: Each attack of the infernal with slowness will have a chance of slowing (possibly massively) a target by a random amount of time
-  chance-on-damage-done: 0.8         # in percentage, the chance that the infernal mob with slowness ability will have to slow the attacked entity
-  potency: 2-4                       # what potency of slow should the entity be affected, the potency of slow is 15% * level
-  duration: 5.0-10.0                  # in seconds, the duration of the slow
-  potion-emit-particles: true        # if entities affected by slowness should emit slow effect particles
-  potion-is-ambient: false           # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
+  description: Each attack of the infernal with slowness will have a chance of slowing (possibly massively) a target by a random amount of time
+  chance-on-damage-done: 0.8 # in percentage, the chance that the infernal mob with slowness ability will have to slow the attacked entity
+  potency: 2-4 # what potency of slow should the entity be affected, the potency of slow is 15% * level
+  duration: 5.0-10.0 # in seconds, the duration of the slow
+  potion-emit-particles: true # if entities affected by slowness should emit slow effect particles
+  potion-is-ambient: false # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
 
 # Speedy ability
 # Increase the movement speed of any infernal with this ability by the value specified, making them faaast
 speedy:
-  Description: Increase the movement speed of any infernal
-  bonus: 2.0-3.0                     # any mob with this effect will have between 2 and 3 times its normal speed
+  description: Increase the movement speed of any infernal
+  bonus: 2.0-3.0 # any mob with this effect will have between 2 and 3 times its normal speed
 
 # Teleport ability
 # Periodically, while fighting against a target, a infernal mob with teleport ability will have a chance of teleporting next to its target. Spooky, Scary, Skeletons...
 teleport:
-  Description: Periodically, while fighting against a target, a infernal mob with teleport ability will have a chance of teleporting next to its target. 
-  recheck-delay: 2.5                 # in seconds, each 2 seconds it'll have the chance below of teleport nearby its target
-  chance: 0.6                        # every 'recheck-delay' seconds, it'll, at a 30% chance of happening, teleport nearby its target
+  description: Periodically, while fighting against a target, a infernal mob with teleport ability will have a chance of teleporting next to its target.
+  recheck-delay: 2.5 # in seconds, each 2 seconds it'll have the chance below of teleport nearby its target
+  chance: 0.6 # every 'recheck-delay' seconds, it'll, at a 30% chance of happening, teleport nearby its target
 
 # Thief ability
 # Every certain amount of time, a infernal mob with thief ability will have a chance of steal one part of the target's set or equipped weapons, randomly
 thief:
-  Description: "Every certain amount of time, a infernal mob with thief ability will have a chance of steal one part of the target's set or equipped weapons, randomly"
-  recheck-delay: 10.0                 # in seconds, each 3 seconds it'll run the random chance to see if it's going to steal a piece of target's equipment
-  chance: 0.10                      # every 'recheck-delay' seconds, it'll, at a 5% chance of happening, steal one of the equipped items of the target
-  durability-loss: 0.04-0.06         # in percentage, will reduce between 4% and 6% the durability of the equipment stolen from the victim
-  affect-only-players: true          # set to true by default to prevent exploits, people "storing" mobs with thief ability and make them fight against another infernal that has special, rare armor, in order to make them steal the rare equipment of that other infernal, which will be dropped at the thief's feet, and will make getting them much easier; you may set this to false if you don't care
-  require-line-of-sight: true        # if true, the ability will only trigger if the infernal mob has line of sight of the victim
-  send-message-to-player: true       # if true, will send a message to player warning him that he got stolen (recommended)
-  drop-stolen-item-chance: 1.0       # in percentage, the chance of the entity dropping the item it stole from the player
+  description: "Every certain amount of time, a infernal mob with thief ability will have a chance of steal one part of the target's set or equipped weapons, randomly"
+  recheck-delay: 10.0 # in seconds, each 3 seconds it'll run the random chance to see if it's going to steal a piece of target's equipment
+  chance: 0.10 # every 'recheck-delay' seconds, it'll, at a 5% chance of happening, steal one of the equipped items of the target
+  durability-loss: 0.04-0.06 # in percentage, will reduce between 4% and 6% the durability of the equipment stolen from the victim
+  affect-only-players: true # set to true by default to prevent exploits, people "storing" mobs with thief ability and make them fight against another infernal that has special, rare armor, in order to make them steal the rare equipment of that other infernal, which will be dropped at the thief's feet, and will make getting them much easier; you may set this to false if you don't care
+  require-line-of-sight: true # if true, the ability will only trigger if the infernal mob has line of sight of the victim
+  send-message-to-player: true # if true, will send a message to player warning him that he got stolen (recommended)
+  drop-stolen-item-chance: 1.0 # in percentage, the chance of the entity dropping the item it stole from the player
 
 # Thornmail ability
 # Has a chance of partially (or fully, or even multiply) reflect the damage received
 thornmail:
-  Description: Has a chance of partially (or fully, or even multiply) reflect the damage received
-  chance: 0.6                        # in percentage, will have 60% chance of triggering a reflect
-  reflected-amount: 0.4-2.0          # the amount of damage reflected will be between 40% and 70% of the damage received; may be any value >= 0
+  description: Has a chance of partially (or fully, or even multiply) reflect the damage received
+  chance: 0.6 # in percentage, will have 60% chance of triggering a reflect
+  reflected-amount: 0.4-2.0 # the amount of damage reflected will be between 40% and 70% of the damage received; may be any value >= 0
 
 # Tosser ability
 # Each damage the infernal mob causes may cause the target and nearby entities to be tossed around in a random direction
 tosser:
-  Description: Each damage the infernal mob causes may cause the target and nearby entities to be tossed around in a random direction
-  nearby-entities-range: 7.0             # in blocks, how close the entity has to be of the main target to also be affected by it; if you don't want abilities to be able to affect multiple targets, set its value to 0.0
-  sneaking-multiplier-percentage: 0.30   # if the target is sneaking, the tosses will be multiplied by that percentage; the default value makes the it takes 30% less toss, but you can also increase this multiplier over 1 to increase the toss distance if they're sneaking, if you want
-  require-line-of-sight: true            # if true, the ability will only trigger if the infernal mob has line of sight of the victim
-  distance-multiplier: 1.0               # you can increase the maximum distance the target will be tossed at by increasing this multiplier
-  height-multiplier: 1.0                 # you can increase the maximum distance the target will be tossed at by increasing this multiplier
-  recheck-delay: 2.0                     # in seconds, every 2.0 seconds it'll run the random chance to see if it's going to spawn shoot the arrows
-  chance: 0.7                            # in percentage, every 'recheck-delay' seconds, the power will have 60% chance of being triggered
+  description: Each damage the infernal mob causes may cause the target and nearby entities to be tossed around in a random direction
+  nearby-entities-range: 7.0 # in blocks, how close the entity has to be of the main target to also be affected by it; if you don't want abilities to be able to affect multiple targets, set its value to 0.0
+  sneaking-multiplier-percentage: 0.30 # if the target is sneaking, the tosses will be multiplied by that percentage; the default value makes the it takes 30% less toss, but you can also increase this multiplier over 1 to increase the toss distance if they're sneaking, if you want
+  require-line-of-sight: true # if true, the ability will only trigger if the infernal mob has line of sight of the victim
+  distance-multiplier: 1.0 # you can increase the maximum distance the target will be tossed at by increasing this multiplier
+  height-multiplier: 1.0 # you can increase the maximum distance the target will be tossed at by increasing this multiplier
+  recheck-delay: 2.0 # in seconds, every 2.0 seconds it'll run the random chance to see if it's going to spawn shoot the arrows
+  chance: 0.7 # in percentage, every 'recheck-delay' seconds, the power will have 60% chance of being triggered
 
 # Weakness ability
 # Each attack of the infernal mob with weakness ability will have a chance of applying the weakness effect. Weakness decreases attack power. Melee damage inflicted by the affected entity is reduced by 4 hearts of damage PER LEVEL, so keep the potency low (around 1, maybe 2, or 3 only if they got OP equipment), otherwise they won't be able to cause damage
 weakness:
-  Description: Each attack of the infernal mob with weakness ability will have a chance of applying the weakness effect. 
-  chance-on-damage-done: 0.7         # in percentage, the chance that the infernal mob will have to weaken its target
-  potency: 1                         # what potency of weakness should the entity be affected
-  duration: 4.0-6.0                  # in seconds, the duration of the weakness effect
-  potion-emit-particles: true        # if entities affected by withering should emit weakness effect particles
-  potion-is-ambient: false           # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
+  description: Each attack of the infernal mob with weakness ability will have a chance of applying the weakness effect.
+  chance-on-damage-done: 0.7 # in percentage, the chance that the infernal mob will have to weaken its target
+  potency: 1 # what potency of weakness should the entity be affected
+  duration: 4.0-6.0 # in seconds, the duration of the weakness effect
+  potion-emit-particles: true # if entities affected by withering should emit weakness effect particles
+  potion-is-ambient: false # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
 
 # Webber ability
 # Periodically, when in combat, the infernal mob will have a chance of spawning a cage of cobweb around its victim, turning the flee of any prey a nightmare... <3
 webber:
-  Description: Periodically, when in combat, the infernal mob will have a chance of spawning a cage of cobweb around its victim, turning the flee of any prey a nightmare...
-  recheck-delay: 1.5                 # in seconds, each 1.5 seconds it'll run the random chance to see if it's going to spawn a web on player's feet
-  chance: 0.08                       # every 'recheck-delay' seconds, it'll run the random chance that will have 8% of spawning a web on the player's feet
-  duration: 4.0-6.0                  # in seconds, how many seconds the cobweb will stay there, by default the time is random between 4 and 8 seconds
-  trap-density: 0.15-0.20            # how "dense" the spawned cage will be, or in other words, what's the chance of each block around the target being temporally transformed into cobweb
-  max-radius: 0-1                    # in blocks, the radius of the trap - 2, so a max radius of 0 will make a 3x3 cube around the target, max radius 1 will make a 5x5 cube around the target, and so on...
+  description: Periodically, when in combat, the infernal mob will have a chance of spawning a cage of cobweb around its victim, turning the flee of any prey a nightmare...
+  recheck-delay: 1.5 # in seconds, each 1.5 seconds it'll run the random chance to see if it's going to spawn a web on player's feet
+  chance: 0.08 # every 'recheck-delay' seconds, it'll run the random chance that will have 8% of spawning a web on the player's feet
+  duration: 4.0-6.0 # in seconds, how many seconds the cobweb will stay there, by default the time is random between 4 and 8 seconds
+  trap-density: 0.15-0.20 # how "dense" the spawned cage will be, or in other words, what's the chance of each block around the target being temporally transformed into cobweb
+  max-radius: 0-1 # in blocks, the radius of the trap - 2, so a max radius of 0 will make a 3x3 cube around the target, max radius 1 will make a 5x5 cube around the target, and so on...
 
 # Withering ability
 # Each attack of the infernal with withering ability will have a chance of applying wither effect to the target; Wither is a status effect that inflicts damage over time. Unlike Poison, it can affect undead mobs, and can kill. It is usually difficult for the player to see how much health they have left, as it turns the player's health bar black.
 withering:
-  Description: "Each attack of the infernal with withering ability will have a chance of applying wither effect to the target; Wither is a status effect that inflicts damage over time."
-  chance-on-damage-done: 0.65        # in percentage, the chance that the infernal mob will have to apply wither to their target
-  potency: 1                         # what potency of wither should the entity be affected, check the damages here https://minecraft.fandom.com/wiki/Wither_(effect) , valid values for potency are 1 up until 32; of course you can use random range here as well, I just didn't because the withering effect already strong enough at level 1
-  duration: 18.0-30.0                # in seconds, the duration of the wither effect; a
-  potion-emit-particles: true        # if entities affected by withering should emit wither effect particles
-  potion-is-ambient: false           # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles
+  description: "Each attack of the infernal with withering ability will have a chance of applying wither effect to the target; Wither is a status effect that inflicts damage over time."
+  chance-on-damage-done: 0.65 # in percentage, the chance that the infernal mob will have to apply wither to their target
+  potency: 1 # what potency of wither should the entity be affected, check the damages here https://minecraft.fandom.com/wiki/Wither_(effect) , valid values for potency are 1 up until 32; of course you can use random range here as well, I just didn't because the withering effect already strong enough at level 1
+  duration: 18.0-30.0 # in seconds, the duration of the wither effect; a
+  potion-emit-particles: true # if entities affected by withering should emit wither effect particles
+  potion-is-ambient: false # if particle effect should have less apparent particles making them more transparent and less frequent. Kind of like a midpoint between full particles and no particles

@@ -11,23 +11,6 @@
 # Item material list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
 # Enchantment list: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/enchantments/Enchantment.html
 
-murder_axe:
-  type: "normal"                               # valid values: NORMAL, BOOK; you may omit this field for normal items
-  name: "<#AAAAAA>Murder Axe"                  # item display name, the name that will appear when the player hover over the item or holds it
-  material: "IRON_AXE"                         # vanilla material of an item, use the name exactly as listed in the website
-  amount: 1                                    # if you omit this field, the amount will default to 1
-  lore:                                        # this is how you set up lore that has multiple lines
-    - "This is a lore"
-    - "With multiple lines"
-silky:
-  name: "<#00AA00>Silky"
-  material: "DIAMOND_PICKAXE"
-  amount: 1
-  lore:
-    - "<#AAAAAA>Silkier than milk!"
-  enchants:
-    - "unbreaking:3-5"                             # will make every 'silky' pickaxe have efficiency level 1; default level of all enchantments is 1, unless otherwise specified; enchantment level range goes from 1 to 65535, but not all enchantments scale with level
-    - "silk_touch:5"                           # will make every 'silky' pickaxe have Silk Touch level 5   
 butcher_axe:
   name: "<#00AA00>Butcher Axe"
   material: "IRON_AXE"
@@ -44,7 +27,7 @@ inferno_bow:
     - "<#FF5555>Holds the power of the <#AA0000>NetherWorld<#FF5555>!"
   enchants:
     - "infinity:1:0.3"
-    - "flame:1-2"    
+    - "flame:1-2"
 lady_luck:
   name: "<#FFAA00>Lady Luck"
   material: "IRON_SWORD"
@@ -60,37 +43,29 @@ wacker:
   lore:
     - "Wack 'em back!"
   enchants:
-    - "knockback:7-10"
+    - "knockback:1-4"
 hell_cream:
   name: "**Cream of Hell**"
   material: "MAGMA_CREAM"
   amount: 1
   lore:
     - "&4BURN YOUR ENEMIES TO ASHES!"
-    - "*BECOME THE GOD OF FIRE!*"  
+    - "*BECOME THE GOD OF FIRE!*"
   enchants:
     - "fire_aspect:5-8"
     - "sharpness:1-5:0.10"
 mjolnir:
-  name: "**Thors Axe**"
+  name: "**Mjolnir**"
   material: IRON_AXE
   amount: 1
   lore:
     - "&6Whosoever holds this hammer, if he be worthy, shall possess the power of Thor."
-    - "&4*Become the god of thunder with your thunderous wrath*"  
+    - "&4*Become the god of thunder with your thunderous wrath*"
   enchants:
     - "sweeping_edge:5:0.50"
     - "smite:5:0.50"
     - "loyalty:10"
     - "sharpness:1-12"
-special_diamond:
-  name: "[&aSpecial Diamond](hover: <r>How Did We Get Here?)"
-  material: "DIAMOND"
-  amount: 1-5
-  lore:
-    - "&r*Special Diamond, just for <r:0.5:1.0>||sam||*"
-  enchants:
-    - "unbreaking:8-10"
 arthropod_blade:
   name: "<g:#2d3835:#869c96>Arthropod Blade"
   material: "DIAMOND_SWORD"
@@ -151,10 +126,10 @@ lucky_rod:
   material: FISHING_ROD
   amount: 1
   lore:
-    - "*Looks like someone lost their lucky rod.*" 
+    - "*Looks like someone lost their lucky rod.*"
   enchants:
     - "luck_of_the_sea:5-15:0.38"
-    - "lure:3-5:0.25" 
+    - "lure:3-5:0.25"
 glass_drill:
   name: "&7Glass Drill"
   material: "GOLDEN_PICKAXE"
@@ -237,17 +212,6 @@ thorny_pants:
     - "fire_protection:4:0.5"
     - "thorns:10"
     - "unbreaking:3"
-pros_chestplate:
-  name: "&5Pro's Chestplate"
-  material: "NETHERITE_CHESTPLATE"
-  amount: 1
-  lore:
-    - "&cProGamer101's PLAT!"
-  enchants:
-    - "protection:7-12:0.75"
-    - "unbreaking:3-5:0.75"
-    - "mending:1-2:0.75"
-    - "thorns:2-3:0.75"
 red_rose:
   name: "&4Red Rose"
   material: "POPPY"
@@ -291,7 +255,7 @@ halloween_big_shot:
   name: "&e&l[[BIG SHOT]]"
   material: "BOW"
   amount: 1
-  enchants: 
+  enchants:
     - "power:15-20"
     - "infinity:1-2"
     - "flame:1:0.5"
@@ -306,7 +270,7 @@ halloween_hallowed_pumpkin:
   name: "&6&lHallowed Pumpkin"
   material: "CARVED_PUMPKIN"
   amount: 1
-  enchants: 
+  enchants:
     - "protection:15"
     - "fire_protection:5"
     - "thorns:1:0.25"
@@ -319,7 +283,7 @@ halloween_hallowed_boots:
   name: "&6&lHallowed Boots"
   material: "LEATHER_BOOTS"
   amount: 1
-  enchants: 
+  enchants:
     - "protection:10-12:0.9"
     - "fire_protection:5"
     - "thorns:1:0.5"
@@ -332,7 +296,7 @@ halloween_hallowed_leggings:
   name: "&6&lHallowed Pants"
   material: "LEATHER_LEGGINGS"
   amount: 1
-  enchants: 
+  enchants:
     - "protection:10-15"
     - "fire_protection:5"
     - "thorns:1:0.5"
@@ -346,7 +310,7 @@ halloween_hallowed_chestplate:
   name: "&6&lHallowed Chestplate"
   material: "LEATHER_CHESTPLATE"
   amount: 1
-  enchants: 
+  enchants:
     - "protection:12-15"
     - "fire_protection:5"
     - "thorns:1:0.5"
@@ -360,7 +324,7 @@ halloween_hallowed_sword:
   name: "&6&lHallowed Sword"
   material: "IRON_SWORD"
   amount: 1
-  enchants: 
+  enchants:
     - "sharpness:10-15"
     - "smite:10-30"
     - "fire_aspect:1-5"
@@ -527,6 +491,7 @@ atlas:
   lore:
     - "&4&l&klee &4&l BLOODTHIRSTY SWORD &klee"
     - "Forged from the Blood of the Ancients. Repurposed to cause Death."
+    - "So sharp that it seems invisible."
     - "Any that stand in the way shall fall."
   enchants:
     - "sharpness:20-25"
@@ -561,7 +526,7 @@ creeper_head_mk2:
   name: "&2Creeper Head Mk.II"
   material: CREEPER_HEAD
   amount: 1
-  enchants: 
+  enchants:
     - blast_protection:1-10
 starvation_curse:
   name: "&4Starvation Curse"
@@ -573,7 +538,7 @@ pillow_padded_boots:
   name: "&9Pillow Padded Boots"
   material: LEATHER_BOOTS
   amount: 1
-  lore: 
+  lore:
     - "You'll survive larger falls!"
   enchants:
     - feather_falling:15-25
@@ -926,24 +891,6 @@ nether_star:
   amount: 1
   lore:
     - "&0From the depths of the Nether!"
-poison_potion:
-  name: "&aPoison Potion"
-  material: POTION
-  amount: 8
-  lore:
-    - "&2Very deadly."
-invisibility_potion:
-  name: "&fInvisibility Potion"
-  material: POTION
-  amount: 6
-  lore:
-    - "&7From nowhere?"
-life_potion:
-  name: "&dLife Potion"
-  material: POTION
-  amount: 5
-  lore:
-    - "&5Not many left on earth."
 eliminators_helmet:
   name: "&3Eliminator's Helmet"
   material: IRON_HELMET
@@ -1010,6 +957,7 @@ netherite_shield:
   enchants:
     - unbreaking:9-10
     - mending:1:0.25
+    - "protection:5-10:0.50"
 vampire_stake:
   name: "&4Vampire Stake"
   material: STICK
@@ -1018,7 +966,7 @@ vampire_stake:
     - "&cHeals you when used"
   enchants:
     - sharpness:5
-testbook:
+enchantedbook:
   name: "Enchanted Book"
   material: ENCHANTED_BOOK
   amount: 1
@@ -1062,7 +1010,39 @@ orions_heart:
     - "Let this trophy shine with you."
   enchants:
     - "unbreaking:100"
-axe_of_rage: 
+apprentice_thief_boots:
+  name: "Apprentice Thief Boots"
+  material: LEATHER_BOOTS
+  amount: 1
+  enchants:
+    - unbreaking:1-4
+    - mending:1:0.15
+  lore:
+    - "Rarity: Common"
+    - "The beginning of a life of crime."
+golden_frying_pan:
+  name: "<#FFD700>Golden Frying Pan<##FFD700>"
+  material: GOLDEN_SHOVEL
+  amount: 1
+  enchants:
+    - unbreaking:100
+    - mending:1
+    - sharpness:1
+    - bane_of_athropods:1
+    - smite:1
+  lore:
+    - "Rarity: <#FFD700>Royal<#FFD700>"
+    - "<#FFD700>Guess you're rich now.<#FFD700>"
+apprentice_thief_charm:
+  name: "Apprentice Thief Charm"
+  material: TRAPPED_CHEST
+  amount: 1
+  enchants:
+    - unbreaking:1
+  lore:
+    - "Rarity: Common"
+    - "Maybe you'll actually steal something this time."
+axe_of_rage:
   name: "&4&lAxe of Rage"
   material: STONE_AXE
   amount: 1
@@ -1071,14 +1051,14 @@ axe_of_rage:
     - "&cThat's a nice life you have there mate!"
     - "&4Would be a shame if somethin happened to it."
   enchants:
-    - smite:5-12  
+    - smite:5-12
     - sharpness:25
     - mending:1:0.75
     - fire_aspect:3:0.50
     - knockback:4:0.50
     - unbreaking:10
     - looting:1-3 #this already has rng
-axe_of_rage_dev: 
+axe_of_rage_dev:
   name: "&7&lA Dev's Axe"
   material: STONE_AXE
   amount: 1
@@ -1087,7 +1067,7 @@ axe_of_rage_dev:
     - "&cThat's a nice life you have there mate!"
     - "&4Would be a shame if somethin happened to it."
   enchants:
-    - smite:5-12  
+    - smite:5-12
     - sharpness:100
     - mending:1:0.75
     - fire_aspect:3:0.50
@@ -1196,7 +1176,7 @@ shield_of_power:
   name: "&7**Shield of Power**"
   material: SHIELD
   amount: 1
-  patterns:                                    # may contain infinite amount of patterns
+  patterns: # may contain infinite amount of patterns
     - "gra:YELLOW"
     - "rd:YELLOW"
     - "dls:LIGHT_BLUE"
@@ -1375,7 +1355,7 @@ cool_banner:
   amount: 1
   lore:
     - "Lore with single line"
-  patterns:                                    # may contain infinite amount of patterns
+  patterns: # may contain infinite amount of patterns
     - "GRADIENT:magenta"
     - "sku:LIME"
 cake_01:
@@ -1386,6 +1366,37 @@ cake_01:
     - "&dBut for who?"
   enchants:
     - unbreaking:10
+# Maybe used as a go to guide for future weapons of mass destruction?
+
+# wrathbringer:
+#   name: "&c**Wrathbringer**"
+#   material: NETHERITE_SWORD
+#   amount: 1
+#   lore:
+#     - "&4A righteous wrath this is not"
+#   enchants:
+#     - sharpness:3-10
+#     - unbreaking:1-5:0.25
+#     - bane_of_arthropods:1-8:0.15
+#     - smite:1-8:0.15
+#     - fire_aspect:1-5:0.3
+#     - looting:1-10:0.35
+#     - mending:1:0.15
+# balancer:
+#   name: "**&6Balancer**"
+#   material: "NETHERITE_SWORD"
+#   amount: 1
+#   lore:
+#     - "<#FF5555>Holds the power of the <#AA0000>Hausemaster<#FF5555>!"
+#   enchants:
+#     - sharpness:7-12
+#     - knockback:2-4
+#     - unbreaking:1-5:0.45
+#     - smite:7-15:0.55
+#     - fire_aspect:5:0.55
+#     - looting:5-12:0.55
+#     - bane_of_arthropods:1-8:0.55
+#     - mending:1-2:0.25
 wrathbringer:
   name: "&c**Wrathbringer**"
   material: NETHERITE_SWORD
@@ -1458,25 +1469,15 @@ the_final_say:
 trusty_shield:
   name: "<#964B00>Trusty Shield"
   material: "SHIELD"
-  dye-color: "RED"                             # base color of the shield patterns
+  dye-color: "RED" # base color of the shield patterns
   amount: 1
-  lore:                                        # and this is how you make the item lore with only one line
+  lore: # and this is how you make the item lore with only one line
     - "<#964B00>Trust thou shield."
-  patterns:                                    # may contain infinite amount of patterns
-    - "GRADIENT:LIME"                          # format is "pattern:color", pattern list can be found here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/banner/PatternType.html , color list can be found here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/DyeColor.html
-    - "half_vertical:magenta"                  # patterns are, also, case insensitive
+  patterns: # may contain infinite amount of patterns
+    - "GRADIENT:LIME" # format is "pattern:color", pattern list can be found here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/block/banner/PatternType.html , color list can be found here https://hub.spigotmc.org/javadocs/spigot/org/bukkit/DyeColor.html
+    - "half_vertical:magenta" # patterns are, also, case insensitive
     - "TRIANGLE_TOP:ORANGE"
-    - "sku:RED"                                # may also use pattern identifier names (this is SKULL)
-thank_book:
-  type: "book"                                 # you must specify that this item is a book
-  material: "WRITTEN_BOOK"                     # valid values: WRITTEN_BOOK, WRITABLE_BOOK; the former is not editable, the latter is; if you don't specify a type, WRITTEN_BOOK will be used
-  title: "<#c663f7>Thanks (9/10/2021)<#FFAA00>"           # all books must have a title
-  author: "Mmadrid509"                           # optional, doesn't support colors
-  generation: "TATTERED"                       # valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED; of all those, only ORIGINAL and COPY_OF_ORIGINAL can be copied by players, keep that in mind; will default to ORIGINAL if you don't specify
-  pages:                                       # the page system a little weird, each of these lines is a new page, and you start a new line by using \n
-    - "Hey Guys! Madrid Here,\nI just wanted to say thanks, for everything, which would be supporting me on this nice development journey.\nI will continue to develop for Easy SMP for as long as I can\nYou guys are a great community."      # page #1
-    - "To clarify, I'm not leaving and simply want to thank you for actually taking the time to admire my work and my nonsensical infernals that I have made\nThanks again, and also\nGood job on killing Orion! I knew you guys could come together and do it."    # page #2
-    - "Jack, if this is you taking advantage of an exploit, throw all these items into a cactus. For these items are meant for the community."
+    - "sku:RED" # may also use pattern identifier names (this is SKULL)
 plate_of_greed:
   name: "&6**Plate of Greed**"
   material: NETHERITE_CHESTPLATE
@@ -1489,18 +1490,35 @@ plate_of_greed:
     - unbreaking:1-10:0.24
     - fire_protection:1-10:0.15
     - mending:1
-example_book:
-  type: "book"                                 # you must specify that this item is a book
-  material: "WRITTEN_BOOK"                     # valid values: WRITTEN_BOOK, WRITABLE_BOOK; the former is not editable, the latter is; if you don't specify a type, WRITTEN_BOOK will be used
-  title: "<#c663f7>Title <#FFAA00>1"           # all books must have a title
-  author: "Author 1"                           # optional, doesn't support colors
-  generation: "TATTERED"                       # valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED; of all those, only ORIGINAL and COPY_OF_ORIGINAL can be copied by players, keep that in mind; will default to ORIGINAL if you don't specify
-  pages:                                       # the page system a little weird, each of these lines is a new page, and you start a new line by using \n
-    - "first page\nsecond line of the <#c663f7>first page"      # page #1
-    - "second page\nsecond line of the <#c663f7>second page"    # page #2
-    - ""                                                        # page #3 will be empty
-    - "<#ff5555>fourth page"                                    # page #4
-
+# example_book:
+#   type: "book"                                 # you must specify that this item is a book
+#   material: "WRITTEN_BOOK"                     # valid values: WRITTEN_BOOK, WRITABLE_BOOK; the former is not editable, the latter is; if you don't specify a type, WRITTEN_BOOK will be used
+#   title: "<#c663f7>Title <#FFAA00>1"           # all books must have a title
+#   author: "Author 1"                           # optional, doesn't support colors
+#   generation: "TATTERED"                       # valid values: ORIGINAL, COPY_OF_ORIGINAL, COPY_OF_COPY, TATTERED; of all those, only ORIGINAL and COPY_OF_ORIGINAL can be copied by players, keep that in mind; will default to ORIGINAL if you don't specify
+#   pages:                                       # the page system a little weird, each of these lines is a new page, and you start a new line by using \n
+#     - "first page\nsecond line of the <#c663f7>first page"      # page #1
+#     - "second page\nsecond line of the <#c663f7>second page"    # page #2
+#     - ""                                                        # page #3 will be empty
+#     - "<#ff5555>fourth page"                                    # page #4
+zephyr_wings:
+  name: "<#FFFFFF>Zephyr <#FFFFFF>Wings"
+  material: "IRON_BOOTS"
+  amount: 1
+  lore:
+    - "<#FFFFFF>Crafted with the almighty <#AA0000>Beetle Wings<#FF5555>!"
+  enchants:
+    - protection:15-20
+    - feather_falling:10
+    - unbreaking:10
+    - mending:1
+# Gives target Dolphin's Grace when Lazy's Tail is in their offhand or hotbar or slots specified by charms.yml
+dolphins_tail:
+  name: "<#FFFFFF>Dolphin's <#FFFFFF>Tail"
+  material: RAW_COD
+  amount: 1
+  lore: 
+    - "<#5555FF>Gracings from Aqua Lord"
 ############################################################
 # +------------------------------------------------------+ #
 # |                    Armoured Armor                    | #
@@ -1542,7 +1560,7 @@ armoured_sword:
   material: "NETHERITE_SWORD"
   amount: 1
   enchants:
-    - "damage_all:2-4"                   # sharpness 2-4
+    - "damage_all:2-4" # sharpness 2-4
 
 armoured_bow:
   name: "<#808080>Armoured Bow"
@@ -1561,7 +1579,6 @@ armoured_crossbow:
     - "piercing:1-3"
     - "quick_charge:2-3"
 
-
 ############################################################
 # +------------------------------------------------------+ #
 # |                    Ghost Equipment                   | #
@@ -1578,7 +1595,7 @@ ghost_helmet:
 ghost_chestplate:
   name: "<#808080>Ghost Chestplate"
   material: "LEATHER_CHESTPLATE"
-  color: "240, 240, 240"                 # RGB
+  color: "240, 240, 240" # RGB
   amount: 1
   enchants:
     - "protection_environmental:7-9"
@@ -1603,7 +1620,7 @@ haunted_ghost_helmet:
 haunted_ghost_chestplate:
   name: "<#808080>Haunted Ghost Chestplate"
   material: "LEATHER_CHESTPLATE"
-  color: "0, 0, 0"                       # RGB
+  color: "0, 0, 0" # RGB
   amount: 1
   enchants:
     - "protection_environmental:9-11"
@@ -1615,7 +1632,6 @@ haunted_ghost_weapon:
   enchants:
     - "arrow_damage:4"
     - "arrow_knockback"
-
 # You may also want to implement these, just uncomment them and fill the necessary data
 
 # haunted_ghost_leggings:

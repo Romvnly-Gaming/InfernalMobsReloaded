@@ -67,19 +67,6 @@ valid-charm-slots:
   - 40
   - 36-39
 charm-effects:
-  thors_apple:
-    override-charm-slots: # that's how you override slots, so it won't use the global slots; remember that 'main-hand' property ignore slots, both global ones and the override ones
-      - 0-3
-    player-message: "<#d75eff>You feel your wounds disappearing." # omit this field to send nothing to the player when the effects kicks in
-    effect: INSTANT_HEALTH # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.17/org/bukkit/potion/PotionEffectType.html
-    potency: 1-2 # potion level
-    #    duration: 10.0                            # duration does nothing here, since instant healing is an instant effect
-    delay: 20.0-30.0 # in seconds, the delay between each recurrent application
-    effect-mode: SELF_RECURRENT # type of effect that will be applied on the player, choose from SELF_PERMANENT, SELF_RECURRENT, and TARGET_TEMPORARY
-    particle-mode: SELF_WHEN_APPLIED # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
-    particle-type: totem # see full list here https://papermc.io/javadocs/paper/1.17/org/bukkit/Particle.html
-    required-items: # the effect will require ALL the items listed below to be active
-      - "thors_apple"
   mothers_milk_1:
     effect: REGENERATION # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.17/org/bukkit/potion/PotionEffectType.html
     potency: 2-3 # potion level
@@ -102,22 +89,12 @@ charm-effects:
   flying_bow:
     effect: LEVITATION
     potency: 1
-    duration: 3
+    duration: 5
     delay: 1
     effect-mode: TARGET_ON_HIT
     particle-mode: TARGET_WHEN_APPLIED # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
     particle-type: cloud
-    required_items:
-      - "flying_bow"
-  fast_miner:
-    player-message: "<#36f5f2>Suddenly, you gain the agility of the gods." # omit this field to send nothing to the player when the effects kicks in
-    effect: FAST_DIGGING # effect name, see list with all effects here https://papermc.io/javadocs/paper/1.17/org/bukkit/potion/PotionEffectType.html
-    potency: 3 # potion level
-    delay: 1.0 # delay does nothing since this is a permanent effect
-    effect-mode: SELF_PERMANENT
-    particle-mode: SELF_ONCE
-    particle-type: flame
-    main-hand: "silky"
+    main-hand: "flying_bow"
 
   fast_digger:
     player-message: "&6Suddenly, the power of your golden heart flows through you.\nDon't give up on your dreams."
@@ -200,6 +177,13 @@ charm-effects:
     effect-mode: SELF_PERMANENT
     required-items:
       - chain_of_protection
+  netherite_shield:
+    effect: RESISTANCE
+    potency: 2
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    valid-charm-slots:
+      - 40
   chain_of_protection_2:
     effect: SLOWNESS
     potency: 20
@@ -330,9 +314,7 @@ charm-effects:
   hallowed_set_3:
     effect: SLOWNESS
     potency: 5
-    delay: 300.0
-    duration: 999.0
-    effect-mode: SELF_RECURRENT
+    effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
     required-items:
       - halloween_hallowed_pumpkin
@@ -367,16 +349,16 @@ charm-effects:
   hunger_charm:
     effect: SATURATION
     potency: 1
-    duration: 1.0                            # duration does nothing here, since instant healing is an instant effect
-    delay: 45.0                           # in seconds, the delay between each recurrent application
-    effect-mode: SELF_RECURRENT                # type of effect that will be applied on the player, choose from SELF_PERMANENT, SELF_RECURRENT, and TARGET_TEMPORARY
-    particle-mode: SELF_WHEN_APPLIED        # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
-    particle-type: SPELL_INSTANT                       # see full list here https://papermc.io/javadocs/paper/1.16/org/bukkit/Particle.html
+    duration: 1.0 # duration does nothing here, since instant healing is an instant effect
+    delay: 45.0 # in seconds, the delay between each recurrent application
+    effect-mode: SELF_RECURRENT # type of effect that will be applied on the player, choose from SELF_PERMANENT, SELF_RECURRENT, and TARGET_TEMPORARY
+    particle-mode: SELF_WHEN_APPLIED # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
+    particle-type: SPELL_INSTANT # see full list here https://papermc.io/javadocs/paper/1.16/org/bukkit/Particle.html
     required-items:
       - hunger_charm
 
   american_axe:
-    effect: FAST_DIGGING
+    effect: SLOW_DIGGING
     potency: 1
     delay: 1.0
     effect-mode: SELF_PERMANENT
@@ -513,6 +495,35 @@ charm-effects:
     particle-type: cloud
     required-items:
       - golden_coins
+  chain_of_protection:
+    effect: SLOWNESS
+    potency: 2
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    required-items:
+      - chain_of_protection
+  death_mask:
+    effect: STRENGTH
+    potency: 2
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    valid-charm-slots:
+      - 39
+  magic_hoe:
+    effect: FAST_DIGGING
+    potency: 2
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    main-hand: "magic_hoe"
+  death_mask_2:
+    effect: WITHER
+    potency: 1-3
+    delay: 1.0s
+    duration: 3.0
+    effect-mode: TARGET_ON_HIT
+    particle-mode: TARGET_WHEN_APPLIED
+    valid-charm-slots:
+      - 39
   sky_sword:
     effect: LEVITATION
     potency: 2
@@ -554,6 +565,30 @@ charm-effects:
     particle-mode: SELF_ONCE
     required-items:
       - totem_of_death
+  apprentice_thief_boots:
+    effect: SPEED
+    potency: 2
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - apprentice_thief_boots
+  golden_frying_pan:
+    effect: GLOWING
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - golden_frying_pan
+  apprentice_thief_boots:
+    effect: INVISIBILITY
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - apprentice_thief_boots
   angel_feather:
     effect: SLOW_FALLING
     potency: 1
@@ -683,4 +718,13 @@ charm-effects:
     particle-mode: SELF_ONCE
     required-items:
       - plate_of_greed
-
+  dolphin's_tail:
+    effect: DOLPHINS_GRACE
+    potency: 2-3 # potion level, RNG can also be applied here as well.
+    duration: 3.0 # duration is infinite and constant
+    delay: 10.0 # in seconds, the delay between each recurrent application
+    effect-mode: SELF_RECURRENT # type of effect that will be applied on the player, choose from SELF_PERMANENT, SELF_RECURRENT, and TARGET_TEMPORARY
+    particle-mode: SELF_WHEN_APPLIED # what type of particle mode will be used, choose from: NONE, SELF_ONCE, SELF_WHEN_APPLIED, TARGET_WHEN_APPLIED, BOTH_WHEN_APPLIED
+    particle-type: SPELL_INSTANT l
+    required-items: # the effect will require ALL the items listed below to be active
+      - dolphins_tail
