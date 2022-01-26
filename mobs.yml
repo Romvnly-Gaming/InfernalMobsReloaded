@@ -155,7 +155,7 @@ azrid:
   display-name: "&c**Azrid**"
   boss-bar-text: "&4**Azrid**"
   mob-spawner-name: "Mob Spawner (&4**Azrid**)"
-  boss-bar-color: "RED" # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-color: "GREEN" # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
   boss-bar-overlay: "NOTCHED_12" # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
   boss-bar-flags: # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
     - "PLAY_BOSS_MUSIC"
@@ -177,6 +177,35 @@ azrid:
     - "apprentice_thief_boots:0.1"
     - "golden_frying_pan:0.000509"
     - "apprentice_thief_charm:0.01"
+autolycus:
+  display-name: "&c**Autolycus**"
+  boss-bar-text: "&4**Autolycus**"
+  mob-spawner-name: "Mob Spawner (&4**Azrid**)"
+  boss-bar-color: "YELLOW" # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_12" # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags: # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "PLAY_BOSS_MUSIC"
+    - "CREATE_WORLD_FOG"
+  type: "ZOMBIE"
+  spawn-chance: 0.1
+  forced-abilities:
+    - "SPEEDY"
+    - "THIEF"
+    - "CALL_THE_GANG"
+    - "CONFUSION"
+    - "FIREWORK"
+  blacklisted-abilities: # add abilities here to prevent the mob from acquiring it
+    - "INVISIBLE"
+    - "GHOST"
+    - "MORPH"
+  ability-amount: 5
+  damage-multiplier: 1.75
+  health-multiplier: 0.5 # will have between 3 and 5 times the normal health amount of a Zombie
+  loot-table:
+    - "skilled_thief_boots:0.1"
+    - "golden_frying_pan:0.000509"
+    - "skilled_thief_charm:0.01"
+
 the_powered:
   display-name: "&e&l**The Powered**"
   boss-bar-text: "&e&l(BOSS) **The Powered**"

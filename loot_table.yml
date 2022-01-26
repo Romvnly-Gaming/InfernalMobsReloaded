@@ -1020,6 +1020,27 @@ apprentice_thief_boots:
   lore:
     - "Rarity: Common"
     - "The beginning of a life of crime."
+skilled_thief_boots:
+  name: "<#a7da26>Skilled Thief Boots<#a7da26>"
+  material: IRON_BOOTS
+  amount: 1
+  enchants:
+    - unbreaking:1-4
+    - mending:1:0.15
+  lore:
+    - "Rarity: <#a7da26>Uncommon<#a7da26>"
+    - "<#a7da26>New AND Improved!<#a7da26>"
+    - "<#a7da26>NOTE: Don't fail me this time.<#a7da26>"
+    - "<#657b2e>- Abusko<#657b2e>"
+skilled_thief_charm:
+  name: "<#a7da26>Skilled Thief Charm<#a7da26>"
+  material: TRAPPED_CHEST
+  amount: 1
+  enchants:
+    - unbreaking:1
+  lore:
+    - "Rarity: <#a7da26>Uncommon<#a7da26>"
+    - "<#a7da26>Knock yourself out.<#a7da26>"
 golden_frying_pan:
   name: "<#FFD700>Golden Frying Pan<##FFD700>"
   material: GOLDEN_SHOVEL
