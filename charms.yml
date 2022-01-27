@@ -620,7 +620,7 @@ charm-effects:
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
     required-items:
-      - apprentice_thief_charm
+      - skilled_thief_charm
   angel_feather:
     effect: SLOW_FALLING
     potency: 1
