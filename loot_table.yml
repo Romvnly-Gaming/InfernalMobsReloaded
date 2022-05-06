@@ -290,8 +290,8 @@ hdigt:
     - "lure:10"
     - "silk_touch:10"
   lore:
-    - "&6HALLOWEEN ITEM"
-    - "&4&lDon't you want to be a &e&l[BIG SHOT]&4&l?"
+    - "<#b78713>GOLDEN ITEM"
+    - "<#b78713>What?"
 halloween_big_shot:
   name: "&e&l[[BIG SHOT]]"
   material: "BOW"
