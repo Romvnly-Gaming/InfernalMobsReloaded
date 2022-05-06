@@ -278,6 +278,249 @@ charm-effects:
     particle-mode: SELF_ONCE
     required-items:
       - sugar_of_ianite
+# How did I get this?  
+  hdigt_1:
+    effect: SPEED
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_2:
+    effect: SLOWNESS
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_3:
+    effect: HASTE
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_4:
+    effect: MINING_FATIGUE
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_5:
+    effect: STRENGTH
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_6:
+    effect: JUMP_BOOST
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_9:
+    effect: NAUSEA
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_10:
+    effect: REGENERATION
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_11:
+    effect: RESISTANCE
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_12:
+    effect: FIRE_RESISTANCE
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_13:
+    effect: WATER_BREATHING
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_14:
+    effect: INVISIBILITY
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_15:
+    effect: BLINDNESS
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_16:
+    effect: NIGHT_VISION
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_17:
+    effect: HUNGER
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_18:
+    effect: WEAKNESS
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_19:
+    effect: POISON
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_20:
+    effect: WITHER
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_21:
+    effect: HEALTH_BOOST
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_22:
+    effect: ABSORPTION
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_23:
+    effect: SATURATION
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_24:
+    effect: GLOWING
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_25:
+    effect: LEVITATION
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_26:
+    effect: LUCK
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_27:
+    effect: UNLUCK
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_28:
+    effect: SLOW_FALLING
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_29:
+    effect: CONDUIT_POWER
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_30:
+    effect: DOLPHINS_GRACE
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_31:
+    effect: BAD_OMEN
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+  hdigt_32:
+    effect: HERO_OF_THE_VILLAGE
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - hdigt
+
+#end      
   starvation_curse:
     effect: HUNGER
     potency: 5
@@ -286,7 +529,7 @@ charm-effects:
     particle-mode: TARGET_WHEN_APPLIED
     required-items:
       - starvation_curse
-  hallowed_set_1:
+  hallowed_set_1: 
     effect: SATURATION
     potency: 3
     delay: 1
