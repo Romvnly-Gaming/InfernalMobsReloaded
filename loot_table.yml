@@ -250,7 +250,48 @@ seamsplitter:
     - "punch:2-5"
 
 # LIMTIED ITEMS
-
+hdigt:
+  name: "<#b78713>How did you get this?"
+  material: "CLOCK"
+  amount: 1
+  enchants:
+    - "power:10"
+    - "infinity:10"
+    - "flame:10"
+    - "punch:10"
+    - "mending:10"
+    - "unbreaking:10"
+    - "aqua_affinity:10"
+    - "depth_strider:10"
+    - "sharpness:10"
+    - "feather_falling:10"
+    - "fire_protection:10"
+    - "frost_walker:10"
+    - "projectile_protection:10"
+    - "protection:10"
+    - "respiration:10"
+    - "soul_speed:10"
+    - "thorns:10"
+    - "bane_of_arthropods:10"
+    - "efficiency:10"
+    - "fire_aspect:10"
+    - "looting:10"
+    - "impaling:10"
+    - "knockback:10"
+    - "smite:10"
+    - "sweeping_edge:10"
+    - "channeling:10"
+    - "loyalty:10"
+    - "riptide:10"
+    - "multishot:10"
+    - "piercing:10"
+    - "quick_charge:10"
+    - "fortune:10"
+    - "lure:10"
+    - "silk_touch:10"
+  lore:
+    - "&6HALLOWEEN ITEM"
+    - "&4&lDon't you want to be a &e&l[BIG SHOT]&4&l?"
 halloween_big_shot:
   name: "&e&l[[BIG SHOT]]"
   material: "BOW"
@@ -334,6 +375,8 @@ halloween_hallowed_sword:
   lore:
     - "&6HALLOWEEN ITEM"
     - "It's covered in the orange liquid."
+    
+# regular items
 not_pros_chestplate:
   name: "&5Pro's True Chestplate"
   material: "NETHERITE_CHESTPLATE"
