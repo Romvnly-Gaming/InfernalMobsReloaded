@@ -1417,7 +1417,7 @@ cake_01:
     - "&dBut for who?"
   enchants:
     - unbreaking:10
-muramasa:
+murasama:
    name: "**<#a61e1e>Murasama<#a61e1e>**"
    material: "DIAMOND_SWORD"
    amount: 1
