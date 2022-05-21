@@ -62,7 +62,7 @@ charm-effects-world-whitelist:
   - "world"
   - "world_nether"
   - "world_the_end"
-  - "new_arena"
+  - "newarena"
 valid-charm-slots:
   - 0-8
   - 40
