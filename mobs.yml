@@ -177,51 +177,51 @@ azrid:
     - "apprentice_thief_boots:0.1"
     - "golden_frying_pan:0.000509"
     - "apprentice_thief_charm:0.01"
-xypher:
-  display-name: "&c**Xypher**&r"
-  boss-bar-text: "&4**Xypher**&r"
-  mob-spawner-name: "Mob Spawner (&4**Xypher**)"
-  boss-bar-color: "PINK"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
-  boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
-  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
-    - "PLAY_BOSS_MUSIC"
-    - "CREATE_WORLD_FOG"
-  type: "ENDER_DRAGON"
+#xypher:
+#  display-name: "&c**Xypher**&r"
+#  boss-bar-text: "&4**Xypher**&r"
+#  mob-spawner-name: "Mob Spawner (&4**Xypher**)"
+#  boss-bar-color: "PINK"             # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+#  boss-bar-overlay: "NOTCHED_12"     # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+#  boss-bar-flags:                    # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+#    - "PLAY_BOSS_MUSIC"
+#    - "CREATE_WORLD_FOG"
+#  type: "ENDER_DRAGON"
   # you are dead
-  spawn-chance: 0.000000005
-  forced-abilities: 
-     - "LIGHTNING"
-     - "WITHERING"
-     - "POTIONS"
-     - "MULTI_GHASTLY"
-     - "LIFESTEAL"
-     - "CALL_THE_GANG"
-     - "CONFUSION"
-     - "FIREWORK"
-     - "GHOST"
-     - "HEAVY"
-     - "HUNGER"
-     - "LEVITATE"
-     - "SECOND_WIND"
-     - "NECROMANCER"
-     - "POTIONS"
-     - "RUST"
-     - "SPEEDY"
-     - "WEBBER"
-     - "THIEF"
-  blacklisted-abilities:                 
-    - "INVISIBLE"
-    - "MORPH"
-    - "FLYING"
-  ability-amount: 18-20
-  damage-multiplier: 5.5
-  health-multiplier: 150         # will have between 3 and 5 times the normal health amount of a Zombie
-  loot-table:
-    - "xyphers_bane:0.5"
-    - "axe_of_rage:0.15"
-    - "shield_of_power:0.1"
-    - "golden_stick:0.05"
-    - "atlas:0.75"
+#  spawn-chance: 0.000000000000000000000000000000000000000000000005
+#  forced-abilities: 
+#     - "LIGHTNING"
+#     - "WITHERING"
+#     - "POTIONS"
+#     - "MULTI_GHASTLY"
+#     - "LIFESTEAL"
+#     - "CALL_THE_GANG"
+#     - "CONFUSION"
+#     - "FIREWORK"
+#     - "GHOST"
+#     - "HEAVY"
+#     - "HUNGER"
+#     - "LEVITATE"
+#     - "SECOND_WIND"
+#     - "NECROMANCER"
+#     - "POTIONS"
+#     - "RUST"
+#     - "SPEEDY"
+#     - "WEBBER"
+#     - "THIEF"
+#  blacklisted-abilities:                 
+#    - "INVISIBLE"
+#    - "MORPH"
+#    - "FLYING"
+#  ability-amount: 18-20
+#  damage-multiplier: 5.5
+#  health-multiplier: 150         # will have between 3 and 5 times the normal health amount of a Zombie
+#  loot-table:
+#    - "xyphers_bane:0.5"
+#    - "axe_of_rage:0.15"
+#    - "shield_of_power:0.1"
+#    - "golden_stick:0.05"
+#    - "atlas:0.75"
 the_powered:
   display-name: "&e&l**The Powered**"
   boss-bar-text: "&e&l(BOSS) **The Powered**"
