@@ -28,6 +28,14 @@ inferno_bow:
   enchants:
     - "infinity:1:0.3"
     - "flame:1-2"
+tiadi:
+  name: "Kill Stick"
+  material: "STICK"
+  amount: 1
+  lore:
+    - "<#FF5555>Holds the power of the <#AA0000>NetherWorld<#FF5555>!"
+  enchants:
+    - "sharpness:1337"
 lady_luck:
   name: "<#FFAA00>Lady Luck"
   material: "IRON_SWORD"
