@@ -35,7 +35,7 @@ tiadi:
   lore:
     - "<#FF5555>Holds the power of the <#AA0000>NetherWorld<#FF5555>!"
   enchants:
-    - "sharpness:2021"
+    - "sharpness:5000"
 lady_luck:
   name: "<#FFAA00>Lady Luck"
   material: "IRON_SWORD"
