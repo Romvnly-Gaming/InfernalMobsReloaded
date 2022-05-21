@@ -1418,7 +1418,7 @@ muramasa:
      - "<#a61e1e>There will be bloodshed!<#a61e1e>"
    enchants:
      - sweeping_edge:35
-     - sharpness:27
+     - sharpness:35
      - unbreaking:15
      - mending:1
 # Maybe used as a go to guide for future weapons of mass destruction?
