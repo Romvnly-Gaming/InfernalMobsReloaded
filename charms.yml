@@ -209,14 +209,6 @@ charm-effects:
     particle-mode: SELF_ONCE
     required-items:
       - mermen_helm
-  muramasa:
-    effect: SPEED
-    potency: 10
-    delay: 1.0
-    effect-mode: SELF_PERMANENT
-    particle-mode: SELF_ONCE
-    required-items:
-      - muramasa
   eliminators_chestplate:
     effect: ABSORPTION
     potency: 10
@@ -841,6 +833,14 @@ charm-effects:
     particle-mode: SELF_ONCE
     required-items:
       - apprentice_thief_boots
+  muramasa:
+    effect: SPEED
+    potency: 10
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    required-items:
+      - muramasa
   angel_feather:
     effect: SLOW_FALLING
     potency: 1
