@@ -1409,6 +1409,18 @@ cake_01:
     - "&dBut for who?"
   enchants:
     - unbreaking:10
+muramasa:
+   name: "**<#a61e1e>Murasama<#a61e1e>**"
+   material: "IRON_SWORD"
+   amount: 1
+   lore:
+     - "**<#a61e1e>BLOODTHIRSTY ITEM<#a61e1e>**"
+     - "<#a61e1e>There will be bloodshed!<#a61e1e>"
+   enchants:
+     - sweeping_edge:35
+     - sharpness:27
+     - unbreaking:15
+     - mending:1
 # Maybe used as a go to guide for future weapons of mass destruction?
 
 # wrathbringer:
