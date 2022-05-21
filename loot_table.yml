@@ -30,7 +30,7 @@ inferno_bow:
     - "flame:1-2"
 tiadi:
   name: "Kill Stick"
-  material: "STICK"
+  material: "WOODEN_SWORD"
   amount: 1
   lore:
     - "<#FF5555>Holds the power of the <#AA0000>NetherWorld<#FF5555>!"
