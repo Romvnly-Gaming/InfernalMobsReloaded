@@ -833,14 +833,14 @@ charm-effects:
     particle-mode: SELF_ONCE
     required-items:
       - apprentice_thief_boots
-  muramasa:
+  murasama:
     effect: SPEED
     potency: 10
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
     required-items:
-      - muramasa
+      - murasama
   angel_feather:
     effect: SLOW_FALLING
     potency: 1
