@@ -35,12 +35,14 @@ samurai_helmet:
   lore: []
   enchants: 
     - "protection:3"
+    - "unbreaking:4"
 samurai_chestplate:
   name: "Samurai Chestplate"
   material: "DIAMOND_CHESTPLATE"
   amount: 1
   lore: []
-  enchants: []
+  enchants:
+    - "unbreaking:4"
 samurai_leggings:
   name: "Samurai Leggings"
   material: "IRON_LEGGINGS"
@@ -48,6 +50,7 @@ samurai_leggings:
   lore: []
   enchants: 
     - "protection:6"
+    - "unbreaking:4"
 samurai_sandals:
   name: "Samurai Sandals"
   material: "LEATHER_BOOTS"
@@ -55,6 +58,7 @@ samurai_sandals:
   lore: []
   enchants: 
     - "protection:4"
+    - "unbreaking:4"
 murasama:
   name: "Murasama"
   material: "IRON_SWORD"
