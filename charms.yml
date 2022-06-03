@@ -206,34 +206,6 @@ charm-effects:
       - samurai_leggings
       - samurai_sandals
       - muramasa
-  murasama_1:
-    effect: SPEED
-    potency: 5
-    delay: 1.0
-    duration: 1.0
-    effect-mode: SELF_PERMANENT
-    particle-mode: SELF_WHEN_APPLIED
-    particle-type: explosion_large
-    required-items:
-      - samurai_helmet
-      - samurai_chestplate
-      - samurai_leggings
-      - samurai_sandals
-      - murasama
-  murasama_2:
-    effect: HEALTH_BOOST
-    potency: 1
-    delay: 1.0
-    duration: 1.0
-    effect-mode: SELF_PERMANENT
-    particle-mode: SELF_WHEN_APPLIED
-    particle-type: explosion_large
-    required-items:
-      - samurai_helmet
-      - samurai_chestplate
-      - samurai_leggings
-      - samurai_sandals
-      - murasama
   slowness_curse:
     effect: SLOWNESS
     potency: 1
