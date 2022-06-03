@@ -99,7 +99,7 @@ ronin:
     - "FLYING"
     - "RUST"
   follow-range-multiplier: 2.0 # will have 1.4 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
-  spawn-chance: 0.08
+  spawn-chance: 0.15
   damage-multiplier: 3
   ability-amount: 1-2
   health-multiplier: 1.5-2.0 # will have between 3 and 5 times the normal health amount of a Skeleton
@@ -137,7 +137,7 @@ samurai:
     - "LEVITATE"
     - "TELEPORT"
   follow-range-multiplier: 2.0 # will have 1.4 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
-  spawn-chance: 0.08
+  spawn-chance: 0.09
   ability-amount: 4-5
   damage-multiplier: 0.8
   health-multiplier: 1.5-2.5 # will have between 3 and 5 times the normal health amount of a Skeleton
@@ -174,7 +174,7 @@ shogun:
     - "FLYING"
     - "RUST"
   follow-range-multiplier: 2.0 # will have 1.4 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
-  spawn-chance: 0.08
+  spawn-chance: 0.04
   ability-amount: 4-6
   health-multiplier: 2.0-3.0 # will have between 3 and 5 times the normal health amount of a Skeleton
   loot-table:
