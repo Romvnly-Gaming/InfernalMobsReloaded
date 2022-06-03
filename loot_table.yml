@@ -19,6 +19,60 @@ butcher_axe:
     - "<#55FF55>For liquidation of the demonic!"
   enchants:
     - "smite:3-6" # will make every 'silky' pickaxe have efficiency level 1; default level of all enchantments is 1, unless otherwise specified; enchantment level range goes from 1 to 65535, but not all enchantments scale with level
+muramasa:
+  name: "Muramasa"
+  material: "IRON_SWORD"
+  amount: 1
+  lore:
+    - "<#B61E17>彼らに血を流させてください。"
+    - "<#B61E17>Let them bleed."
+  enchants:
+    - "sharpness:9"
+samurai_helmet:
+  name: "Samurai Helmet"
+  material: "IRON_HELMET"
+  amount: 1
+  lore: []
+  enchants: 
+    - "protection:3"
+samurai_chestplate:
+  name: "Samurai Chestplate"
+  material: "DIAMOND_CHESTPLATE"
+  amount: 1
+  lore: []
+  enchants: []
+samurai_leggings:
+  name: "Samurai Leggings"
+  material: "IRON_LEGGINGS"
+  amount: 1
+  lore: []
+  enchants: 
+    - "protection:6"
+samurai_sandals:
+  name: "Samurai Sandals"
+  material: "LEATHER_BOOTS"
+  amount: 1
+  lore: []
+  enchants: 
+    - "protection:4"
+murasama:
+  name: "Murasama"
+  material: "IRON_SWORD"
+  amount: 1
+  lore:
+    - "<#B61E17>彼らに本当に血を流させてください。"
+    - "<#B61E17>Let them TRULY bleed."
+  enchants:
+    - "sharpness:12"
+sotrs:
+  name: "Shield of the Rising Sun"
+  material: "SHIELD"
+  dye-color: "WHITE"
+  amount: 1
+  lore: []
+  enchants: []
+  patterns:
+    - "mc:RED"
 inferno_bow:
   name: "<#FF5555>Inferno <#FFAA00>Bow"
   material: "BOW"
