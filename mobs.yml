@@ -89,8 +89,14 @@ ronin:
     - "THIEF"
     - "GHOST"
     - "MORPH"
+    - "ARCHER"
     - "SPEEDY"
+    - "LIFESTEAL"
+    - "TOSSER"
+    - "NECROMANCER"
+    - "LIGHTNING"
     - "FLYING"
+    - "RUST"
   follow-range-multiplier: 2.0 # will have 1.4 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   spawn-chance: 0.08
   damage-multiplier: 3
@@ -122,10 +128,14 @@ samurai:
     - "ARCHER"
     - "SPEEDY"
     - "LIFESTEAL"
+    - "TOSSER"
+    - "NECROMANCER"
+    - "LIGHTNING"
     - "FLYING"
+    - "RUST"
   follow-range-multiplier: 2.0 # will have 1.4 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   spawn-chance: 0.08
-  ability-amount: 3-4
+  ability-amount: 5
   damage-multiplier: 1.1
   health-multiplier: 3.0-5.0 # will have between 3 and 5 times the normal health amount of a Skeleton
   loot-table: 
@@ -153,11 +163,17 @@ shogun:
     - "THIEF"
     - "GHOST"
     - "MORPH"
+    - "ARCHER"
+    - "LIFESTEAL"
+    - "TOSSER"
+    - "NECROMANCER"
+    - "LIGHTNING"
     - "FLYING"
+    - "RUST"
   follow-range-multiplier: 2.0 # will have 1.4 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   spawn-chance: 0.08
   ability-amount: 4-6
-  health-multiplier: 7.0-8.0 # will have between 3 and 5 times the normal health amount of a Skeleton
+  health-multiplier: 5.0-8.0 # will have between 3 and 5 times the normal health amount of a Skeleton
   loot-table:
     - "samurai_chestplate:0.5"
     - "muramasa:0.3"
