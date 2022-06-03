@@ -110,6 +110,7 @@ samurai:
   forced-abilities:
     - "ARMOURED"
     - "HEAVY"
+    - "MOLTEN"
   blacklisted-abilities: # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
     - "THIEF"
