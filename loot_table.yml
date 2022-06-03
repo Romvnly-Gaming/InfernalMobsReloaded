@@ -38,7 +38,7 @@ samurai_helmet:
     - "unbreaking:4"
 samurai_chestplate:
   name: "Samurai Chestplate"
-  material: "DIAMOND_CHESTPLATE"
+  material: "NETHERITE_CHESTPLATE"
   amount: 1
   lore: []
   enchants:
