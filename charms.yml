@@ -833,13 +833,84 @@ charm-effects:
     particle-mode: SELF_ONCE
     required-items:
       - apprentice_thief_boots
-  murasama:
-    effect: SPEED
-    potency: 10
-    delay: 1.0
-    effect-mode: SELF_PERMANENT
-    particle-mode: SELF_ONCE
+  sotrs:
+    effect: WITHER
+    potency: 1
+    delay: 15.0
+    duration: 5.0
+    effect-mode: TARGET_ON_HIT
+    particle-mode: TARGET_WHEN_APPLIED
+    particle-type: soul
     required-items:
+      - shield_of_the_rising_sun
+  samurai_helmet: # THIS IS THE SET BONUS
+    effect: STRENGTH
+    potency: 4
+    delay: 1.0
+    duration: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_WHEN_APPLIED
+    particle-type: explosion_normal
+    required-items:
+      - samurai_helmet
+      - samurai_chestplate
+      - samurai_leggings
+      - samurai_sandals
+  muramasa_1:
+    effect: SPEED
+    potency: 5
+    delay: 1.0
+    duration: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_WHEN_APPLIED
+    particle-type: explosion_large
+    required-items:
+      - samurai_helmet
+      - samurai_chestplate
+      - samurai_leggings
+      - samurai_sandals
+      - muramasa
+  muramasa_2:
+    effect: HEALTH_BOOST
+    potency: 1
+    delay: 1.0
+    duration: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_WHEN_APPLIED
+    particle-type: explosion_large
+    required-items:
+      - samurai_helmet
+      - samurai_chestplate
+      - samurai_leggings
+      - samurai_sandals
+      - muramasa
+  murasama_1:
+    effect: SPEED
+    potency: 5
+    delay: 1.0
+    duration: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_WHEN_APPLIED
+    particle-type: explosion_large
+    required-items:
+      - samurai_helmet
+      - samurai_chestplate
+      - samurai_leggings
+      - samurai_sandals
+      - murasama
+  murasama_2:
+    effect: HEALTH_BOOST
+    potency: 1
+    delay: 1.0
+    duration: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_WHEN_APPLIED
+    particle-type: explosion_large
+    required-items:
+      - samurai_helmet
+      - samurai_chestplate
+      - samurai_leggings
+      - samurai_sandals
       - murasama
   angel_feather:
     effect: SLOW_FALLING
