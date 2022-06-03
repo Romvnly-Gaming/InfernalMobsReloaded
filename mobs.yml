@@ -110,7 +110,6 @@ samurai:
   forced-abilities:
     - "ARMOURED"
     - "HEAVY"
-    - "SPEEDY"
   blacklisted-abilities: # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
     - "THIEF"
@@ -121,7 +120,7 @@ samurai:
   follow-range-multiplier: 2.0 # will have 1.4 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   spawn-chance: 0.08
   ability-amount: 3
-  damage-multiplier: 0.9
+  damage-multiplier: 1.2
   health-multiplier: 8.0-9.0 # will have between 3 and 5 times the normal health amount of a Skeleton
   loot-table: 
     - "sotrs:0.3"
