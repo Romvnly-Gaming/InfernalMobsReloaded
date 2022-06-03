@@ -116,6 +116,7 @@ samurai:
     - "THIEF"
     - "GHOST"
     - "MORPH"
+    - "LIFESTEAL"
     - "FLYING"
   follow-range-multiplier: 2.0 # will have 1.4 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   spawn-chance: 0.08
