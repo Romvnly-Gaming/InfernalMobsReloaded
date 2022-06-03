@@ -138,7 +138,7 @@ samurai:
   spawn-chance: 0.08
   ability-amount: 4-5
   damage-multiplier: 0.8
-  health-multiplier: 1.0-2.0 # will have between 3 and 5 times the normal health amount of a Skeleton
+  health-multiplier: 1.5-2.5 # will have between 3 and 5 times the normal health amount of a Skeleton
   loot-table: 
     - "sotrs:0.6"
     - "samurai_leggings:0.6"
