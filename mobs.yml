@@ -119,7 +119,7 @@ samurai:
     - "FLYING"
   follow-range-multiplier: 2.0 # will have 1.4 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   spawn-chance: 0.08
-  ability-amount: 2-4
+  ability-amount: 2-3
   damage-multiplier: 0.9
   health-multiplier: 8.0-9.0 # will have between 3 and 5 times the normal health amount of a Skeleton
   loot-table: 
