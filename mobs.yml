@@ -83,6 +83,7 @@ ronin:
   type: "ZOMBIE"
   forced-abilities:
     - "ARMOURED"
+    - "SPEEDY"
   blacklisted-abilities: # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
     - "THIEF"
@@ -109,6 +110,7 @@ samurai:
   forced-abilities:
     - "ARMOURED"
     - "HEAVY"
+    - "SPEEDY"
   blacklisted-abilities: # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
     - "THIEF"
@@ -135,6 +137,7 @@ shogun:
   type: "ZOMBIE"
   forced-abilities:
     - "ARMOURED"
+    - "SPEEDY"
     - "HEAVY"
     - "LIFESTEAL"
     - "WITHERING"
