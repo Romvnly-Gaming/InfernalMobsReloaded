@@ -97,7 +97,6 @@ ronin:
     - "LIGHTNING"
     - "FLYING"
     - "RUST"
-    - "TELEPORT"
   follow-range-multiplier: 2.0 # will have 1.4 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   spawn-chance: 0.08
   damage-multiplier: 3
@@ -133,7 +132,8 @@ samurai:
     - "NECROMANCER"
     - "LIGHTNING"
     - "FLYING"
-    - "RUST"
+    - "RUST"  
+    - "TELEPORT"
   follow-range-multiplier: 2.0 # will have 1.4 times the normal range of a Skeleton (makes it follow & shoot the player even at longer distances)
   spawn-chance: 0.08
   ability-amount: 5
