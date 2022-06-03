@@ -83,6 +83,7 @@ ronin:
   type: "ZOMBIE"
   forced-abilities:
     - "ARMOURED"
+    - "WEBBER"
   blacklisted-abilities: # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
     - "THIEF"
