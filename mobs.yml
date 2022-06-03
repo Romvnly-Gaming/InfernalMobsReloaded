@@ -101,7 +101,7 @@ ronin:
   spawn-chance: 0.08
   damage-multiplier: 3
   ability-amount: 1-2
-  health-multiplier: 1.0-1.5 # will have between 3 and 5 times the normal health amount of a Skeleton
+  health-multiplier: 1.5-2.0 # will have between 3 and 5 times the normal health amount of a Skeleton
   loot-table:
     - "samurai_sandals:0.35"
     - "samurai_helmet:0.3"
