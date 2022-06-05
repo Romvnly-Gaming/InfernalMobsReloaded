@@ -44,7 +44,7 @@ truly_sinister:
     - "DARKEN_SCREEN"
   type: "ZOMBIE"
   forced-abilities: # you can force a type of mob to always have some abilities, if you want (copy the ability names from either `abilities.yml` or `config.yml`); if you don't want to force any ability, you may safely omit this field
-    - "BLINDNESS"
+    - "BLINDING"
   spawn-chance: 0.10
   ability-amount: 2-5
   health-multiplier: 5.0-8.0 # will have between 3 and 5 times the normal health amount of a Skeleton
@@ -61,7 +61,7 @@ nightmare:
     - "CREATE_WORLD_FOG"
   type: "SPIDER"
   forced-abilities: # you can force a type of mob to always have some abilities, if you want (copy the ability names from either `abilities.yml` or `config.yml`); if you don't want to force any ability, you may safely omit this field
-    - "BLINDNESS"
+    - "BLINDING"
     - "SPEEDY"
     - "INVISIBLE"
   spawn-chance: 0.05
@@ -367,53 +367,51 @@ the_powered:
     - "powered_leggings:0.1"
     - "powered_helmet:0.1"
     - "nether_star:0.25"
-orion:
-  display-name: "&kee &c&l **Orion** &m&f&kee"
-  boss-bar-text: "&kee &c&l **Orion** &m&f&kee"
-  mob-spawner-name: "Mob Spawner (&e&l**The Orion**)"
-  boss-bar-color: "RED" # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
-  boss-bar-overlay: "NOTCHED_12" # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
-  boss-bar-flags: # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
-    - "PLAY_BOSS_MUSIC"
-    - "CREATE_WORLD_FOG"
-  type: "WITHER"
-  spawn-chance: 0.000000005
-  forced-abilities:
-    - "LIGHTNING"
-    - "WITHERING"
-    - "POTIONS"
-    - "MULTI_GHASTLY"
-    - "LIFESTEAL"
-    - "CALL_THE_GANG"
-    - "CONFUSION"
-    - "FIREWORK"
-    - "GHOST"
-    - "HEAVY"
-    - "HUNGER"
-    - "LEVITATE"
-    - "SECOND_WIND"
-    - "NECROMANCER"
-    - "POTIONS"
-    - "RUST"
-    - "SPEEDY"
-    - "WEBBER"
-  blacklisted-abilities: # add abilities here to prevent the mob from acquiring it
-    - "INVISIBLE"
-    - "THIEF"
-    - "MORPH"
-    - "FLYING"
-  ability-amount: 18
-  damage-multiplier: 3.5
-  health-multiplier: 83         # will have between 3 and 5 times the normal health amount of a Zombie
-  loot-table:
-    - "armor_of_resistance:0.5"
-    - "reapers_scythe:0.5"
-    - "balancer:0.25"
-    - "atlas:0.15"
-    - "god_apple:0.50"
-    - "orions_heart"
-    - "bane_of_orion"
-    - "you_did_it_book"
+#orion:
+#  display-name: "&kee &c&l **Orion** &m&f&kee"
+#  boss-bar-text: "&kee &c&l **Orion** &m&f&kee"
+#  mob-spawner-name: "Mob Spawner (&e&l**The Orion**)"
+#  boss-bar-color: "RED" # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+#  boss-bar-overlay: "NOTCHED_12" # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+#  boss-bar-flags: # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+#    - "PLAY_BOSS_MUSIC"
+#    - "CREATE_WORLD_FOG"
+#  type: "WITHER"
+#  spawn-chance: 0.000000005
+#  forced-abilities:
+#    - "LIGHTNING"
+#    - "WITHERING"
+#    - "POTIONS"
+#    - "MULTI_GHASTLY"
+#    - "LIFESTEAL"
+#    - "CALL_THE_GANG"
+#    - "CONFUSION"
+#    - "FIREWORK"
+#    - "GHOST"
+#    - "HEAVY"
+#    - "HUNGER"
+#    - "LEVITATE"
+#    - "SECOND_WIND"
+#    - "NECROMANCER"
+#    - "POTIONS"
+#    - "RUST"
+#    - "SPEEDY"
+#    - "WEBBER"
+#  blacklisted-abilities: # add abilities here to prevent the mob from acquiring it
+#    - "INVISIBLE"
+#    - "THIEF"
+#    - "MORPH"
+#    - "FLYING"
+#  ability-amount: 18
+#  damage-multiplier: 3.5
+#  health-multiplier: 83         # will have between 3 and 5 times the normal health amount of a Zombie
+#  loot-table:
+#    - "armor_of_resistance:0.5"
+#    - "reapers_scythe:0.5"
+#    - "atlas:0.15"
+#    - "god_apple:0.50"
+#    - "orions_heart:1"
+#    - "bane_of_orion:1"
 the_resistant:
   display-name: "&c**The Resistant**"
   boss-bar-text: "&4**The Resistant**"
@@ -806,8 +804,7 @@ bella:
   damage-multiplier: 1.5 # will inflict between 1.4 and 1.6 times the damage of a normal Skeleton (this multiplier also includes almost all abilities)
   attack-knockback-modifier: 5.0 # in blocks, increase or decrease the melee knockback applied to attacks; applies only to mobs with physical damage; you can subtract mob knockback by using values lower than zero; values over 5 will result in 5 blocks knockback (game limit)
   health-multiplier: 3.0-6.0 # will have between 3 and 5 times the normal health amount of a Zombie
-  loot-table:
-    - "pros_chestplate:0.25"
+  loot-table: []
 
 #Thanks https://www.fantasynamegenerators.com/minecraft-zombie-names.php for the name!
 # Drowned noob, ngl. For new players
