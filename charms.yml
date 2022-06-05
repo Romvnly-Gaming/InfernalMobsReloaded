@@ -164,7 +164,7 @@ charm-effects:
     particle-mode: TARGET_WHEN_APPLIED
     particle-type: soul
     required-items:
-      - shield_of_the_rising_sun
+      - sotrs
   samurai_helmet: # THIS IS THE SET BONUS
     effect: STRENGTH
     potency: 4
@@ -177,7 +177,7 @@ charm-effects:
       - samurai_chestplate
       - samurai_leggings
       - samurai_sandals
-  muramasa_1:
+  murasama_1:
     effect: SPEED
     potency: 5
     delay: 1.0
@@ -189,8 +189,8 @@ charm-effects:
       - samurai_chestplate
       - samurai_leggings
       - samurai_sandals
-      - muramasa
-  muramasa_2:
+      - murasama
+  murasama_2:
     effect: HEALTH_BOOST
     potency: 1
     delay: 1.0
@@ -202,7 +202,7 @@ charm-effects:
       - samurai_chestplate
       - samurai_leggings
       - samurai_sandals
-      - muramasa
+      - murasama
   slowness_curse:
     effect: SLOWNESS
     potency: 1
