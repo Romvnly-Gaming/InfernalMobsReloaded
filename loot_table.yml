@@ -1137,7 +1137,6 @@ golden_frying_pan:
     - unbreaking:100
     - mending:1
     - sharpness:1
-    - bane_of_athropods:1
     - smite:1
   lore:
     - "Rarity: <#FFD700>Royal<#FFD700>"
@@ -1624,7 +1623,7 @@ zephyr_wings:
 # Gives target Dolphin's Grace when Lazy's Tail is in their offhand or hotbar or slots specified by charms.yml
 dolphins_tail:
   name: "<#FFFFFF>Dolphin's <#FFFFFF>Tail"
-  material: RAW_COD
+  material: "STICK"
   amount: 1
   lore: 
     - "<#5555FF>Gracings from Aqua Lord"
