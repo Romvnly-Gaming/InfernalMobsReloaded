@@ -192,7 +192,7 @@ charm-effects:
       - murasama
   murasama_2:
     effect: HEALTH_BOOST
-    potency: 1
+    potency: 1-2
     delay: 1.0
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
