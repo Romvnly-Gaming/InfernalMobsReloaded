@@ -59,6 +59,14 @@ samurai_sandals:
   enchants: 
     - "protection:4"
     - "unbreaking:4"
+mon:
+  name: "Mon"
+  material: "GOLD_INGOT"
+  amount: 1
+  lore:
+    - "<#FFD700>Currency of the Samurai."
+  enchants:
+    - "unbreaking:1"
 murasama:
   name: "Murasama"
   material: "IRON_SWORD"
