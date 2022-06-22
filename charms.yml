@@ -165,6 +165,18 @@ charm-effects:
     particle-type: soul
     required-items:
       - sotrs
+  thunder:
+    effect: STRENGTH
+    potency: 5
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    particle-type: villager_angry
+    main-hand: "thunder"
+    required-items:
+      - lightning
+    valid-charm-slots:
+      - 40
   samurai_helmet: # THIS IS THE SET BONUS
     effect: STRENGTH
     potency: 4
