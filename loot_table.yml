@@ -195,6 +195,24 @@ golden_spoon:
   enchants:
     - "fortune:5"
     - "unbreaking:4-6"
+lightning:
+  name: "**<#A2AFFF>Lightning**"
+  material: "IRON_SWORD"
+  amount: 1
+  lore:
+    - "<#A2AFFF>Here comes the lightning,"
+  enchants:
+    - "sharpness:10"
+    - "unbreaking:4-6"
+thunder:
+  name: "**<#AC76FF>Thunder**"
+  material: "IRON_SWORD"
+  amount: 1
+  lore:
+    - "<#AC76FF>Then the thunder."
+  enchants:
+    - "unbreaking:4-6"
+    - "sharpness:20"
 lucky_rod:
   name: "&5Lucky Fishing Rod"
   material: FISHING_ROD
