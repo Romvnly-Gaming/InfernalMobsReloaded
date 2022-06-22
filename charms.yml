@@ -177,6 +177,7 @@ charm-effects:
       - lightning
     valid-charm-slots:
       - 40
+      - 0
   samurai_helmet: # THIS IS THE SET BONUS
     effect: STRENGTH
     potency: 4
