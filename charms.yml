@@ -172,8 +172,8 @@ charm-effects:
     effect-mode: SELF_PERMANENT
     particle-mode: SELF_ONCE
     particle-type: villager_angry
-    main-hand: "thunder"
     required-items:
+      - thunder
       - lightning
     valid-charm-slots:
       - 40
