@@ -187,6 +187,7 @@ quartermaster:
   health-multiplier: 6.0 # will have between 3 and 5 times the normal health amount of a Spider
   loot-table:
     - "quartermaster_trousers:0.1"
+    - "blunderbuss:0.01"
 captain:
   display-name: "<#009B82>**Captain**"
   boss-bar-text: "<#009B82>**Captain**"
@@ -231,7 +232,7 @@ captain:
   loot-table:
     - "captain_hat:0.15"
     - "captains_hook:0.05"
-    - "dorf:0.005"
+    - "dorf:0.0018018"
 ronin:
   display-name: "<#2F2F2F>Ronin"
   boss-bar-text: "<#2F2F2F>Ronin"
