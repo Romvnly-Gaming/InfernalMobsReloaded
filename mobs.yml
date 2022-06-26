@@ -96,6 +96,7 @@ crewman:
     - "POTIONS"
     - "NECROMANCER"
     - "GHASTLY"
+    - "WEBBER"
     - "LIGHTNING"
     - "THORNMAIL"
     - "FLYING"
@@ -105,7 +106,7 @@ crewman:
   damage-multiplier: 6
   health-multiplier: 3.0 # will have between 3 and 5 times the normal health amount of a Spider
   loot-table:
-    - "arthropod_blade:0.25"
+    - "crewman_tunic:0.05"
 boatswain:
   display-name: "<#009B82>**Boatswain**"
   boss-bar-text: "<#009B82>**Boatswain**"
@@ -133,6 +134,7 @@ boatswain:
     - "TOSSER"
     - "NECROMANCER"
     - "POTIONS"
+    - "WEBBER"
     - "LIGHTNING"
     - "LEVITATE"
     - "FLYING"
@@ -142,7 +144,7 @@ boatswain:
   damage-multiplier: 6
   health-multiplier: 5.0 # will have between 3 and 5 times the normal health amount of a Spider
   loot-table:
-    - "arthropod_blade:0.25"
+    - "boatswain_boots:0.1"
 quartermaster:
   display-name: "<#009B82>**Quartermaster**"
   boss-bar-text: "<#009B82>**Quartermaster**"
@@ -171,6 +173,7 @@ quartermaster:
     - "POTIONS"
     - "TOSSER"
     - "NECROMANCER"
+    - "WEBBER"
     - "LIGHTNING"
     - "GHASTLY"
     - "THORNMAIL"
@@ -183,7 +186,7 @@ quartermaster:
   damage-multiplier: 5
   health-multiplier: 6.0 # will have between 3 and 5 times the normal health amount of a Spider
   loot-table:
-    - "arthropod_blade:0.25"
+    - "quartermaster_trousers:0.1"
 captain:
   display-name: "<#009B82>**Captain**"
   boss-bar-text: "<#009B82>**Captain**"
@@ -214,6 +217,7 @@ captain:
     - "LIFESTEAL"
     - "TOSSER"
     - "NECROMANCER"
+    - "WEBBER"
     - "LIGHTNING"
     - "THORNMAIL"
     - "FIREWORKS"
@@ -225,7 +229,9 @@ captain:
   damage-multiplier: 7.1
   health-multiplier: 7.0 # will have between 3 and 5 times the normal health amount of a Spider
   loot-table:
-    - "arthropod_blade:0.25"
+    - "captain_hat:0.15"
+    - "captains_hook:0.05"
+    - "dorf:0.005"
 ronin:
   display-name: "<#2F2F2F>Ronin"
   boss-bar-text: "<#2F2F2F>Ronin"
