@@ -111,7 +111,7 @@ dorf:
     - "<#D21271>Older than time itself."
   enchants:
     - "efficiency:6"
-    - "sharpness:10"
+    - "sharpness:15"
 captain_hat:
   name: "<#0AC1B0>**Captain's Hat**"
   material: "LEATHER_HELMET"
