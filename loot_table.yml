@@ -109,6 +109,7 @@ dorf:
   amount: 1
   lore:
     - "<#D21271>Older than time itself."
+    - "<#810002>**BLOODTHIRSTY ITEM**"
   enchants:
     - "efficiency:6"
     - "sharpness:15"
