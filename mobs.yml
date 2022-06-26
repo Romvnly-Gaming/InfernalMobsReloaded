@@ -101,7 +101,7 @@ crewman:
     - "RUST"  
   spawn-chance: 0.05
   ability-amount: 3
-  damage-multiplier: 4
+  damage-multiplier: 6
   health-multiplier: 3.0 # will have between 3 and 5 times the normal health amount of a Spider
   loot-table:
     - "arthropod_blade:0.25"
@@ -137,7 +137,7 @@ boatswain:
     - "RUST"  
   spawn-chance: 0.01
   ability-amount: 5
-  damage-multiplier: 4
+  damage-multiplier: 6
   health-multiplier: 5.0 # will have between 3 and 5 times the normal health amount of a Spider
   loot-table:
     - "arthropod_blade:0.25"
@@ -177,7 +177,7 @@ quartermaster:
     - "RUST"
   spawn-chance: 0.005
   ability-amount: 8
-  damage-multiplier: 5
+  damage-multiplier: 7.5
   health-multiplier: 6.0 # will have between 3 and 5 times the normal health amount of a Spider
   loot-table:
     - "arthropod_blade:0.25"
@@ -218,7 +218,7 @@ captain:
     - "RUST"
   spawn-chance: 0.001
   ability-amount: 8
-  damage-multiplier: 7
+  damage-multiplier: 10.5
   health-multiplier: 7.0 # will have between 3 and 5 times the normal health amount of a Spider
   loot-table:
     - "arthropod_blade:0.25"
