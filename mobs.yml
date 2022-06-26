@@ -85,6 +85,18 @@ crewman:
     - "ARCHER"
     - "THIEF"
     - "WITHERING"
+  blacklisted-abilities: # add abilities here to prevent the mob from acquiring it
+    - "INVISIBLE"
+    - "GHOST"
+    - "MORPH"
+    - "SPEEDY"
+    - "LIFESTEAL"
+    - "TOSSER"
+    - "NECROMANCER"
+    - "LIGHTNING"
+    - "THORNMAIL"
+    - "FLYING"
+    - "RUST"  
   spawn-chance: 0.05
   ability-amount: 3
   damage-multiplier: 4
@@ -106,6 +118,18 @@ boatswain:
     - "THORNMAIL"
     - "BERSERK"
     - "WITHERING"
+  blacklisted-abilities: # add abilities here to prevent the mob from acquiring it
+    - "INVISIBLE"
+    - "THIEF"
+    - "GHOST"
+    - "MORPH"
+    - "SPEEDY"
+    - "LIFESTEAL"
+    - "TOSSER"
+    - "NECROMANCER"
+    - "LIGHTNING"
+    - "FLYING"
+    - "RUST"  
   spawn-chance: 0.01
   ability-amount: 5
   damage-multiplier: 4
@@ -131,6 +155,18 @@ quartermaster:
     - "HEAVY"
     - "WITHERING"
     - "ARMOURED"
+  blacklisted-abilities: # add abilities here to prevent the mob from acquiring it
+    - "INVISIBLE"
+    - "THIEF"
+    - "GHOST"
+    - "MORPH"
+    - "SPEEDY"
+    - "TOSSER"
+    - "NECROMANCER"
+    - "LIGHTNING"
+    - "THORNMAIL"
+    - "FLYING"
+    - "RUST"
   spawn-chance: 0.005
   ability-amount: 8
   damage-multiplier: 5
@@ -156,6 +192,19 @@ captain:
     - "ARMOURED"
     - "WITHERING"
     - "CONFUSION"
+  blacklisted-abilities: # add abilities here to prevent the mob from acquiring it
+    - "INVISIBLE"
+    - "THIEF"
+    - "GHOST"
+    - "MORPH"
+    - "SPEEDY"
+    - "LIFESTEAL"
+    - "TOSSER"
+    - "NECROMANCER"
+    - "LIGHTNING"
+    - "THORNMAIL"
+    - "FLYING"
+    - "RUST"
   spawn-chance: 0.001
   ability-amount: 8
   damage-multiplier: 7
