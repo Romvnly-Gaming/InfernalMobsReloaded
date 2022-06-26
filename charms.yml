@@ -178,6 +178,30 @@ charm-effects:
     valid-charm-slots:
       - 40
       - 0
+  captain_hat_1:
+    effect: RESISTANCE
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    particle-type: water_splash
+    required-items:
+      - captain_hat
+      - crewman_tunic
+      - quartermaster_trousers
+      - boatswain_boots
+  captain_hat_2:
+    effect: BAD_OMEN
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    particle-type: villager_angry
+    required-items:
+      - captain_hat
+      - crewman_tunic
+      - quartermaster_trousers
+      - boatswain_boots
   samurai_helmet: # THIS IS THE SET BONUS
     effect: STRENGTH
     potency: 4
