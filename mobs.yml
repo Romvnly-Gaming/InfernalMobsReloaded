@@ -222,7 +222,7 @@ captain:
     - "RUST"
   spawn-chance: 0.001
   ability-amount: 8
-  damage-multiplier: 10.5
+  damage-multiplier: 7.1
   health-multiplier: 7.0 # will have between 3 and 5 times the normal health amount of a Spider
   loot-table:
     - "arthropod_blade:0.25"
