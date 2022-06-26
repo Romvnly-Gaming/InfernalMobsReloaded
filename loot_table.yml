@@ -100,6 +100,7 @@ captains_hook:
   amount: 1
   lore:
     - "<#137F49>Plunder you shall."
+    - "<#B28A00>**LEGENDARY PICKAXE**"
   enchants:
     - "efficiency:20-30"
     - "sharpness:12-15"
@@ -109,7 +110,7 @@ dorf:
   amount: 1
   lore:
     - "<#D21271>Older than time itself."
-    - "<#810002>**BLOODTHIRSTY ITEM**"
+    - "<#810002>**BLOODTHIRSTY AXE**"
   enchants:
     - "efficiency:6"
     - "sharpness:15"
@@ -119,6 +120,7 @@ captain_hat:
   amount: 1
   lore:
     - "<#0AC1B0>Lead the way."
+    - "<#006B76>**RARE HELMET**"
   enchants:
     - "protection:7"
     - "unbreaking:1"
@@ -128,6 +130,7 @@ crewman_tunic:
   amount: 1
   lore:
     - "<#0AC1B0>One size fits all."
+    - "<#B7B7B7>COMMON CHESTPLATE"
   enchants:
     - "protection:5"
     - "unbreaking:1"
@@ -137,6 +140,7 @@ quartermaster_trousers:
   amount: 1
   lore:
     - "<#0AC1B0>Can't forget pants."
+    - "<#006B76>RARE PANTS"
   enchants:
     - "protection:6"
     - "unbreaking:1"
@@ -146,6 +150,7 @@ boatswain_boots:
   amount: 1
   lore:
     - "<#0AC1B0>They're slipons!"
+    - "<#13881D>UNCOMMON BOOTS"
   enchants:
     - "protection:5"
     - "unbreaking:1"
@@ -155,6 +160,7 @@ blunderbuss:
   amount: 1
   lore:
     - "<#787878>Boom."
+    - "<#6C1388>EPIC CROSSBOW"
   enchants:
     - "multishot:1"
     - "quick_charge:4"
