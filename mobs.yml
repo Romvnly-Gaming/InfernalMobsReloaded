@@ -72,6 +72,96 @@ nightmare:
     - "arthropod_blade:0.25"
     - "butter_spreader:0.25"
     - "golden_stick:0.25"
+Crewman:
+  display-name: "<#009B82>**Crewman**"
+  boss-bar-text: "<#009B82>**Crewman**"
+  mob-spawner-name: "Mob Spawner (&0**Crewman**)"
+  boss-bar-color: "BLUE" # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_6" # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags: # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "CREATE_WORLD_FOG"
+  type: "PILLAGER"
+  forced-abilities: # you can force a type of mob to always have some abilities, if you want (copy the ability names from either `abilities.yml` or `config.yml`); if you don't want to force any ability, you may safely omit this field
+    - "ARCHER"
+    - "THIEF"
+    - "WITHERING"
+  spawn-chance: 0.05
+  ability-amount: 3
+  damage-multiplier: 4
+  health-multiplier: 3.0 # will have between 3 and 5 times the normal health amount of a Spider
+  loot-table:
+    - "arthropod_blade:0.25"
+Boatswain:
+  display-name: "<#009B82>**Boatswain**"
+  boss-bar-text: "<#009B82>**Boatswain**"
+  mob-spawner-name: "Mob Spawner (&0**Boatswain**)"
+  boss-bar-color: "BLUE" # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_10" # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags: # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "CREATE_WORLD_FOG"
+  type: "PILLAGER"
+  forced-abilities: # you can force a type of mob to always have some abilities, if you want (copy the ability names from either `abilities.yml` or `config.yml`); if you don't want to force any ability, you may safely omit this field
+    - "ARCHER"
+    - "ARMOURED"
+    - "THORNMAIL"
+    - "BERSERK"
+    - "WITHERING"
+  spawn-chance: 0.01
+  ability-amount: 3
+  damage-multiplier: 4
+  health-multiplier: 5.0 # will have between 3 and 5 times the normal health amount of a Spider
+  loot-table:
+    - "arthropod_blade:0.25"
+Quartermaster:
+  display-name: "<#009B82>**Quartermaster**"
+  boss-bar-text: "<#009B82>**Quartermaster**"
+  mob-spawner-name: "Mob Spawner (&0**Quartermaster**)"
+  boss-bar-color: "BLUE" # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_12" # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags: # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "DARKEN_SCREEN"
+    - "CREATE_WORLD_FOG"
+  type: "PILLAGER"
+  forced-abilities: # you can force a type of mob to always have some abilities, if you want (copy the ability names from either `abilities.yml` or `config.yml`); if you don't want to force any ability, you may safely omit this field
+    - "ARCHER"
+    - "BERSERK"
+    - "CALL_THE_GANG"
+    - "WEAKNESS"
+    - "LIFESTEAL"
+    - "HEAVY"
+    - "WITHERING"
+    - "ARMOURED"
+  spawn-chance: 0.005
+  ability-amount: 3
+  damage-multiplier: 5
+  health-multiplier: 6.0 # will have between 3 and 5 times the normal health amount of a Spider
+  loot-table:
+    - "arthropod_blade:0.25"
+Captain:
+  display-name: "<#009B82>**Captain**"
+  boss-bar-text: "<#009B82>**Captain**"
+  mob-spawner-name: "Mob Spawner (&0**Captain**)"
+  boss-bar-color: "BLUE" # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_20" # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags: # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "DARKEN_SCREEN"
+    - "CREATE_WORLD_FOG"
+  type: "PILLAGER"
+  forced-abilities: # you can force a type of mob to always have some abilities, if you want (copy the ability names from either `abilities.yml` or `config.yml`); if you don't want to force any ability, you may safely omit this field
+    - "ARCHER"
+    - "WEAKNESS"
+    - "BERSERK"
+    - "HEAVY"
+    - "CALL_THE_GANG"
+    - "ARMOURED"
+    - "WITHERING"
+    - "CONFUSION"
+  spawn-chance: 0.001
+  ability-amount: 3
+  damage-multiplier: 7
+  health-multiplier: 7.0 # will have between 3 and 5 times the normal health amount of a Spider
+  loot-table:
+    - "arthropod_blade:0.25"
 ronin:
   display-name: "<#2F2F2F>Ronin"
   boss-bar-text: "<#2F2F2F>Ronin"
