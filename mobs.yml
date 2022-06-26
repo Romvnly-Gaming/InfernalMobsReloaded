@@ -180,7 +180,7 @@ quartermaster:
     - "RUST"
   spawn-chance: 0.005
   ability-amount: 8
-  damage-multiplier: 7.5
+  damage-multiplier: 5
   health-multiplier: 6.0 # will have between 3 and 5 times the normal health amount of a Spider
   loot-table:
     - "arthropod_blade:0.25"
