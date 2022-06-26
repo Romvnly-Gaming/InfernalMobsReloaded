@@ -94,6 +94,70 @@ inferno_bow:
   enchants:
     - "infinity:1:0.3"
     - "flame:1-2"
+captains_hook:
+  name: "<#137F49>**Captain's Hook**"
+  material: "IRON_PICKAXE"
+  amount: 1
+  lore:
+    - "<#137F49>Plunder you shall."
+  enchants:
+    - "efficiency:20-30"
+    - "sharpness:12-15"
+dorf:
+  name: "<#D21271>**Destructive Obliterator of Rightious Fortifications**"
+  material: "IRON_AXE"
+  amount: 1
+  lore:
+    - "<#D21271>Older than time itself."
+  enchants:
+    - "efficiency:6"
+    - "sharpness:10"
+captain_hat:
+  name: "<#0AC1B0>**Captain's Hat**"
+  material: "LEATHER_HELMET"
+  amount: 1
+  lore:
+    - "<#0AC1B0>Lead the way."
+  enchants:
+    - "protection:7"
+    - "unbreaking:1"
+crewman_tunic:
+  name: "<#0AC1B0>**Crewman Tunic**"
+  material: "LEATHER_CHESTPLATE"
+  amount: 1
+  lore:
+    - "<#0AC1B0>One size fits all."
+  enchants:
+    - "protection:5"
+    - "unbreaking:1"
+quartermaster_trousers:
+  name: "<#0AC1B0>**Quartermaster's Trousers**"
+  material: "LEATHER_LEGGINGS"
+  amount: 1
+  lore:
+    - "<#0AC1B0>Can't forget pants."
+  enchants:
+    - "protection:6"
+    - "unbreaking:1"
+boatswain_boots:
+  name: "<#0AC1B0>**Boatswain's Boots**"
+  material: "LEATHER_BOOTS"
+  amount: 1
+  lore:
+    - "<#0AC1B0>They're slipons!"
+  enchants:
+    - "protection:5"
+    - "unbreaking:1"
+blunderbuss:
+  name: "<#787878>**Blunderbuss**"
+  material: "CROSSBOW"
+  amount: 1
+  lore:
+    - "<#787878>Boom."
+  enchants:
+    - "multishot:1"
+    - "quick_charge:4"
+    - "piercing:1"
 tiadi:
   name: "Kill Stick"
   material: "WOODEN_SWORD"
