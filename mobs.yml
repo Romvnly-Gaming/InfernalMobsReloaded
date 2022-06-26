@@ -72,7 +72,7 @@ nightmare:
     - "arthropod_blade:0.25"
     - "butter_spreader:0.25"
     - "golden_stick:0.25"
-Crewman:
+crewman:
   display-name: "<#009B82>**Crewman**"
   boss-bar-text: "<#009B82>**Crewman**"
   mob-spawner-name: "Mob Spawner (&0**Crewman**)"
@@ -91,7 +91,7 @@ Crewman:
   health-multiplier: 3.0 # will have between 3 and 5 times the normal health amount of a Spider
   loot-table:
     - "arthropod_blade:0.25"
-Boatswain:
+boatswain:
   display-name: "<#009B82>**Boatswain**"
   boss-bar-text: "<#009B82>**Boatswain**"
   mob-spawner-name: "Mob Spawner (&0**Boatswain**)"
@@ -112,7 +112,7 @@ Boatswain:
   health-multiplier: 5.0 # will have between 3 and 5 times the normal health amount of a Spider
   loot-table:
     - "arthropod_blade:0.25"
-Quartermaster:
+quartermaster:
   display-name: "<#009B82>**Quartermaster**"
   boss-bar-text: "<#009B82>**Quartermaster**"
   mob-spawner-name: "Mob Spawner (&0**Quartermaster**)"
@@ -137,7 +137,7 @@ Quartermaster:
   health-multiplier: 6.0 # will have between 3 and 5 times the normal health amount of a Spider
   loot-table:
     - "arthropod_blade:0.25"
-Captain:
+captain:
   display-name: "<#009B82>**Captain**"
   boss-bar-text: "<#009B82>**Captain**"
   mob-spawner-name: "Mob Spawner (&0**Captain**)"
