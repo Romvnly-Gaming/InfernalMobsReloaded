@@ -115,7 +115,6 @@ boatswain:
   forced-abilities: # you can force a type of mob to always have some abilities, if you want (copy the ability names from either `abilities.yml` or `config.yml`); if you don't want to force any ability, you may safely omit this field
     - "ARCHER"
     - "ARMOURED"
-    - "THORNMAIL"
     - "BERSERK"
     - "WITHERING"
   blacklisted-abilities: # add abilities here to prevent the mob from acquiring it
