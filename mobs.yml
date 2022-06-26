@@ -107,7 +107,7 @@ boatswain:
     - "BERSERK"
     - "WITHERING"
   spawn-chance: 0.01
-  ability-amount: 3
+  ability-amount: 5
   damage-multiplier: 4
   health-multiplier: 5.0 # will have between 3 and 5 times the normal health amount of a Spider
   loot-table:
@@ -132,7 +132,7 @@ quartermaster:
     - "WITHERING"
     - "ARMOURED"
   spawn-chance: 0.005
-  ability-amount: 3
+  ability-amount: 8
   damage-multiplier: 5
   health-multiplier: 6.0 # will have between 3 and 5 times the normal health amount of a Spider
   loot-table:
@@ -157,7 +157,7 @@ captain:
     - "WITHERING"
     - "CONFUSION"
   spawn-chance: 0.001
-  ability-amount: 3
+  ability-amount: 8
   damage-multiplier: 7
   health-multiplier: 7.0 # will have between 3 and 5 times the normal health amount of a Spider
   loot-table:
