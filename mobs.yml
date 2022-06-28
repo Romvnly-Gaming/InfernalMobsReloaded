@@ -310,9 +310,7 @@ ghost:
   health-multiplier: 2.5
   blacklisted-abilities: # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
-  loot-table:
-    - "archers_pants:0.15"
-    - "fall_far_boots:0.40"
+  loot-table: []
 
 # The mob spawned when an entity with Ghost ability dies (haunted version)
 haunted_ghost:
@@ -328,7 +326,4 @@ haunted_ghost:
   health-multiplier: 5.5
   blacklisted-abilities: # add abilities here to prevent the mob from acquiring it
     - "INVISIBLE"
-  loot-table:
-    - "nether_sword:0.12"
-    - "beetle_wings:0.01"
-    - "flying_bow:0.10"
+  loot-table: []
