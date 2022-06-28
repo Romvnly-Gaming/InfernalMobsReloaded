@@ -101,7 +101,7 @@ crewman:
     - "THORNMAIL"
     - "FLYING"
     - "RUST"  
-  spawn-chance: 0.05
+  spawn-chance: 0
   ability-amount: 3
   damage-multiplier: 6
   health-multiplier: 3.0 # will have between 3 and 5 times the normal health amount of a Spider
@@ -139,7 +139,7 @@ boatswain:
     - "LEVITATE"
     - "FLYING"
     - "RUST"  
-  spawn-chance: 0.01
+  spawn-chance: 0
   ability-amount: 5
   damage-multiplier: 6
   health-multiplier: 5.0 # will have between 3 and 5 times the normal health amount of a Spider
@@ -181,7 +181,7 @@ quartermaster:
     - "LEVITATE"
     - "FLYING"
     - "RUST"
-  spawn-chance: 0.005
+  spawn-chance: 0
   ability-amount: 8
   damage-multiplier: 5
   health-multiplier: 6.0 # will have between 3 and 5 times the normal health amount of a Spider
@@ -225,7 +225,7 @@ captain:
     - "FLYING"
     - "LEVITATE"
     - "RUST"
-  spawn-chance: 0.001
+  spawn-chance: 0
   ability-amount: 8
   damage-multiplier: 7.1
   health-multiplier: 7.0 # will have between 3 and 5 times the normal health amount of a Spider
