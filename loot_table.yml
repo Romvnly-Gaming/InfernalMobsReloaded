@@ -20,6 +20,24 @@ muramasa:
     - "<#B61E17>Let them bleed."
   enchants:
     - "sharpness:9"
+burned_remnant:
+  name: "&r<#9F0500>Burned Remnant"
+  material: "MAGMA_CREAM"
+  amount: 1
+  lore:
+    - "<#B28A00>**LEGENDARY ITEM**"
+    - "<#B62203>Souls of the Dead Burn Quietly."
+  enchants:
+    - "unbreaking:100"
+burned_helm:
+  name: "<#801100>Burned Helm"
+  material: "IRON_HELMET"
+  amount: 1
+  lore:
+      - "<#B62203>Let the Souls of the Dead Protect You."
+  enchants: 
+    - "protection:3"
+    - "unbreaking:4"
 samurai_helmet:
   name: "Samurai Helmet"
   material: "IRON_HELMET"
