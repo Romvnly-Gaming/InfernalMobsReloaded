@@ -22,9 +22,9 @@ enable-particle-effects: true
 # If true, all infernals will have a periodic particle effect
 enable-infernal-particles: true
 # What particle effect will be expelled from all infernals every certain amount of time
-infernal-particle-type: EXPLOSION_HUGE # list with all possible particles can be found here: https://papermc.io/javadocs/paper/1.16/org/bukkit/Particle.html , make sure to check it out and choose the one that suits your taste
+infernal-particle-type: LAVA # list with all possible particles can be found here: https://papermc.io/javadocs/paper/1.16/org/bukkit/Particle.html , make sure to check it out and choose the one that suits your taste
 # Delay between infernal particles
-delay-between-infernal-particles: 5.00 # in seconds
+delay-between-infernal-particles: 10.00 # in seconds
 # Spread of infernal particles
 infernal-particles-spread: 0.8 # in blocks
 # Amount of particles spawned, this number greatly varies per particle, so I suggest you test it and manually adjust it to a balanced amount
