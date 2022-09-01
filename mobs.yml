@@ -32,9 +32,77 @@ crewman:
   spawn-chance: 0.01
   ability-amount: 3
   damage-multiplier: 6
-  health-multiplier: 3.0 # will have between 3 and 5 times the normal health amount of a Spider
+  health-multiplier: 3.0
   loot-table:
     - "crewman_tunic:0.05"
+burned_servant:
+  display-name: "<#AF1400>**Burned**<#7300CA>**Servant**"
+  boss-bar-text: "<#AF1400>**Burned**<#7300CA>**Servant**"
+  mob-spawner-name: "Mob Spawner (&0**Burned Servant**)"
+  boss-bar-color: "RED" # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_6" # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags: # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "CREATE_WORLD_FOG"
+  type: "WITHER_SKELETON"
+  forced-abilities:
+    - "MOLTEN"
+    - "RUST"
+    - "SPEEDY"
+    - "SECOND_WIND"
+  blacklisted-abilities: []
+  spawn-chance: 0.05
+  ability-amount: 4
+  damage-multiplier: 7
+  health-multiplier: 12.25 # will have between 3 and 5 times the normal health amount of a Spider
+  loot-table: []
+burned_knight:
+  display-name: "<#AF1400>**Burned**<#3100CB>**Knight**"
+  boss-bar-text: "<#AF1400>**Burned**<#3100CB>**Knight**"
+  mob-spawner-name: "Mob Spawner (&0**Burned Knight**)"
+  boss-bar-color: "RED" # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_10" # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags: # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "CREATE_WORLD_FOG"
+  type: "WITHER_SKELETON"
+  forced-abilities:
+    - "MOLTEN"
+    - "RUST"
+    - "SPEEDY"
+    - "SECOND_WIND"
+    - "CALL-THE-GANG"
+    - "AMOURED"
+  blacklisted-abilities: []
+  spawn-chance: 0.01 # times this number by 100 for percentage rate ; 5%
+  ability-amount: 6
+  damage-multiplier: 7.5
+  health-multiplier: 26
+  loot-table: []
+burned_lord:
+  display-name: "<#AF1400>**Burned**<#777112>**Lord**"
+  boss-bar-text: "<#AF1400>**Burned**<#777112>**Lord**"
+  mob-spawner-name: "Mob Spawner (&0**Burned Lord**)"
+  boss-bar-color: "RED" # valid colors: PINK, BLUE, RED, GREEN, YELLOW, PURPLE, WHITE
+  boss-bar-overlay: "NOTCHED_12" # valid overlays: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+  boss-bar-flags: # valid flags (may use multiple): CREATE_WORLD_FOG, DARKEN_SCREEN, PLAY_BOSS_MUSIC
+    - "PLAY_BOSS_MUSIC"
+    - "CREATE_WORLD_FOG"
+  type: "WITHER_SKELETON"
+  forced-abilities:
+    - "MOLTEN"
+    - "RUST"
+    - "SPEEDY"
+    - "SECOND_WIND"
+    - "CALL-THE-GANG"
+    - "AMOURED"
+    - "TOSSER"
+    - "WEAKNESS"
+    - "POISONOUS"
+  blacklisted-abilities: []
+  spawn-chance: 0.005 # times this number by 100 for percentage rate ; 5%
+  ability-amount: 9 # amt of abilities, can be a #-# thing
+  damage-multiplier: 9
+  health-multiplier: 32.75
+  loot-table: []
 boatswain:
   display-name: "<#009B82>**Boatswain**"
   boss-bar-text: "<#009B82>**Boatswain**"
