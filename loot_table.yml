@@ -34,10 +34,55 @@ burned_helm:
   material: "IRON_HELMET"
   amount: 1
   lore:
+      - "<#6C1388>EPIC HELMET"
       - "<#B62203>Let the Souls of the Dead Protect You."
   enchants: 
-    - "protection:3"
+    - "protection:10-13"
     - "unbreaking:4"
+    - "mending:1"
+burned_chestplate:
+  name: "<#801100>Burned Chestplate"
+  material: "IRON_CHESTPLATE"
+  amount: 1
+  lore:
+      - "<#B28A00>LEGENDARY CHESTPLATE"
+      - "<#B62203>Let the Souls of the Dead Shield You."
+  enchants: 
+    - "protection:17-20"
+    - "unbreaking:4"
+    - "mending:1"
+burned_leggings:
+  name: "<#801100>Burned Leggings"
+  material: "IRON_LEGGINGS"
+  amount: 1
+  lore:
+      - "<#6C1388>EPIC LEGGINGS"
+      - "<#B62203>Let the Souls of the Dead Help You."
+  enchants: 
+    - "protection:13-15"
+    - "unbreaking:4"
+    - "mending:1"
+burned_boots:
+  name: "<#801100>Burned Boots"
+  material: "IRON_BOOTS"
+  amount: 1
+  lore:
+      - "<#6C1388>EPIC BOOTS"
+      - "<#B62203>Let the Souls of the Dead Walk With You."
+  enchants: 
+    - "protection:7-10"
+    - "unbreaking:4"
+    - "mending:1"
+burned_blade:
+  name: "<#801100>Burned Blade"
+  material: "DIAMOND_SWORD"
+  amount: 1
+  lore:
+    - "<#810002>BLOODTHIRSTY SWORD"
+    - "<#B61E17>The Souls of the Dead call for blood."
+  enchants:
+    - "sharpness:20-25"
+    - "unbreaking:5"
 samurai_helmet:
   name: "Samurai Helmet"
   material: "IRON_HELMET"
