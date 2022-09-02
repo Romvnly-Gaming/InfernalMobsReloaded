@@ -78,6 +78,42 @@ charm-effects:
     particle-type: soul
     required-items:
       - sotrs
+  burned_helm_1:
+    effect: HUNGER
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    particle-type: soul
+    required-items:
+      - burned_helm
+      - burned_chestplate
+      - burned_leggings
+      - burned_boots
+  burned_helm_2:
+    effect: LUCK
+    potency: 1
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    particle-type: soul
+    required-items:
+      - burned_helm
+      - burned_chestplate
+      - burned_leggings
+      - burned_boots
+  burned_helm_3:
+    effect: STRENGTH
+    potency: 5-8
+    delay: 1.0
+    effect-mode: SELF_PERMANENT
+    particle-mode: SELF_ONCE
+    particle-type: soul
+    required-items:
+      - burned_helm
+      - burned_chestplate
+      - burned_leggings
+      - burned_boots
   captain_hat_1:
     effect: RESISTANCE
     potency: 1
@@ -140,3 +176,4 @@ charm-effects:
       - samurai_leggings
       - samurai_sandals
       - murasama
+             
