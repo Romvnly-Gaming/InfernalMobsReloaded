@@ -50,11 +50,13 @@ burned_servant:
     - "SPEEDY"
     - "SECOND_WIND"
   blacklisted-abilities: []
-  spawn-chance: 0.05
+  spawn-chance: 0
   ability-amount: 4
   damage-multiplier: 7
   health-multiplier: 12.25 # will have between 3 and 5 times the normal health amount of a Spider
-  loot-table: []
+  loot-table:
+      - "burned_remnant:0.005"
+      - "burned_boots:0.05"
 burned_knight:
   display-name: "<#AF1400>**Burned**<#3100CB>**Knight**"
   boss-bar-text: "<#AF1400>**Burned**<#3100CB>**Knight**"
@@ -72,11 +74,14 @@ burned_knight:
     - "CALL-THE-GANG"
     - "AMOURED"
   blacklisted-abilities: []
-  spawn-chance: 0.01 # times this number by 100 for percentage rate ; 5%
+  spawn-chance: 0
   ability-amount: 6
   damage-multiplier: 7.5
   health-multiplier: 26
-  loot-table: []
+  loot-table:
+    - "burned_remnant:0.01"
+    - "burned_leggings:0.05"
+    - "burned_helm:0.1"
 burned_lord:
   display-name: "<#AF1400>**Burned**<#777112>**Lord**"
   boss-bar-text: "<#AF1400>**Burned**<#777112>**Lord**"
@@ -98,11 +103,14 @@ burned_lord:
     - "WEAKNESS"
     - "POISONOUS"
   blacklisted-abilities: []
-  spawn-chance: 0.005 # times this number by 100 for percentage rate ; 5%
+  spawn-chance: 0
   ability-amount: 9 # amt of abilities, can be a #-# thing
   damage-multiplier: 9
   health-multiplier: 32.75
-  loot-table: []
+  loot-table:
+      - "burned_remnant:0.05"
+      - "burned_blade:0.01"
+      - "burned_chestplate:0.1"
 boatswain:
   display-name: "<#009B82>**Boatswain**"
   boss-bar-text: "<#009B82>**Boatswain**"
